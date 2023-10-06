@@ -1,0 +1,267 @@
+.milestone-block {
+  position: relative;
+  .milestone-content{
+    .milestone-number-inner{
+      font-family: $headings-font-family;
+      .symbol{
+        &.after{
+          margin-left: -15px;
+        }
+        &.before{
+          margin-right: -15px;
+        }
+      }
+    }
+  }
+  .link-overlay{
+    position: absolute;
+    @include size(100%, 100%);
+    top: 0;
+    left: 0;
+    z-index: 11;
+  }
+  &.style-1{
+    .box-content{
+      display: block;
+      width: 100%;
+      text-align: center;
+      .milestone-icon{
+        .icon{
+          line-height: 1;
+          display: inline-block;
+          border-radius: 50%;
+          padding: 25px 10px 10px;
+          background: $white;
+          color: $black;
+          fill: $black;
+          position: relative;
+          @include size(120px, 120px);
+          line-height: 85px;
+          border: 2px solid $border-color;
+          &:after{
+            content: '';
+            @include size(100%, 100%);
+            top: 0;
+            left: 0;
+            background: $theme-color;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+            @include scale(1.2);
+            border-radius: 50%;
+            transition: all 0.35s;
+          }
+          i, svg{
+            transition: all 0.35s;
+            color: $white;
+            fill: $white;
+            position: relative;
+            z-index: 11;
+          }
+        }
+      }
+      .milestone-icon{
+        .icon{
+          line-height: 1;
+          display: inline-block;
+          color: $black;
+          position: relative;
+          i, svg{
+            transition: all 0.35s;
+            color: $black;
+            fill: $black;
+            position: relative;
+            z-index: 11;
+          }
+        }
+      }
+      .milestone-content{
+        .milestone-text{
+          font-family: $headings-font-family; 
+        }
+        .milestone-number-inner{
+          font-size: 60px;
+          line-height: 1.2;
+          color: $black;
+          font-weight: 500;
+          font-family: $headings-font-family; 
+          @include media-breakpoint-down(lg){
+            font-size: 52px;
+          }
+          @include media-breakpoint-down(md){
+            font-size: 46px;
+          }
+          @include media-breakpoint-down(sm){
+            font-size: 40px;
+          }
+        }
+      }
+    }
+    &:hover{
+      .milestone-icon{
+        .icon{
+          border-color: transparent;
+          &:after{
+            @include size(100%, 100%);
+            opacity: 1;
+            @include scale(1);
+          }
+          svg, i{
+            animation: beat 1.5s ease 0s infinite;
+            color: $white!important;
+            fill: $white!important;
+          }
+        }
+      }
+    }
+  }
+  &.style-2{
+    .box-content{
+      position: relative;
+      display: table;
+      .milestone-icon{
+        display: block;
+        line-height: 1;
+        display: table-cell;
+        vertical-align: middle;
+        .icon{
+          color: $theme-color;
+          svg{
+            fill: $theme-color;
+          }
+        }
+      }
+      .milestone-content{
+        display: table-cell;
+        text-align: left;
+        .milestone-number-inner{
+          font-size: 80px;
+          line-height: 1;
+          font-weight: 300;
+          color: $black;
+          margin-bottom: 10px;
+          font-family: $headings-font-family; 
+          @include media-breakpoint-down(lg){
+            font-size: 68px;
+          }
+          @include media-breakpoint-down(md){
+            font-size: 58px;
+          }
+        }
+        .milestone-text{
+          font-size: 22px;
+          color: $black;
+          line-height: 30px;
+          font-family: $headings-font-family; 
+        }
+      }
+    }
+  } 
+  &.style-3{
+    overflow: hidden;
+    position: relative;
+    z-index: 11;
+    .box-content{
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: $theme-color;
+      padding: 50px 30px;
+      border-radius: 4px;
+      .milestone-icon{
+        .icon{
+          line-height: 1;
+          display: inline-block;
+          border-radius: 50%;
+          padding: 20px 10px 10px;
+          background: $black;
+          color: $white;
+          fill: $white;
+          position: relative;
+          @include size(120px, 120px);
+          line-height: 85px;
+          &:after{
+            content: '';
+            @include size(100%, 100%);
+            top: 0;
+            left: 0;
+            background: $white;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+            @include scale(1.2);
+            border-radius: 50%;
+            transition: all 0.35s;
+          }
+          i, svg{
+            transition: all 0.35s;
+            color: $white;
+            fill: $white;
+            position: relative;
+            z-index: 11;
+          }
+        }
+      }
+      .milestone-content{
+        .milestone-number-inner{
+          font-size: 90px;
+          line-height: 1;
+          color: $white;
+          font-weight: 700;
+          padding: 20px 0;
+          @include media-breakpoint-down(lg){
+            font-size: 80px;
+          }
+          @include media-breakpoint-down(md){
+            font-size: 60px;
+          }
+          @include media-breakpoint-down(sm){
+            font-size: 50px;
+          }
+        }
+        .milestone-text{
+          color: $white;
+          font-size: 18px;
+        }
+      }
+    }
+    .milestone-icon-background{
+      .icon{
+        font-size: 290px;
+        color: $black;
+        opacity: 0.08;
+        @include rotate(-30deg);
+        position: absolute;
+        bottom: -20%;
+        right: -20%;
+        z-index: 1;
+      }
+    }
+    &:hover{
+      .milestone-icon{
+        .icon{
+          border-color: transparent;
+          &:after{
+            @include size(100%, 100%);
+            opacity: 1;
+            @include scale(1);
+          }
+          svg, i{
+            color: $black;
+            fill: $black;
+            animation: beat 1.5s ease 0s infinite;
+          }
+        }
+      }
+    }
+  }
+  &:hover{
+    .milestone-icon{
+      .icon{
+        svg, i{
+          animation: beat 1.5s ease 0s infinite;
+        }
+      }
+    }
+  }
+}

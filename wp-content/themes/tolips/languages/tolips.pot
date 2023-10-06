@@ -1,0 +1,3094 @@
+# Copyright (C) 2021 Gaviasthemes Team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tolips 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/tolips\n"
+"POT-Creation-Date: 2021-03-06 01:56:50+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:16
+msgid "404"
+msgstr ""
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"The page requested couldn't be found. This could be a spelling error in the "
+"URL or a removed page."
+msgstr ""
+
+#: 404.php:21
+msgid "Back Homepage"
+msgstr ""
+
+#: author.php:73
+msgid "Mobile:"
+msgstr ""
+
+#: author.php:80
+msgid "Office:"
+msgstr ""
+
+#: author.php:87 author.php:277 ulisting/account/my-agents.php:69
+msgid "Fax:"
+msgstr ""
+
+#: author.php:94
+msgid "Website:"
+msgstr ""
+
+#: author.php:101
+msgid "License:"
+msgstr ""
+
+#: author.php:108
+msgid "Tax number:"
+msgstr ""
+
+#: author.php:139
+msgid "Overview"
+msgstr ""
+
+#: author.php:141
+msgid "Listing"
+msgstr ""
+
+#: author.php:143
+msgid "Agents"
+msgstr ""
+
+#: author.php:145
+msgid "Review"
+msgstr ""
+
+#: author.php:328 includes/ulisting/hooks.php:60
+msgid "Location"
+msgstr ""
+
+#: author.php:375
+msgid "Contact Author"
+msgstr ""
+
+#: comments.php:23
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:42 ulisting/comment/tolips-comments.php:45
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:43 ulisting/comment/tolips-comments.php:46
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:48 ulisting/comment/tolips-comments.php:51
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:60
+msgid "Write Your Comment"
+msgstr ""
+
+#: comments.php:64 ulisting/comment/tolips-comments.php:68
+msgid "Your Name *"
+msgstr ""
+
+#: comments.php:68 ulisting/comment/tolips-comments.php:72
+msgid "Email *"
+msgstr ""
+
+#: comments.php:73
+msgid "Add a Comment"
+msgstr ""
+
+#: comments.php:81
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:82 ulisting/comment/tolips-comments.php:90
+#: ulisting/comment/tolips-comments.php:123
+msgid "Your email address will not be published."
+msgstr ""
+
+#: content-audio.php:72 content-gallery.php:81 content-link.php:62
+#: content-quote.php:62 content-video.php:71 content.php:65
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-audio.php:76 content-gallery.php:85 content-link.php:66
+#: content-quote.php:66 content-video.php:75 content.php:69
+msgid "Pages:"
+msgstr ""
+
+#: footer.php:10
+msgid "Copyright 2021 - Company - All rights reserved. Powered by WordPress."
+msgstr ""
+
+#: functions.php:78
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions.php:80
+msgid "Appears in the Default Sidebar section of the site."
+msgstr ""
+
+#: functions.php:89
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: functions.php:91
+msgid "Appears in the Plugin WooCommerce section of the site."
+msgstr ""
+
+#: functions.php:98
+msgid "WooCommerce Single"
+msgstr ""
+
+#: functions.php:100
+msgid ""
+"Appears in the WooCommerce Single Page like social, description text ..."
+msgstr ""
+
+#: functions.php:109
+msgid "After Offcanvas Mobile"
+msgstr ""
+
+#: functions.php:111
+msgid "Appears in the Offcanvas section of the site."
+msgstr ""
+
+#: functions.php:118
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:120
+msgid "Appears in the Blog sidebar section of the site."
+msgstr ""
+
+#: functions.php:127
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:129
+msgid "Appears in the Page Sidebar section of the site."
+msgstr ""
+
+#: functions.php:136 includes/ulisting/filter.php:8
+msgid "Filter Sidebar"
+msgstr ""
+
+#: functions.php:138
+msgid ""
+"Appears in the Filter Listing sidebar section of the site, Only support "
+"Filter sidebar type."
+msgstr ""
+
+#: functions.php:145
+msgid "Footer first"
+msgstr ""
+
+#: functions.php:147
+msgid "Appears in the Footer first section of the site."
+msgstr ""
+
+#: functions.php:154
+msgid "Footer second"
+msgstr ""
+
+#: functions.php:156
+msgid "Appears in the Footer second section of the site."
+msgstr ""
+
+#: functions.php:163
+msgid "Footer third"
+msgstr ""
+
+#: functions.php:165
+msgid "Appears in the Footer third section of the site."
+msgstr ""
+
+#: functions.php:172
+msgid "Footer four"
+msgstr ""
+
+#: functions.php:174
+msgid "Appears in the Footer four section of the site."
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:198
+msgctxt "Inter font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/comment.php:26
+msgid "%1$s"
+msgstr ""
+
+#: includes/comment.php:31 includes/template.php:263
+#: templates/list_comments.php:32
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/comment.php:51 ulisting/account/my-listing.php:155
+#: ulisting/account/my-listing.php:180 ulisting/account/my-listing.php:204
+msgid "Edit"
+msgstr ""
+
+#: includes/comment.php:53 ulisting/comment/tolips-comments.php:113
+msgid "Reply"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: includes/menu/megamenu.php:373
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: includes/menu/megamenu.php:377
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/menu/megamenu.php:395
+msgid "Mega Menu"
+msgstr ""
+
+#: includes/menu/megamenu.php:411
+msgid "Move up"
+msgstr ""
+
+#: includes/menu/megamenu.php:424
+msgid "Move down"
+msgstr ""
+
+#: includes/menu/megamenu.php:426
+msgid "Edit Menu Item"
+msgstr ""
+
+#: includes/menu/megamenu.php:437
+msgid "Mega Menu Setting"
+msgstr ""
+
+#: includes/menu/megamenu.php:441
+msgid "Mega Menu Enabled"
+msgstr ""
+
+#: includes/menu/megamenu.php:447
+msgid "Choose MegaMenu"
+msgstr ""
+
+#: includes/menu/megamenu.php:462
+msgid "Number columns"
+msgstr ""
+
+#: includes/menu/megamenu.php:464
+msgid "Number columns of submenu(support 1,2,3,4,6 columns)"
+msgstr ""
+
+#: includes/menu/megamenu.php:474
+msgid "Mega menu width"
+msgstr ""
+
+#: includes/menu/megamenu.php:485
+msgid "Mega menu Align"
+msgstr ""
+
+#: includes/menu/megamenu.php:488 includes/metaboxes.php:270
+#: includes/options/opts-breadcrumb.php:88 includes/options/opts-woo.php:212
+msgid "Center"
+msgstr ""
+
+#: includes/menu/megamenu.php:489 includes/metaboxes.php:269
+#: includes/options/opts-breadcrumb.php:87 includes/options/opts-woo.php:211
+msgid "Left"
+msgstr ""
+
+#: includes/menu/megamenu.php:490 includes/metaboxes.php:271
+#: includes/options/opts-breadcrumb.php:89 includes/options/opts-woo.php:213
+msgid "Right"
+msgstr ""
+
+#: includes/menu/megamenu.php:504
+msgid "Icon"
+msgstr ""
+
+#: includes/menu/megamenu.php:504
+msgid "(icons in Font Awesome)"
+msgstr ""
+
+#: includes/menu/megamenu.php:513
+msgid "URL"
+msgstr ""
+
+#: includes/menu/megamenu.php:520
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/menu/megamenu.php:526
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/menu/megamenu.php:533
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: includes/menu/megamenu.php:538
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/menu/megamenu.php:544
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: includes/menu/megamenu.php:550 includes/ulisting/hooks.php:64
+#: ulisting/account/edit-profile.php:169
+msgid "Description"
+msgstr ""
+
+#: includes/menu/megamenu.php:552
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: includes/menu/megamenu.php:558
+msgid "Move"
+msgstr ""
+
+#: includes/menu/megamenu.php:559
+msgid "Up one"
+msgstr ""
+
+#: includes/menu/megamenu.php:560
+msgid "Down one"
+msgstr ""
+
+#: includes/menu/megamenu.php:563
+msgid "To the top"
+msgstr ""
+
+#: includes/menu/megamenu.php:570
+msgid "Original: %s"
+msgstr ""
+
+#: includes/menu/megamenu.php:583
+msgid "Remove"
+msgstr ""
+
+#: includes/menu/megamenu.php:584 ulisting/account/my-listing.php:199
+#: ulisting/account/my-plans/detail.php:76
+msgid "Cancel"
+msgstr ""
+
+#: includes/metaboxes.php:19
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/metaboxes.php:26
+msgid "Thumbnail image"
+msgstr ""
+
+#: includes/metaboxes.php:27
+msgid "The image that will be used as the thumbnail image."
+msgstr ""
+
+#: includes/metaboxes.php:35
+msgid "Thumbnail video URL"
+msgstr ""
+
+#: includes/metaboxes.php:37
+msgid ""
+"Enter the video url for the thumbnail. Only links from Vimeo & YouTube are "
+"supported."
+msgstr ""
+
+#: includes/metaboxes.php:45
+msgid "Thumbnail audio URL"
+msgstr ""
+
+#: includes/metaboxes.php:47
+msgid "Enter the audio url for the thumbnail."
+msgstr ""
+
+#: includes/metaboxes.php:55
+msgid "Thumbnail gallery"
+msgstr ""
+
+#: includes/metaboxes.php:56
+msgid "The images that will be used in the thumbnail gallery."
+msgstr ""
+
+#: includes/metaboxes.php:64
+msgid "Thumbnail link type"
+msgstr ""
+
+#: includes/metaboxes.php:68
+msgid "Link to item"
+msgstr ""
+
+#: includes/metaboxes.php:69
+msgid "Link to URL"
+msgstr ""
+
+#: includes/metaboxes.php:70
+msgid "Link to URL (New Window)"
+msgstr ""
+
+#: includes/metaboxes.php:71
+msgid "Lightbox to the thumbnail image"
+msgstr ""
+
+#: includes/metaboxes.php:72
+msgid "Lightbox to image (select below)"
+msgstr ""
+
+#: includes/metaboxes.php:73
+msgid "Fullscreen Video Overlay (input below)"
+msgstr ""
+
+#: includes/metaboxes.php:77
+msgid "Choose what link will be used for the image(s) and title of the item."
+msgstr ""
+
+#: includes/metaboxes.php:82
+msgid "Thumbnail link URL"
+msgstr ""
+
+#: includes/metaboxes.php:84
+msgid "Enter the url for the thumbnail link."
+msgstr ""
+
+#: includes/metaboxes.php:92
+msgid "Thumbnail link lightbox image"
+msgstr ""
+
+#: includes/metaboxes.php:93
+msgid "The image that will be used as the lightbox image."
+msgstr ""
+
+#: includes/metaboxes.php:104
+msgid "Page Meta"
+msgstr ""
+
+#: includes/metaboxes.php:110 includes/metaboxes.php:461
+msgid "Full Width( 100% Main Width )"
+msgstr ""
+
+#: includes/metaboxes.php:113 includes/metaboxes.php:464
+msgid ""
+"Turn on to have the main area display at 100% width according to the window "
+"size. Turn off to follow site width."
+msgstr ""
+
+#: includes/metaboxes.php:118
+msgid "Header"
+msgstr ""
+
+#: includes/metaboxes.php:120
+msgid "You can change header for page if you like's."
+msgstr ""
+
+#: includes/metaboxes.php:126
+msgid "Footer"
+msgstr ""
+
+#: includes/metaboxes.php:128
+msgid "You can change footer for page if you like's"
+msgstr ""
+
+#: includes/metaboxes.php:135
+msgid "Extra page class"
+msgstr ""
+
+#: includes/metaboxes.php:137
+msgid ""
+"If you wish to add extra classes to the body class of the page (for custom "
+"css use), then please add the class(es) here."
+msgstr ""
+
+#: includes/metaboxes.php:150
+msgid "Page Title & Breadcrumb"
+msgstr ""
+
+#: includes/metaboxes.php:156
+msgid "Remove Title of Page"
+msgstr ""
+
+#: includes/metaboxes.php:162
+msgid "Disable Breadcrumbs"
+msgstr ""
+
+#: includes/metaboxes.php:165
+msgid "Disable the breadcrumbs from under the page title on this page."
+msgstr ""
+
+#: includes/metaboxes.php:169
+msgid "Breadcrumb Layout"
+msgstr ""
+
+#: includes/metaboxes.php:173
+msgid "Default Options in Theme-Settings"
+msgstr ""
+
+#: includes/metaboxes.php:174
+msgid "Individuals Options This Page"
+msgstr ""
+
+#: includes/metaboxes.php:178
+msgid ""
+"You can use breadcrumb settings default in Theme-Settings or individuals "
+"this page"
+msgstr ""
+
+#: includes/metaboxes.php:181
+msgid "Show page title in the breadcrumbs"
+msgstr ""
+
+#: includes/metaboxes.php:188
+msgid "Page Title Override"
+msgstr ""
+
+#: includes/metaboxes.php:190
+msgid "Enter a custom page title if you'd like."
+msgstr ""
+
+#: includes/metaboxes.php:196
+msgid "Breadcrumb Padding Top (px)"
+msgstr ""
+
+#: includes/metaboxes.php:201
+msgid "Option Padding Top of Breacrumb, set empty = padding default of theme"
+msgstr ""
+
+#: includes/metaboxes.php:205
+msgid "Breadcrumb Padding Bottom (px)"
+msgstr ""
+
+#: includes/metaboxes.php:210
+msgid ""
+"Option Padding Bottom of Breacrumb, set empty = padding default of theme"
+msgstr ""
+
+#: includes/metaboxes.php:214 includes/options/opts-breadcrumb.php:39
+#: includes/options/opts-woo.php:163
+msgid "Background Overlay Color"
+msgstr ""
+
+#: includes/metaboxes.php:216
+msgid "Set an overlay color for hero heading image."
+msgstr ""
+
+#: includes/metaboxes.php:222
+msgid "Overlay Opacity"
+msgstr ""
+
+#: includes/metaboxes.php:224
+msgid ""
+"Set the opacity level of the overlay. This will lighten or darken the image "
+"depening on the color selected."
+msgstr ""
+
+#: includes/metaboxes.php:237 includes/options/opts-breadcrumb.php:55
+msgid "Enable Breadcrumb Image"
+msgstr ""
+
+#: includes/metaboxes.php:244 includes/options/opts-breadcrumb.php:66
+#: includes/options/opts-woo.php:190
+msgid "Breadcrumb Background Image"
+msgstr ""
+
+#: includes/metaboxes.php:251
+msgid "Heading Text Style"
+msgstr ""
+
+#: includes/metaboxes.php:256 includes/options/opts-breadcrumb.php:76
+#: includes/options/opts-woo.php:200
+msgid "Light"
+msgstr ""
+
+#: includes/metaboxes.php:257 includes/options/opts-breadcrumb.php:77
+#: includes/options/opts-woo.php:201
+msgid "Dark"
+msgstr ""
+
+#: includes/metaboxes.php:261
+msgid ""
+"If you uploaded an image in the option above, choose light/dark styling for "
+"the text heading text here."
+msgstr ""
+
+#: includes/metaboxes.php:264
+msgid "Heading Text Align"
+msgstr ""
+
+#: includes/metaboxes.php:275
+msgid "Choose the text alignment for the hero heading."
+msgstr ""
+
+#: includes/metaboxes.php:284
+msgid "Brands Options"
+msgstr ""
+
+#: includes/metaboxes.php:290
+msgid "Url Link"
+msgstr ""
+
+#: includes/metaboxes.php:302
+msgid "Sidebar Options"
+msgstr ""
+
+#: includes/metaboxes.php:309
+msgid "Sidebar configuration"
+msgstr ""
+
+#: includes/metaboxes.php:313
+msgid "--Default--"
+msgstr ""
+
+#: includes/metaboxes.php:314 includes/options/opts-blog.php:74
+#: includes/options/opts-blog.php:114 includes/options/opts-event.php:18
+#: includes/options/opts-page.php:20 includes/options/opts-woo.php:104
+msgid "No Sidebars"
+msgstr ""
+
+#: includes/metaboxes.php:315 includes/metaboxes.php:325
+#: includes/options/opts-blog.php:75 includes/options/opts-blog.php:115
+#: includes/options/opts-event.php:19 includes/options/opts-page.php:21
+#: includes/options/opts-woo.php:105
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/metaboxes.php:316 includes/metaboxes.php:334
+#: includes/options/opts-blog.php:76 includes/options/opts-blog.php:116
+#: includes/options/opts-event.php:20 includes/options/opts-page.php:22
+#: includes/options/opts-woo.php:106
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/metaboxes.php:320
+msgid "Choose the sidebar configuration for the detail page of this page."
+msgstr ""
+
+#: includes/metaboxes.php:347
+msgid "Portfolio Settings"
+msgstr ""
+
+#: includes/metaboxes.php:352 includes/metaboxes.php:368
+#: includes/metaboxes.php:385
+msgid "Gallery Images"
+msgstr ""
+
+#: includes/metaboxes.php:363
+msgid "Gallery Settings"
+msgstr ""
+
+#: includes/metaboxes.php:380
+msgid "Service Link Settings"
+msgstr ""
+
+#: includes/metaboxes.php:391
+msgid "Show Gallery Top Service Single Page"
+msgstr ""
+
+#: includes/metaboxes.php:397
+msgid "Extra Link"
+msgstr ""
+
+#: includes/metaboxes.php:410
+msgid "Team Settings"
+msgstr ""
+
+#: includes/metaboxes.php:415 includes/ulisting/hooks.php:54
+#: ulisting/account/edit-profile.php:103
+msgid "Position"
+msgstr ""
+
+#: includes/metaboxes.php:421
+msgid "Quote"
+msgstr ""
+
+#: includes/metaboxes.php:427 ulisting/account/edit-profile.php:88
+#: ulisting/account/my-agents/add.php:37 ulisting/account/register.php:90
+#: ulisting/pricing-plan/payment.php:68
+msgid "Email"
+msgstr ""
+
+#: includes/metaboxes.php:433
+msgid "Phone"
+msgstr ""
+
+#: includes/metaboxes.php:439 includes/ulisting/elements.php:18
+#: includes/ulisting/hooks.php:59 ulisting/account/edit-profile.php:138
+#: ulisting/account/edit-profile.php:139
+msgid "Address"
+msgstr ""
+
+#: includes/metaboxes.php:449
+msgid "Header Builder"
+msgstr ""
+
+#: includes/metaboxes.php:454
+msgid "Enable Background Black"
+msgstr ""
+
+#: includes/metaboxes.php:457
+msgid "It will display background black when builder header."
+msgstr ""
+
+#: includes/metaboxes.php:468
+msgid "Position Styling"
+msgstr ""
+
+#: includes/metaboxes.php:472
+msgid "Relative"
+msgstr ""
+
+#: includes/metaboxes.php:473
+msgid "Absolute"
+msgstr ""
+
+#: includes/options/init.php:37 includes/options/init.php:38
+msgid "Theme Settings"
+msgstr ""
+
+#: includes/options/opts-blog.php:3
+msgid "Blog Options"
+msgstr ""
+
+#: includes/options/opts-blog.php:10
+msgid "Archive/Listing"
+msgstr ""
+
+#: includes/options/opts-blog.php:15 includes/options/opts-woo.php:37
+msgid "Display Columns for Large Screen"
+msgstr ""
+
+#: includes/options/opts-blog.php:29 includes/options/opts-woo.php:53
+msgid "Display Columns for Medium Screen"
+msgstr ""
+
+#: includes/options/opts-blog.php:43 includes/options/opts-woo.php:69
+msgid "Display Columns for Small Screen"
+msgstr ""
+
+#: includes/options/opts-blog.php:57 includes/options/opts-woo.php:85
+msgid "Display Columns for Extra Small Screen"
+msgstr ""
+
+#: includes/options/opts-blog.php:71
+msgid "Default Archive Page Blog Sidebar Config"
+msgstr ""
+
+#: includes/options/opts-blog.php:72 includes/options/opts-blog.php:112
+msgid "Choose single post layout."
+msgstr ""
+
+#: includes/options/opts-blog.php:83
+msgid "Default Archive Page Blog Left Sidebar"
+msgstr ""
+
+#: includes/options/opts-blog.php:84 includes/options/opts-blog.php:124
+msgid "Choose the default left sidebar for Single Post."
+msgstr ""
+
+#: includes/options/opts-blog.php:91
+msgid "Default Archive Page Blog Right Sidebar"
+msgstr ""
+
+#: includes/options/opts-blog.php:92 includes/options/opts-blog.php:132
+msgid "Choose the default right sidebar for Single Post."
+msgstr ""
+
+#: includes/options/opts-blog.php:99
+msgid "Blog Excerpt Limit"
+msgstr ""
+
+#: includes/options/opts-blog.php:106
+msgid "Single Post"
+msgstr ""
+
+#: includes/options/opts-blog.php:111 includes/options/opts-event.php:15
+msgid "Default Single Sidebar Config"
+msgstr ""
+
+#: includes/options/opts-blog.php:123 includes/options/opts-event.php:27
+msgid "Default Single Left Sidebar"
+msgstr ""
+
+#: includes/options/opts-blog.php:131 includes/options/opts-event.php:35
+msgid "Default Single Right Sidebar"
+msgstr ""
+
+#: includes/options/opts-breadcrumb.php:3
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: includes/options/opts-breadcrumb.php:9 includes/options/opts-woo.php:133
+msgid "Breadcrumb Display Title Page"
+msgstr ""
+
+#: includes/options/opts-breadcrumb.php:11
+#: includes/options/opts-breadcrumb.php:57 includes/options/opts-footer.php:17
+#: includes/options/opts-header.php:38 includes/options/opts-lt-general.php:44
+#: includes/options/opts-woo.php:135 includes/options/opts-woo.php:181
+msgid "Enable"
+msgstr ""
+
+#: includes/options/opts-breadcrumb.php:12
+#: includes/options/opts-breadcrumb.php:58 includes/options/opts-footer.php:18
+#: includes/options/opts-header.php:39 includes/options/opts-lt-general.php:45
+#: includes/options/opts-woo.php:136 includes/options/opts-woo.php:182
+msgid "Disable"
+msgstr ""
+
+#: includes/options/opts-breadcrumb.php:19
+#: includes/options/opts-breadcrumb.php:29 includes/options/opts-woo.php:143
+#: includes/options/opts-woo.php:153
+msgid "Breadcrumb Padding Top"
+msgstr ""
+
+#: includes/options/opts-breadcrumb.php:45 includes/options/opts-woo.php:169
+msgid "Breadcrumb Ovelay Color Opacity"
+msgstr ""
+
+#: includes/options/opts-breadcrumb.php:73 includes/options/opts-woo.php:197
+msgid "Breadcrumb Text Stype"
+msgstr ""
+
+#: includes/options/opts-breadcrumb.php:84 includes/options/opts-woo.php:208
+msgid "Breadcrumb Text Align"
+msgstr ""
+
+#: includes/options/opts-event.php:3
+msgid "Event Options"
+msgstr ""
+
+#: includes/options/opts-event.php:10
+msgid "Single Event"
+msgstr ""
+
+#: includes/options/opts-event.php:16
+msgid "Choose single Event layout."
+msgstr ""
+
+#: includes/options/opts-event.php:28
+msgid "Choose the default left sidebar for Single Event."
+msgstr ""
+
+#: includes/options/opts-event.php:36
+msgid "Choose the default right sidebar for Single Event."
+msgstr ""
+
+#: includes/options/opts-footer.php:3
+msgid "Footer Options"
+msgstr ""
+
+#: includes/options/opts-footer.php:15
+msgid "Enable/Disable Copyright Text"
+msgstr ""
+
+#: includes/options/opts-footer.php:25
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: includes/options/opts-footer.php:26
+msgid "Copyright - 2021 - Company - All rights reserved. Powered by WordPress."
+msgstr ""
+
+#: includes/options/opts-general.php:3
+msgid "General Options"
+msgstr ""
+
+#: includes/options/opts-general.php:9
+msgid "Skin Color"
+msgstr ""
+
+#: includes/options/opts-general.php:12
+msgid "Blue"
+msgstr ""
+
+#: includes/options/opts-general.php:13
+msgid "Brown"
+msgstr ""
+
+#: includes/options/opts-general.php:14
+msgid "Green"
+msgstr ""
+
+#: includes/options/opts-general.php:15
+msgid "Lilac"
+msgstr ""
+
+#: includes/options/opts-general.php:16
+msgid "Orange"
+msgstr ""
+
+#: includes/options/opts-general.php:17
+msgid "Pink"
+msgstr ""
+
+#: includes/options/opts-general.php:18
+msgid "Purple"
+msgstr ""
+
+#: includes/options/opts-general.php:19
+msgid "Red"
+msgstr ""
+
+#: includes/options/opts-general.php:20
+msgid "Turquoise"
+msgstr ""
+
+#: includes/options/opts-general.php:21
+msgid "Yellow"
+msgstr ""
+
+#: includes/options/opts-general.php:28
+msgid "Custom Color Theme"
+msgstr ""
+
+#: includes/options/opts-general.php:29 includes/options/opts-general.php:38
+msgid "Used custom color instead of Skin Colors Available."
+msgstr ""
+
+#: includes/options/opts-general.php:37
+msgid "Custom Color Theme Second"
+msgstr ""
+
+#: includes/options/opts-general.php:46
+msgid "Page Layout"
+msgstr ""
+
+#: includes/options/opts-general.php:47
+msgid "Select the page layout type"
+msgstr ""
+
+#: includes/options/opts-general.php:54
+msgid "Enable Back To Top"
+msgstr ""
+
+#: includes/options/opts-general.php:55
+msgid ""
+"Enable the back to top button that appears in the bottom right corner of the "
+"screen."
+msgstr ""
+
+#: includes/options/opts-header.php:3
+msgid "Header Options"
+msgstr ""
+
+#: includes/options/opts-header.php:9
+msgid "Header Layout"
+msgstr ""
+
+#: includes/options/opts-header.php:10
+msgid "Select a header layout option from the examples."
+msgstr ""
+
+#: includes/options/opts-header.php:18
+msgid "Logo in header default"
+msgstr ""
+
+#: includes/options/opts-header.php:24
+msgid "Header Mobile settings"
+msgstr ""
+
+#: includes/options/opts-header.php:30
+msgid "Header Mobile | Logo"
+msgstr ""
+
+#: includes/options/opts-header.php:36
+msgid "Show User"
+msgstr ""
+
+#: includes/options/opts-header.php:47
+msgid "Social Header Mobile Settings"
+msgstr ""
+
+#: includes/options/opts-header.php:52 includes/options/opts-socials.php:9
+msgid "Facebook"
+msgstr ""
+
+#: includes/options/opts-header.php:53 includes/options/opts-socials.php:10
+msgid "Enter your Facebook profile URL."
+msgstr ""
+
+#: includes/options/opts-header.php:59 includes/options/opts-socials.php:16
+msgid "Instagram"
+msgstr ""
+
+#: includes/options/opts-header.php:60 includes/options/opts-socials.php:17
+msgid "Enter your Instagram profile URL."
+msgstr ""
+
+#: includes/options/opts-header.php:66 includes/options/opts-socials.php:23
+msgid "Twitter"
+msgstr ""
+
+#: includes/options/opts-header.php:67 includes/options/opts-socials.php:24
+msgid "Enter your Twitter profile URL."
+msgstr ""
+
+#: includes/options/opts-header.php:73 includes/options/opts-socials.php:37
+msgid "LinedIn"
+msgstr ""
+
+#: includes/options/opts-header.php:74 includes/options/opts-socials.php:38
+msgid "Enter your LinkedIn profile URL."
+msgstr ""
+
+#: includes/options/opts-header.php:80 includes/options/opts-socials.php:44
+msgid "Pinterest"
+msgstr ""
+
+#: includes/options/opts-header.php:81 includes/options/opts-socials.php:45
+msgid "Enter your Pinterest profile URL."
+msgstr ""
+
+#: includes/options/opts-header.php:87 includes/options/opts-socials.php:58
+msgid "Tumblr"
+msgstr ""
+
+#: includes/options/opts-header.php:88 includes/options/opts-socials.php:59
+msgid "Enter your Tumblr profile URL."
+msgstr ""
+
+#: includes/options/opts-header.php:94 includes/options/opts-socials.php:65
+msgid "Vimeo"
+msgstr ""
+
+#: includes/options/opts-header.php:95 includes/options/opts-socials.php:66
+msgid "Enter your Vimeo profile URL."
+msgstr ""
+
+#: includes/options/opts-header.php:101 includes/options/opts-socials.php:72
+msgid "YouTube"
+msgstr ""
+
+#: includes/options/opts-header.php:102 includes/options/opts-socials.php:73
+msgid "Enter your YouTube profile URL."
+msgstr ""
+
+#: includes/options/opts-login-register.php:3
+msgid "Login & Register Page"
+msgstr ""
+
+#: includes/options/opts-login-register.php:10
+msgid "Login Tab Settings"
+msgstr ""
+
+#: includes/options/opts-login-register.php:15
+msgid "Background Login Tab"
+msgstr ""
+
+#: includes/options/opts-login-register.php:22
+msgid "Login Title"
+msgstr ""
+
+#: includes/options/opts-login-register.php:23
+#: includes/options/opts-login-register.php:49 ulisting/account/login.php:28
+#: ulisting/account/register.php:44
+msgid "Welcome Back"
+msgstr ""
+
+#: includes/options/opts-login-register.php:28
+msgid "Login Description"
+msgstr ""
+
+#: includes/options/opts-login-register.php:29
+msgid "Sign in to continue access."
+msgstr ""
+
+#: includes/options/opts-login-register.php:36
+msgid "Register Tab Settings"
+msgstr ""
+
+#: includes/options/opts-login-register.php:41
+msgid "Background Register Tab"
+msgstr ""
+
+#: includes/options/opts-login-register.php:48
+msgid "Register Title"
+msgstr ""
+
+#: includes/options/opts-login-register.php:54
+msgid "Register Description"
+msgstr ""
+
+#: includes/options/opts-login-register.php:55 ulisting/account/register.php:45
+msgid "Register to continue access."
+msgstr ""
+
+#: includes/options/opts-lt-general.php:17
+msgid "Listings General"
+msgstr ""
+
+#: includes/options/opts-lt-general.php:23
+msgid "Status Open/Close when unset Business Hours"
+msgstr ""
+
+#: includes/options/opts-lt-general.php:25
+msgid "Open"
+msgstr ""
+
+#: includes/options/opts-lt-general.php:26
+msgid "Closed"
+msgstr ""
+
+#: includes/options/opts-lt-general.php:27
+msgid "Hidden Status"
+msgstr ""
+
+#: includes/options/opts-lt-general.php:34
+msgid "Listing Review Item / Title[key]"
+msgstr ""
+
+#: includes/options/opts-lt-general.php:35
+msgid "Example: Quality[quality], Format: Title[key]"
+msgstr ""
+
+#: includes/options/opts-lt-general.php:41
+msgid "Allow listing owner review"
+msgstr ""
+
+#: includes/options/opts-lt-general.php:42
+msgid "Allow listing owners to review their own listings."
+msgstr ""
+
+#: includes/options/opts-lt-general.php:52
+msgid "Contact Form Agent"
+msgstr ""
+
+#: includes/options/opts-page.php:4
+msgid "Page Options"
+msgstr ""
+
+#: includes/options/opts-page.php:9
+msgid "Default Show Page Heading"
+msgstr ""
+
+#: includes/options/opts-page.php:10
+msgid "Choose the default state for the page heading, shown/hidden."
+msgstr ""
+
+#: includes/options/opts-page.php:17
+msgid "Default Page Sidebar Config"
+msgstr ""
+
+#: includes/options/opts-page.php:18
+msgid "Choose the default sidebar config for pages"
+msgstr ""
+
+#: includes/options/opts-page.php:29
+msgid "Default Page Left Sidebar"
+msgstr ""
+
+#: includes/options/opts-page.php:30
+msgid "Choose the default left sidebar for pages"
+msgstr ""
+
+#: includes/options/opts-page.php:37
+msgid "Default Page Right Sidebar"
+msgstr ""
+
+#: includes/options/opts-page.php:38
+msgid "Choose the default right sidebar for pages"
+msgstr ""
+
+#: includes/options/opts-socials.php:3
+msgid "Social Profiles"
+msgstr ""
+
+#: includes/options/opts-socials.php:30
+msgid "Google+"
+msgstr ""
+
+#: includes/options/opts-socials.php:31
+msgid "Enter your Google+ profile URL."
+msgstr ""
+
+#: includes/options/opts-socials.php:51
+msgid "RSS"
+msgstr ""
+
+#: includes/options/opts-socials.php:52
+msgid "Enter your RSS feed URL."
+msgstr ""
+
+#: includes/options/opts-styling.php:3
+msgid "Styling"
+msgstr ""
+
+#: includes/options/opts-styling.php:9
+msgid "Colors"
+msgstr ""
+
+#: includes/options/opts-styling.php:14
+msgid "Main Color"
+msgstr ""
+
+#: includes/options/opts-styling.php:15
+msgid "Used for the body text."
+msgstr ""
+
+#: includes/options/opts-styling.php:23
+msgid "Background"
+msgstr ""
+
+#: includes/options/opts-styling.php:28 includes/options/opts-styling.php:57
+#: includes/options/opts-styling.php:92
+msgid "Background Color"
+msgstr ""
+
+#: includes/options/opts-styling.php:29
+msgid "Used for the main site background."
+msgstr ""
+
+#: includes/options/opts-styling.php:38
+msgid "Background Image"
+msgstr ""
+
+#: includes/options/opts-styling.php:39
+msgid "Upload a background image or specify a URL (boxed layout)."
+msgstr ""
+
+#: includes/options/opts-styling.php:44
+msgid "Background Type"
+msgstr ""
+
+#: includes/options/opts-styling.php:45
+msgid ""
+"Select the background-image type (fixed image or repeat pattern/texture)."
+msgstr ""
+
+#: includes/options/opts-styling.php:52
+msgid "Main Content"
+msgstr ""
+
+#: includes/options/opts-styling.php:58
+msgid "Used for the header background."
+msgstr ""
+
+#: includes/options/opts-styling.php:65 includes/options/opts-styling.php:99
+msgid "Text Color"
+msgstr ""
+
+#: includes/options/opts-styling.php:72 includes/options/opts-styling.php:106
+msgid "Link Color"
+msgstr ""
+
+#: includes/options/opts-styling.php:79 includes/options/opts-styling.php:113
+msgid "Link Hover Color"
+msgstr ""
+
+#: includes/options/opts-styling.php:87
+msgid "Footer Default Styling"
+msgstr ""
+
+#: includes/options/opts-typography.php:3
+msgid "Typography"
+msgstr ""
+
+#: includes/options/opts-typography.php:10
+msgid "Main Font"
+msgstr ""
+
+#: includes/options/opts-typography.php:15
+#: includes/options/opts-typography.php:50
+msgid "Font Source"
+msgstr ""
+
+#: includes/options/opts-typography.php:26
+#: includes/options/opts-typography.php:61
+msgid "Font Face"
+msgstr ""
+
+#: includes/options/opts-typography.php:45
+msgid "Secondary Font"
+msgstr ""
+
+#: includes/options/opts-woo.php:4
+msgid "Product Options"
+msgstr ""
+
+#: includes/options/opts-woo.php:9
+msgid "Products Per Page"
+msgstr ""
+
+#: includes/options/opts-woo.php:10
+msgid "Number value."
+msgstr ""
+
+#: includes/options/opts-woo.php:11
+msgid ""
+"The amount of products you would like to show per page on shop/category "
+"pages."
+msgstr ""
+
+#: includes/options/opts-woo.php:20
+msgid "Shop Options"
+msgstr ""
+
+#: includes/options/opts-woo.php:26
+msgid "Default Product Display Layout"
+msgstr ""
+
+#: includes/options/opts-woo.php:27
+msgid ""
+"Choose the default product display layout for WooCommerce shop/category "
+"pages."
+msgstr ""
+
+#: includes/options/opts-woo.php:29
+msgid "Grid"
+msgstr ""
+
+#: includes/options/opts-woo.php:30
+msgid "List"
+msgstr ""
+
+#: includes/options/opts-woo.php:38 includes/options/opts-woo.php:54
+#: includes/options/opts-woo.php:70 includes/options/opts-woo.php:86
+msgid "Choose the number of columns to display on shop/category pages."
+msgstr ""
+
+#: includes/options/opts-woo.php:101
+msgid "WooCommerce Sidebar Config"
+msgstr ""
+
+#: includes/options/opts-woo.php:102
+msgid "Choose the sidebar config for WooCommerce shop/category pages."
+msgstr ""
+
+#: includes/options/opts-woo.php:113
+msgid "WooCommerce Left Sidebar"
+msgstr ""
+
+#: includes/options/opts-woo.php:114
+msgid "Choose the left sidebar for WooCommerce shop/category pages."
+msgstr ""
+
+#: includes/options/opts-woo.php:121
+msgid "WooCommerce Right Sidebar"
+msgstr ""
+
+#: includes/options/opts-woo.php:122
+msgid "Choose the right sidebar for WooCommerce shop/category pages"
+msgstr ""
+
+#: includes/options/opts-woo.php:179
+msgid "Breadcrumb Image"
+msgstr ""
+
+#: includes/options/opts-woo.php:222
+msgid "Project/Product Options"
+msgstr ""
+
+#: includes/options/opts-woo.php:228
+msgid "Upsell Heading Text"
+msgstr ""
+
+#: includes/options/opts-woo.php:229
+msgid "Complete the look"
+msgstr ""
+
+#: includes/options/opts-woo.php:234
+msgid "Related Heading Text"
+msgstr ""
+
+#: includes/options/opts-woo.php:235
+msgid "Similar Projects"
+msgstr ""
+
+#: includes/options/opts-woo.php:240
+msgid "Related Sub Heading Text"
+msgstr ""
+
+#: includes/options/opts-woo.php:241
+msgid "Businesses You Can Back"
+msgstr ""
+
+#: includes/template.php:89
+msgid "Main menu"
+msgstr ""
+
+#: includes/template.php:95
+msgid "Sticky"
+msgstr ""
+
+#: includes/template.php:99 includes/template.php:119
+msgid "by"
+msgstr ""
+
+#: includes/template.php:103 includes/template.php:122
+msgid "0 comments"
+msgstr ""
+
+#: includes/template.php:103 includes/template.php:122
+msgid "1 comment"
+msgstr ""
+
+#: includes/template.php:103 includes/template.php:122
+msgid "% comments"
+msgstr ""
+
+#: includes/template.php:107
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: includes/template.php:136
+msgid "Prev page"
+msgstr ""
+
+#: includes/template.php:137
+msgid "Next page"
+msgstr ""
+
+#: includes/template.php:138 ulisting/comment/comment.php:81
+msgid "Load more"
+msgstr ""
+
+#: includes/template.php:207
+msgid "Post navigation"
+msgstr ""
+
+#: includes/template.php:211
+msgid "Published In"
+msgstr ""
+
+#: includes/template.php:213
+msgid "Previous Post"
+msgstr ""
+
+#: includes/template.php:214
+msgid "Next Post"
+msgstr ""
+
+#: includes/template.php:251
+msgid "<strong class=\"fn\">%s</strong>"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/tgmpa/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/tgmpa/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: includes/tgmpa/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:393
+#: includes/tgmpa/class-tgm-plugin-activation.php:917
+#: includes/tgmpa/class-tgm-plugin-activation.php:2623
+#: includes/tgmpa/class-tgm-plugin-activation.php:3668
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:394
+#: includes/tgmpa/class-tgm-plugin-activation.php:3249
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:395
+#: includes/tgmpa/class-tgm-plugin-activation.php:3042
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/tgmpa/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/tgmpa/class-tgm-plugin-activation.php:399
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: includes/tgmpa/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1024
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1024
+#: includes/tgmpa/class-tgm-plugin-activation.php:1027
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1211
+#: includes/tgmpa/class-tgm-plugin-activation.php:3038
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: includes/tgmpa/class-tgm-plugin-activation.php:2072
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2363
+msgid "Required"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2366
+msgid "Recommended"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2382
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2385
+msgid "External Source"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2388
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2405
+msgid "Not Installed"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2409
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2411
+msgid "Active"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2417
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2420
+msgid "Requires Update"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2423
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: includes/tgmpa/class-tgm-plugin-activation.php:2432
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: includes/tgmpa/class-tgm-plugin-activation.php:2478
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/tgmpa/class-tgm-plugin-activation.php:2482
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/tgmpa/class-tgm-plugin-activation.php:2486
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/tgmpa/class-tgm-plugin-activation.php:2490
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2572
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2580
+msgid "Installed version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2588
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2600
+msgid "Available version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2623
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2637
+msgid "Plugin"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Source"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2639
+#: ulisting/account/my-plans/detail.php:35
+#: ulisting/account/my-plans/list.php:33
+msgid "Type"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2643
+msgid "Version"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2644
+#: ulisting/account/my-plans/detail.php:30
+#: ulisting/account/my-plans/list.php:32
+#: ulisting/account/payment-history.php:31
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/tgmpa/class-tgm-plugin-activation.php:2693
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/tgmpa/class-tgm-plugin-activation.php:2698
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/tgmpa/class-tgm-plugin-activation.php:2704
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2774
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2807
+msgid "Install"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2813
+#: ulisting/account/edit-profile.php:212 ulisting/add-listing/edit.php:29
+msgid "Update"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2816
+msgid "Activate"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2847
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2849
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2890
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2892
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2998
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3024
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3248
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/tgmpa/class-tgm-plugin-activation.php:3588
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: includes/tgmpa/class-tgm-plugin-activation.php:3591
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/tgmpa/class-tgm-plugin-activation.php:3593
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3597
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/tgmpa/class-tgm-plugin-activation.php:3599
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/tgmpa/class-tgm-plugin-activation.php:3601
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3604
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/tgmpa/class-tgm-plugin-activation.php:3606
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/tgmpa/class-tgm-plugin-activation.php:3608
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgmpa/config.php:29
+msgid "Tolips Themer"
+msgstr ""
+
+#: includes/tgmpa/config.php:35
+msgid "Slider Revolution"
+msgstr ""
+
+#: includes/tgmpa/config.php:41
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: includes/tgmpa/config.php:46
+msgid "Ulisting"
+msgstr ""
+
+#: includes/tgmpa/config.php:52
+msgid "Events Calendar"
+msgstr ""
+
+#: includes/tgmpa/config.php:57
+msgid "Meta Box"
+msgstr ""
+
+#: includes/tgmpa/config.php:62
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/tgmpa/config.php:67
+msgid "MailChimp"
+msgstr ""
+
+#: includes/tgmpa/config.php:72
+msgid "Classic Editor"
+msgstr ""
+
+#: includes/tgmpa/config.php:77
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/theme-functions.php:39
+msgid "Home"
+msgstr ""
+
+#: includes/theme-functions.php:83
+msgid "Search results for"
+msgstr ""
+
+#: includes/theme-functions.php:140
+msgid "Posts tagged"
+msgstr ""
+
+#: includes/theme-functions.php:148
+msgid "Articles posted by"
+msgstr ""
+
+#: includes/theme-functions.php:154 woocommerce/global/breadcrumb.php:157
+msgid "Error 404"
+msgstr ""
+
+#: includes/theme-functions.php:160 woocommerce/global/breadcrumb.php:217
+msgid "Page"
+msgstr ""
+
+#: includes/theme-functions.php:179
+msgid "Comment navigation"
+msgstr ""
+
+#: includes/theme-functions.php:182
+msgid "Older Comments"
+msgstr ""
+
+#: includes/theme-functions.php:186
+msgid "Newer Comments"
+msgstr ""
+
+#: includes/theme-hook.php:79
+msgid "Latest posts"
+msgstr ""
+
+#: includes/theme-hook.php:138 ulisting/filter/stm_search_form_category.php:254
+#: ulisting/filter/stm_search_form_type.php:156
+msgid "Search"
+msgstr ""
+
+#: includes/ulisting/attributes.php:10 includes/ulisting/attributes.php:63
+#: includes/ulisting/elements.php:179
+msgid "Style I"
+msgstr ""
+
+#: includes/ulisting/attributes.php:20 includes/ulisting/attributes.php:73
+msgid "Style II"
+msgstr ""
+
+#: includes/ulisting/attributes.php:31 includes/ulisting/attributes.php:84
+msgid "Style III"
+msgstr ""
+
+#: includes/ulisting/attributes.php:44
+msgid "List Attribute Option"
+msgstr ""
+
+#: includes/ulisting/base.php:5
+#: ulisting/filter/stm_search_form_category.php:251
+msgid "Advanced"
+msgstr ""
+
+#: includes/ulisting/base.php:9
+msgid "ID"
+msgstr ""
+
+#: includes/ulisting/base.php:14
+msgid "Class"
+msgstr ""
+
+#: includes/ulisting/base.php:19
+msgid "Margin"
+msgstr ""
+
+#: includes/ulisting/base.php:24
+msgid "Padding"
+msgstr ""
+
+#: includes/ulisting/base.php:34
+msgid "Style"
+msgstr ""
+
+#: includes/ulisting/base.php:38
+msgid "Background color"
+msgstr ""
+
+#: includes/ulisting/base.php:43
+msgid "Text color"
+msgstr ""
+
+#: includes/ulisting/base.php:53 includes/ulisting/base.php:57
+#: ulisting/add-listing/field/accordion.php:18
+#: ulisting/add-listing/form.php:192
+msgid "Title"
+msgstr ""
+
+#: includes/ulisting/elements.php:37
+msgid "Agent"
+msgstr ""
+
+#: includes/ulisting/elements.php:43
+msgid "Agent Listing"
+msgstr ""
+
+#: includes/ulisting/elements.php:59
+msgid "Meta Listing"
+msgstr ""
+
+#: includes/ulisting/elements.php:78
+msgid "Video Embed"
+msgstr ""
+
+#: includes/ulisting/elements.php:84
+msgid "Property Video"
+msgstr ""
+
+#: includes/ulisting/elements.php:100
+msgid "Heading"
+msgstr ""
+
+#: includes/ulisting/elements.php:106
+msgid "Heading Title"
+msgstr ""
+
+#: includes/ulisting/elements.php:122
+msgid "Divider"
+msgstr ""
+
+#: includes/ulisting/elements.php:142
+msgid "Mortgage Calc"
+msgstr ""
+
+#: includes/ulisting/elements.php:161
+msgid "Comment"
+msgstr ""
+
+#: includes/ulisting/filter.php:15
+msgid "Filter Top Horizontal"
+msgstr ""
+
+#: includes/ulisting/functions.php:48
+msgid "Price"
+msgstr ""
+
+#: includes/ulisting/hooks.php:53 ulisting/account/edit-profile.php:96
+msgid "Nickname"
+msgstr ""
+
+#: includes/ulisting/hooks.php:55 ulisting/account/edit-profile.php:110
+msgid "Mobile Phone"
+msgstr ""
+
+#: includes/ulisting/hooks.php:56 ulisting/account/edit-profile.php:117
+#: ulisting/account/edit-profile.php:118
+msgid "Office Phone"
+msgstr ""
+
+#: includes/ulisting/hooks.php:57 ulisting/account/edit-profile.php:124
+#: ulisting/account/edit-profile.php:125
+msgid "Fax"
+msgstr ""
+
+#: includes/ulisting/hooks.php:58 ulisting/account/edit-profile.php:131
+#: ulisting/account/edit-profile.php:132
+msgid "Website"
+msgstr ""
+
+#: includes/ulisting/hooks.php:61 ulisting/account/edit-profile.php:151
+msgid "Longitude"
+msgstr ""
+
+#: includes/ulisting/hooks.php:62 ulisting/account/edit-profile.php:157
+#: ulisting/account/edit-profile.php:158
+msgid "License"
+msgstr ""
+
+#: includes/ulisting/hooks.php:63
+msgid "Tax number"
+msgstr ""
+
+#: includes/ulisting/hooks.php:65 ulisting/account/edit-profile.php:206
+#: ulisting/account/edit-profile.php:207
+msgid "Linkedin"
+msgstr ""
+
+#: includes/ulisting/icons.php:4
+msgid "Icons of Theme"
+msgstr ""
+
+#: includes/ulisting/icons.php:2079
+msgid "Line Awesome Icons"
+msgstr ""
+
+#: includes/ulisting/preview.php:9
+msgid "Item Preview Grid"
+msgstr ""
+
+#: includes/ulisting/preview.php:24 includes/ulisting/preview.php:60
+#: includes/ulisting/preview.php:96
+msgid "Template"
+msgstr ""
+
+#: includes/ulisting/preview.php:28 includes/ulisting/preview.php:64
+#: includes/ulisting/preview.php:100
+msgid "Style Template"
+msgstr ""
+
+#: includes/ulisting/preview.php:31 includes/ulisting/preview.php:67
+#: includes/ulisting/preview.php:103
+msgid "Style 1"
+msgstr ""
+
+#: includes/ulisting/preview.php:32
+msgid "Style 2"
+msgstr ""
+
+#: includes/ulisting/preview.php:45
+msgid "Item Preview List"
+msgstr ""
+
+#: includes/ulisting/preview.php:81
+msgid "Item Preview Map"
+msgstr ""
+
+#: includes/woocommerce/functions.php:171
+msgid "View your shopping cart"
+msgstr ""
+
+#: includes/woocommerce/hooks.php:231
+msgid "Get Started"
+msgstr ""
+
+#: search.php:46
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:14
+msgid "Search..."
+msgstr ""
+
+#: single-gva_team.php:43
+msgid "Contact Info"
+msgstr ""
+
+#: single-gva_team.php:45
+msgid "Email: "
+msgstr ""
+
+#: single-gva_team.php:51
+msgid "Phone: "
+msgstr ""
+
+#: single-gva_team.php:77
+msgid "Educations"
+msgstr ""
+
+#: single-gva_team.php:94
+msgid "Skills"
+msgstr ""
+
+#: templates/content/item-user-style-1.php:84
+#: templates/content/item-user-style-2.php:74
+msgid "View Profile "
+msgstr ""
+
+#: templates/list_comments.php:25
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: templates/list_comments.php:26
+msgid " - Edit"
+msgstr ""
+
+#: templates/list_comments.php:27
+msgid " - Reply"
+msgstr ""
+
+#: templates/parts/header-mobile.php:63 ulisting/account/navigation.php:42
+msgid "Add Listing"
+msgstr ""
+
+#: templates/parts/header-mobile.php:76 ulisting/account/my-favorite.php:45
+#: ulisting/account/navigation.php:50
+msgid "My Favorites"
+msgstr ""
+
+#: ulisting/account/account-panel.php:29 ulisting/account/navigation.php:53
+msgid "Logout"
+msgstr ""
+
+#: ulisting/account/account-panel.php:39
+msgid "Log In "
+msgstr ""
+
+#: ulisting/account/account-panel.php:39
+msgid "Sign Up"
+msgstr ""
+
+#: ulisting/account/account.php:34 ulisting/account/login.php:35
+#: ulisting/account/login.php:69 ulisting/account/my-agents/add.php:26
+#: ulisting/account/register.php:54
+msgid "Login"
+msgstr ""
+
+#: ulisting/account/account.php:35 ulisting/account/register.php:131
+msgid "Register"
+msgstr ""
+
+#: ulisting/account/account.php:56 ulisting/add-listing/add-listing.php:41
+msgid "Welcome"
+msgstr ""
+
+#: ulisting/account/account.php:61 ulisting/add-listing/add-listing.php:46
+msgid "Back to Homepage"
+msgstr ""
+
+#: ulisting/account/dashboard.php:39 ulisting/account/navigation.php:39
+msgid "Dashboard"
+msgstr ""
+
+#: ulisting/account/dashboard.php:47
+msgid "All Properties"
+msgstr ""
+
+#: ulisting/account/dashboard.php:57
+msgid "Publish Properties"
+msgstr ""
+
+#: ulisting/account/dashboard.php:67
+msgid "Bookmarks Properties"
+msgstr ""
+
+#: ulisting/account/dashboard.php:77
+msgid "Pending Properties"
+msgstr ""
+
+#: ulisting/account/dashboard.php:87
+msgid "Draft Properties"
+msgstr ""
+
+#: ulisting/account/dashboard.php:97
+msgid "Trash Properties"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:32 ulisting/account/navigation.php:34
+msgid "Edit Profile"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:39
+msgid "Photo"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:40 ulisting/account/edit-profile.php:189
+msgid "Upload your profile photo."
+msgstr ""
+
+#: ulisting/account/edit-profile.php:48
+msgid "Select Image"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:62
+msgid "Profile Information"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:63 ulisting/account/edit-profile.php:233
+msgid "Add your information."
+msgstr ""
+
+#: ulisting/account/edit-profile.php:72 ulisting/account/my-agents/add.php:48
+#: ulisting/account/register.php:67
+msgid "First name"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:73 ulisting/account/my-agents/add.php:52
+#: ulisting/account/register.php:71
+msgid "Enter first name"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:80 ulisting/account/my-agents/add.php:59
+#: ulisting/account/register.php:77
+msgid "Last name"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:81 ulisting/account/my-agents/add.php:63
+#: ulisting/account/register.php:81
+msgid "Enter last name"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:89 ulisting/account/my-agents/add.php:41
+#: ulisting/account/register.php:94
+msgid "Enter email"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:97
+msgid "Enter Nickname"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:104
+msgid "Enter Position"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:111
+msgid "Enter Mobile Phone"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:145
+msgid "Latitude"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:146
+msgid "Latitude Map"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:152
+msgid "Longitude Map"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:163 ulisting/account/edit-profile.php:164
+msgid "Tax Number"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:170
+msgid "Enter Profile About"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:188
+msgid "Social"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:213 ulisting/account/my-agents/add.php:96
+#: ulisting/account/my-listing.php:134 ulisting/account/register.php:134
+#: ulisting/add-listing/form.php:251
+msgid "Loading..."
+msgstr ""
+
+#: ulisting/account/edit-profile.php:232
+msgid "Change Password"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:240 ulisting/account/edit-profile.php:241
+msgid "Old password"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:246 ulisting/account/edit-profile.php:247
+msgid "New password"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:252 ulisting/account/edit-profile.php:253
+msgid "Confirmation new password"
+msgstr ""
+
+#: ulisting/account/edit-profile.php:259
+msgid "Load..."
+msgstr ""
+
+#: ulisting/account/edit-profile.php:260
+msgid "Update password"
+msgstr ""
+
+#: ulisting/account/login.php:29
+msgid "Sign in to continue access"
+msgstr ""
+
+#: ulisting/account/login.php:40 ulisting/account/my-agents/add.php:30
+#: ulisting/account/register.php:58
+msgid "Enter login"
+msgstr ""
+
+#: ulisting/account/login.php:45 ulisting/account/my-agents/add.php:72
+#: ulisting/account/register.php:110
+msgid "Password"
+msgstr ""
+
+#: ulisting/account/login.php:50 ulisting/account/my-agents/add.php:76
+#: ulisting/account/register.php:114
+msgid "Enter password"
+msgstr ""
+
+#: ulisting/account/login.php:59
+msgid "Remember me"
+msgstr ""
+
+#: ulisting/account/login.php:63
+msgid "Forgot Password?"
+msgstr ""
+
+#: ulisting/account/my-agents/add.php:21
+msgid "My Agents"
+msgstr ""
+
+#: ulisting/account/my-agents/add.php:83 ulisting/account/register.php:120
+msgid "Password repeat"
+msgstr ""
+
+#: ulisting/account/my-agents/add.php:87 ulisting/account/register.php:124
+msgid "Enter password repeat"
+msgstr ""
+
+#: ulisting/account/my-agents/add.php:94
+msgid "Add Agent"
+msgstr ""
+
+#: ulisting/account/my-card.php:33
+msgid "You don't have any Payment methods."
+msgstr ""
+
+#: ulisting/account/my-card.php:48
+msgid "Add Card"
+msgstr ""
+
+#: ulisting/account/my-card.php:58
+msgid "Expired:"
+msgstr ""
+
+#: ulisting/account/my-card.php:72 ulisting/account/my-listing.php:161
+#: ulisting/account/my-listing.php:186 ulisting/account/my-listing.php:210
+msgid "Delete"
+msgstr ""
+
+#: ulisting/account/my-card.php:73
+msgid "Make default"
+msgstr ""
+
+#: ulisting/account/my-listing.php:70
+msgid "All"
+msgstr ""
+
+#: ulisting/account/my-listing.php:71 ulisting/account/my-listing.php:175
+msgid "Publish"
+msgstr ""
+
+#: ulisting/account/my-listing.php:72 ulisting/account/my-listing.php:195
+msgid "Pending"
+msgstr ""
+
+#: ulisting/account/my-listing.php:73
+msgid "Draft"
+msgstr ""
+
+#: ulisting/account/my-listing.php:74
+msgid "Trash"
+msgstr ""
+
+#: ulisting/account/my-listing.php:101
+msgid "Property"
+msgstr ""
+
+#: ulisting/account/my-listing.php:102 ulisting/account/saved-searches.php:22
+#: ulisting/saved-searches/saved-searches.php:21
+msgid "Action"
+msgstr ""
+
+#: ulisting/account/my-listing.php:109
+msgid "Loading"
+msgstr ""
+
+#: ulisting/account/my-listing.php:121
+msgid "Limit"
+msgstr ""
+
+#: ulisting/account/my-listing.php:125
+msgid "select"
+msgstr ""
+
+#: ulisting/account/my-listing.php:136
+msgid "Save"
+msgstr ""
+
+#: ulisting/account/my-listing.php:146
+msgid "Published"
+msgstr ""
+
+#: ulisting/account/my-listing.php:150
+msgid "Unpublish"
+msgstr ""
+
+#: ulisting/account/my-listing.php:171
+msgid "Drafted"
+msgstr ""
+
+#: ulisting/account/my-listing.php:219
+msgid "Promote"
+msgstr ""
+
+#: ulisting/account/my-listing.php:232
+msgid "Promotion over."
+msgstr ""
+
+#: ulisting/account/my-listing.php:233
+msgid "Promotion ends:"
+msgstr ""
+
+#: ulisting/account/my-listing.php:234
+msgid "Promotion will start:"
+msgstr ""
+
+#: ulisting/account/my-listing.php:236 ulisting/account/my-plans/list.php:35
+msgid "Expired"
+msgstr ""
+
+#: ulisting/account/my-listing.php:237
+msgid "Running"
+msgstr ""
+
+#: ulisting/account/my-listing.php:238
+msgid "Future"
+msgstr ""
+
+#: ulisting/account/my-listing.php:261
+msgid "No listings found"
+msgstr ""
+
+#: ulisting/account/my-plans/detail.php:26
+#: ulisting/account/my-plans/list.php:31
+msgid "Plan"
+msgstr ""
+
+#: ulisting/account/my-plans/detail.php:41
+msgid "Payment type"
+msgstr ""
+
+#: ulisting/account/my-plans/detail.php:47
+msgid "Expired date"
+msgstr ""
+
+#: ulisting/account/my-plans/detail.php:56
+msgid "Created date"
+msgstr ""
+
+#: ulisting/account/my-plans/list.php:34
+msgid "Payment Type"
+msgstr ""
+
+#: ulisting/account/my-plans/list.php:36
+#: ulisting/account/payment-history.php:34
+msgid "Created"
+msgstr ""
+
+#: ulisting/account/my-plans/list.php:47
+msgid "Pricing Plan not found "
+msgstr ""
+
+#: ulisting/account/my-plans/list.php:70 ulisting/account/my-plans/list.php:90
+#: ulisting/add-listing/form.php:242
+msgid "Buy plan"
+msgstr ""
+
+#: ulisting/account/my-plans/list.php:89
+msgid "No result, You have no plans yet !"
+msgstr ""
+
+#: ulisting/account/payment-history.php:23
+msgid "Payment History"
+msgstr ""
+
+#: ulisting/account/payment-history.php:30
+msgid "Payment method"
+msgstr ""
+
+#: ulisting/account/payment-history.php:32
+msgid "Transaction"
+msgstr ""
+
+#: ulisting/account/payment-history.php:33
+msgid "Amount"
+msgstr ""
+
+#: ulisting/account/payment-history.php:35
+msgid "Updated"
+msgstr ""
+
+#: ulisting/account/payment-history.php:71
+msgid "No result, You have no payment history yet !"
+msgstr ""
+
+#: ulisting/account/register.php:100
+msgid "Role"
+msgstr ""
+
+#: ulisting/account/saved-searches.php:20
+#: ulisting/saved-searches/saved-searches.php:19
+msgid "Listing type"
+msgstr ""
+
+#: ulisting/account/saved-searches.php:21
+#: ulisting/saved-searches/saved-searches.php:20
+msgid "Params"
+msgstr ""
+
+#: ulisting/account/saved-searches.php:45
+#: ulisting/saved-searches/saved-searches.php:44
+msgid "No result"
+msgstr ""
+
+#: ulisting/add-listing/add.php:25
+msgid "Add listing"
+msgstr ""
+
+#: ulisting/add-listing/add.php:30
+msgid "Listing Type"
+msgstr ""
+
+#: ulisting/add-listing/add.php:34
+msgid "Create Listing"
+msgstr ""
+
+#: ulisting/add-listing/add.php:38
+msgid "Done"
+msgstr ""
+
+#: ulisting/add-listing/add.php:48
+msgid "Create"
+msgstr ""
+
+#: ulisting/add-listing/edit.php:18
+msgid "Edit listing"
+msgstr ""
+
+#: ulisting/add-listing/edit.php:35
+msgid "Listing not found"
+msgstr ""
+
+#: ulisting/add-listing/field/accordion.php:33
+msgid "Options"
+msgstr ""
+
+#: ulisting/add-listing/field/accordion.php:38
+msgid "Key"
+msgstr ""
+
+#: ulisting/add-listing/field/accordion.php:41
+msgid "Value"
+msgstr ""
+
+#: ulisting/add-listing/field/accordion.php:50
+msgid "Add option"
+msgstr ""
+
+#: ulisting/add-listing/field/accordion.php:56
+msgid "+ Add"
+msgstr ""
+
+#: ulisting/add-listing/field/date.php:16
+msgid "Select date"
+msgstr ""
+
+#: ulisting/add-listing/field/file.php:16
+msgid "Current value:"
+msgstr ""
+
+#: ulisting/add-listing/field/gallery.php:44
+msgid "feature"
+msgstr ""
+
+#: ulisting/add-listing/field/location.php:67
+msgid "Enter a location"
+msgstr ""
+
+#: ulisting/add-listing/field/location.php:72
+msgid "Postal code"
+msgstr ""
+
+#: ulisting/add-listing/field/select.php:14
+msgid "Select"
+msgstr ""
+
+#: ulisting/add-listing/field/yes_no.php:17
+msgid "Yes"
+msgstr ""
+
+#: ulisting/add-listing/field/yes_no.php:23
+msgid "No"
+msgstr ""
+
+#: ulisting/add-listing/form.php:50
+msgid "Category"
+msgstr ""
+
+#: ulisting/add-listing/form.php:61
+msgid "Region"
+msgstr ""
+
+#: ulisting/add-listing/form.php:102
+msgid "Free"
+msgstr ""
+
+#: ulisting/add-listing/form.php:122
+msgid "Select Plan for Listing"
+msgstr ""
+
+#: ulisting/add-listing/form.php:130
+msgid "of"
+msgstr ""
+
+#: ulisting/add-listing/form.php:130
+msgid "item available."
+msgstr ""
+
+#: ulisting/add-listing/form.php:180
+msgid "Add a plan"
+msgstr ""
+
+#: ulisting/add-listing/form.php:188
+msgid "Listing Information"
+msgstr ""
+
+#: ulisting/add-listing/form.php:229
+msgid "Plan for Featured Listings"
+msgstr ""
+
+#: ulisting/add-listing/form.php:253
+msgid "Set feature"
+msgstr ""
+
+#: ulisting/add-listing/form.php:256
+msgid "My listing"
+msgstr ""
+
+#: ulisting/builder/element/agent.php:42
+msgid "show"
+msgstr ""
+
+#: ulisting/builder/element/agent.php:66 ulisting/builder/element/agent.php:70
+msgid "Contact Agent"
+msgstr ""
+
+#: ulisting/builder/element/featured-listing.php:69
+msgid "Featured properties"
+msgstr ""
+
+#: ulisting/builder/element/meta.php:16
+msgid " ago"
+msgstr ""
+
+#: ulisting/builder/element/meta.php:35
+msgid "Share"
+msgstr ""
+
+#: ulisting/builder/element/meta.php:42
+msgid "Wishlist"
+msgstr ""
+
+#: ulisting/builder/element/mortgage_calc.php:16
+msgid "Mortgage Calculator"
+msgstr ""
+
+#: ulisting/builder/element/mortgage_calc.php:21
+msgid "Total cost of loan:"
+msgstr ""
+
+#: ulisting/builder/element/mortgage_calc.php:25
+msgid "Total Interest Paid:"
+msgstr ""
+
+#: ulisting/builder/element/mortgage_calc.php:29
+msgid "Payment:"
+msgstr ""
+
+#: ulisting/builder/element/mortgage_calc.php:35
+msgid "Home Value:"
+msgstr ""
+
+#: ulisting/builder/element/mortgage_calc.php:40
+msgid "Down Payment:"
+msgstr ""
+
+#: ulisting/builder/element/mortgage_calc.php:45
+msgid "Amortization Period:"
+msgstr ""
+
+#: ulisting/builder/element/mortgage_calc.php:50
+msgid "Interest Rate:"
+msgstr ""
+
+#: ulisting/builder/element/mortgage_calc.php:55
+msgid "Payment Frequency:"
+msgstr ""
+
+#: ulisting/builder/element/similar-listings.php:48
+msgid "Similar Listings"
+msgstr ""
+
+#: ulisting/builder/element/similar-listings.php:63
+msgid "No similar listings found"
+msgstr ""
+
+#: ulisting/comment/comment.php:18
+msgid "Add a review"
+msgstr ""
+
+#: ulisting/comment/comment.php:20
+msgid "Your review"
+msgstr ""
+
+#: ulisting/comment/comment.php:39 ulisting/comment/comment.php:80
+msgid "Load"
+msgstr ""
+
+#: ulisting/comment/comment.php:40 ulisting/comment/tolips-comments.php:89
+msgid "Submit"
+msgstr ""
+
+#: ulisting/comment/comment.php:49
+msgid "To leave a review, just log in or sign up!"
+msgstr ""
+
+#: ulisting/comment/comment.php:50
+msgid "Login "
+msgstr ""
+
+#: ulisting/comment/tolips-comments.php:23
+msgctxt "comments title"
+msgid "1 Review"
+msgid_plural "%1$s Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ulisting/comment/tolips-comments.php:64
+msgid "Add Review"
+msgstr ""
+
+#: ulisting/comment/tolips-comments.php:80
+#: ulisting/comment/tolips-comments.php:112
+msgid "Write a Review"
+msgstr ""
+
+#: ulisting/comment/tolips-comments.php:122
+msgid "Send review"
+msgstr ""
+
+#: ulisting/components/fields/checkbox.php:68
+msgid "Select "
+msgstr ""
+
+#: ulisting/components/fields/checkbox.php:72
+msgid "values"
+msgstr ""
+
+#: ulisting/filter/stm_search_form_advanced.php:35
+msgid "Clear all"
+msgstr ""
+
+#: ulisting/listing/listing.php:27
+msgid "No Listings"
+msgstr ""
+
+#: ulisting/listing-list/maps/google.php:37
+msgid "Roadmap"
+msgstr ""
+
+#: ulisting/listing-list/maps/google.php:38
+msgid "Satellite"
+msgstr ""
+
+#: ulisting/listing-list/maps/google.php:39
+msgid "Hybrid"
+msgstr ""
+
+#: ulisting/listing-list/maps/google.php:40
+msgid "Terrain"
+msgstr ""
+
+#: ulisting/listing-list/maps/google.php:42
+msgid "Map type"
+msgstr ""
+
+#: ulisting/listing-list/maps/google.php:43
+#: ulisting/listing-list/maps/osm.php:32
+#: ulisting/listing-list/pagination.php:27
+msgid "Prev"
+msgstr ""
+
+#: ulisting/listing-list/maps/google.php:44
+#: ulisting/listing-list/maps/osm.php:33
+#: ulisting/listing-list/pagination.php:28
+msgid "Next"
+msgstr ""
+
+#: ulisting/listing-list/reset-filter.php:17
+msgid "Reset filter"
+msgstr ""
+
+#: ulisting/loop/content/item-grid-1.php:31
+#: ulisting/loop/content/item-grid-2.php:30
+#: ulisting/loop/content/item-list-1.php:31
+#: ulisting/loop/content/item-map-1.php:54
+#: ulisting/loop/content/item-single.php:29
+msgid "Featured"
+msgstr ""
+
+#: ulisting/loop/stm_quickview.php:53
+msgid "View Details"
+msgstr ""
+
+#: ulisting/pricing-plan/list.php:14
+msgid "Pricing Plan"
+msgstr ""
+
+#: ulisting/pricing-plan/list.php:46
+msgid "Subscription"
+msgstr ""
+
+#: ulisting/pricing-plan/list.php:78
+msgid ""
+"Pricing plans are currently under development. Please contact the site "
+"administrator for details."
+msgstr ""
+
+#: ulisting/pricing-plan/payment.php:32
+msgid "Your plan"
+msgstr ""
+
+#: ulisting/pricing-plan/payment.php:60
+msgid "Payment Method"
+msgstr ""
+
+#: ulisting/pricing-plan/payment.php:61
+msgid "All transactions are secure and encrypted."
+msgstr ""
+
+#: ulisting/pricing-plan/payment.php:64
+msgid "Name"
+msgstr ""
+
+#: ulisting/pricing-plan/payment.php:65
+msgid "Your Name"
+msgstr ""
+
+#: ulisting/pricing-plan/payment.php:69
+msgid "Your Email"
+msgstr ""
+
+#: ulisting/pricing-plan/payment.php:140
+msgid "Buy Plan"
+msgstr ""
+
+#: ulisting/pricing-plan/payment.php:143
+msgid "Place Order"
+msgstr ""
+
+#: ulisting/saved-searches/add-button.php:12
+msgid "Save Search"
+msgstr ""
+
+#: ulisting/statistics/listing-page-statistics.php:17
+msgid "Hours"
+msgstr ""
+
+#: ulisting/statistics/listing-page-statistics.php:18
+msgid "Weekly"
+msgstr ""
+
+#: ulisting/statistics/listing-page-statistics.php:19
+msgid "Monthly"
+msgstr ""
+
+#: ulisting/statistics/listing-page-statistics.php:28
+msgid "View"
+msgstr ""
+
+#: ulisting/statistics/listing-page-statistics.php:36
+msgid "Clicked"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:59
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:75
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:83
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:88
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:89
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:58
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:73
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:101 woocommerce/global/breadcrumb.php:203
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:207
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:212
+msgid "Author:"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:18
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:16
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/quickview/product-image.php:23
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:14
+msgid "n/a"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:22
+msgid "<span class=\"title\">SKU:</span>"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:26
+msgid "<span class=\"title\">Category:</span>"
+msgid_plural "<span class=\"title\">Categories:</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:28
+msgid "<span class=\"title\">Tag:</span>"
+msgid_plural "<span class=\"title\">Tags:</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:27
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:29
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:30
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:33
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/sale-flash.php:16
+msgid "Sale"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:17
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Tolips"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://gaviaspreview.com/wp/tolips/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Tolips is Real Estate WordPress Theme holding a high standard of quality. "
+"The template is designed for selling or renting real estate agents, agency "
+"residential & commercial developers, vacation rentals, flat, brokerages, "
+"apartment managers, house, apartment, villa and  more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Gaviasthemes Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://gaviasthemes.com/"
+msgstr ""

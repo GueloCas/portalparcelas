@@ -1,0 +1,24 @@
+.gva-brand-carousel{
+  .brand-item-content{
+    text-align: center;
+   img{
+     opacity: 0.6;
+     transition: all 0.35s;
+   }
+   &:hover{
+     img{
+       opacity: 1;
+       animation: beat 1.5s ease 0s infinite;
+     }
+   }
+  }
+  &.style-1{
+    .brand-item{
+      > .brand-item-content{
+        &:first-child{
+          margin-bottom: 70px;
+        }
+      }
+    }
+  }
+} 

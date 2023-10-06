@@ -1,0 +1,37 @@
+.gva-socials{
+   ul.social-links{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      li{
+         float: left;
+         margin-right: 15px;
+         a{
+            font-size: 14px;
+            background: $theme-color;
+            color: #fff!important;
+            padding: 0 10px;
+            line-height: 36px;
+            position: relative;
+            z-index: 9;
+            display: block;
+            @include transition(all 0.35s);
+            min-width: 35px;
+            text-align: center;
+            &:hover{
+               opacity: 0.8;
+               color: $white!important;
+            }
+         }
+      }
+   }
+   &.align-center{
+      text-align: center;
+      ul.social-links{
+         display: inline-block;
+      }
+   }
+   &.align-right{
+      float: right;
+   }
+}

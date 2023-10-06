@@ -1,0 +1,45 @@
+.gva-list-number{
+   &.style-1{
+      ul.list-number{
+         list-style: none;
+         padding: 0;
+         li.list-number-item{
+            margin-bottom: 35px;
+            .content-inner{
+               .content-top{
+                  @include clearfix();
+                  .number{
+                     width: 75px;
+                     float: left;
+                     background: #EFF1F6;
+                     padding: 5px 10px;
+                     text-align: center;
+                     font-size: 14px;
+                     color: $headings-color;
+                     font-weight: 600;
+                     span{
+                        svg{
+                           width: 14px;
+                           height: auto;
+                           fill: $headings-color;
+                           margin-left: 3px;
+                           position: relative;
+                           top: 2px;
+                        }
+                     }
+                  }
+                  .title{
+                     font-size: 20px;
+                     padding-left: 95px;
+                     padding-top: 5px;
+                     margin: 0;
+                  }
+               }
+               .descrption{
+                  padding-top: 20px;
+               }
+            }
+         }
+      }
+   }
+} 

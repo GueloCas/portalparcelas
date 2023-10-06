@@ -1,0 +1,84 @@
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@-moz-keyframes beat{0%{transform:scale(1)}50%{transform:scale(.82)}}
+@-webkit-keyframes beat{0%{transform:scale(1)}50%{transform:scale(.82)}}
+@keyframes beat{0%{transform:scale(1)}50%{transform:scale(.82)}}
+
+@-webkit-keyframes placeHolderShimmer{
+  0%{
+      background-position:-468px 0
+  }
+  100%{
+      background-position:468px 0
+  }
+}
+
+@keyframes placeHolderShimmer{
+  0%{
+      background-position:-468px 0
+  }
+  100%{
+      background-position:468px 0
+  }
+ }
+.animated-background {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: placeHolderShimmer;
+  animation-name: placeHolderShimmer;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: #eeeeee;
+  background: -webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
+  background: -webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background: linear-gradient(to right,  #eeeeee 8%,#dddddd 18%,#eeeeee 33%);
+  -webkit-background-size: 800px 104px;
+  background-size: 800px 104px;
+  height: 96px;
+  position: relative;
+}
+
+.background-masker {
+  background: #fff;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.blur {
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+    -webkit-filter: url(#blur-filter);
+    filter: url(#blur-filter);
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+.blur-svg {
+    display: none;
+} 
+
+@keyframes pulse-border {
+  0% {
+    @include transform(scale(1));
+    opacity: 1; 
+}
+  100% {
+    @include transform(scale(1.5));
+    opacity: 0; } 
+}
+@keyframes pulse-border-2 {
+  0% {
+    @include transform(scale(1));
+    opacity: 1; 
+}
+  100% {
+    @include transform(scale(1.8));
+    opacity: 0; } 
+}

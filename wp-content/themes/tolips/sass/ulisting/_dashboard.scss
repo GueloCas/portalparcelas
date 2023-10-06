@@ -1,0 +1,544 @@
+.listing-account-nav{
+   li{
+      a{
+         &:before{
+            content: "\f46d";
+            font-family: 'Line Awesome Free';
+            font-weight: 900;
+            font-size: 22px;
+            margin-right: 10px;
+            position: relative;
+            top: 2px;
+         }
+         &.add-listing{
+            &:before{
+               content: '\f7f2';
+            }
+         }
+         &.my-plans{
+            &:before{
+               content: '\f022';
+            }
+         }
+         &.my-listing{
+            &:before{
+               content: '\f5fd';
+            }
+         }
+         &.payment-history{
+            &:before{
+               content: '\f1da';
+            }
+         }
+         &.my-favorite{
+            &:before{
+               content: '\f004';
+               font-weight: 400;
+            }
+         }
+         &.saved-searches{
+            &:before{
+               content: '\f0c7';
+            }
+         }
+         &.logout{
+            &:before{
+               content: '\f2f5';
+            }
+         }
+      }
+   }
+}
+.ulisting-dashboard-page{
+   .ulising-dashboard-main{
+      padding-left: 280px;
+      background: #F1F2F8;
+      min-height: calc(100vh - 35px);
+      @media(max-width: 860px){
+         padding-left: 0;
+      }
+      .dashboard-nav-control{
+         position: fixed;
+         right: 0;
+         top: 50%;
+         border-radius: 4px 0 0 4px;
+         background: $theme-color;
+         width: 50px;
+         text-align: center;
+         z-index: 16;
+         line-height: 1;
+         padding: 12px 0;
+         display: none;
+         @media(max-width: 860px){
+            display: block;
+         }
+         a{
+            color: $white;
+            font-size: 32px;
+         }
+      }
+      .dashboard-nav{
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 280px;
+         z-index: 12;
+         height: 100%;
+         background: #2C364C; 
+         padding: 60px 0 30px;
+         overflow-y: auto;
+         overflow-x: hidden;
+         transition: all 0.35s;
+         @media(max-width: 860px){
+            transform: translateX(-280px);
+            opacity: 0;
+         }
+         .user-info{
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            img{
+               max-width: 100px;
+               border-radius: 4px;
+            }
+            .user-name{
+               font-size: 16px;
+               color: $white;
+               font-weight: 600;
+               margin-top: 10px;
+            }
+            .user-login{
+               font-size: 14px;
+               font-weight: 500;
+               color: rgba(255, 255, 255, 0.8);
+            }
+         }
+         .nav-tabs{
+            border: none;
+            width: 100%;
+            .nav-item{
+               display: block;
+               a{
+                  border: none;
+                  font-weight: 500;
+                  color: rgba(255, 255, 255, 0.6);
+                  padding: 10px 20px;
+                  margin: 0;
+                  border-radius: 0;
+                  font-size: 15px;
+                  
+                  &:hover{
+                     color: $white;
+                  }
+                  &.active{
+                     background: rgba(0, 0, 0, 0.1);
+                     color: $white;
+                     padding: 10px 20px;
+                     margin: 5px 0;
+                     opacity: 1;
+                     background: #252E40;
+                  }
+               }
+            }
+         }
+      }
+      .ulising-dashboard-content{
+         .dashboard-topbar{
+            background: $white;
+            padding: 10px 30px;
+            .content-left{
+               float: left;
+               font-weight: 500;
+               .nickname{
+                  color: $theme-color;
+               }
+            }
+            .content-right{
+               float: right;
+            }
+         }
+         .ulising-dashboard-content-wrapper{
+            padding: 0 30px;
+            max-width: 1170px;
+            margin: 30px auto 0;
+            .dashboard-content-inner{
+               background: $white;
+               padding: 30px;
+               .ulisting-table{
+                  border: none!important;
+                  thead{
+                     th{
+                        border-bottom: 1px solid $border-color;
+                        border-top: 0;
+                     }
+                  }
+                  tbody{
+                     tr{
+                        &:nth-of-type(even){
+                           background: #F1F2F8;
+                        }
+                        td, th{
+                           padding: 15px 10px;
+                           font-size: 14px;
+                           font-weight: 500;
+                           color: $black;
+                           &.active{
+                              color: #5CD4A2;
+                           }
+                           a{
+                              color: $theme-color;
+                              &:hover{
+                                 text-decoration: underline;
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+            .page-dashboard-content{
+               padding-top: 50px;
+               .dashboard-card{
+                  background: $theme-color;
+                  color: $white;
+                  padding: 35px 30px 28px;
+                  border-radius: 4px;
+                  margin-bottom: 30px;
+                  position: relative;
+                  .content-inner{
+                     position: relative;
+                     z-index: 11;
+                     .value{
+                        font-size: 30px;
+                        font-weight: 600;
+                        font-family: $headings-font-family;
+                     }
+                  }
+                  .icon{
+                     font-size: 55px;
+                     position: absolute;
+                     bottom: -2px;
+                     right: -2px;
+                     z-index: 1;
+                     opacity: 0.36;
+                  }
+                  &.all-listings{
+                     background: #8CCA4F;
+                  }
+                  &.bookmarks{
+                     background: #F3605D;
+                  }
+                  &.published{
+                     background: #5CB85C;
+                  }
+                  &.draft{
+
+                  }
+                  &.pending{
+                     background: #ECC311;
+                  }
+                  &.trash{
+                     background: #fc3c3c;
+                  }
+               }
+            }
+            #ulisting_my_listing{
+               .ulisting-user-listings{
+                  background: $white;
+                  padding: 10px 20px;
+                  margin-bottom: 20px;
+                  border: 1px solid rgba(0, 0, 0, 0.08);
+                  .form-check-inline{
+                     label{
+                        font-weight: 600;
+                        font-size: 14px;
+                        color: $black;
+                        input{
+                           position: relative;
+                           top: 2px;
+                        }
+                     }
+                  }
+               }
+               .ulisting-my-listing-sidebar{
+                  .my-listing-sidebar-wrap{
+                     padding: 10px 20px;
+                     border: 1px solid rgba(0, 0, 0, 0.08);
+                     margin-bottom: 20px;
+                     > li{
+                        display: inline-block;
+                        font-weight: 500;
+                        font-size: 14px;
+                        margin-right: 15px;
+                        color: $black;
+                        border: none;
+                        &:last-child{
+                           margin-right: 0;
+                        }
+                        &.is-active{
+                           color: $theme-color;
+                        }
+                     }
+                  }
+               }
+               .ulisting-account-my-listing-feature-plan{
+                  background: $white;
+                  margin-top: 20px;
+                  min-height: 100px;
+                  border-radius: 4px;
+               }
+            }
+         }
+      }
+   }
+}
+
+.ulisting-dashboard-page{
+   &.open-nav{
+      .dashboard-nav{
+         transform: translateX(0);
+         opacity: 1;
+      }
+   }
+}
+
+.table-my-listing{
+   border: none;
+   background: $white;
+   border-radius: 4px;
+   tr{
+      th{
+         border-top: 0;
+         border-bottom: 1px solid $border-color;
+      }
+      td{
+         padding: 20px 15px;
+         .listing-block{
+            box-shadow: none;
+            margin-bottom: 0;
+            .listing-block-content{
+               .listing-thumbnail{
+                  max-width: 200px;
+                  overflow: hidden;
+                  border-radius: 4px;
+                  .listing-category{
+                     display: none;
+                  }
+               }
+               .listing-content{
+                  flex: 0 0 calc(100% - 200px);
+                  width: calc(100% - 200px);
+                  max-width: 100%;
+                  padding: 0 0 0 25px;
+                  .content-inner{
+                     padding: 0;
+                     .listing-title{
+                        font-size: 18px;
+                     }
+                     .lt-location{
+                        display: none;
+                     }
+                     .listing-price{
+                        .ulisting-listing-price{
+                           font-size: 18px;
+                           padding: 0 0 5px;
+                        }
+                     }
+                  }
+                  .content-bottom{
+                     padding: 0;
+                     border: 0;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+#stm-listing-profile-edit{
+   .listing-profile-edit-content, .listing-profile-change-password{
+      padding: 30px;
+      background: $white;
+      border-radius: 4px;
+   }
+   .listing-profile-change-password{
+      margin-top: 30px;
+   }
+   .profile-avata{
+      .ulisting-form-gruop{
+         max-width: 200px;
+         position: relative;
+         text-align: center;
+         .input-file{
+            display: block;
+            max-width: 200px;
+            position: relative;
+            margin: 10px auto 0;
+            input{
+               top: 0;
+               left: 0;
+               @include size(100%, 100%);
+               z-index: 111;
+               background: none;
+               font-size: 12px;
+               font-weight: 600;
+               background: $theme-color;
+               color: $white;
+               border: none;
+               padding: 10px 10px 10px 30px;
+               opacity: 0;
+               &:hover{
+                  cursor: pointer;
+               }
+            }
+            .input-title{
+               background: $theme-color;
+               padding: 6px 10px;
+               margin: 0;
+               border-radius: 4px;
+               text-align: center;
+               color: $white;
+               position: absolute;
+               top: 0;
+               left: 0;
+               bottom: 0;
+               width: 100%;
+               font-size: 12px;
+               cursor: pointer;
+            }
+         }
+      }
+   }
+   .profile-information{
+      padding-top: 20px;
+   }
+   .profile-social{
+      padding-top: 20px;
+   }
+   .profile-title{
+      margin-bottom: 30px;
+      h3{
+         margin: 0;
+         font-size: 22px;
+      }
+      .des{
+         font-size: 14px;
+      }
+   }
+   .ulisting-form-gruop{
+      margin-bottom: 30px;
+      padding: 0;
+      label{
+         font-size: 14px;
+         font-weight: 600;
+         color: $black;
+      }
+      textarea{
+         background: #FAFAFA;
+         font-size: 14px;
+      }
+   }
+}
+
+.listing-agent-add-form{
+   background: $white;
+   padding: 30px;
+   margin-bottom: 35px;
+   .ulisting-form-gruop{
+      label{
+         font-weight: 600;
+         color: $black;
+         font-size: 14px;
+      }
+   }
+}
+
+.user_box-list{
+   .users_box{
+      background: $white;
+      margin-bottom: 30px;
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+      .user-box-content{
+         display: flex;
+         flex-wrap: wrap;
+         .user-image{
+            -webkit-box-flex: 0;
+            flex: 0 0 280px;
+            max-width: 280px;
+            @media(max-width: 800px){
+               flex: 0 0 100%;
+               max-width: 100%;
+            }
+         }
+         .users_box_info{
+            -webkit-box-flex: 0;
+            flex: 0 0 calc(100% - 280px);
+            max-width: calc(100% - 280px);
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            border-left: 0;
+            border-radius: 0 4px 4px 0;
+            @media(max-width: 800px){
+               flex: 0 0 100%;
+               max-width: 100%;
+            }
+            .content-inner{
+               padding: 30px 20px 20px 30px;
+            }
+            .user_title{
+               margin: 0 0 5px;
+            }
+            .user_address{
+               margin-bottom: 10px;
+            }
+            .user-meta-item{
+               margin-top: 5px;
+               .icon{
+                  font-size: 20px;
+                  margin-right: 6px;
+                  color: $theme-color;
+               }
+               a{
+                  color: $body-color;
+               }
+            }
+         }
+      }
+      .users-socials-box{
+         border-top: 1px solid $border-color;
+         margin-top: 20px;
+         padding-top: 30px;
+         a{
+            display: inline-block;
+            @include size(36px, 36px);
+            border-radius: 4px;
+            background: #EFF1F6;
+            line-height: 36px;
+            text-align: center;
+            margin-right: 10px;
+            color: $body-color;
+            &:last-child{
+               margin-right: 0;
+            }
+            &:hover{
+               background: $theme-color-second;
+               color: $white;
+            }
+         }
+      }
+   }
+}
+
+#user-plan-detail{
+   .stm-row{
+      margin-bottom: 15px;
+      label{
+         font-weight: 600;
+         color: $black;
+         margin-bottom: 0;
+      }
+   }
+}

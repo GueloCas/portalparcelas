@@ -1,0 +1,29 @@
+.text-with-arrow{
+   font-size: 40px;
+   color: $white;
+   text-align: center;
+   padding-top: 115px;
+   line-height: 40px;
+   @include media-breakpoint-down(md){
+      padding-top: 68px;
+      font-size: 35px;
+   }
+   span{
+      display: inline-block;
+      position: relative;
+      &:after{
+         content: '';
+         @include size(64px, 110px);
+         position: absolute;
+         bottom: 90%;
+         left: -85px;
+         background: url('#{$image-theme-path-base}line-arrow.png') no-repeat center center transparent;
+         background-size: contain;
+         @include media-breakpoint-down(md){
+            bottom: calc(100% + 6px);
+            height: 68px;
+            left: -25px;
+         }
+      }
+   }
+}

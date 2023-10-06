@@ -1,0 +1,102 @@
+.gsc-countdown{
+  background: $theme-color;;
+  .content-inner{
+    display: table;
+    width: 100%;
+    @include media-breakpoint-down(md){
+        display: block;
+        @include clearfix();
+      }
+    .title{
+      display: table-cell;
+      width: 50%;
+      vertical-align: middle;
+      color: $white;
+      font-size: 30px;
+      @include media-breakpoint-down(md){
+        display: block;
+        width: 100%;
+      }
+    }
+    .gva-countdown-inner{
+      display: table-cell;
+      vertical-align: middle;
+      @include clearfix();
+      @include media-breakpoint-down(md){
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+  }
+  .gva-countdown-inner{
+    display: inline-block;
+    float: right;
+    .countdown-times{
+      display: block;
+      > div{
+        display: inline-block;
+        float: left;
+        padding: 25px 10px;
+        line-height: 1;
+        
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-right: 10px;
+        margin-bottom: 15px;
+        min-width: 110px;
+        @include media-breakpoint-down(lg){
+          min-width: 70px;
+          padding: 20px 10px;
+        }
+        @include media-breakpoint-down(md){
+          min-width: 90px;
+          padding: 20px 10px;
+        }
+        @media(max-width: 550px){
+          width: 45%;
+          margin-right: 5%;
+        } 
+        &:last-child{
+          margin-right: 0;
+        }
+        b{
+          display: block;
+          font-size: 26px;
+          color: $white;
+          
+          font-weight: 400;
+          padding: 0;
+          display: inline-block;
+          @include media-breakpoint-down(lg){
+            font-size: 22px;
+          }
+          @include media-breakpoint-down(md){
+            font-size: 20px;
+          }
+        }
+        .label{
+          font-size: 14px;
+          display: block;
+          color: $white;
+          padding: 5px 0 0;
+        }
+      }
+    }
+  } 
+  &.align-left{
+    .gva-countdown-inner{
+      float: left;
+    }
+  }
+  &.align-center{
+    .gva-countdown-inner{
+      float: none;
+    }
+  }
+  &.align-right{
+    .gva-countdown-inner{
+      float: right;
+    }
+  }
+}

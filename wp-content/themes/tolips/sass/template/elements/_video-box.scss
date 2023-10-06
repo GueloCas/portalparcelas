@@ -1,0 +1,111 @@
+.gsc-video-box{
+  	position: relative;
+  	&.style-1{
+	 	.video-inner{
+			min-height: 120px;
+			min-width: 120px;
+			text-align: center;
+			@include media-breakpoint-down(lg){
+			  	min-height: 100px;
+			  	min-width: 100px;
+			}
+			@include media-breakpoint-down(md){
+			  	min-height: 90px;
+			  	min-width: 90px;
+			}
+			@include media-breakpoint-down(sm){
+			  	min-height: 60px;
+			  	min-width: 60px;
+			}
+			.video-image{
+				border-radius: 4px;
+				overflow: hidden;
+			}
+			.video-content{
+	  			position: absolute;
+				top: 50%;
+				left: 0;
+				margin-top: -42px;
+				z-index: 11;
+				text-align: center;
+				width: 100%;
+				> div{
+					display: inline-block;
+				}
+				.title{
+					font-size: 25px;
+					color: $white;
+					font-weight: 500;
+					@media(max-width: 600px){
+						display: none; 
+					}
+				}
+			  	.video-action{
+			  		margin: 0 30px;
+				 	.popup-video{
+						display: inline-block;
+						font-size: 24px;
+						color: $theme-color;
+						background: $white;   
+						text-align: center;
+						position: relative;
+						@include transition(all 0.35s);
+						@include size(84px, 84px);
+						border-radius: 50%;
+						line-height: 84px;
+						&::before{
+						  	position: absolute;
+						  	content: '';
+						  	left: 0;
+						  	top: 0;
+						  	height: 100%;
+						  	width: 100%;
+						  	border: 1px solid #fff;
+						  	opacity: 0;
+						  	border-radius: 50%;
+						  	@include animation(pulse-border-2 1.5s linear infinite);
+						}
+						&::after{
+						  	position: absolute;
+						  	content: '';
+						  	left: 0;
+						  	top: 0;
+						  	height: 100%;
+						  	width: 100%;
+						  	border: 1px solid #fff;
+						  	opacity: 0;
+						  	border-radius: 50%;
+						  	@include animation(pulse-border 1s linear infinite);
+						}
+				 	}
+			  	}
+			}
+			&:hover{
+			  	.video-action{
+				 	.popup-video{
+						box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+						@include scale(0.8);
+				 	}
+			  	}
+			}
+		}
+ 	}
+  	&.style-2{
+		.video-inner{
+		  .video-image{
+			 	float: left;
+			 	position: relative;
+			 	width: 100%;
+			 	.video-action{
+					position: absolute;
+					top: 50%;
+					left: 0;
+					width: 100%;
+					z-index: 11;
+					margin-top: -23px;
+					text-align: center;
+			 	}
+		  	}
+		}
+  	}
+}

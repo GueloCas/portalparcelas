@@ -1,0 +1,118 @@
+.logged-in.admin-bar{
+  	.mini-cart-header .dropdown .minicart-content{
+	 	padding-top: 45px;
+  	}
+  	@include media-breakpoint-down(md){
+		.gva-offcanvas-content.mobile{
+			padding-top: 30px;
+	 	}
+  	}
+}
+
+.modal-ajax-user-form{
+	.close{
+		@include size(28px, 28px);
+		background: $theme-color;
+		color: $white;
+		border-radius: 4px;
+		position: absolute;
+		top: -14px;
+		right: -14px;
+		top: 11;
+		opacity: 1;
+		font-weight: 100;
+		transition: all 0.35s;
+		color: 14px;
+		&:hover{
+			@include scale(0.9);
+		}
+	}
+	.ajax-user-form{
+		padding: 20px 45px;
+		.form-status{
+			font-size: 14px;
+			line-height: 24px;
+			a{
+				display: none!important;
+			}
+		}
+		.title{
+			text-align: center;
+			font-size: 22px;
+			margin: 0 0 20px;
+			padding: 0 0 10px;
+			font-weight: 600;
+			position: relative;
+			&:after{
+				content: '';
+				@include size(50px, 2px);
+				background: $theme-color;
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				margin-left: -25px;
+				z-index: 1;
+			}
+		}
+		form{
+			.form-group{
+			 	margin-bottom: 20px;
+				label{
+					color: $black;
+					font-weight: 600;
+				}
+			}
+		}
+		.lost-password, .user-registration{
+			text-align: center;
+			a{
+				color: $theme-color;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+		.user-registration{
+			margin-top: 10px;
+		}
+	}
+	.ajax-form-content{
+		&.ajax-preload{
+			.form-action{
+				position: relative;
+				&:after{
+					content: '';
+					@include size(100%, 100%);
+					position: absolute;
+					top: 0;
+					left: 0;
+					z-index: 11;
+					border: 1px solid $theme-color;
+					background: url('#{$image-theme-path-base}/preloader-2.gif') no-repeat center center rgba(255, 255, 255, 0.92);
+				}
+			}
+		}
+	}
+}
+
+.user-wishlist{ 
+	font-size: 13px;
+	font-weight: 500;
+	.wishlist-icon{
+		margin-right: 2px;
+		transition: all 0.35s;
+	}
+	.wishlist-link{
+		color: $body-color;
+		&:hover{
+			.wishlist-icon{
+				i{
+					color: $theme-color;
+				}
+				svg{
+					fill: $theme-color;
+				}
+			}
+		}
+	}
+} 

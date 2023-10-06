@@ -1,0 +1,284 @@
+.ulisting-attribute-template{
+   font-size: 16px;
+   &.type-2{
+      font-weight: 500;
+      margin-bottom: 8px;
+   }
+   &.type-3{
+      padding-left: 52px;
+      position: relative;
+      margin-bottom: 15px;
+      @media(max-width: 992px){
+         padding-left: 45px;
+      }
+      .attribute-icon{
+         position: absolute;
+         top: 0;
+         left: 0;
+         @include size(52px, 52px);
+         border: 1px solid $border-color;
+         line-height: 52px;
+         font-size: 24px;
+         display: inline-block;;
+         border-radius: 50%;
+         text-align: center;
+         color: $theme-color-second;
+         @media(max-width: 992px){
+            @include size(45px, 45px); 
+            line-height: 45px;
+            font-size: 20px;
+         }
+         img{
+            max-width: 24px;
+         }
+      }
+      .attribute-right{
+         padding-left: 10px;
+         padding-top: 4px;
+         font-size: 15px;
+         font-weight: 500;
+         display: inline-block;
+         line-height: 22px;
+         @media(max-width: 992px){
+            font-size: 14px;
+         }
+         span{
+            display: block;
+            &.attribute-value{
+               color: $black;
+            }
+         }
+      }
+   }
+   &.type-4{
+      .ulisting-heading{
+         font-size: 24px;
+      }
+      .attributes-list{
+         padding: 0;
+         display: flex;
+         margin: 0 -15px;
+         flex-wrap: wrap;
+         li{
+            padding: 0 15px 10px;
+            font-weight: 500;
+            -webkit-box-flex: 0;
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            @media(max-width: 860px){
+               flex: 0 0 50%;
+               max-width: 50%;
+            }
+            @media(max-width: 520px){
+               flex: 0 0 100%;
+               max-width: 100%;
+            }
+            .ulisting-attribute-template-icon{
+               font-size: 20px;
+               color: $theme-color-second;
+               i{
+                  display: inline-block;
+                  margin-right: 9px;
+               }
+            }
+         }
+      }
+   }
+}
+
+.ulisting-attribute-box{
+   display: block;
+}
+
+.ulisting-element-address{
+   .icon{
+      font-size: 18px;
+      color: $theme-color;
+      margin-right: 5px;
+   }
+}
+
+.ulisting-col-border-right{
+   position: relative;
+   @media(max-width: 767.2px){
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+   }
+   &:after{
+      content: '';
+      background: $border-color;
+      position: absolute;
+      top: 10px;
+      bottom: 5px;
+      right: 0;
+      width: 1px;
+      z-index: 1;
+      @media(max-width: 767.2px){
+         left: 15px;
+         right: 15px;
+         bottom: 0;
+         top: auto;
+         width: auto;
+         height: 1px;
+      }
+   }
+}
+
+.listing-divider{
+   height: 1px;
+   width: 100%;
+   background: $border-color;
+   margin: 30px 0;
+}
+
+
+.listing-el-accordion{
+   .card{
+      border: none;
+      margin-bottom: 20px;
+      &:last-child{
+         margin-bottom: 0;
+      }
+      .card-header{
+         padding: 0;
+         border: none;
+         .btn-link{
+            display: block;
+            @include clearfix();
+            border: 1px solid $theme-color-second;
+            padding: 20px 30px;
+            border-radius: 4px;
+            background: $theme-color-second;
+            .header-title{
+               float: left;
+               font-size: 18px;
+               color: $white;
+               font-weight: 600;
+            }
+            .options{
+               float: right;
+               text-align: right;
+               font-size: 14px;
+               .option-item{
+                  margin-right: 6px;
+                  color: $white;
+                  .text-value{
+                     color: $white;
+                  }
+                  &:last-child{
+                     margin-right: 0;
+                  }
+               }
+            }
+            &.collapsed{
+               background: $white; 
+               border-color: $border-color;
+               .header-title{
+                  color: $black;
+               }
+               .options{
+                  .option-item{
+                     color: $body-color;
+                     .text-value{
+                        color: $black;
+                     }
+                  }
+               }
+            }
+         }
+      }
+      .accordion-item-content{
+         .card-body{
+            border: none;
+            padding: 35px 0 20px;
+         }
+      }
+   }  
+}
+
+#app_mortgage_calc{
+   padding: 30px;
+   background: #EFF1F6;
+   border-radius: 4px;
+   .title{
+      font-size: 22px;
+      margin: 0 0 20px;
+   }
+   .title-2{
+      font-size: 20px;
+      margin-top: 30px;
+   }
+   .form-mortgage_calc-content{
+      .form-group{
+         label{
+            color: $black;
+            font-weight: 600;
+            font-size: 15px;
+         }
+         input, select{
+            background: $white;
+            border: none;
+         }
+      }
+      .calc-results{
+         font-size: 15px;
+         .item{
+            @include clearfix();
+            span{
+               float: right;
+            }
+         }
+      }
+      .graph{
+         rect{
+            fill: $theme-color-second;
+         }
+      }
+   }
+
+   .hover{
+      font-size: 15px;
+      .label{
+         color: $black;
+         font-weight: 600;
+         line-height: 20px;
+      }
+      .note{
+         font-size: 12px;
+         line-height: 14px;
+         color: $black;
+         margin-top: 15px;
+      }
+   }
+}
+
+.ulisting-el-heading{
+   font-size: 24px;
+   position: relative;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 0;
+   &:before{
+      content: '';
+      @include size(50px, 2px);
+      background: $theme-color;
+      position: absolute;
+      left: 0;
+      bottom: 5px;
+      z-index: 1;
+   }
+}
+
+@media(max-width: 576px){
+   .d-xx-inline{
+      > div{
+         display: inline-block;
+      }
+   }
+}

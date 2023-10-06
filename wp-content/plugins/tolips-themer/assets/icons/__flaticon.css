@@ -1,0 +1,11 @@
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+[class^="flaticon-"], [class*=" flaticon-"]{
+  line-height: 1;
+  display: inline-block;
+}
+.elementor-icons-manager__tab__item__icon.fi{font-size: 40px;}

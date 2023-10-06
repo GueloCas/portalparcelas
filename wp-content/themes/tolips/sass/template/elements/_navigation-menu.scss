@@ -1,0 +1,15 @@
+.gva-navigation-menu{
+   &.menu-align-center{
+      text-align: center;
+      .gva-nav-menu{
+         display: inline-block;
+         float: none;
+         margin-bottom: -10px;
+      }
+   }
+   &.menu-align-right{
+      .gva-nav-menu{
+         float: right;
+      }
+   }
+}

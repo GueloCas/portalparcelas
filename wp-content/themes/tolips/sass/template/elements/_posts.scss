@@ -1,0 +1,122 @@
+.gva-posts-grid{
+   .posts-grid-filter{
+     margin-bottom: 15px;
+     width: 100%;
+     float: left;
+     ul.nav-tabs{
+       display: inline-block;
+       text-align: left;
+       float: left;
+       padding-top: 15px;
+       > li{
+         > a{
+           background: none;
+           font-weight: 500;
+           color: $black;
+           @include transition(all 0.35s);
+           text-transform: uppercase;
+           padding: 0 10px;
+           &.active{
+             color: $theme-color;
+           }
+         }
+       }
+     }
+     .view-all{
+       float: right;
+     }
+   }
+   .gva-content-items{
+     float: left;
+     width: 100%;
+   }
+}
+.gva-posts-grid{
+  .post{
+    margin-bottom: 30px;
+    .read-more{
+      display: block!important;
+      visible: visibility!important;
+    }
+  }
+}
+
+.gva-posts-carousel{
+  .post{
+    background: $white;
+  }
+}
+
+.gva-posts-ziczac{
+  .gva-content-items{
+    .posts-row{
+      .post-ziczac{
+        float: left;
+        width: 50%;
+        position: relative;
+        margin-bottom: 0;
+        box-shadow: none;
+        @include media-breakpoint-down(md){  
+          width: 100%;
+          margin-bottom: 30px;
+        }
+        @media(max-width: 500px){
+          padding-top: 280px;
+        }
+        .post-thumbnail{
+          width: 50%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 11;
+          background-size: cover;
+          background-position: center center;
+          @media(max-width: 500px){
+            width: 100%;
+            top: 0;
+            height: 280px;
+          }
+        }
+        .entry-content{
+          width: 50%;
+          float: right;
+          border: none;
+          background: #EFF1F6;
+          @include media-breakpoint-down(lg){
+            padding: 30px 20px 0;
+          }
+          @media(max-width: 500px){
+            width: 100%;
+          }
+          .content-inner{
+            max-width: 210px;
+            margin: 0 auto;
+            @include media-breakpoint-down(md){
+              max-width: 100%;
+            }
+            .entry-title{
+              font-size: 24px;
+              line-height: 36px;   
+              @include media-breakpoint-down(lg){
+                font-size: 22px;
+                line-height: 34px;
+              }
+            }
+          }
+        }
+      }
+      &:nth-child(even){
+        .post-ziczac{
+          .post-thumbnail{
+            left: auto;
+            right: 0;
+          }
+          .entry-content{
+            float: left;
+          }
+        }
+      }
+    }
+  }
+}

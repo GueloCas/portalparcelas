@@ -1,0 +1,160 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 16/12/2020 09:10
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-health:before { content: "\f100"; }
+.flaticon-cutlery:before { content: "\f101"; }
+.flaticon-cocktail:before { content: "\f102"; }
+.flaticon-skincare:before { content: "\f103"; }
+.flaticon-shop:before { content: "\f104"; }
+.flaticon-car:before { content: "\f105"; }
+.flaticon-selection:before { content: "\f106"; }
+.flaticon-delete:before { content: "\f107"; }
+.flaticon-exploration:before { content: "\f108"; }
+.flaticon-calling:before { content: "\f109"; }
+.flaticon-magnifying-glass:before { content: "\f10a"; }
+.flaticon-heart:before { content: "\f10b"; }
+.flaticon-directory:before { content: "\f10c"; }
+.flaticon-clipboard:before { content: "\f10d"; }
+.flaticon-discount:before { content: "\f10e"; }
+.flaticon-scissors:before { content: "\f10f"; }
+.flaticon-quote:before { content: "\f110"; }
+.flaticon-focus:before { content: "\f111"; }
+.flaticon-left-arrow:before { content: "\f112"; }
+.flaticon-right-arrow-1:before { content: "\f113"; }
+.flaticon-wifi:before { content: "\f114"; }
+.flaticon-check:before { content: "\f115"; }
+.flaticon-comment:before { content: "\f116"; }
+.flaticon-star-1:before { content: "\f117"; }
+.flaticon-star:before { content: "\f118"; }
+.flaticon-star-2:before { content: "\f119"; }
+.flaticon-email:before { content: "\f11a"; }
+.flaticon-phone:before { content: "\f11b"; }
+.flaticon-plus:before { content: "\f11c"; }
+.flaticon-phone-call:before { content: "\f11d"; }
+.flaticon-message:before { content: "\f11e"; }
+.flaticon-shopping-cart:before { content: "\f11f"; }
+.flaticon-building:before { content: "\f120"; }
+.flaticon-town:before { content: "\f121"; }
+.flaticon-assets:before { content: "\f122"; }
+.flaticon-rent:before { content: "\f123"; }
+.flaticon-bed:before { content: "\f124"; }
+.flaticon-shower-1:before { content: "\f125"; }
+.flaticon-square-measument:before { content: "\f126"; }
+.flaticon-home:before { content: "\f127"; }
+.flaticon-nature:before { content: "\f128"; }
+.flaticon-armchair:before { content: "\f129"; }
+.flaticon-condominium:before { content: "\f12a"; }
+.flaticon-bungalow:before { content: "\f12b"; }
+.flaticon-modern-house:before { content: "\f12c"; }
+.flaticon-buildings:before { content: "\f12d"; }
+.flaticon-confirmation:before { content: "\f12e"; }
+.flaticon-home-1:before { content: "\f12f"; }
+.flaticon-cityscape:before { content: "\f130"; }
+.flaticon-agent:before { content: "\f131"; }
+.flaticon-checked:before { content: "\f132"; }
+.flaticon-extractor-hood:before { content: "\f133"; }
+.flaticon-fireplace:before { content: "\f134"; }
+.flaticon-window:before { content: "\f135"; }
+.flaticon-pet-house:before { content: "\f136"; }
+.flaticon-desk:before { content: "\f137"; }
+.flaticon-tiles:before { content: "\f138"; }
+.flaticon-staircase:before { content: "\f139"; }
+.flaticon-bath:before { content: "\f13a"; }
+.flaticon-shower:before { content: "\f13b"; }
+    
+    $font-Flaticon-health: "\f100";
+    $font-Flaticon-cutlery: "\f101";
+    $font-Flaticon-cocktail: "\f102";
+    $font-Flaticon-skincare: "\f103";
+    $font-Flaticon-shop: "\f104";
+    $font-Flaticon-car: "\f105";
+    $font-Flaticon-selection: "\f106";
+    $font-Flaticon-delete: "\f107";
+    $font-Flaticon-exploration: "\f108";
+    $font-Flaticon-calling: "\f109";
+    $font-Flaticon-magnifying-glass: "\f10a";
+    $font-Flaticon-heart: "\f10b";
+    $font-Flaticon-directory: "\f10c";
+    $font-Flaticon-clipboard: "\f10d";
+    $font-Flaticon-discount: "\f10e";
+    $font-Flaticon-scissors: "\f10f";
+    $font-Flaticon-quote: "\f110";
+    $font-Flaticon-focus: "\f111";
+    $font-Flaticon-left-arrow: "\f112";
+    $font-Flaticon-right-arrow-1: "\f113";
+    $font-Flaticon-wifi: "\f114";
+    $font-Flaticon-check: "\f115";
+    $font-Flaticon-comment: "\f116";
+    $font-Flaticon-star-1: "\f117";
+    $font-Flaticon-star: "\f118";
+    $font-Flaticon-star-2: "\f119";
+    $font-Flaticon-email: "\f11a";
+    $font-Flaticon-phone: "\f11b";
+    $font-Flaticon-plus: "\f11c";
+    $font-Flaticon-phone-call: "\f11d";
+    $font-Flaticon-message: "\f11e";
+    $font-Flaticon-shopping-cart: "\f11f";
+    $font-Flaticon-building: "\f120";
+    $font-Flaticon-town: "\f121";
+    $font-Flaticon-assets: "\f122";
+    $font-Flaticon-rent: "\f123";
+    $font-Flaticon-bed: "\f124";
+    $font-Flaticon-shower-1: "\f125";
+    $font-Flaticon-square-measument: "\f126";
+    $font-Flaticon-home: "\f127";
+    $font-Flaticon-nature: "\f128";
+    $font-Flaticon-armchair: "\f129";
+    $font-Flaticon-condominium: "\f12a";
+    $font-Flaticon-bungalow: "\f12b";
+    $font-Flaticon-modern-house: "\f12c";
+    $font-Flaticon-buildings: "\f12d";
+    $font-Flaticon-confirmation: "\f12e";
+    $font-Flaticon-home-1: "\f12f";
+    $font-Flaticon-cityscape: "\f130";
+    $font-Flaticon-agent: "\f131";
+    $font-Flaticon-checked: "\f132";
+    $font-Flaticon-extractor-hood: "\f133";
+    $font-Flaticon-fireplace: "\f134";
+    $font-Flaticon-window: "\f135";
+    $font-Flaticon-pet-house: "\f136";
+    $font-Flaticon-desk: "\f137";
+    $font-Flaticon-tiles: "\f138";
+    $font-Flaticon-staircase: "\f139";
+    $font-Flaticon-bath: "\f13a";
+    $font-Flaticon-shower: "\f13b";

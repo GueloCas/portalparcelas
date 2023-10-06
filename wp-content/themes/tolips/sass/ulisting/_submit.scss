@@ -1,0 +1,144 @@
+.ulisting-add-listing-form{
+   .listing-steps-form{
+      background: $white;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      padding: 20px 30px;  
+      margin-bottom: 30px;
+      border-radius: 6px;
+      .step-item{ 
+         font-weight: 600;
+         font-size: 16px;
+         margin-right: 15px;
+         padding-right: 15px;
+         position: relative;
+         color: $body-color;
+         &:after{
+            content: '\f105';
+            font-family: 'Line Awesome Free';
+            position: absolute;
+            right: -6px;
+            top: -4px;
+            font-size: 20px;
+            z-index: 11;
+         }
+         &:last-child{
+            margin-right: 0;
+            padding-right: 0;
+            &:after{
+               display: none;
+            }
+         }
+         &.active{
+            color: $theme-color;
+         }
+      }
+   }
+   .card-listing-type{
+      background: $white;
+      margin-bottom: 30px;
+      text-align: center;
+      padding: 15px 20px;
+      min-height: 135px;
+      position: relative;
+      transition: all 0.35s;
+      border-radius: 4px;
+      .card-body{
+         padding: 0;
+         position: absolute;
+         left: 0;
+         top: 50%;
+         transform: translateY(-50%); 
+         width: 100%;
+         text-align: center;
+         .card-title{
+            font-size: 18px;
+            font-weight: 600;
+            color: $black;
+            display: block;
+            margin: 0;
+         }
+      }
+      .card-link{
+         position: absolute;
+         top: 0;
+         left: 0;
+         @include size(100%, 100%);
+         z-index: 111;
+         display: block;
+      }
+      &:hover{
+         background: $theme-color;
+         .card-body{
+            .card-title{
+               color: $white;
+            }
+         }
+      }
+   }
+   #stm-listing-form-listing{
+      .form-listing-item{
+         background: $white;
+         margin-bottom: 30px;
+         padding: 30px;
+         border-radius: 4px;
+         .card-plan{
+            position: relative;
+            border-radius: 4px;
+            .card-body{
+               padding: 40px 30px;
+               .card-title{
+                  margin: 0 0 5px;
+               }
+               .card-text{
+                  font-size: 14px;
+                  margin: 0;
+               }
+               .badge{
+                  position: absolute;
+                  right: -1px;
+                  top: -1px;
+                  z-index: 1;
+                  background: $theme-color-second;
+                  color: $white;
+                  padding: 5px 8px;
+                  border-radius: 0 4px 0 0;
+               }
+               .btn-select-plan{
+                  position: absolute;
+                  @include size(100%, 100%);
+                  top: 0;
+                  left: 0;
+                  z-index: 11;
+               }
+            }
+         }
+         .ulisting-form-gruop{
+            margin-bottom: 30px;
+            padding: 0;
+            label{
+               font-weight: 600;
+               color: $black;
+               font-size: 14px;
+            }
+         }
+      }
+      @media(max-width: 992px){
+         .stm-col{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+         }
+      }
+      .listing-accordion{
+         .card{
+            margin-bottom: 20px;
+            border-radius: 4px;
+            .card-header{
+               input[type*="text"]{
+                  width: 100%;
+               }
+            }
+         }
+      }
+   }
+}

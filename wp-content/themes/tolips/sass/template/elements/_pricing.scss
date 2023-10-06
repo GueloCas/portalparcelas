@@ -1,0 +1,155 @@
+.gsc-pricing{
+  &.style-1{
+    background: $white;
+    padding: 80px 30px 60px;
+    position: relative;
+    border: 1px solid $border-color;
+    @include media-breakpoint-down(md){
+      padding: 60px 20px 40px;
+    }
+    .content-inner{
+      max-width: 260px;
+      margin: 0 auto;
+      .title{
+        color: $black;
+        font-size: 20px;
+        text-align: center;
+      }
+      .plan-price{
+        padding-bottom: 20px;
+        text-align: center;
+        .price-value{
+          font-size: 44px;
+          color: $theme-color;
+          line-height: 1;
+          margin-bottom: 10px;
+          letter-spacing: -0.8px;
+          font-weight: 400;
+          @include media-breakpoint-down(md){
+            font-size: 30px;
+          }
+        }
+        .interval{ 
+          font-size: 16px;
+          color: $theme-color;
+        }
+      }
+      .plan-list{
+        padding: 0;
+        list-style-type: none;
+        border-top: 1px solid $border-color;
+        padding: 20px 0;
+        li{
+          position: relative;
+          padding: 5px 20px 5px 0;
+          .icon{
+            color: $theme-color;
+            float: right;
+            position: absolute;
+            top: 12px;
+            right: 0;
+            z-index: 1;
+            font-size: 15px;
+            line-height: 1;
+          }
+        }
+      }
+      .pricing-action{
+        margin-top: 15px;
+      }
+    }
+    &:hover{
+      box-shadow: 0px 20px 20px 0px rgba(63, 56, 54, 0.04);
+    }
+  }
+  &.style-2{
+    background: $white;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    @media(max-width: 400px){
+      margin-top: 0;
+    }
+    .content-inner{
+      margin: 0 auto;
+      .price-left{
+        width: 45%;
+        float: left;
+        padding: 0 20px 20px;
+        .content-inner{
+          margin-top: -20px;
+        }
+        @media(max-width: 400px){
+          width: 100%;
+          padding: 0;
+          .content-inner{
+            margin-top: 0;
+          }
+        }
+      }
+      .price-right{
+        width: 55%;
+        float: left;
+        padding: 35px 35px 30px 20px;
+        @include media-breakpoint-down(md){
+          padding: 35px 20px 30px 0;
+        }
+        @media(max-width: 400px){
+          width: 100%;
+          padding: 30px;
+        }
+      }
+      .title{
+        color: $black;
+        font-size: 24px;
+        margin-bottom: 10px;
+        @include media-breakpoint-down(md){
+          font-size: 20px;
+        }
+      }
+      .desc{
+        margin-bottom: 25px; 
+        @include media-breakpoint-down(md){
+          margin-bottom: 15px;
+        }
+      }
+      .price-meta{
+        @include clearfix();
+        margin-bottom: 20px;
+        .sub-title{
+          width: 45%;
+          float: left;
+          font-size: 14px;
+          line-height: 22px;
+          color: $black;
+          font-weight: 600;
+        }
+        .plan-price{
+          width: 55%;
+          float: left;
+          text-align: right;
+          .price-value{
+            font-size: 24px;
+            color: $theme-color;
+            line-height: 1;
+            margin-bottom: 10px;
+            letter-spacing: -0.8px;
+            font-weight: 400;
+            @include media-breakpoint-down(md){
+              font-size: 18px;
+            }
+          }
+          .interval{ 
+            color: $theme-color;
+          }
+        }
+      }  
+      .pricing-action{
+        margin-top: 15px;
+      }
+    }
+    &:hover{
+      box-shadow: 0px 20px 20px 0px rgba(63, 56, 54, 0.04);
+    }
+  }
+} 

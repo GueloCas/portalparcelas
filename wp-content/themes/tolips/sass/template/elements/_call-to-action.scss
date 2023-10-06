@@ -1,0 +1,84 @@
+.gsc-call-to-action{
+  .sub-title{
+    font-size: 18px;
+    color: $theme-color-second;
+    font-weight: 600;
+  }
+  .title{
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 800;
+    margin: 0;
+    @include media-breakpoint-down(lg){
+      font-size: 32px;
+    }
+    @include media-breakpoint-down(md){
+      font-size: 28px;
+    }
+    @include media-breakpoint-down(sm){
+      font-size: 26px;
+    }
+  }
+  &.button-right{ 
+    position: relative;
+    .content-inner{
+      .cta-content{
+        padding-right: 220px;
+        float: left;
+        width: 100%;
+        @include media-breakpoint-down(sm){
+          padding-right: 0;
+          width: 100%;
+        }
+      }
+      .button-action{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -30px;
+        z-index: 1;
+        @include media-breakpoint-down(sm){
+          position: relative;
+          margin-top: 20px;
+          float: left;
+        }
+      }
+    }
+  }
+  &.button-left{
+      position: relative;
+      text-align: right;
+      .cta-content{
+        padding-left: 220px;
+        width: 100%;
+      }
+      .button-action{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -30px;
+        z-index: 1;
+        @include media-breakpoint-down(sm){
+          position: relative;
+          margin-top: 20px;
+          float: left;
+        }
+      }
+   }
+   &.button-bottom{
+      padding: 15px 0;
+      .button-action{
+         margin-top: 30px;
+      }
+   }
+   &.button-center{
+      text-align: center;
+      margin: 0 auto;
+      .content-inner .cta-content{
+        margin: 0 auto;
+      }
+      .button-action{
+         margin-top: 30px;
+      }
+   }
+} 

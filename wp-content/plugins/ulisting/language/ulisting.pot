@@ -1,0 +1,2894 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Listing, Classified Ads & Business Directory – uListing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-05 06:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.1"
+
+#: includes/lib/email-manager/templates/single.php:41
+msgid ""
+" User enables it to get a brief notification message about the current "
+"status."
+msgstr ""
+
+#: includes/init.php:65
+msgid "&larr; Back to Regions"
+msgstr ""
+
+#: templates/add-listing/field/accordion.php:56
+msgid "+ Add"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:160
+msgid "1 year"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:95
+msgid "Accordion"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:618
+msgid "Account"
+msgstr ""
+
+#: includes/lib/email-manager/templates/components/account-link.php:5
+msgid "account"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:628
+msgid "Account Endpoints"
+msgstr ""
+
+#: templates/account/saved-searches.php:23
+#: templates/saved-searches/saved-searches.php:21
+msgid "Action"
+msgstr ""
+
+#: includes/admin/classes/UlistingSearchListTable.php:120
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:119
+msgid "Actions"
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:35
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:510
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:179
+msgid "Active"
+msgstr ""
+
+#: templates/comment/comment.php:18
+msgid "Add a review"
+msgstr ""
+
+#: templates/account/my-agents/add.php:76
+msgid "Add Agent"
+msgstr ""
+
+#: templates/account/my-card.php:49
+msgid "Add Card"
+msgstr ""
+
+#: templates/account/my-listing.php:255 templates/account/profile.php:20
+#: templates/add-listing/add.php:21
+msgid "Add listing"
+msgstr ""
+
+#: includes/init.php:141 includes/init.php:177
+msgid "Add New"
+msgstr ""
+
+#: includes/init.php:101
+msgid "Add New Category"
+msgstr ""
+
+#: includes/admin/views/listing-attribute/index.php:9
+msgid "Add New Custom Field"
+msgstr ""
+
+#: includes/init.php:142 includes/init.php:178
+msgid "Add New List"
+msgstr ""
+
+#: includes/init.php:120
+msgid "Add New listing custom field options"
+msgstr ""
+
+#: includes/lib/pricing-plan/init.php:27 includes/lib/pricing-plan/init.php:28
+msgid "Add New Plan"
+msgstr ""
+
+#: includes/init.php:60 includes/init.php:62
+msgid "Add New Region"
+msgstr ""
+
+#: templates/add-listing/field/accordion.php:50
+msgid "Add option"
+msgstr ""
+
+#: includes/admin/views/listing-region/edit_fields.php:113
+#: includes/admin/views/listing-region/add_fields.php:31
+msgid "Add polygon"
+msgstr ""
+
+#: includes/classes/UlistingSearch.php:416
+msgid "Added to saved searches"
+msgstr ""
+
+#: templates/add-listing/form.php:185 templates/add-listing/form.php:254
+msgid "Admin does not need to select a plan"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1696
+msgid "Afghan afghani"
+msgstr ""
+
+#: templates/author.php:143
+msgid "Agents"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1697
+msgid "Albanian lek"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1736
+msgid "Algerian dinar"
+msgstr ""
+
+#: templates/account/my-listing.php:72
+msgid "All"
+msgstr ""
+
+#: templates/account/payment-history.php:33
+#: includes/lib/pricing-plan/views/admin/user_plan/payment-history.php:18
+msgid "Amount"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1700
+msgid "Angolan kwanza"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:119
+msgid "Annual"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:161
+msgid "Apply"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1701
+msgid "Argentine peso"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1698
+msgid "Armenian dram"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1703
+msgid "Aruban florin"
+msgstr ""
+
+#: includes/admin/classes/StmListingAttributeList.php:14
+msgid "Attribute"
+msgstr ""
+
+#: includes/admin/classes/StmListingAttributeList.php:15
+msgid "Attributes"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1702
+msgid "Australian dollar"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:290
+#: includes/lib/paypal/includes/classes/PayPal.php:220
+msgid "Australian dollar AUD"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:170
+#, php-format
+msgid "Available in uListing - %1$s"
+msgstr ""
+
+#: templates/account/edit-profile.php:33
+msgid "Avatar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1704
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1715
+msgid "Bahamian dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1709
+msgid "Bahraini dinar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1707
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:109
+msgid "Banner Image"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1706
+msgid "Barbadian dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1720
+msgid "Belarusian ruble"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1719
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1721
+msgid "Belize dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1711
+msgid "Bermudian dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1717
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1716
+msgid "Bitcoin"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1713
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1705
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1718
+msgid "Botswana pula"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1714
+msgid "Brazilian real"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:291
+#: includes/lib/paypal/includes/classes/PayPal.php:221
+msgid "Brazilian real BRL"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1712
+msgid "Brunei dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1708
+msgid "Bulgarian lev"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1788
+msgid "Burmese kyat"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1710
+msgid "Burundian franc"
+msgstr ""
+
+#: templates/pricing-plan/list.php:29 templates/pricing-plan/list.php:53
+msgid "Buy Package"
+msgstr ""
+
+#: templates/account/profile.php:23 templates/add-listing/form.php:181
+#: templates/add-listing/form.php:250 templates/account/my-plans/list.php:89
+msgid "Buy plan"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1771
+msgid "Cambodian riel"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1722
+msgid "Canadian dollar"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:292
+#: includes/lib/paypal/includes/classes/PayPal.php:222
+msgid "Canadian dollar CAD"
+msgstr ""
+
+#: templates/account/my-listing.php:163
+#: templates/account/my-plans/detail.php:78
+msgid "Cancel"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:181
+msgid "Canceled"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:280
+msgid "Cannot create User Plan."
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:335
+msgid "Cannot save plan"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1731
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPayment.php:98
+msgid "Card"
+msgstr ""
+
+#: includes/init.php:100
+msgid "Categories"
+msgstr ""
+
+#: includes/classes/UlistingSearch.php:491 templates/add-listing/form.php:50
+msgid "Category"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1776
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1850
+msgid "Central African CFA franc"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1853
+msgid "CFP franc"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:88
+msgid "Checkbox"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1725
+msgid "Chilean peso"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1726
+msgid "Chinese yuan"
+msgstr ""
+
+#: includes/admin/views/listing-category/edit_fields.php:25
+#: includes/admin/views/listing-category/add_fields.php:23
+#: includes/admin/views/listing-attribute/index.php:36
+msgid "Choose on what listing types should this term be available."
+msgstr ""
+
+#: templates/filter/stm_search_form_advanced.php:35
+msgid "Clear all"
+msgstr ""
+
+#: includes/lib/pricing-plan/views/admin/user_plan/index.php:14
+msgid "Clear filter"
+msgstr ""
+
+#: includes/admin/views/listing-region/edit_fields.php:114
+#: includes/admin/views/listing-region/add_fields.php:34
+msgid "Clear polygon"
+msgstr ""
+
+#: templates/statistics/listing-page-statistics.php:36
+msgid "Clicked"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1727
+msgid "Colombian peso"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1772
+msgid "Comorian franc"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:662
+msgid "Compare"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPayment.php:117
+msgid "Completed"
+msgstr ""
+
+#: includes/lib/email-manager/templates/components/confirm-button.php:4
+msgid "Confirm Account"
+msgstr ""
+
+#: templates/account/edit-profile.php:121
+#: templates/account/edit-profile.php:122
+msgid "Confirmation new password"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1723
+msgid "Congolese franc"
+msgstr ""
+
+#: includes/lib/email-manager/templates/layouts/info.php:65
+msgid "Connect with us"
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:151
+msgid "Content"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1728
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: includes/lib/pricing-plan/templates/email.php:23
+msgid "Count"
+msgstr ""
+
+#: templates/add-listing/add.php:29
+#: includes/admin/views/listing-attribute/index.php:35
+msgid "Create"
+msgstr ""
+
+#: templates/account/payment-history.php:34
+#: templates/account/my-plans/list.php:36
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:117
+#: includes/lib/pricing-plan/views/admin/user_plan/payment-history.php:19
+msgid "Created"
+msgstr ""
+
+#: includes/admin/classes/UlistingSearchListTable.php:121
+#: includes/lib/pricing-plan/templates/email.php:26
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:159
+#: includes/lib/email-manager/templates/components/payment-info.php:68
+#: includes/lib/pricing-plan/views/admin/user_plan/view.php:88
+msgid "Created date"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1754
+msgid "Croatian kuna"
+msgstr ""
+
+#: includes/classes/StmCron.php:24 includes/classes/StmListingSettings.php:440
+msgid "Cron"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:844
+msgid "Cron Settings"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1729
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1730
+msgid "Cuban peso"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:528
+msgid "Currency Settings"
+msgstr ""
+
+#: templates/add-listing/field/file.php:16
+msgid "Current value:"
+msgstr ""
+
+#: includes/classes/StmListingAttributeOption.php:81
+#: includes/admin/views/listing-attribute/index.php:46
+#: includes/admin/views/listing-attribute-options/edit_fields.php:28
+msgid "Custom Field"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:284
+msgid "Custom field created successfully"
+msgstr ""
+
+#: includes/admin/classes/StmListingAttributePanel.php:24
+#: includes/admin/classes/StmListingAttributePanel.php:25
+#: includes/admin/views/listing-attribute-options/add_fields.php:11
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/admin/classes/StmListingAttributePanel.php:36
+msgid "Custom Fields Edit"
+msgstr ""
+
+#: includes/lib/stripe/includes/classes/Customer.php:44
+msgid "Customer not found"
+msgstr ""
+
+#: includes/lib/stripe/includes/classes/Stripe.php:755
+msgid "Customer not found :("
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1732
+msgid "Czech koruna"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:293
+#: includes/lib/paypal/includes/classes/PayPal.php:223
+msgid "Czech koruna CZK"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1734
+msgid "Danish krone"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:294
+#: includes/lib/paypal/includes/classes/PayPal.php:224
+msgid "Danish krone DKK"
+msgstr ""
+
+#: templates/account/dashboard.php:16 templates/account/navigation.php:19
+msgid "Dashboard"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:84
+msgid "Date"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:523
+msgid "Day"
+msgstr ""
+
+#: templates/listing-list/maps/google.php:51
+#: templates/listing-list/maps/osm.php:42
+msgid "Default"
+msgstr ""
+
+#: templates/account/my-card.php:73 templates/account/my-listing.php:125
+#: templates/account/my-listing.php:150 templates/account/my-listing.php:174
+#: includes/admin/classes/StmListingAttributeList.php:71
+msgid "Delete"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:84
+#: includes/admin/classes/StmAdminMenu.php:80
+#: includes/admin/classes/StmAdminMenu.php:81
+msgid "Demo Import"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:39
+msgid "Developer Oriented"
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:63
+#: includes/lib/email-manager/templates/single.php:92
+#: includes/lib/email-manager/templates/single.php:121
+msgid "Disabled"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1733
+msgid "Djiboutian franc"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1735
+msgid "Dominican peso"
+msgstr ""
+
+#: templates/account/my-listing.php:75
+msgid "Draft"
+msgstr ""
+
+#: templates/account/my-listing.php:135
+msgid "Drafted"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:139
+msgid "Duration"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1851
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: templates/account/my-listing.php:119 templates/account/my-listing.php:144
+#: templates/account/my-listing.php:168
+#: includes/admin/classes/StmListingAttributeList.php:70
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/views/listing-attribute/edit.php:5
+msgid "Edit Custom Field"
+msgstr ""
+
+#: includes/init.php:143 includes/init.php:179
+msgid "Edit List"
+msgstr ""
+
+#: templates/add-listing/edit.php:18
+msgid "Edit listing"
+msgstr ""
+
+#: includes/lib/pricing-plan/init.php:29
+msgid "Edit Plan"
+msgstr ""
+
+#: includes/classes/StmUser.php:92
+msgid "Edit profile"
+msgstr ""
+
+#: includes/init.php:66
+msgid "Edit Region"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1737
+msgid "Egyptian pound"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:428
+#: templates/account/register.php:56 templates/account/edit-profile.php:66
+#: includes/admin/classes/UlistingSearchListTable.php:116
+#: includes/admin/classes/UlistingSearchListTable.php:119
+#: templates/account/my-agents/add.php:49
+msgid "Email"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:769
+msgid "Email Manager Configuration"
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:22
+msgid "Email Notification Message"
+msgstr ""
+
+#: templates/author.php:253 templates/account/my-agents.php:51
+msgid "Email:"
+msgstr ""
+
+#: includes/functions.php:628
+msgid "empty"
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:64
+#: includes/lib/email-manager/templates/single.php:93
+#: includes/lib/email-manager/templates/single.php:122
+msgid "Enabled"
+msgstr ""
+
+#: templates/account/register.php:60 templates/account/edit-profile.php:70
+#: templates/account/my-agents/add.php:53
+msgid "Enter email"
+msgstr ""
+
+#: templates/account/register.php:42 templates/account/edit-profile.php:48
+#: templates/account/my-agents/add.php:35
+msgid "Enter first name"
+msgstr ""
+
+#: templates/account/register.php:51 templates/account/edit-profile.php:59
+#: templates/account/my-agents/add.php:44
+msgid "Enter last name"
+msgstr ""
+
+#: templates/account/login.php:22 templates/account/register.php:33
+#: templates/account/my-agents/add.php:26
+msgid "Enter login"
+msgstr ""
+
+#: templates/account/login.php:32 templates/account/register.php:75
+#: templates/account/my-agents/add.php:62
+msgid "Enter password"
+msgstr ""
+
+#: templates/account/register.php:84 templates/account/my-agents/add.php:71
+msgid "Enter password repeat"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1738
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: includes/lib/stripe/includes/classes/Charge.php:52
+msgid "Error in payment , not all attributes come "
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1739
+msgid "Ethiopian birr"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1740
+msgid "Euro"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:295
+#: includes/lib/paypal/includes/classes/PayPal.php:225
+msgid "Euro EUR"
+msgstr ""
+
+#: templates/account/my-listing.php:201 templates/account/my-plans/list.php:35
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:116
+msgid "Expired"
+msgstr ""
+
+#: includes/lib/pricing-plan/templates/email.php:25
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:158
+#: includes/lib/email-manager/templates/components/payment-info.php:59
+#: includes/lib/pricing-plan/views/admin/user_plan/view.php:78
+msgid "Expired date"
+msgstr ""
+
+#: includes/admin/classes/StmAdminMenu.php:114
+msgid "Exporter"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:70
+#: includes/admin/classes/StmAdminMenu.php:62
+#: includes/admin/classes/StmAdminMenu.php:63
+msgid "Extensions"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:595
+msgid "Extra"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:2094
+msgid "Facebook Documentation"
+msgstr ""
+
+#: includes/lib/stripe/includes/classes/Stripe.php:242
+msgid "Failed"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1742
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: templates/author.php:72 templates/author.php:272
+#: templates/account/my-agents.php:70
+msgid "Fax:"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:194
+msgid "Feature"
+msgstr ""
+
+#: templates/add-listing/field/gallery.php:44
+msgid "feature"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:471
+msgid "Feature plan"
+msgstr ""
+
+#: templates/builder/element/featured-listing.php:43
+msgid "Featured Listings"
+msgstr ""
+
+#: includes/admin/views/notices/top_bar.php:16
+msgid "Feedback"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:303
+msgid "Field Removed Successfully"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1741
+msgid "Fijian dollar"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:91
+msgid "File"
+msgstr ""
+
+#: templates/account/register.php:38 templates/account/edit-profile.php:44
+#: templates/account/my-agents/add.php:31
+msgid "First name"
+msgstr ""
+
+#: includes/functions.php:574
+msgid "Founded"
+msgstr ""
+
+#: includes/classes/StmListingUserRelations.php:51
+#: includes/lib/pricing-plan/includes/classes/StmPayment.php:73
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:167
+msgid "Free"
+msgstr ""
+
+#: templates/listing-list/maps/google.php:51
+#: templates/listing-list/maps/osm.php:42
+msgid "Fullscreen"
+msgstr ""
+
+#: templates/account/my-listing.php:203
+msgid "Future"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:92
+msgid "Gallery"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1748
+msgid "Gambian dalasi"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1744
+msgid "Georgian lari"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:149
+msgid "Get now"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1746
+msgid "Ghana cedi"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1747
+msgid "Gibraltar pound"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1682
+msgid "Google"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:2066
+msgid "Google Documentation"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1750
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1745
+msgid "Guernsey pound"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1749
+msgid "Guinean franc"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1751
+msgid "Guyanese dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1755
+msgid "Haitian gourde"
+msgstr ""
+
+#: includes/classes/StmUpdates.php:92
+#, php-format
+msgid ""
+"Here you can get more information about how to create OAuth APP for - %1$s "
+"Documentation. Don`t forget about setting up Authentication Redirect URL "
+"like -"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:2062
+#: includes/classes/StmListingSettings.php:2090
+#: includes/classes/StmListingSettings.php:2118
+#: includes/classes/StmListingSettings.php:2146
+#, php-format
+msgid ""
+"Here you can get more information about how to create OAuth APP for - %1$s. "
+"Don`t forget about setting up Authentication Redirect URL like -"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1753
+msgid "Honduran lempira"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1752
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:296
+#: includes/lib/paypal/includes/classes/PayPal.php:226
+msgid "Hong Kong dollar HKD"
+msgstr ""
+
+#: templates/statistics/listing-page-statistics.php:17
+msgid "Hours"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://stylemixthemes.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/ulisting/"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1756
+msgid "Hungarian forint"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:297
+#: includes/lib/paypal/includes/classes/PayPal.php:227
+msgid "Hungarian forint HUF"
+msgstr ""
+
+#: templates/listing-list/maps/google.php:39
+msgid "Hybrid"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1764
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: includes/admin/views/listing-region/edit_fields.php:49
+#: includes/admin/views/listing-region/edit_fields.php:55
+#: includes/admin/views/listing-region/add_fields.php:45
+msgid "Icon"
+msgstr ""
+
+#: includes/admin/classes/UlistingSearchListTable.php:115
+#: includes/lib/pricing-plan/views/admin/user_plan/view.php:12
+msgid "ID"
+msgstr ""
+
+#: includes/admin/views/listing-region/edit_fields.php:60
+#: includes/admin/views/listing-region/add_fields.php:50
+msgid "Image"
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:34
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:511
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:180
+msgid "Inactive"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1760
+msgid "Indian rupee"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1757
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:7
+msgid ""
+"Install <a target='_blank' href='https://stylemixthemes.com/wordpress-"
+"classified-plugin/'>uListing Wishlist</a> addon to unlock this feature!"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:2289
+msgid "Installing Agencies successfully."
+msgstr ""
+
+#: includes/classes/StmModules.php:30
+msgid "Installing completed successfully."
+msgstr ""
+
+#: includes/classes/StmPaymentMethod.php:90
+msgid "Installing payment completed."
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1762
+msgid "Iranian rial"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1763
+msgid "Iranian toman"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1761
+msgid "Iraqi dinar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1758
+msgid "Israeli new shekel"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:298
+#: includes/lib/paypal/includes/classes/PayPal.php:228
+msgid "Israeli new shekel ILS"
+msgstr ""
+
+#: includes/admin/classes/StmListingAttributeList.php:75
+#: includes/admin/classes/StmListingAttributeList.php:89
+msgid "Items list"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1766
+msgid "Jamaican dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1768
+msgid "Japanese yen"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:299
+#: includes/lib/paypal/includes/classes/PayPal.php:229
+msgid "Japanese yen JPY"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1765
+msgid "Jersey pound"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1767
+msgid "Jordanian dinar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1777
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1769
+msgid "Kenyan shilling"
+msgstr ""
+
+#: templates/add-listing/field/accordion.php:38
+msgid "Key"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1775
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1770
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1778
+msgid "Lao kip"
+msgstr ""
+
+#: templates/account/register.php:47 templates/account/edit-profile.php:55
+#: templates/account/my-agents/add.php:40
+msgid "Last name"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:180
+msgid "Last Update:"
+msgstr ""
+
+#: includes/classes/StmListingSingleLayout.php:1144
+#: includes/classes/StmInventoryLayout.php:45
+msgid "Layout activated successfully"
+msgstr ""
+
+#: includes/classes/StmListingSingleLayout.php:1236
+msgid "Layout deleted successfully"
+msgstr ""
+
+#: includes/classes/StmListingSingleLayout.php:1262
+#: includes/classes/StmInventoryLayout.php:243
+#: includes/classes/StmListingItemCardLayout.php:100
+msgid "Layout got successfully"
+msgstr ""
+
+#: includes/classes/StmListingSingleLayout.php:1344
+#: includes/classes/StmInventoryLayout.php:215
+#: includes/classes/StmListingItemCardLayout.php:135
+msgid "Layout saved successfully"
+msgstr ""
+
+#: includes/classes/StmListingSingleLayout.php:1306
+msgid "Layouts Imported successfully"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:110
+msgid "Learn more."
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1779
+msgid "Lebanese pound"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1669
+msgid "Left"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1671
+msgid "Left with space"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1782
+msgid "Lesotho loti"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1781
+msgid "Liberian dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1783
+msgid "Libyan dinar"
+msgstr ""
+
+#: templates/author.php:90
+msgid "License:"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:124
+#: includes/admin/views/go_pro/index.php:160
+msgid "Lifetime"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:470
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:192
+msgid "Limit count"
+msgstr ""
+
+#: includes/init.php:176 templates/author.php:141
+#: includes/classes/StmListingSettings.php:634
+#: templates/region/region-list-short-code.php:39
+msgid "Listing"
+msgstr ""
+
+#: includes/init.php:119
+msgid "Listing custom field options"
+msgstr ""
+
+#: templates/add-listing/edit.php:35
+msgid "Listing not found"
+msgstr ""
+
+#: templates/account/saved-searches.php:21
+#: templates/saved-searches/saved-searches.php:19
+#: includes/admin/classes/UlistingSearchListTable.php:118
+msgid "Listing type"
+msgstr ""
+
+#: includes/classes/StmInventoryLayout.php:67
+msgid "Listing type data got successfully"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:654
+msgid "Listing Type Page"
+msgstr ""
+
+#: includes/admin/views/listing-category/edit_fields.php:24
+#: includes/admin/views/listing-category/edit_fields.php:35
+#: includes/admin/views/listing-category/add_fields.php:22
+#: includes/admin/views/listing-attribute/index.php:34
+msgid "Listing Type(s)"
+msgstr ""
+
+#: includes/init.php:139 includes/init.php:140
+msgid "Listing Types"
+msgstr ""
+
+#. Name of the plugin
+msgid "Listing, Classified Ads & Business Directory – uListing"
+msgstr ""
+
+#: includes/init.php:175 includes/lib/pricing-plan/templates/email.php:39
+msgid "Listings"
+msgstr ""
+
+#: includes/functions.php:574
+msgid "listings"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:270
+#: includes/lib/paypal/includes/classes/PayPal.php:200
+#: includes/lib/stripe/includes/classes/Stripe.php:254
+msgid "Live"
+msgstr ""
+
+#: templates/comment/comment.php:36 templates/comment/comment.php:79
+msgid "Load"
+msgstr ""
+
+#: templates/comment/comment.php:80
+msgid "Load more"
+msgstr ""
+
+#: templates/account/edit-profile.php:130
+msgid "Load..."
+msgstr ""
+
+#: templates/account/my-listing.php:219
+msgid "Loading"
+msgstr ""
+
+#: templates/account/my-listing.php:243
+msgid "Loading..."
+msgstr ""
+
+#: includes/classes/UlistingSearch.php:509
+#: includes/classes/StmListingAttribute.php:94
+msgid "Location"
+msgstr ""
+
+#: templates/account/account-panel.php:39
+msgid "Log In "
+msgstr ""
+
+#: templates/account/login.php:17 templates/account/login.php:49
+#: templates/account/register.php:29 templates/account/my-agents/add.php:22
+msgid "Login"
+msgstr ""
+
+#: templates/comment/comment.php:46
+msgid "Login "
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:51
+msgid "Logo Image"
+msgstr ""
+
+#: templates/account/account-panel.php:29
+msgid "Logout"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:877
+msgid "Long Button with Text"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1790
+msgid "Macanese pataca"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1787
+msgid "Macedonian denar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:404
+msgid "Main"
+msgstr ""
+
+#: templates/account/my-card.php:74
+msgid "Make default"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1786
+msgid "Malagasy ariary"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1794
+msgid "Malawian kwacha"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1796
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:300
+#: includes/lib/paypal/includes/classes/PayPal.php:230
+msgid "Malaysian ringgit MYR"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1793
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1759
+msgid "Manx pound"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:544
+msgid "Map Settings"
+msgstr ""
+
+#: templates/listing-list/maps/google.php:42
+msgid "Map type"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1684
+msgid "MapBox"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1791
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1792
+msgid "Mauritian rupee"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1795
+msgid "Mexican peso"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:301
+#: includes/lib/paypal/includes/classes/PayPal.php:231
+msgid "Mexican peso MXN"
+msgstr ""
+
+#: templates/author.php:60 templates/author.php:260
+#: templates/account/my-agents.php:58
+msgid "Mobile:"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1785
+msgid "Moldovan leu"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1789
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:524
+msgid "Month"
+msgstr ""
+
+#: templates/statistics/listing-page-statistics.php:19
+msgid "Monthly"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1784
+msgid "Moroccan dirham"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:34
+msgid "Most Popular"
+msgstr ""
+
+#: includes/init.php:70
+msgid "Most Used"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1797
+msgid "Mozambican metical"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:87
+msgid "Multiselect"
+msgstr ""
+
+#: includes/classes/StmUser.php:110
+msgid "My Agents"
+msgstr ""
+
+#: includes/classes/StmUser.php:148
+#: includes/lib/stripe/includes/classes/Stripe.php:71
+msgid "My card"
+msgstr ""
+
+#: includes/classes/StmUser.php:128
+msgid "My listing"
+msgstr ""
+
+#: includes/classes/StmUser.php:101
+msgid "My plans"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:606
+#: includes/classes/StmListingAttribute.php:650
+msgid "N/A"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1798
+msgid "Namibian dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1802
+msgid "Nepalese rupee"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1699
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: includes/init.php:102
+msgid "New Category"
+msgstr ""
+
+#: includes/init.php:144 includes/init.php:180
+msgid "New Listing"
+msgstr ""
+
+#: includes/init.php:121
+msgid "New listing custom field options"
+msgstr ""
+
+#: includes/lib/email-manager/includes/classes/basic/UlistingEmail.php:152
+msgid "New offset"
+msgstr ""
+
+#: templates/account/edit-profile.php:115
+#: templates/account/edit-profile.php:116
+msgid "New password"
+msgstr ""
+
+#: includes/lib/pricing-plan/init.php:30
+msgid "New Plan"
+msgstr ""
+
+#: includes/init.php:61 includes/init.php:73
+msgid "New Region"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1839
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:302
+#: includes/lib/paypal/includes/classes/PayPal.php:232
+msgid "New Taiwan dollar TWD"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1803
+msgid "New Zealand dollar"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:303
+#: includes/lib/paypal/includes/classes/PayPal.php:233
+msgid "New Zealand dollar NZD"
+msgstr ""
+
+#: includes/classes/StmPaginator.php:30
+#: templates/listing-list/pagination.php:28
+#: templates/listing-list/maps/google.php:44
+#: templates/listing-list/maps/osm.php:33
+msgid "Next"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1800
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1799
+msgid "Nigerian naira"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1060
+#: templates/add-listing/field/yes_no.php:23
+msgid "No"
+msgstr ""
+
+#: includes/init.php:147 includes/init.php:183
+msgid "No List found"
+msgstr ""
+
+#: includes/init.php:148 includes/init.php:184
+msgid "No List found in Trash"
+msgstr ""
+
+#: templates/listing/listing.php:26
+msgid "No Listings"
+msgstr ""
+
+#: templates/account/my-listing.php:260
+msgid "No listings found"
+msgstr ""
+
+#: includes/lib/pricing-plan/init.php:33
+msgid "No Plan found"
+msgstr ""
+
+#: includes/lib/pricing-plan/init.php:34
+msgid "No Plan found in Trash"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:224
+msgid "No Pricing plans"
+msgstr ""
+
+#: includes/init.php:74
+msgid "No regions"
+msgstr ""
+
+#: includes/init.php:75
+msgid "No regions found."
+msgstr ""
+
+#: templates/account/saved-searches.php:46
+#: templates/account/payment-history.php:71
+#: templates/saved-searches/saved-searches.php:44
+#: includes/admin/classes/StmListingAttributeList.php:58
+#: includes/admin/classes/UlistingSearchListTable.php:63
+msgid "No result"
+msgstr ""
+
+#: includes/functions.php:574
+msgid "No result was found"
+msgstr ""
+
+#: includes/functions.php:609
+msgid "No Results Found"
+msgstr ""
+
+#: templates/builder/element/similar-listings.php:36
+msgid "No similar listings found"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1773
+msgid "North Korean won"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1801
+msgid "Norwegian krone"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:304
+#: includes/lib/paypal/includes/classes/PayPal.php:234
+msgid "Norwegian krone NOK"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:83
+msgid "Number"
+msgstr ""
+
+#: includes/classes/StmUser.php:589
+msgid "Object not found :("
+msgstr ""
+
+#: templates/author.php:66 templates/author.php:266
+#: templates/account/my-agents.php:64
+msgid "Office:"
+msgstr ""
+
+#: templates/account/edit-profile.php:107
+#: templates/account/edit-profile.php:108
+msgid "Old password"
+msgstr ""
+
+#: includes/classes/StmUser.php:848
+msgid "Old password incorrect"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1804
+msgid "Omani rial"
+msgstr ""
+
+#: templates/pricing-plan/list.php:14
+msgid "One time payment"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:481
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:219
+msgid "One-time payment"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1683
+msgid "OpenStreetMap"
+msgstr ""
+
+#: templates/add-listing/field/accordion.php:33
+#: includes/admin/views/listing-attribute/index.php:10
+#: includes/admin/views/listing-attribute/edit.php:6
+msgid "Options"
+msgstr ""
+
+#: templates/author.php:139
+msgid "Overview"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:410
+msgid "Pages"
+msgstr ""
+
+#: includes/classes/StmListingUserRelations.php:52
+#: includes/lib/pricing-plan/includes/classes/StmPayment.php:74
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:168
+msgid "Paid"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1809
+msgid "Pakistani rupee"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1805
+msgid "Panamanian balboa"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1807
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1812
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: templates/account/saved-searches.php:22
+#: templates/saved-searches/saved-searches.php:20
+msgid "Params"
+msgstr ""
+
+#: includes/init.php:76
+msgid "Parent Region"
+msgstr ""
+
+#: includes/init.php:77
+msgid "Parent Region:"
+msgstr ""
+
+#: templates/account/login.php:27 templates/account/register.php:71
+#: templates/account/my-agents/add.php:58
+msgid "Password"
+msgstr ""
+
+#: includes/classes/StmUser.php:854
+msgid "Password has been changed successfully "
+msgstr ""
+
+#: templates/account/register.php:80 templates/account/my-agents/add.php:67
+msgid "Password repeat"
+msgstr ""
+
+#: templates/pricing-plan/payment.php:115
+msgid "Pay"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:422
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:115
+msgid "Payment"
+msgstr ""
+
+#: includes/lib/pricing-plan/views/admin/user_plan/view.php:104
+msgid "Payment History"
+msgstr ""
+
+#: includes/classes/StmUser.php:119
+msgid "Payment history"
+msgstr ""
+
+#: templates/account/payment-history.php:30
+#: includes/lib/pricing-plan/views/admin/user_plan/payment-history.php:15
+msgid "Payment method"
+msgstr ""
+
+#: templates/account/my-plans/list.php:34
+#: includes/lib/pricing-plan/templates/email.php:24
+#: includes/lib/email-manager/templates/components/payment-info.php:51
+msgid "Payment Type"
+msgstr ""
+
+#: includes/lib/pricing-plan/views/admin/user_plan/view.php:70
+msgid "Payment type"
+msgstr ""
+
+#: includes/lib/paypal/includes/classes/PayPal.php:33
+#: includes/lib/paypal/includes/classes/PayPal.php:36
+msgid "PayPal"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPayment.php:97
+#: includes/lib/paypal/includes/classes/PayPal.php:111
+msgid "Paypal"
+msgstr ""
+
+#: includes/lib/paypal/includes/classes/PayPal.php:34
+#: includes/lib/paypal/includes/classes/PayPal.php:37
+msgid ""
+"PayPal payment method allows you to accept payments for Subscription Pricing "
+"Plans"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:232
+msgid "PayPal Standard"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:29
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:32
+msgid "PayPal standard"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPayment.php:99
+msgid "Paypal standard"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:30
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:33
+msgid ""
+"PayPal Standard payment method allows you to accept payments for Single (One "
+"Time) Pricing Packages."
+msgstr ""
+
+#: templates/account/my-listing.php:74 templates/account/my-listing.php:159
+#: includes/lib/pricing-plan/includes/classes/StmPayment.php:114
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:178
+#: includes/lib/stripe/includes/classes/Stripe.php:241
+msgid "Pending"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:142
+msgid "per year"
+msgstr ""
+
+#: includes/classes/StmListingSingleLayout.php:1132
+#: includes/classes/StmListingSingleLayout.php:1228
+#: includes/classes/StmListingSingleLayout.php:1246
+#: includes/classes/StmListingSingleLayout.php:1272
+#: includes/classes/StmListingSingleLayout.php:1315
+#: includes/classes/StmInventoryLayout.php:33
+#: includes/classes/StmInventoryLayout.php:192
+#: includes/classes/StmInventoryLayout.php:230
+#: includes/classes/StmInventoryLayout.php:252
+#: includes/classes/StmListingItemCardLayout.php:85
+#: includes/classes/StmListingItemCardLayout.php:109
+#: includes/classes/StmListingAttribute.php:293
+#: includes/classes/StmListingAttribute.php:880
+msgid "Permission denied"
+msgstr ""
+
+#: includes/classes/StmInventoryLayout.php:59
+#: includes/classes/StmListingAttribute.php:209
+#: includes/classes/StmListingAttribute.php:230
+#: includes/classes/StmListingAttribute.php:252
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:204
+msgid "Permission denied."
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1806
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1808
+msgid "Philippine peso"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:305
+#: includes/lib/paypal/includes/classes/PayPal.php:235
+msgid "Philippine peso PHP"
+msgstr ""
+
+#: templates/pricing-plan/payment.php:118
+msgid "Place Order"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:518
+msgid "Placeholder Image"
+msgstr ""
+
+#: templates/add-listing/form.php:122 templates/account/my-plans/list.php:31
+#: includes/lib/pricing-plan/templates/email.php:19
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:112
+#: includes/lib/email-manager/templates/components/payment-info.php:15
+#: includes/lib/pricing-plan/views/admin/user_plan/view.php:29
+msgid "Plan"
+msgstr ""
+
+#: templates/add-listing/form.php:236
+msgid "Plan for Featured Listings"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:304
+msgid "Plan not found"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:718
+msgid "Plan not found :("
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:137
+msgid "Plan Payment Type"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:140
+msgid "Plan Price"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:138
+msgid "Plan Type"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1810
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:306
+#: includes/lib/paypal/includes/classes/PayPal.php:236
+msgid "Polish złoty PLN"
+msgstr ""
+
+#: includes/admin/views/listing-region/edit_fields.php:92
+msgid "Polygon"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1743
+msgid "Pound sterling"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:307
+#: includes/lib/paypal/includes/classes/PayPal.php:237
+msgid "Pound sterling GBP"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:827
+msgid "Preference"
+msgstr ""
+
+#: templates/listing-list/pagination.php:27
+#: templates/listing-list/maps/google.php:43
+#: templates/listing-list/maps/osm.php:32
+msgid "Prev"
+msgstr ""
+
+#: includes/classes/StmPaginator.php:29
+msgid "Previous"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:93
+#: templates/region/region-list-short-code.php:42
+#: includes/lib/pricing-plan/templates/email.php:22
+#: includes/lib/email-manager/templates/components/payment-info.php:43
+msgid "Price"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:117
+msgid "Pricing"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:644
+msgid "Pricing Plan"
+msgstr ""
+
+#: includes/lib/pricing-plan/config.php:3
+msgid "Pricing plan"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:706
+msgid "Pricing plan data loaded successfully"
+msgstr ""
+
+#: templates/account/my-plans/list.php:47
+msgid "Pricing Plan not found "
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:383
+msgid "Pricing plan saved successfully!"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:556
+msgid "Pricing Plan Settings"
+msgstr ""
+
+#: includes/lib/pricing-plan/init.php:25
+msgid "Pricing Plans"
+msgstr ""
+
+#: templates/pricing-plan/list.php:62
+msgid ""
+"Pricing plans are currently under development. Please contact the site "
+"administrator for details."
+msgstr ""
+
+#: includes/lib/pricing-plan/config.php:4
+msgid "Pricing plans with Listing & Featured Listing limits."
+msgstr ""
+
+#: includes/classes/StmListingAuth.php:198
+msgid "Profile update completed successfully."
+msgstr ""
+
+#: templates/account/my-listing.php:183
+msgid "Promote"
+msgstr ""
+
+#: templates/account/my-listing.php:198
+msgid "Promotion ends:"
+msgstr ""
+
+#: templates/account/my-listing.php:197
+msgid "Promotion over."
+msgstr ""
+
+#: templates/account/my-listing.php:199
+msgid "Promotion will start:"
+msgstr ""
+
+#: includes/classes/UlistingSearch.php:485
+msgid "Proximity"
+msgstr ""
+
+#: templates/account/my-listing.php:73 templates/account/my-listing.php:139
+msgid "Publish"
+msgstr ""
+
+#: templates/account/my-listing.php:110
+msgid "Published"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1813
+msgid "Qatari riyal"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:89
+msgid "Radio button"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPayment.php:115
+msgid "Refunded"
+msgstr ""
+
+#: includes/classes/UlistingSearch.php:503 templates/add-listing/form.php:61
+msgid "Region"
+msgstr ""
+
+#: includes/init.php:59 includes/init.php:63 includes/init.php:64
+#: includes/init.php:69 includes/init.php:71 includes/init.php:72
+#: includes/init.php:79
+msgid "Regions"
+msgstr ""
+
+#: includes/init.php:67
+msgid "Regions list"
+msgstr ""
+
+#: includes/init.php:68
+msgid "Regions list navigation"
+msgstr ""
+
+#: templates/account/register.php:89
+msgid "Register"
+msgstr ""
+
+#: includes/classes/StmListingAuth.php:139
+msgid "Registration completed successfully."
+msgstr ""
+
+#: templates/account/login.php:41
+msgid "Remember me"
+msgstr ""
+
+#: includes/classes/UlistingSearch.php:404
+msgid "Removed from saved searches"
+msgstr ""
+
+#: templates/listing-list/reset-filter.php:17
+msgid "Reset filter"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPayment.php:116
+msgid "Reversed"
+msgstr ""
+
+#: templates/author.php:145
+msgid "Review"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1670
+msgid "Right"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1672
+msgid "Right with space"
+msgstr ""
+
+#: templates/listing-list/maps/google.php:37
+msgid "Roadmap"
+msgstr ""
+
+#: templates/account/register.php:65
+msgid "Role"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1814
+msgid "Romanian leu"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:876
+msgid "Rounded Edges"
+msgstr ""
+
+#: templates/account/my-listing.php:202
+msgid "Running"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1816
+msgid "Russian ruble"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:308
+#: includes/lib/paypal/includes/classes/PayPal.php:238
+msgid "Russian ruble RUB"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1817
+msgid "Rwandan franc"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1829
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1824
+msgid "Saint Helena pound"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1849
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:269
+#: includes/lib/paypal/includes/classes/PayPal.php:199
+msgid "Sandbox"
+msgstr ""
+
+#: templates/listing-list/maps/google.php:38
+msgid "Satellite"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1818
+msgid "Saudi riyal"
+msgstr ""
+
+#: templates/account/my-listing.php:245
+#: includes/lib/email-manager/templates/single.php:161
+msgid "Save"
+msgstr ""
+
+#: templates/saved-searches/add-button.php:12
+msgid "Save Search"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:77
+#: includes/admin/classes/StmAdminMenu.php:71
+#: includes/admin/classes/StmAdminMenu.php:72
+msgid "Saved Searches"
+msgstr ""
+
+#: includes/classes/StmUser.php:137
+msgid "Saved searches"
+msgstr ""
+
+#: templates/filter/stm_search_form_category.php:189
+#: templates/filter/stm_search_form_type.php:156
+msgid "Search"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:152
+msgid "Search by id"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:153
+msgid "Search by User"
+msgstr ""
+
+#: includes/init.php:146 includes/init.php:182
+msgid "Search Listing"
+msgstr ""
+
+#: includes/lib/pricing-plan/init.php:32
+msgid "Search Plan"
+msgstr ""
+
+#: includes/init.php:78
+msgid "Search Regions"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:86
+#: templates/add-listing/listing-type.php:26
+#: templates/add-listing/field/select.php:13
+msgid "Select"
+msgstr ""
+
+#: templates/account/my-listing.php:234 templates/add-listing/form.php:173
+msgid "select"
+msgstr ""
+
+#: templates/add-listing/field/date.php:16
+msgid "Select date"
+msgstr ""
+
+#: includes/admin/views/listing-category/edit_fields.php:26
+#: includes/admin/views/listing-category/add_fields.php:24
+msgid "Select one"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1815
+msgid "Serbian dinar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:63
+#: includes/admin/classes/StmAdminMenu.php:53
+#: includes/admin/classes/StmAdminMenu.php:54
+#: includes/admin/classes/StmAdminMenu.php:123
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1820
+msgid "Seychellois rupee"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:569
+msgid "Shortcode"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1825
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: templates/account/account-panel.php:39
+msgid "Sign Up"
+msgstr ""
+
+#: templates/builder/element/similar-listings.php:27
+msgid "Similar Listings"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1823
+msgid "Singapore dollar"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:309
+#: includes/lib/paypal/includes/classes/PayPal.php:239
+msgid "Singapore dollar SGD"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:27
+msgid "Single Site"
+msgstr ""
+
+#: includes/admin/classes/StmListingAttributeList.php:109
+#: includes/admin/views/listing-attribute/index.php:33
+msgid "Slug"
+msgstr ""
+
+#: templates/account/edit-profile.php:78
+msgid "Social"
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:80
+msgid "Social Contacts"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:434
+msgid "Social Login"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:811
+msgid "Social Networks"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1819
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1826
+msgid "Somali shilling"
+msgstr ""
+
+#: includes/classes/StmPaymentMethod.php:80
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1855
+msgid "South African rand"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1774
+msgid "South Korean won"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1828
+msgid "South Sudanese pound"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1780
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:91
+#: templates/account/payment-history.php:31
+#: includes/admin/classes/StmAdminMenu.php:89
+#: includes/admin/classes/StmAdminMenu.php:90
+#: templates/account/my-plans/list.php:32
+#: includes/lib/pricing-plan/templates/email.php:20
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:141
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:113
+#: includes/lib/email-manager/templates/components/payment-info.php:23
+#: includes/lib/pricing-plan/views/admin/user_plan/payment-history.php:16
+#: includes/lib/pricing-plan/views/admin/user_plan/view.php:36
+msgid "Status"
+msgstr ""
+
+#: includes/lib/pricing-plan/init.php:26
+msgid "stm_pricing_plans"
+msgstr ""
+
+#: includes/lib/stripe/includes/classes/Stripe.php:34
+#: includes/lib/stripe/includes/classes/Stripe.php:37
+#: includes/lib/stripe/includes/classes/Stripe.php:571
+msgid "Stripe"
+msgstr ""
+
+#: includes/lib/stripe/includes/classes/Stripe.php:35
+#: includes/lib/stripe/includes/classes/Stripe.php:38
+msgid ""
+"Stripe payment method allows you to accept payments directly for web and "
+"mobile."
+msgstr ""
+
+#. Author of the plugin
+msgid "StylemixThemes"
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:138
+msgid "Subject"
+msgstr ""
+
+#: templates/comment/comment.php:37
+msgid "Submit"
+msgstr ""
+
+#: templates/pricing-plan/list.php:38
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:482
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:221
+msgid "Subscription"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:174
+msgid "Subscription Add-on."
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPayment.php:118
+#: includes/lib/stripe/includes/classes/Stripe.php:240
+msgid "Succeeded"
+msgstr ""
+
+#: includes/classes/StmListingAuth.php:46
+msgid "Successfully logged in. Redirecting..."
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1821
+msgid "Sudanese pound"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1827
+msgid "Surinamese dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1831
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1822
+msgid "Swedish krona"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:310
+#: includes/lib/paypal/includes/classes/PayPal.php:240
+msgid "Swedish krona SEK"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1724
+msgid "Swiss franc"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:311
+#: includes/lib/paypal/includes/classes/PayPal.php:241
+msgid "Swiss franc CHF"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1830
+msgid "Syrian pound"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1833
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1840
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: templates/author.php:97
+msgid "Tax number:"
+msgstr ""
+
+#: templates/listing-list/maps/google.php:40
+msgid "Terrain"
+msgstr ""
+
+#: includes/lib/stripe/includes/classes/Stripe.php:255
+msgid "Test"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:196
+msgid "Tested up to:"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:80
+msgid "Text"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:81
+msgid "Textarea"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1832
+msgid "Thai baht"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:312
+#: includes/lib/paypal/includes/classes/PayPal.php:242
+msgid "Thai baht THB"
+msgstr ""
+
+#: includes/classes/StmUser.php:837
+msgid "The New Password Confirmation field does not equal New password field"
+msgstr ""
+
+#: includes/admin/views/listing-attribute/index.php:32
+msgid "The title is how it appears on your site."
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2163
+msgid "The {field} can only be one of the following: {param}"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2173
+msgid ""
+"The {field} field can only have one of the following extensions: {param}"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2165
+msgid "The {field} field contains a value that is not accepted"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2175
+msgid "The {field} field does not equal {param} field"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2155
+msgid "The {field} field has to be a URL"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2153
+msgid "The {field} field has to be either true or false"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2171
+msgid "The {field} field is invalid"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2141
+#: includes/classes/vendor/Validation.php:2174
+msgid "The {field} field is required"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2146
+msgid "The {field} field may only contain letters"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2149
+msgid "The {field} field may only contain letters and dashes"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2147
+msgid "The {field} field may only contain letters and numbers"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2150
+msgid "The {field} field may only contain letters and spaces"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2148
+msgid "The {field} field may only contain letters, numbers and spaces"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2151
+msgid "The {field} field must be a number"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2154
+msgid "The {field} field must be a number with a decimal point (float)"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2152
+msgid "The {field} field must be a number without a decimal"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2142
+msgid "The {field} field must be a valid email address"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2168
+msgid ""
+"The {field} field needs to be a numeric value, equal to, or higher than "
+"{param}"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2169
+msgid ""
+"The {field} field needs to be a numeric value, equal to, or lower than "
+"{param}"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2157
+msgid "The {field} field needs to be a valid IP address"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2177
+msgid "The {field} field needs to be a valid Phone Number"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2166
+msgid "The {field} field needs to be a valid street address"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2144
+msgid "The {field} field needs to be at least {param} characters"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2145
+msgid "The {field} field needs to be exactly {param} characters"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2143
+msgid "The {field} field needs to be {param} characters or less"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2160
+msgid "The {field} field needs to contain a valid GUID"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2176
+msgid "The {field} field needs to contain a valid IBAN"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2158
+msgid "The {field} field needs to contain a valid IPv4 address"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2159
+msgid "The {field} field needs to contain a valid IPv6 address"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2179
+msgid "The {field} field needs to contain a valid JSON format string"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2178
+msgid "The {field} field needs to contain a value with valid format"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2170
+msgid "The {field} field needs to have an age greater than or equal to {param}"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2172
+msgid "The {field} field needs to start with {param}"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2182
+msgid "The {field} fields needs to be an array with a size equal to {param}"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2180
+msgid ""
+"The {field} fields needs to be an array with a size, equal to, or higher "
+"than {param}"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2181
+msgid ""
+"The {field} fields needs to be an array with a size, equal to, or lower than "
+"{param}"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2161
+msgid "The {field} is not a valid credit card number"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2164
+msgid "The {field} is not a valid option"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2188
+msgid "The {field} is not a valid twitter handle"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2167
+msgid "The {field} must be a valid date"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2162
+msgid "The {field} should be a full name"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2185
+msgid "The {field} should be a valid digit in Persian/Dari or Arabic format"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2184
+msgid ""
+"The {field} should be a valid English, Persian/Dari/Pashtu or Arabic name"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2183
+msgid "The {field} should be a valid Persian/Dari or Arabic name"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2187
+msgid "The {field} should be a valid text in Pashtu format"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2186
+msgid "The {field} should be a valid text in Persian/Dari or Arabic format"
+msgstr ""
+
+#: includes/classes/vendor/Validation.php:2156
+msgid "The {field} URL does not exist"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:85
+msgid "Time"
+msgstr ""
+
+#: templates/add-listing/form.php:200
+#: includes/admin/classes/StmListingAttributeList.php:108
+#: templates/add-listing/field/accordion.php:18
+#: includes/admin/views/listing-attribute/index.php:31
+msgid "Title"
+msgstr ""
+
+#: templates/comment/comment.php:45
+msgid "To leave a review, just log in or sign up!"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1836
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: templates/comment/comment.php:51
+msgid "Total"
+msgstr ""
+
+#: templates/account/payment-history.php:32
+#: includes/lib/pricing-plan/views/admin/user_plan/payment-history.php:17
+msgid "Transaction"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1811
+msgid "Transnistrian ruble"
+msgstr ""
+
+#: templates/account/my-listing.php:76
+msgid "Trash"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1838
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1835
+msgid "Tunisian dinar"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1837
+msgid "Turkish lira"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1834
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:2122
+msgid "Twitter Documentation"
+msgstr ""
+
+#: includes/admin/classes/StmListingAttributeList.php:110
+#: templates/account/my-plans/list.php:33
+#: includes/lib/pricing-plan/templates/email.php:21
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:114
+#: includes/lib/email-manager/templates/components/payment-info.php:31
+#: includes/lib/pricing-plan/views/admin/user_plan/view.php:62
+msgid "Type"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:231
+msgid "Type to name or email for search user"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1842
+msgid "Ugandan shilling"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1841
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"uListing - Universal Listing WordPress Plugin. Developing listing and "
+"classified ads websites is a lucrative business opportunity, but in the past,"
+" it could be complicated to set up and maintain such a site."
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:102
+msgid "uListing - WordPress Classified Ads Plugin"
+msgstr ""
+
+#: includes/admin/classes/StmAdminMenu.php:113
+msgid "uListing exporter "
+msgstr ""
+
+#: includes/init.php:42
+msgid ""
+"uListing plugin requires Permalink Structure rather than “Plain”. We  "
+"recommend to use “Post name” Permalink Structure."
+msgstr ""
+
+#: includes/admin/classes/UlistingSearchListTable.php:19
+#: includes/admin/classes/UlistingSearchListTable.php:20
+msgid "Ulisting Search"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPayment.php:119
+msgid "Uncaptured"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:2313
+msgid "Uninstalling Agencies successfully."
+msgstr ""
+
+#: includes/classes/StmModules.php:37
+msgid "Uninstalling completed successfully."
+msgstr ""
+
+#: includes/classes/StmPaymentMethod.php:100
+msgid "Uninstalling payment completed."
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1695
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1843
+msgid "United States (US) dollar"
+msgstr ""
+
+#: includes/lib/paypal-standard/includes/classes/PayPalStandard.php:313
+#: includes/lib/paypal/includes/classes/PayPal.php:243
+msgid "United States dollar USD"
+msgstr ""
+
+#: templates/account/my-listing.php:114
+msgid "Unpublish"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:38
+msgid "Up to 25 Sites"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:33
+msgid "Up to 5 Sites"
+msgstr ""
+
+#: templates/account/edit-profile.php:97 templates/add-listing/edit.php:29
+#: includes/admin/views/listing-attribute/edit.php:7
+msgid "Update"
+msgstr ""
+
+#: templates/account/edit-profile.php:131
+msgid "Update password"
+msgstr ""
+
+#: includes/init.php:80
+msgid "Update Region"
+msgstr ""
+
+#: templates/account/payment-history.php:35
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:118
+#: includes/lib/pricing-plan/views/admin/user_plan/payment-history.php:20
+msgid "Updated"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:160
+#: includes/lib/pricing-plan/views/admin/user_plan/view.php:96
+msgid "Updated date"
+msgstr ""
+
+#: includes/admin/classes/StmAdminMenu.php:102
+#: includes/admin/classes/StmAdminMenu.php:103
+msgid "Upgrade"
+msgstr ""
+
+#: includes/admin/classes/StmAdminMenu.php:128
+msgid "Upgrade to Pro Bundle"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1844
+msgid "Uruguayan peso"
+msgstr ""
+
+#: includes/classes/StmComment.php:107
+#: includes/admin/classes/UlistingSearchListTable.php:117
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:111
+#: includes/lib/pricing-plan/views/admin/user_plan/view.php:19
+msgid "User"
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:99
+msgid "User enables it to put his all social contact links."
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:128
+msgid "User enables it to show a banner image."
+msgstr ""
+
+#: includes/lib/email-manager/templates/single.php:70
+msgid "User enables it to show his logo image in the header."
+msgstr ""
+
+#: includes/classes/StmListingAuth.php:220
+#: includes/lib/stripe/includes/classes/Customer.php:32
+msgid "User not found"
+msgstr ""
+
+#: includes/classes/StmUser.php:843
+msgid "User not found :("
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:15
+msgid "User Plan"
+msgstr ""
+
+#: includes/lib/pricing-plan/views/admin/user_plan/add.php:24
+msgid "User Plan add"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:246
+msgid "User Plan data got successfully."
+msgstr ""
+
+#: includes/lib/pricing-plan/views/admin/user_plan/add.php:22
+msgid "User Plan edit"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:354
+msgid "User plan save completed successfully."
+msgstr ""
+
+#: includes/lib/pricing-plan/views/admin/user_plan/view.php:8
+msgid "User plan view"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmUserPlanListTable.php:16
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:85
+#: includes/lib/pricing-plan/includes/classes/StmUserPlan.php:86
+msgid "User Plans"
+msgstr ""
+
+#: includes/classes/StmListingAuth.php:69
+msgid "User registration is not allowed in this site."
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:416
+msgid "User Roles"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1845
+msgid "Uzbekistani som"
+msgstr ""
+
+#: includes/admin/views/notices/top_bar.php:11
+#, php-format
+msgid "v %s"
+msgstr ""
+
+#: templates/add-listing/field/accordion.php:41
+msgid "Value"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1848
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1846
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:169
+msgid "Version:"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:96
+msgid "Video"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1847
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: templates/statistics/listing-page-statistics.php:28
+#: includes/admin/classes/UlistingSearchListTable.php:101
+msgid "View"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:174
+msgid "View Changelog"
+msgstr ""
+
+#: includes/init.php:145 includes/init.php:181
+msgid "View List"
+msgstr ""
+
+#: templates/email/saved-searches/notification-saved-searches-listing-list.php:56
+msgid "View more"
+msgstr ""
+
+#: includes/lib/pricing-plan/init.php:31
+msgid "View Plan"
+msgstr ""
+
+#: includes/init.php:81
+msgid "View Region"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:927
+msgid "Visual"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:2150
+msgid "Vkontakte Documentation"
+msgstr ""
+
+#: templates/author.php:82
+msgid "Website:"
+msgstr ""
+
+#: templates/statistics/listing-page-statistics.php:18
+msgid "Weekly"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1852
+msgid "West African CFA franc"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:585
+#: includes/classes/StmListingSettings.php:673
+msgid "Wishlist"
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:188
+msgid "Wordpress Version:"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:82
+msgid "WP editor"
+msgstr ""
+
+#: includes/classes/StmListingAuth.php:44
+msgid "Wrong Username or Password"
+msgstr ""
+
+#: includes/lib/pricing-plan/includes/classes/StmPricingPlans.php:525
+msgid "Year"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1854
+msgid "Yemeni rial"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1059
+#: templates/add-listing/field/yes_no.php:17
+msgid "Yes"
+msgstr ""
+
+#: includes/classes/StmListingAttribute.php:90
+msgid "Yes/No"
+msgstr ""
+
+#: templates/account/my-card.php:34
+msgid "You don't have any Payment methods."
+msgstr ""
+
+#: includes/admin/views/go_pro/index.php:161
+#, php-format
+msgid ""
+"You get <a href=\"%1$s\"><span %2$s>1 year</span> updates and support</a> "
+"from the date of purchase. We offer 30 days Money Back Guarantee based on <a "
+"href=\"%1$s\">Refund Policy</a>."
+msgstr ""
+
+#: includes/admin/classes/StmEmailTemplateManager.php:261
+msgid "You have new Offer"
+msgstr ""
+
+#: templates/pricing-plan/payment.php:39
+msgid "Your Email"
+msgstr ""
+
+#: templates/pricing-plan/payment.php:35
+msgid "Your Name"
+msgstr ""
+
+#: templates/comment/comment.php:19
+msgid "Your review"
+msgstr ""
+
+#: includes/classes/StmComment.php:210
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: includes/classes/StmListingSettings.php:1856
+msgid "Zambian kwacha"
+msgstr ""

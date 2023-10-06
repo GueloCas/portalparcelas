@@ -1,0 +1,120 @@
+.gva-user, .topbar-mobile{
+   .login-account{
+      position: relative;
+      font-size: 13px;
+      display: inline-block;
+      font-weight: 500;
+      .profile{
+         display: inline-block;
+         transition: all 0.35s;
+         &:hover{
+            cursor: pointer;
+            color: $theme-color;
+         }
+         .avata{
+            @include size(28px, 28px);
+            border-radius: 50%;
+            overflow: hidden;
+            float: left;
+            margin-top: 1px;
+         }
+         .name{
+            padding-left: 36px;
+            padding-top: 2px;
+            .icon{
+               margin-left: 3px;
+               position: relative;
+               top: 2px;
+            }
+         }
+      }
+      .user-account{
+         position: absolute;
+         top: 100%;
+         right: -20px;
+         width: 280px;
+         background: $white;
+         z-index: 11;
+         padding: 20px;
+         margin-top: 10px;
+         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+         border: 1px solid $border-color;
+         @include opacity(0);
+         -webkit-transform: rotateX(-90deg);
+         -moz-transform: rotateX(-90deg);
+         -ms-transform: rotateX(-90deg);
+         -o-transform: rotateX(-90deg);
+         transform: rotateX(-90deg);
+         -webkit-transform-origin: 0 0;
+         -moz-transform-origin: 0 0;
+         -ms-transform-origin: 0 0;
+         -o-transform-origin: 0 0;
+         transform-origin: 0 0;
+         transition: all 0.25s;
+         border-radius: 4px;
+         .gva-nav-menu{
+            > li{
+               display: block;
+               width: 100%;
+               text-align: left;
+               &:after{
+                  display: none;
+               }
+               > a{
+                  padding: 5px 0; 
+                  font-weight: 400;
+                  font-size: 14px;
+                  i{
+                     margin-right: 10px;
+                  }
+               }
+            }
+         }
+         .menu-item-logout{
+            text-align: left;
+            padding-top: 3px;
+            a{
+               font-weight: 400;
+               font-family: $headings-font-family;
+               font-size: 16px;
+               color: $body-color;
+               i{
+                  margin-right: 10px;
+               }
+               &:hover{
+                  color: $theme-color;
+               }
+            }
+         }
+      }
+      &.open{
+         .user-account{
+            -webkit-transform: rotateX(0);
+            -moz-transform: rotateX(0);
+            -ms-transform: rotateX(0);
+            -o-transform: rotateX(0);
+            transform: rotateX(0);
+            opacity: 1;
+         }
+      }
+   }
+   .login-register{
+      font-size: 13px;
+      .box-icon{
+         margin-right: 2px;
+      }
+      a{
+         color: $body-color;
+         .icon{
+            color: $theme-color;
+            margin-right: 6px;
+            font-size: 18px;
+            position: relative;
+            top: 3px;
+         }
+         &:hover{
+            color: $theme-color;
+         }
+      }
+   }
+}

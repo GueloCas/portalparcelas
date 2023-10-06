@@ -1,0 +1,29 @@
+@import "../bootstrap/functions";
+@import "../bootstrap/variables";
+
+//Fonts
+// --------------------------------------------------
+
+// Colors
+$white                     : #ffffff !default;
+$black                     : #282f44 !default;
+$nocolor                   : transparent !default;
+$theme-color               : #4C7CE3 !default;
+$theme-color-second        : #62cec5 !default;
+$border-color              : #E0E3EB !default; 
+$bg-gray                   : #F0F3F6 !default;
+$bg-input                  : #FAFBFC !default; 
+// Variables
+// --------------------------------------------------
+$image-theme-path-base  :'../images/' !default;
+$font-path              : '../fonts/';
+$woo-font-path          : '../fonts/woocommerce/' !default;
+
+
+//Color Skins Widget
+$widget-blue               : #0068AA !default;
+$widget-orange             : #EB5B00 !default;
+$widget-green              : #00884F !default;
+$widget-pink               : #ED1F58 !default;
+$widget-brown              : #4B393D !default;
+$widget-cornflower-blue    : #00A3DB !default;

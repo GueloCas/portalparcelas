@@ -1,0 +1,43 @@
+/**
+ * Table of Contents:
+ *
+ * 1 - FONT
+ * 2 - BASE STYLE 
+ * 3 - LAYOUT STYLE
+ * 4 - MENU STYLE
+ * 5 - WIDGETS STYLE
+ * 6 - POST STYLE
+ * 7 - PAGE STYLE
+ * 8 - TYPOGRAPHY STYLE
+ * 9 - EFFECT STYLE
+ * 10 - CUSTOMIZE STYLE
+ */
+
+@import "../../bootstrap/functions";
+@import "../../bootstrap/variables";
+@import "../../variables/variables_template";
+@import "../../variables/variables_woo";
+
+@import "vars/vars";
+
+@import "../../bootstrap/mixins";
+@import "../../mixins/mixins";
+@import "../../mixins/template";
+
+/*------------------------------------------------------------------*\  
+            1 - Woocommerce General                                                                               
+\*------------------------------------------------------------------*/
+@import "../../woocommerce/woocommerce";
+/*------------------------------------------------------------------*\  
+            2 - Woocommerce Page                                                                               
+\*------------------------------------------------------------------*/
+@import "../../woocommerce/page";
+/*------------------------------------------------------------------*\  
+            3 - Woocommerce Style                                                                                    
+\*------------------------------------------------------------------*/
+@import "../../woocommerce/style";
+/*------------------------------------------------------------------*\  
+/*------------------------------------------------------------------*\  
+            4 - Woocommerce Widgets                                                                             
+\*------------------------------------------------------------------*/
+@import "../../woocommerce/widgets";

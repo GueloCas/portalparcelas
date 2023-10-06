@@ -1,0 +1,5452 @@
+# Copyright (C) 2021 Tolips Themer
+# This file is distributed under the same license as the Tolips Themer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tolips Themer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tolips-themer\n"
+"POT-Creation-Date: 2021-01-29 02:21:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: add-ons/form-ajax/ajax-change-pwd.php:40
+msgid "All fields are required."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-change-pwd.php:47
+msgid "New and retyped password are not same."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-change-pwd.php:56
+msgid "Your old password is not correct."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-change-pwd.php:69
+msgid "Your password has been successfully changed."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-change-pwd.php:79
+msgid "Change Password"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-change-pwd.php:81
+msgid "Old Password"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-change-pwd.php:84
+msgid "New Password"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-change-pwd.php:87
+msgid "Re-password"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-change-pwd.php:90
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:33
+msgid "Error: Enter a username or e-mail address."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:39
+msgid "Error: There is no user registered with that email address."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:48
+msgid "Error: Invalid username or email."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:60
+msgid "Hi "
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:61
+msgid "Someone requested that the password be reset for the following account"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:62
+msgid " with username: %s"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:63
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:64
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:66
+msgid "Thank you!"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:71
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:85
+msgid "Success: Check your e-mail for the confirmation link."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:89
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:89
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:105
+msgid "Username or E-mail:"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:106
+#: add-ons/form-ajax/ajax-login.php:80 add-ons/form-ajax/ajax-login.php:81
+#: add-ons/form-ajax/ajax-registration.php:95
+#: add-ons/form-ajax/ajax-registration.php:96
+#: redux/redux-framework/inc/fields/password/class-redux-password.php:54
+msgid "Username"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-forget-pwd.php:109
+msgid "Get New Password"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-login.php:46
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-login.php:66
+msgid "Login unsuccessful, plese try again!"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-login.php:84
+#: add-ons/form-ajax/ajax-registration.php:103
+#: redux/redux-framework/inc/fields/password/class-redux-password.php:53
+msgid "Password"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-login.php:88 add-ons/form-ajax/template.php:95
+msgid "Login"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-login.php:91
+msgid "Lost your password?"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-registration.php:34
+msgid "Invalid email format"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-registration.php:40
+msgid "Password length must be greater than 5"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-registration.php:46
+msgid "Password must be equal Confirm Password"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-registration.php:61
+msgid "We have created an account for you."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-registration.php:82
+msgid "Register unsuccessful, plese try again!"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-registration.php:99
+#: add-ons/form-ajax/ajax-registration.php:100
+msgid "Email Address"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-registration.php:107
+msgid "Re-enter Password"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-registration.php:111
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:291
+msgid "Register Now"
+msgstr ""
+
+#: add-ons/form-ajax/ajax-user.php:73
+msgid "Your Profile has been successfully changed."
+msgstr ""
+
+#: add-ons/form-ajax/ajax-wishlist.php:83
+msgid "Wishlist"
+msgstr ""
+
+#: add-ons/form-ajax/template.php:11
+msgid "Signin"
+msgstr ""
+
+#: add-ons/form-ajax/template.php:20 add-ons/form-ajax/template.php:57
+msgid "Don't have an account"
+msgstr ""
+
+#: add-ons/form-ajax/template.php:23 add-ons/form-ajax/template.php:27
+#: add-ons/form-ajax/template.php:60 add-ons/form-ajax/template.php:64
+#: add-ons/form-ajax/template.php:85
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:408
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:455
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:706
+msgid "Register"
+msgstr ""
+
+#: add-ons/form-ajax/template.php:47
+msgid "Reset Password"
+msgstr ""
+
+#: add-ons/form-ajax/template.php:94
+msgid "Already have an account?"
+msgstr ""
+
+#: elementor/base/carousel.php:14 elementor/elements/base.php:22
+msgid "Carousel Options"
+msgstr ""
+
+#: elementor/base/carousel.php:23
+msgid "Responsive Items for Large Screen"
+msgstr ""
+
+#: elementor/base/carousel.php:33
+msgid "Responsive Items for Medium Screen"
+msgstr ""
+
+#: elementor/base/carousel.php:43
+msgid "Responsive Items for Small Screen"
+msgstr ""
+
+#: elementor/base/carousel.php:53
+msgid "Responsive Items for Extra Small Screen"
+msgstr ""
+
+#: elementor/base/carousel.php:63 elementor/elements/base.php:82
+msgid "Loop"
+msgstr ""
+
+#: elementor/base/carousel.php:67 elementor/base/carousel.php:89
+#: elementor/base/carousel.php:120 elementor/base/carousel.php:133
+#: elementor/base/carousel.php:146 elementor/base/carousel.php:159
+#: elementor/base/carousel.php:172 elementor/base/carousel.php:185
+#: redux/redux-framework/inc/classes/class-redux-page-render.php:173
+msgid "Enable"
+msgstr ""
+
+#: elementor/base/carousel.php:68 elementor/base/carousel.php:90
+#: elementor/base/carousel.php:121 elementor/base/carousel.php:134
+#: elementor/base/carousel.php:147 elementor/base/carousel.php:160
+#: elementor/base/carousel.php:173 elementor/base/carousel.php:186
+#: redux/redux-framework/inc/classes/class-redux-page-render.php:178
+msgid "Disable"
+msgstr ""
+
+#: elementor/base/carousel.php:76 elementor/elements/base.php:91
+msgid "Speed"
+msgstr ""
+
+#: elementor/base/carousel.php:85 elementor/elements/base.php:100
+msgid "Auto Play"
+msgstr ""
+
+#: elementor/base/carousel.php:98 elementor/elements/base.php:109
+msgid "Auto Play Timeout"
+msgstr ""
+
+#: elementor/base/carousel.php:107 elementor/elements/base.php:118
+msgid "Auto Play Speed"
+msgstr ""
+
+#: elementor/base/carousel.php:116 elementor/elements/base.php:127
+msgid "Play Hover"
+msgstr ""
+
+#: elementor/base/carousel.php:129 elementor/elements/base.php:136
+msgid "Navigation"
+msgstr ""
+
+#: elementor/base/carousel.php:142
+msgid "Rewind Nav"
+msgstr ""
+
+#: elementor/base/carousel.php:155 elementor/elements/base.php:145
+#: elementor/elements/events.php:204 elementor/elements/gallery.php:202
+#: elementor/elements/portfolio.php:217 elementor/elements/posts.php:217
+#: elementor/elements/services.php:204 elementor/elements/teams.php:190
+msgid "Pagination"
+msgstr ""
+
+#: elementor/base/carousel.php:168 elementor/elements/base.php:154
+msgid "Mouse Drag"
+msgstr ""
+
+#: elementor/base/carousel.php:181 elementor/elements/base.php:163
+msgid "Touch Drag"
+msgstr ""
+
+#: elementor/elements/base.php:32 elementor/elements/base.php:204
+msgid "Columns for Large Screen"
+msgstr ""
+
+#: elementor/elements/base.php:42 elementor/elements/base.php:214
+msgid "Columns for Medium Screen"
+msgstr ""
+
+#: elementor/elements/base.php:52 elementor/elements/base.php:224
+msgid "Columns for Small Screen"
+msgstr ""
+
+#: elementor/elements/base.php:62 elementor/elements/base.php:234
+msgid "Columns for Extra Small Screen"
+msgstr ""
+
+#: elementor/elements/base.php:71 elementor/elements/base.php:244
+msgid "Columns for Very Extra Small Screen"
+msgstr ""
+
+#: elementor/elements/base.php:171
+msgid "Dots Spacing"
+msgstr ""
+
+#: elementor/elements/base.php:195
+msgid "Grid Options"
+msgstr ""
+
+#: elementor/elements/base.php:254
+msgid "Remove Padding"
+msgstr ""
+
+#: elementor/elements/base.php:444
+msgid "Prev page"
+msgstr ""
+
+#: elementor/elements/base.php:445
+msgid "Next page"
+msgstr ""
+
+#: elementor/elements/base.php:446
+msgid "Load more"
+msgstr ""
+
+#: elementor/elements/box-hover.php:44
+msgid "GVA Box Hover"
+msgstr ""
+
+#: elementor/elements/box-hover.php:88 elementor/elements/box-hover.php:140
+#: elementor/elements/box-hover.php:384 elementor/elements/brand.php:87
+#: elementor/elements/call-to-action.php:91
+#: elementor/elements/career-block.php:90
+#: elementor/elements/career-block.php:164 elementor/elements/countdown.php:96
+#: elementor/elements/counter.php:96 elementor/elements/heading-block.php:90
+#: elementor/elements/icon-box-classic.php:362
+#: elementor/elements/icon-box-group.php:87
+#: elementor/elements/icon-box-group.php:301
+#: elementor/elements/icon-box-styles.php:397
+#: elementor/elements/image-content.php:89
+#: elementor/elements/image-content.php:320
+#: elementor/elements/list-number.php:104
+#: elementor/elements/list-number.php:114
+#: elementor/elements/list-number.php:303
+#: elementor/elements/listing-banner-group.php:89
+#: elementor/elements/listing-banner-group.php:323
+#: elementor/elements/listing-banner.php:83
+#: elementor/elements/listing-banner.php:284
+#: elementor/elements/listing-search-form.php:100
+#: elementor/elements/logo.php:89 elementor/elements/map.php:98
+#: elementor/elements/navigation-menu.php:99
+#: elementor/elements/pricing-block.php:91
+#: elementor/elements/pricing-block.php:331
+#: elementor/elements/rev-slider.php:83 elementor/elements/search-box.php:264
+#: elementor/elements/socials.php:192 elementor/elements/tabs-content.php:122
+#: elementor/elements/tabs-content.php:236
+#: elementor/elements/testimonial.php:111
+#: elementor/elements/testimonial.php:232
+#: elementor/elements/user-wishlist.php:91 elementor/elements/user.php:100
+#: elementor/elements/users.php:102 elementor/elements/video-box.php:89
+#: elementor/elements/video-box.php:274 elementor/elements/work-process.php:200
+#: elementor/elements/work-process.php:469
+msgid "Content"
+msgstr ""
+
+#: elementor/elements/box-hover.php:94 elementor/elements/brand.php:156
+#: elementor/elements/call-to-action.php:137 elementor/elements/counter.php:176
+#: elementor/elements/events.php:182 elementor/elements/gallery.php:180
+#: elementor/elements/gallery.php:192 elementor/elements/heading-block.php:136
+#: elementor/elements/icon-box-group.php:195
+#: elementor/elements/icon-box-styles.php:97
+#: elementor/elements/image-content.php:95
+#: elementor/elements/list-number.php:90
+#: elementor/elements/listing-banner-group.php:95
+#: elementor/elements/listing-pricing-plan.php:53
+#: elementor/elements/listing-search-form.php:106
+#: elementor/elements/listings.php:172 elementor/elements/portfolio.php:182
+#: elementor/elements/portfolio.php:197 elementor/elements/posts.php:122
+#: elementor/elements/pricing-block.php:97 elementor/elements/search-box.php:97
+#: elementor/elements/services.php:181 elementor/elements/services.php:195
+#: elementor/elements/socials.php:154 elementor/elements/teams.php:149
+#: elementor/elements/teams.php:160 elementor/elements/testimonial.php:95
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:372
+msgid "Style"
+msgstr ""
+
+#: elementor/elements/box-hover.php:98
+msgid "Style I - Carousel"
+msgstr ""
+
+#: elementor/elements/box-hover.php:107 elementor/elements/box-hover.php:336
+#: elementor/elements/socials.php:275 elementor/elements/teams.php:209
+#: elementor/elements/testimonial.php:133
+#: elementor/elements/testimonial.php:315
+#: redux/redux-framework/inc/welcome/views/health-report.php:868
+msgid "Name"
+msgstr ""
+
+#: elementor/elements/box-hover.php:115 elementor/elements/work-process.php:123
+msgid "Background Image"
+msgstr ""
+
+#: elementor/elements/box-hover.php:129
+#: elementor/elements/icon-box-group.php:116 elementor/elements/socials.php:93
+msgid "Choose Icon"
+msgstr ""
+
+#: elementor/elements/box-hover.php:150 elementor/elements/brand.php:118
+#: elementor/elements/career-block.php:128 elementor/elements/counter.php:149
+#: elementor/elements/icon-box-classic.php:193
+#: elementor/elements/icon-box-group.php:127
+#: elementor/elements/icon-box-styles.php:185
+#: elementor/elements/image-content.php:207 elementor/elements/logo.php:116
+#: elementor/elements/video-box.php:150 elementor/elements/work-process.php:289
+#: elementor/elements/work-process.php:295
+msgid "Link"
+msgstr ""
+
+#: elementor/elements/box-hover.php:152 elementor/elements/brand.php:119
+#: elementor/elements/career-block.php:133 elementor/elements/counter.php:151
+#: elementor/elements/icon-box-classic.php:198
+#: elementor/elements/icon-box-group.php:129
+#: elementor/elements/image-content.php:212 elementor/elements/logo.php:121
+#: elementor/elements/user-wishlist.php:132
+#: elementor/elements/video-box.php:155
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/elements/box-hover.php:160 elementor/elements/list-number.php:122
+msgid "Content Item"
+msgstr ""
+
+#: elementor/elements/box-hover.php:166
+msgid "Women Rights"
+msgstr ""
+
+#: elementor/elements/box-hover.php:170 elementor/elements/box-hover.php:177
+#: elementor/elements/box-hover.php:184 elementor/elements/box-hover.php:191
+msgid ""
+"There are many variations of passages of available but the majority have "
+"suffered alter randomised words."
+msgstr ""
+
+#: elementor/elements/box-hover.php:173 elementor/elements/box-hover.php:187
+msgid "Civil Rights"
+msgstr ""
+
+#: elementor/elements/box-hover.php:180
+msgid "Human Rights"
+msgstr ""
+
+#: elementor/elements/box-hover.php:208
+msgid "Box Height"
+msgstr ""
+
+#: elementor/elements/box-hover.php:228 elementor/elements/brand.php:177
+#: elementor/elements/icon-box-classic.php:107
+#: elementor/elements/icon-box-group.php:206
+#: elementor/elements/listing-banner-group.php:227
+#: elementor/elements/testimonial.php:215
+#: elementor/elements/video-carousel.php:157
+msgid "View"
+msgstr ""
+
+#: elementor/elements/box-hover.php:245 elementor/elements/counter.php:193
+#: elementor/elements/heading-block.php:264
+#: elementor/elements/heading-block.php:271
+#: elementor/elements/icon-box-classic.php:95
+#: elementor/elements/icon-box-classic.php:228
+#: elementor/elements/icon-box-group.php:221
+#: elementor/elements/icon-box-styles.php:111
+#: elementor/elements/icon-box-styles.php:261
+#: elementor/elements/listing-banner-group.php:243
+#: elementor/elements/listing-banner.php:204
+#: elementor/elements/pricing-block.php:202
+#: elementor/elements/search-box.php:111 elementor/elements/search-box.php:119
+#: elementor/elements/search-box.php:134
+#: elementor/elements/user-wishlist.php:139 elementor/elements/user.php:139
+#: elementor/elements/video-box.php:187 elementor/elements/work-process.php:98
+#: elementor/elements/work-process.php:308
+msgid "Icon"
+msgstr ""
+
+#: elementor/elements/box-hover.php:252 elementor/elements/box-hover.php:263
+msgid "Icon Background Color"
+msgstr ""
+
+#: elementor/elements/box-hover.php:275
+#: elementor/elements/icon-box-classic.php:255
+#: elementor/elements/icon-box-group.php:246
+#: elementor/elements/icon-box-styles.php:340
+#: elementor/elements/listing-banner-group.php:268
+#: elementor/elements/listing-banner.php:229
+#: elementor/elements/video-box.php:239 elementor/elements/work-process.php:387
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:542
+msgid "Size"
+msgstr ""
+
+#: elementor/elements/box-hover.php:304
+msgid "Icon Border Radius"
+msgstr ""
+
+#: elementor/elements/box-hover.php:315 elementor/elements/box-hover.php:363
+#: elementor/elements/box-hover.php:410 elementor/elements/career-block.php:221
+#: elementor/elements/career-block.php:276
+#: elementor/elements/career-block.php:321 elementor/elements/countdown.php:193
+#: elementor/elements/icon-box-classic.php:276
+#: elementor/elements/icon-box-classic.php:420
+#: elementor/elements/icon-box-classic.php:528
+#: elementor/elements/icon-box-group.php:287
+#: elementor/elements/icon-box-styles.php:216
+#: elementor/elements/listing-banner-group.php:309
+#: elementor/elements/listing-banner.php:270
+#: elementor/elements/listing-search-form.php:128
+#: elementor/elements/logo.php:175 elementor/elements/search-box.php:238
+#: elementor/elements/search-box.php:272 elementor/elements/video-box.php:259
+#: elementor/elements/work-process.php:428
+msgid "Padding"
+msgstr ""
+
+#: elementor/elements/box-hover.php:343 elementor/elements/box-hover.php:391
+#: elementor/elements/call-to-action.php:290
+#: elementor/elements/call-to-action.php:339
+#: elementor/elements/call-to-action.php:388
+#: elementor/elements/career-block.php:204
+#: elementor/elements/career-block.php:249
+#: elementor/elements/career-block.php:304 elementor/elements/countdown.php:231
+#: elementor/elements/heading-block.php:523
+#: elementor/elements/heading-block.php:569
+#: elementor/elements/heading-block.php:618
+#: elementor/elements/image-content.php:278
+#: elementor/elements/image-content.php:331
+#: elementor/elements/list-number.php:243
+#: elementor/elements/list-number.php:279
+#: elementor/elements/list-number.php:311 elementor/elements/listings.php:157
+#: elementor/elements/navigation-menu.php:181
+#: elementor/elements/navigation-menu.php:292
+#: elementor/elements/pricing-block.php:281
+#: elementor/elements/pricing-block.php:310
+#: elementor/elements/pricing-block.php:339 elementor/elements/socials.php:200
+#: elementor/elements/socials.php:283 elementor/elements/socials.php:315
+#: elementor/elements/teams.php:217 elementor/elements/teams.php:253
+#: elementor/elements/testimonial.php:240
+#: elementor/elements/testimonial.php:323
+#: elementor/elements/testimonial.php:356
+#: elementor/elements/user-wishlist.php:223 elementor/elements/user.php:243
+#: elementor/elements/video-carousel.php:177
+msgid "Text Color"
+msgstr ""
+
+#: elementor/elements/brand.php:43
+msgid "GVA Brand"
+msgstr ""
+
+#: elementor/elements/brand.php:95 elementor/elements/call-to-action.php:111
+#: elementor/elements/call-to-action.php:282
+#: elementor/elements/call-to-action.php:457
+#: elementor/elements/career-block.php:96
+#: elementor/elements/career-block.php:197 elementor/elements/countdown.php:102
+#: elementor/elements/countdown.php:224 elementor/elements/counter.php:273
+#: elementor/elements/events.php:139 elementor/elements/gallery.php:138
+#: elementor/elements/heading-block.php:110
+#: elementor/elements/heading-block.php:516
+#: elementor/elements/icon-box-classic.php:455
+#: elementor/elements/icon-box-group.php:95
+#: elementor/elements/icon-box-group.php:309
+#: elementor/elements/icon-box-styles.php:405
+#: elementor/elements/image-content.php:109
+#: elementor/elements/image-content.php:270
+#: elementor/elements/list-number.php:271
+#: elementor/elements/listing-banner-group.php:123
+#: elementor/elements/listing-banner-group.php:331
+#: elementor/elements/listing-banner.php:99
+#: elementor/elements/listing-banner.php:292 elementor/elements/logo.php:95
+#: elementor/elements/map.php:105 elementor/elements/portfolio.php:140
+#: elementor/elements/posts.php:194 elementor/elements/pricing-block.php:109
+#: elementor/elements/pricing-block.php:273 elementor/elements/services.php:139
+#: elementor/elements/socials.php:85 elementor/elements/tabs-content.php:195
+#: elementor/elements/teams.php:105 elementor/elements/video-box.php:282
+#: elementor/elements/video-carousel.php:94
+#: elementor/elements/video-carousel.php:170
+#: elementor/elements/work-process.php:477 posttypes/portfolio.php:171
+#: redux/redux-framework/inc/classes/class-redux-field.php:38
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:130
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:265
+msgid "Title"
+msgstr ""
+
+#: elementor/elements/brand.php:104 elementor/elements/image-content.php:131
+#: elementor/elements/listing-banner-group.php:142
+#: elementor/elements/listing-banner.php:136
+#: elementor/elements/tabs-content.php:110
+#: elementor/elements/testimonial.php:121
+#: elementor/elements/video-carousel.php:103
+msgid "Choose Image"
+msgstr ""
+
+#: elementor/elements/brand.php:127 elementor/elements/icon-box-group.php:146
+msgid "Brand Content Item"
+msgstr ""
+
+#: elementor/elements/brand.php:133
+msgid "Brand 1"
+msgstr ""
+
+#: elementor/elements/brand.php:136
+msgid "Brand 2"
+msgstr ""
+
+#: elementor/elements/brand.php:139
+msgid "Brand 3"
+msgstr ""
+
+#: elementor/elements/brand.php:142
+msgid "Brand 4"
+msgstr ""
+
+#: elementor/elements/brand.php:145
+msgid "Brand 5"
+msgstr ""
+
+#: elementor/elements/brand.php:148
+msgid "Brand 6"
+msgstr ""
+
+#: elementor/elements/brand.php:160
+msgid "Carousel 2 Rows"
+msgstr ""
+
+#: elementor/elements/brand.php:161
+msgid "Carousel 1 Row"
+msgstr ""
+
+#: elementor/elements/brand.php:191 elementor/elements/career-block.php:142
+#: elementor/elements/pricing-block.php:147 elementor/elements/socials.php:225
+#: elementor/elements/testimonial.php:265 elementor/elements/video-box.php:133
+msgid "Image"
+msgstr ""
+
+#: elementor/elements/brand.php:207 elementor/elements/heading-block.php:475
+#: elementor/elements/icon-box-classic.php:345
+#: elementor/elements/icon-box-styles.php:382
+#: elementor/elements/listing-search-form.php:159
+#: elementor/elements/logo.php:206 elementor/elements/search-box.php:250
+#: elementor/elements/socials.php:260 elementor/elements/testimonial.php:300
+#: elementor/elements/work-process.php:159
+#: elementor/elements/work-process.php:447
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:47
+msgid "GVA Call To Action"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:98
+#: elementor/elements/call-to-action.php:331
+#: elementor/elements/call-to-action.php:452
+#: elementor/elements/heading-block.php:97
+#: elementor/elements/heading-block.php:561
+#: elementor/elements/icon-box-classic.php:384
+#: elementor/elements/listings.php:145 elementor/elements/pricing-block.php:122
+msgid "Sub Title"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:103
+#: elementor/elements/heading-block.php:102
+msgid "Enter your Sub Title"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:116
+#: elementor/elements/career-block.php:101 elementor/elements/countdown.php:107
+#: elementor/elements/counter.php:142 elementor/elements/heading-block.php:115
+#: elementor/elements/icon-box-classic.php:169
+#: elementor/elements/icon-box-styles.php:127
+#: elementor/elements/image-content.php:111 elementor/elements/logo.php:97
+#: elementor/elements/map.php:110 elementor/elements/pricing-block.php:114
+#: elementor/elements/work-process.php:213
+msgid "Enter your title"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:117
+#: elementor/elements/career-block.php:102 elementor/elements/countdown.php:108
+#: elementor/elements/heading-block.php:116
+#: elementor/elements/image-content.php:112
+msgid "Add Your Heading Text Here"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:125
+#: elementor/elements/call-to-action.php:380
+#: elementor/elements/call-to-action.php:462
+#: elementor/elements/heading-block.php:124
+#: elementor/elements/heading-block.php:610
+#: elementor/elements/icon-box-classic.php:501
+#: elementor/elements/icon-box-group.php:104
+#: elementor/elements/icon-box-group.php:364
+#: elementor/elements/icon-box-styles.php:461
+#: elementor/elements/image-content.php:154
+#: elementor/elements/listing-banner-group.php:386
+#: elementor/elements/listing-banner.php:347
+#: elementor/elements/pricing-block.php:135
+#: elementor/elements/video-box.php:336 elementor/elements/work-process.php:533
+#: redux/redux-framework/inc/classes/class-redux-field.php:40
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:142
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:278
+msgid "Description"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:130
+#: elementor/elements/heading-block.php:129
+#: elementor/elements/image-content.php:159
+msgid "Enter Your Description"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:140
+msgid "Button Left"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:141
+msgid "Button Right"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:142
+msgid "Button Bottom Left"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:143
+msgid "Button Bottom Center"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:153
+#: elementor/elements/career-block.php:109
+#: elementor/elements/heading-block.php:166
+#: elementor/elements/image-content.php:188
+msgid "HTML Tag"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:174
+#: elementor/elements/heading-block.php:232
+msgid "Max Width (px)"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:196
+#: elementor/elements/heading-block.php:327
+#: elementor/elements/list-number.php:144
+#: elementor/elements/pricing-block.php:247
+msgid "Button"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:203
+#: elementor/elements/heading-block.php:333
+#: elementor/elements/list-number.php:150
+#: elementor/elements/pricing-block.php:254
+msgid "Button URL"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:214
+#: elementor/elements/heading-block.php:340
+#: elementor/elements/list-number.php:157
+#: elementor/elements/pricing-block.php:262
+msgid "Button Text"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:222
+#: elementor/elements/heading-block.php:348
+#: elementor/elements/list-number.php:165
+msgid "Button Style"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:225
+#: elementor/elements/heading-block.php:351
+#: elementor/elements/list-number.php:168
+msgid "Button Theme"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:226
+#: elementor/elements/heading-block.php:352
+#: elementor/elements/list-number.php:169
+msgid "Button Theme Second"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:227
+#: elementor/elements/heading-block.php:353
+#: elementor/elements/list-number.php:170
+msgid "Button Black"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:235
+#: elementor/elements/heading-block.php:373
+#: elementor/elements/list-number.php:190
+msgid "Button Text Color"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:246
+#: elementor/elements/heading-block.php:383
+#: elementor/elements/list-number.php:200
+msgid "Button Background"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:257
+#: elementor/elements/heading-block.php:393
+#: elementor/elements/list-number.php:211
+msgid "Button Color Hover"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:268
+#: elementor/elements/heading-block.php:403
+#: elementor/elements/list-number.php:221
+msgid "Button Background Hover"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:309
+#: elementor/elements/heading-block.php:540
+msgid "Title Spacing"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:350
+#: elementor/elements/heading-block.php:580
+msgid "Sub Title Spacing"
+msgstr ""
+
+#: elementor/elements/call-to-action.php:407
+#: elementor/elements/heading-block.php:637
+msgid "Description Spacing"
+msgstr ""
+
+#: elementor/elements/career-block.php:47
+msgid "GVA Career Block"
+msgstr ""
+
+#: elementor/elements/career-block.php:148
+#: elementor/elements/heading-block.php:281
+msgid "Icon Image"
+msgstr ""
+
+#: elementor/elements/career-block.php:170
+#: elementor/elements/career-block.php:242
+msgid "Job Type"
+msgstr ""
+
+#: elementor/elements/career-block.php:178
+msgid "Company"
+msgstr ""
+
+#: elementor/elements/career-block.php:186
+msgid "Address"
+msgstr ""
+
+#: elementor/elements/career-block.php:259 elementor/elements/countdown.php:211
+#: elementor/elements/list-number.php:256
+#: elementor/elements/work-process.php:111 elementor/includes/overrides.php:217
+msgid "Background Color"
+msgstr ""
+
+#: elementor/elements/career-block.php:297
+msgid "Information (Address & Company)"
+msgstr ""
+
+#: elementor/elements/countdown.php:47
+msgid "GVA Countdown"
+msgstr ""
+
+#: elementor/elements/countdown.php:115
+msgid "Year"
+msgstr ""
+
+#: elementor/elements/countdown.php:118
+msgid "ex: 2019"
+msgstr ""
+
+#: elementor/elements/countdown.php:125
+msgid "Month"
+msgstr ""
+
+#: elementor/elements/countdown.php:128
+msgid "ex: 12"
+msgstr ""
+
+#: elementor/elements/countdown.php:134
+msgid "Day"
+msgstr ""
+
+#: elementor/elements/countdown.php:137
+msgid "ex: 01"
+msgstr ""
+
+#: elementor/elements/countdown.php:143
+msgid "Hour"
+msgstr ""
+
+#: elementor/elements/countdown.php:146 elementor/elements/countdown.php:155
+msgid "ex: 00"
+msgstr ""
+
+#: elementor/elements/countdown.php:152
+msgid "Minutes"
+msgstr ""
+
+#: elementor/elements/countdown.php:161 elementor/elements/logo.php:128
+#: elementor/elements/navigation-menu.php:117
+#: elementor/elements/search-box.php:142 elementor/elements/socials.php:166
+#: elementor/elements/user-wishlist.php:97 elementor/elements/user.php:106
+msgid "Alignment"
+msgstr ""
+
+#: elementor/elements/countdown.php:165
+#: elementor/elements/heading-block.php:190
+#: elementor/elements/heading-block.php:213
+#: elementor/elements/icon-box-classic.php:146
+#: elementor/elements/listing-banner.php:174 elementor/elements/logo.php:132
+#: elementor/elements/navigation-menu.php:121
+#: elementor/elements/search-box.php:146 elementor/elements/socials.php:170
+#: elementor/elements/user-wishlist.php:101 elementor/elements/user.php:110
+#: redux/redux-framework/inc/fields/border/class-redux-border.php:159
+#: redux/redux-framework/inc/fields/spacing/class-redux-spacing.php:271
+msgid "Left"
+msgstr ""
+
+#: elementor/elements/countdown.php:169
+#: elementor/elements/heading-block.php:194
+#: elementor/elements/heading-block.php:217
+#: elementor/elements/listing-banner.php:178 elementor/elements/logo.php:136
+#: elementor/elements/navigation-menu.php:125
+#: elementor/elements/search-box.php:150 elementor/elements/socials.php:174
+#: elementor/elements/user-wishlist.php:105 elementor/elements/user.php:114
+msgid "Center"
+msgstr ""
+
+#: elementor/elements/countdown.php:173
+#: elementor/elements/heading-block.php:198
+#: elementor/elements/heading-block.php:221
+#: elementor/elements/icon-box-classic.php:145
+#: elementor/elements/listing-banner.php:182 elementor/elements/logo.php:140
+#: elementor/elements/navigation-menu.php:129
+#: elementor/elements/search-box.php:154 elementor/elements/socials.php:178
+#: elementor/elements/user-wishlist.php:109 elementor/elements/user.php:118
+#: redux/redux-framework/inc/fields/border/class-redux-border.php:135
+#: redux/redux-framework/inc/fields/spacing/class-redux-spacing.php:239
+msgid "Right"
+msgstr ""
+
+#: elementor/elements/countdown.php:186
+#: elementor/elements/heading-block.php:488
+#: elementor/elements/image-content.php:247
+msgid "Box"
+msgstr ""
+
+#: elementor/elements/countdown.php:249 elementor/elements/counter.php:248
+#: elementor/elements/counter.php:281 elementor/elements/counter.php:329
+#: elementor/elements/icon-box-classic.php:291
+#: elementor/elements/icon-box-classic.php:463
+#: elementor/elements/icon-box-group.php:267
+#: elementor/elements/icon-box-group.php:318
+#: elementor/elements/icon-box-styles.php:361
+#: elementor/elements/icon-box-styles.php:414
+#: elementor/elements/listing-banner-group.php:289
+#: elementor/elements/listing-banner-group.php:340
+#: elementor/elements/listing-banner.php:250
+#: elementor/elements/listing-banner.php:301
+#: elementor/elements/video-box.php:216 elementor/elements/video-box.php:291
+#: elementor/elements/video-box.php:380 elementor/elements/work-process.php:486
+msgid "Spacing"
+msgstr ""
+
+#: elementor/elements/counter.php:46
+msgid "GVA Counter"
+msgstr ""
+
+#: elementor/elements/counter.php:102
+msgid "Icon Class"
+msgstr ""
+
+#: elementor/elements/counter.php:114 elementor/elements/list-number.php:235
+msgid "Number"
+msgstr ""
+
+#: elementor/elements/counter.php:122
+msgid "Text Before Number"
+msgstr ""
+
+#: elementor/elements/counter.php:129
+msgid "Text After Number"
+msgstr ""
+
+#: elementor/elements/counter.php:136
+#: elementor/elements/icon-box-classic.php:166
+#: elementor/elements/icon-box-styles.php:124
+#: elementor/elements/tabs-content.php:99
+#: elementor/elements/work-process.php:207
+msgid "Title & Description"
+msgstr ""
+
+#: elementor/elements/counter.php:141
+#: elementor/elements/icon-box-classic.php:168
+#: elementor/elements/icon-box-styles.php:126
+#: elementor/elements/work-process.php:212
+msgid "This is the heading"
+msgstr ""
+
+#: elementor/elements/counter.php:157
+#: elementor/elements/icon-box-classic.php:206
+#: elementor/elements/icon-box-styles.php:148
+#: elementor/elements/work-process.php:231
+msgid "Title HTML Tag"
+msgstr ""
+
+#: elementor/elements/counter.php:179 elementor/elements/heading-block.php:139
+#: elementor/elements/heading-block.php:154
+#: elementor/elements/icon-box-group.php:198
+#: elementor/elements/icon-box-styles.php:100
+#: elementor/elements/image-content.php:98
+#: elementor/elements/list-number.php:94
+#: elementor/elements/listing-banner-group.php:98
+#: elementor/elements/listing-pricing-plan.php:57
+#: elementor/elements/listing-search-form.php:109
+#: elementor/elements/pricing-block.php:100
+#: elementor/elements/search-box.php:100 elementor/elements/video-box.php:124
+msgid "Style I"
+msgstr ""
+
+#: elementor/elements/counter.php:180 elementor/elements/heading-block.php:140
+#: elementor/elements/heading-block.php:155
+#: elementor/elements/icon-box-styles.php:101
+#: elementor/elements/image-content.php:99
+#: elementor/elements/listing-banner-group.php:99
+#: elementor/elements/listing-search-form.php:110
+#: elementor/elements/pricing-block.php:101
+msgid "Style II"
+msgstr ""
+
+#: elementor/elements/counter.php:181 elementor/elements/heading-block.php:141
+#: elementor/elements/heading-block.php:156
+#: elementor/elements/icon-box-styles.php:102
+#: elementor/elements/image-content.php:100
+#: elementor/elements/listing-search-form.php:111
+msgid "Style III"
+msgstr ""
+
+#: elementor/elements/counter.php:201 elementor/elements/icon-box-group.php:229
+#: elementor/elements/icon-box-styles.php:272
+#: elementor/elements/listing-banner-group.php:251
+#: elementor/elements/listing-banner.php:212
+#: elementor/elements/pricing-block.php:358
+#: elementor/elements/work-process.php:319
+msgid "Icon Color"
+msgstr ""
+
+#: elementor/elements/counter.php:214
+#: elementor/elements/icon-box-styles.php:306
+#: elementor/elements/work-process.php:353
+msgid "Hover | Icon Color"
+msgstr ""
+
+#: elementor/elements/counter.php:227 elementor/elements/search-box.php:171
+#: elementor/elements/user-wishlist.php:170 elementor/elements/user.php:190
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/elements/counter.php:298 elementor/elements/counter.php:346
+#: elementor/elements/icon-box-classic.php:395
+#: elementor/elements/icon-box-classic.php:482
+#: elementor/elements/icon-box-classic.php:509
+#: elementor/elements/icon-box-group.php:338
+#: elementor/elements/icon-box-group.php:376
+#: elementor/elements/icon-box-styles.php:435
+#: elementor/elements/icon-box-styles.php:473
+#: elementor/elements/listing-banner-group.php:360
+#: elementor/elements/listing-banner-group.php:398
+#: elementor/elements/listing-banner.php:321
+#: elementor/elements/listing-banner.php:359
+#: elementor/elements/navigation-menu.php:191
+#: elementor/elements/navigation-menu.php:209
+#: elementor/elements/navigation-menu.php:227
+#: elementor/elements/navigation-menu.php:302
+#: elementor/elements/navigation-menu.php:340 elementor/elements/posts.php:413
+#: elementor/elements/search-box.php:192 elementor/elements/services.php:331
+#: elementor/elements/tabs-content.php:245
+#: elementor/elements/user-wishlist.php:191 elementor/elements/user.php:211
+#: elementor/elements/user.php:286 elementor/elements/video-box.php:311
+#: elementor/elements/video-box.php:348 elementor/elements/work-process.php:507
+#: elementor/elements/work-process.php:545
+msgid "Color"
+msgstr ""
+
+#: elementor/elements/counter.php:321 elementor/elements/image-content.php:119
+msgid "Number Text"
+msgstr ""
+
+#: elementor/elements/events.php:20
+msgid "GVA Events"
+msgstr ""
+
+#: elementor/elements/events.php:57 elementor/elements/events.php:77
+#: elementor/elements/gallery.php:56 elementor/elements/gallery.php:76
+#: elementor/elements/listings.php:57 elementor/elements/portfolio.php:58
+#: elementor/elements/portfolio.php:78 elementor/elements/posts.php:57
+#: elementor/elements/posts.php:77 elementor/elements/services.php:57
+#: elementor/elements/services.php:77 elementor/elements/teams.php:54
+#: redux/redux-framework/inc/fields/border/class-redux-border.php:173
+msgid "None"
+msgstr ""
+
+#: elementor/elements/events.php:94 elementor/elements/gallery.php:93
+#: elementor/elements/listing-pricing-plan.php:45
+#: elementor/elements/listings.php:71 elementor/elements/portfolio.php:95
+#: elementor/elements/posts.php:94 elementor/elements/services.php:94
+msgid "Query & Layout"
+msgstr ""
+
+#: elementor/elements/events.php:102 elementor/elements/gallery.php:101
+#: elementor/elements/listings.php:102 elementor/elements/portfolio.php:103
+#: elementor/elements/posts.php:156 elementor/elements/services.php:102
+msgid "Select By Category"
+msgstr ""
+
+#: elementor/elements/events.php:113 elementor/elements/gallery.php:112
+#: elementor/elements/portfolio.php:114 elementor/elements/posts.php:168
+#: elementor/elements/services.php:113 elementor/elements/teams.php:79
+msgid "Select Individually"
+msgstr ""
+
+#: elementor/elements/events.php:125 elementor/elements/gallery.php:124
+#: elementor/elements/listings.php:116 elementor/elements/portfolio.php:126
+#: elementor/elements/posts.php:180 elementor/elements/services.php:125
+#: elementor/elements/teams.php:91
+msgid "Posts Per Page"
+msgstr ""
+
+#: elementor/elements/events.php:134 elementor/elements/gallery.php:133
+#: elementor/elements/portfolio.php:135 elementor/elements/posts.php:189
+#: elementor/elements/services.php:134 elementor/elements/teams.php:100
+#: elementor/elements/users.php:133
+msgid "Order By"
+msgstr ""
+
+#: elementor/elements/events.php:138 elementor/elements/gallery.php:137
+#: elementor/elements/portfolio.php:139 elementor/elements/posts.php:193
+#: elementor/elements/services.php:138 elementor/elements/teams.php:104
+msgid "Date"
+msgstr ""
+
+#: elementor/elements/events.php:140
+msgid "Event Start Date"
+msgstr ""
+
+#: elementor/elements/events.php:141 elementor/elements/gallery.php:140
+#: elementor/elements/portfolio.php:142 elementor/elements/posts.php:196
+#: elementor/elements/services.php:141 elementor/elements/teams.php:107
+msgid "Random"
+msgstr ""
+
+#: elementor/elements/events.php:149 elementor/elements/gallery.php:148
+#: elementor/elements/portfolio.php:150 elementor/elements/posts.php:204
+#: elementor/elements/services.php:149 elementor/elements/teams.php:115
+#: elementor/elements/users.php:149
+msgid "Order"
+msgstr ""
+
+#: elementor/elements/events.php:153 elementor/elements/gallery.php:152
+#: elementor/elements/portfolio.php:154 elementor/elements/posts.php:208
+#: elementor/elements/services.php:153 elementor/elements/teams.php:119
+#: elementor/elements/users.php:153
+msgid "ASC"
+msgstr ""
+
+#: elementor/elements/events.php:154 elementor/elements/gallery.php:153
+#: elementor/elements/portfolio.php:155 elementor/elements/posts.php:209
+#: elementor/elements/services.php:154 elementor/elements/teams.php:120
+#: elementor/elements/users.php:154
+msgid "DESC"
+msgstr ""
+
+#: elementor/elements/events.php:162 elementor/elements/gallery.php:161
+#: elementor/elements/icon-box-group.php:175
+#: elementor/elements/listing-banner-group.php:188
+#: elementor/elements/listings.php:125 elementor/elements/portfolio.php:163
+#: elementor/elements/posts.php:102 elementor/elements/search-box.php:90
+#: elementor/elements/services.php:162 elementor/elements/teams.php:130
+#: elementor/elements/users.php:173
+msgid "Layout"
+msgstr ""
+
+#: elementor/elements/events.php:169 elementor/elements/gallery.php:168
+#: elementor/elements/icon-box-group.php:182
+#: elementor/elements/listing-banner-group.php:195
+#: elementor/elements/listings.php:132 elementor/elements/portfolio.php:170
+#: elementor/elements/posts.php:109 elementor/elements/services.php:169
+#: elementor/elements/teams.php:137 elementor/elements/users.php:180
+msgid "Layout Display"
+msgstr ""
+
+#: elementor/elements/events.php:173 elementor/elements/users.php:186
+msgid "List"
+msgstr ""
+
+#: elementor/elements/events.php:174 elementor/elements/gallery.php:173
+#: elementor/elements/icon-box-group.php:187
+#: elementor/elements/listing-banner-group.php:200
+#: elementor/elements/listings.php:136 elementor/elements/portfolio.php:175
+#: elementor/elements/posts.php:114 elementor/elements/services.php:174
+#: elementor/elements/teams.php:142 elementor/elements/users.php:185
+msgid "Carousel"
+msgstr ""
+
+#: elementor/elements/events.php:175 elementor/elements/gallery.php:172
+#: elementor/elements/icon-box-group.php:186
+#: elementor/elements/listing-banner-group.php:199
+#: elementor/elements/listings.php:137 elementor/elements/portfolio.php:174
+#: elementor/elements/posts.php:113 elementor/elements/services.php:173
+#: elementor/elements/teams.php:141 elementor/elements/users.php:184
+msgid "Grid"
+msgstr ""
+
+#: elementor/elements/events.php:185
+msgid "Event Item Style I"
+msgstr ""
+
+#: elementor/elements/events.php:186
+msgid "Event Item Style II"
+msgstr ""
+
+#: elementor/elements/events.php:194
+#: elementor/elements/listing-banner-group.php:218
+#: elementor/elements/listing-banner.php:161
+#: elementor/elements/listings.php:187 elementor/elements/socials.php:233
+#: elementor/elements/testimonial.php:273
+msgid "Image Size"
+msgstr ""
+
+#: elementor/elements/gallery.php:20
+msgid "GVA Gallery"
+msgstr ""
+
+#: elementor/elements/gallery.php:139 elementor/elements/portfolio.php:141
+#: elementor/elements/posts.php:195 elementor/elements/services.php:140
+#: elementor/elements/teams.php:106
+msgid "Menu Order"
+msgstr ""
+
+#: elementor/elements/gallery.php:183
+msgid "Gallery Style I"
+msgstr ""
+
+#: elementor/elements/heading-block.php:47
+msgid "GVA Heading Block"
+msgstr ""
+
+#: elementor/elements/heading-block.php:150
+msgid "Style Arrow"
+msgstr ""
+
+#: elementor/elements/heading-block.php:153
+msgid "-- Disable Arrow --"
+msgstr ""
+
+#: elementor/elements/heading-block.php:157
+#: elementor/elements/image-content.php:101
+msgid "Style IV"
+msgstr ""
+
+#: elementor/elements/heading-block.php:186
+#: elementor/elements/listing-banner.php:170
+msgid "Alignment Text"
+msgstr ""
+
+#: elementor/elements/heading-block.php:209
+msgid "Alignment Box"
+msgstr ""
+
+#: elementor/elements/heading-block.php:252
+msgid "Auto Responsive"
+msgstr ""
+
+#: elementor/elements/heading-block.php:254
+msgid "Auto Responsive size of title"
+msgstr ""
+
+#: elementor/elements/heading-block.php:273
+msgid "Enable/Disable Icon Heading"
+msgstr ""
+
+#: elementor/elements/heading-block.php:300
+msgid "Video Top"
+msgstr ""
+
+#: elementor/elements/heading-block.php:306
+msgid "Video"
+msgstr ""
+
+#: elementor/elements/heading-block.php:308
+msgid "Enable/Disable Video Heading"
+msgstr ""
+
+#: elementor/elements/heading-block.php:315
+msgid "Video Youtube or Vimeo URL"
+msgstr ""
+
+#: elementor/elements/heading-block.php:361
+#: elementor/elements/list-number.php:178
+msgid "Button Size"
+msgstr ""
+
+#: elementor/elements/heading-block.php:364
+#: elementor/elements/list-number.php:181
+msgid "Button Size Default"
+msgstr ""
+
+#: elementor/elements/heading-block.php:365
+#: elementor/elements/list-number.php:182
+msgid "Button Size Small"
+msgstr ""
+
+#: elementor/elements/heading-block.php:416
+msgid "Video Button"
+msgstr ""
+
+#: elementor/elements/heading-block.php:426
+#: elementor/elements/heading-block.php:436
+#: elementor/elements/icon-box-classic.php:237
+#: elementor/elements/icon-box-styles.php:203
+#: elementor/elements/image-content.php:255
+#: elementor/elements/video-box.php:173 elementor/elements/video-box.php:196
+msgid "Primary Color"
+msgstr ""
+
+#: elementor/elements/heading-block.php:446
+msgid "Text Button Video Color"
+msgstr ""
+
+#: elementor/elements/heading-block.php:456
+msgid "Video Button Size"
+msgstr ""
+
+#: elementor/elements/heading-block.php:495
+msgid "Heading Element Space Bottom"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:46
+#: elementor/elements/icon-box-classic.php:89
+msgid "GVA Icon Box Classic"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:110
+#: redux/redux-framework/inc/classes/class-redux-field.php:43
+#: redux/redux-framework/inc/classes/class-redux-page-render.php:988
+msgid "Default"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:111
+msgid "Stacked"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:112
+msgid "Framed"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:122
+msgid "Shape"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:125
+msgid "Circle"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:126
+msgid "Square"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:139
+msgid "Position"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:142
+msgid "Top Center"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:143
+msgid "Top Left"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:144
+msgid "Top Right"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:154
+msgid "Sub-Title"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:156
+msgid "Enter your sub title"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:182
+msgid ""
+"Click edit button to change this text. Lorem ipsum dolor sit amet, "
+"consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, "
+"pulvinar dapibus leo."
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:183
+#: elementor/elements/icon-box-styles.php:138
+msgid "Enter your description"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:303
+#: elementor/elements/icon-box-classic.php:441
+#: elementor/elements/icon-box-classic.php:546
+#: elementor/elements/listing-search-form.php:139
+#: elementor/elements/logo.php:186
+msgid "Margin"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:315
+msgid "Rotate"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:331
+msgid "Border Width"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:369
+msgid "Vertical Alignment"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:372
+#: redux/redux-framework/inc/fields/border/class-redux-border.php:123
+#: redux/redux-framework/inc/fields/spacing/class-redux-spacing.php:223
+msgid "Top"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:373
+msgid "Middle"
+msgstr ""
+
+#: elementor/elements/icon-box-classic.php:374
+#: redux/redux-framework/inc/fields/border/class-redux-border.php:147
+#: redux/redux-framework/inc/fields/spacing/class-redux-spacing.php:255
+msgid "Bottom"
+msgstr ""
+
+#: elementor/elements/icon-box-group.php:43
+msgid "GVA Icon Box Group"
+msgstr ""
+
+#: elementor/elements/icon-box-group.php:136
+#: elementor/elements/icon-box-group.php:138
+#: elementor/elements/icon-box-styles.php:168
+#: elementor/elements/image-content.php:236
+#: elementor/elements/navigation-menu.php:221
+#: elementor/elements/navigation-menu.php:334
+#: redux/redux-framework/inc/fields/link_color/class-redux-link-color.php:140
+msgid "Active"
+msgstr ""
+
+#: elementor/elements/icon-box-group.php:152
+msgid "Restuarant"
+msgstr ""
+
+#: elementor/elements/icon-box-group.php:155
+msgid "Nightlife"
+msgstr ""
+
+#: elementor/elements/icon-box-group.php:158
+msgid "Fitness"
+msgstr ""
+
+#: elementor/elements/icon-box-group.php:161
+msgid "Beauty"
+msgstr ""
+
+#: elementor/elements/icon-box-group.php:164
+msgid "Shopping"
+msgstr ""
+
+#: elementor/elements/icon-box-group.php:167
+msgid "Traveling"
+msgstr ""
+
+#: elementor/elements/icon-box-styles.php:47
+msgid "GVA Icon Box Styles"
+msgstr ""
+
+#: elementor/elements/icon-box-styles.php:90
+msgid "GVA Icon Box Style"
+msgstr ""
+
+#: elementor/elements/icon-box-styles.php:137
+msgid "There are many new variations of pasages of available text."
+msgstr ""
+
+#: elementor/elements/icon-box-styles.php:179
+msgid "Button & Link"
+msgstr ""
+
+#: elementor/elements/icon-box-styles.php:195
+#: elementor/elements/video-box.php:165
+msgid "Box Style"
+msgstr ""
+
+#: elementor/elements/icon-box-styles.php:236
+msgid "Min Height"
+msgstr ""
+
+#: elementor/elements/icon-box-styles.php:289
+#: elementor/elements/work-process.php:336
+msgid "Icon Background"
+msgstr ""
+
+#: elementor/elements/icon-box-styles.php:323
+#: elementor/elements/work-process.php:370
+msgid "Hover | Icon Background"
+msgstr ""
+
+#: elementor/elements/image-content.php:46
+msgid "GVA Image Content"
+msgstr ""
+
+#: elementor/elements/image-content.php:121
+#: elementor/elements/image-content.php:122
+#: elementor/elements/work-process.php:223
+msgid "01"
+msgstr ""
+
+#: elementor/elements/image-content.php:166
+#: redux/redux-framework/inc/fields/dimensions/class-redux-dimensions.php:173
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:561
+msgid "Height"
+msgstr ""
+
+#: elementor/elements/image-content.php:220
+msgid "Text Link"
+msgstr ""
+
+#: elementor/elements/image-content.php:225
+#: elementor/elements/image-content.php:226
+#: elementor/templates/image-content.php:123
+msgid "Read More"
+msgstr ""
+
+#: elementor/elements/image-content.php:298
+#: elementor/elements/image-content.php:350
+msgid "Space Bottom"
+msgstr ""
+
+#: elementor/elements/list-number.php:43
+msgid "GVA List Number"
+msgstr ""
+
+#: elementor/elements/list-number.php:84
+msgid "Number List"
+msgstr ""
+
+#: elementor/elements/list-number.php:106
+msgid "Services for a global network of creators."
+msgstr ""
+
+#: elementor/elements/list-number.php:115
+#: elementor/elements/list-number.php:129
+#: elementor/elements/list-number.php:133
+msgid ""
+"There are many variations of passages of Lorem Ipsum available, but the "
+"majority have suffered alteration."
+msgstr ""
+
+#: elementor/elements/list-number.php:128
+msgid "Services for a global network of creators"
+msgstr ""
+
+#: elementor/elements/list-number.php:132
+msgid "About our workspace offering"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:43
+msgid "GVA Listing Banner Group"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:108
+#: elementor/elements/listing-banner.php:110
+msgid "Taxonomy"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:112
+#: elementor/elements/listing-banner.php:114
+msgid "Listing Category Taxonomy"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:113
+#: elementor/elements/listing-banner.php:115
+msgid "Listing Region Taxonomy"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:125
+#: elementor/elements/listing-banner.php:102
+msgid "Add your Title"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:133
+msgid "Location Slug"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:135
+msgid "Add term slug here"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:154
+msgid "Choose Flag"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:165
+msgid "Listings Banner Content Item"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:171
+msgid "London"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:174
+msgid "California"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:177
+msgid "Las Vegas"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:180
+msgid "New York"
+msgstr ""
+
+#: elementor/elements/listing-banner-group.php:208
+#: elementor/elements/listing-banner.php:192
+msgid "Show number content"
+msgstr ""
+
+#: elementor/elements/listing-banner.php:42
+msgid "GVA Listing Banner"
+msgstr ""
+
+#: elementor/elements/listing-banner.php:89
+msgid "SubTitle"
+msgstr ""
+
+#: elementor/elements/listing-banner.php:92
+msgid "Add your Sub Title"
+msgstr ""
+
+#: elementor/elements/listing-banner.php:93
+msgid "Inside Europe"
+msgstr ""
+
+#: elementor/elements/listing-banner.php:103
+msgid "Let have dinner"
+msgstr ""
+
+#: elementor/elements/listing-banner.php:124
+#: elementor/elements/listing-banner.php:134
+msgid "Region & Category Slug"
+msgstr ""
+
+#: elementor/elements/listing-banner.php:127
+msgid "Term slug"
+msgstr ""
+
+#: elementor/elements/listing-banner.php:151
+msgid "Link Custom"
+msgstr ""
+
+#: elementor/elements/listing-pricing-plan.php:20
+msgid "GVA Listings Pricing Plan"
+msgstr ""
+
+#: elementor/elements/listing-search-form.php:46
+msgid "GVA Listing Search Form"
+msgstr ""
+
+#: elementor/elements/listing-search-form.php:121
+#: elementor/elements/logo.php:168
+msgid "Logo Styling"
+msgstr ""
+
+#: elementor/elements/listings.php:20
+msgid "GVA Listing Posts"
+msgstr ""
+
+#: elementor/elements/listings.php:78
+msgid "Listing Type"
+msgstr ""
+
+#: elementor/elements/listings.php:87
+msgid "Sort by"
+msgstr ""
+
+#: elementor/elements/listings.php:90
+msgid "Latest"
+msgstr ""
+
+#: elementor/elements/listings.php:91
+msgid "Featured"
+msgstr ""
+
+#: elementor/elements/listings.php:92
+msgid "Popular"
+msgstr ""
+
+#: elementor/elements/listings.php:93 posttypes/portfolio.php:49
+msgid "Category"
+msgstr ""
+
+#: elementor/elements/listings.php:138
+msgid "Single"
+msgstr ""
+
+#: elementor/elements/listings.php:147
+msgid "Enter your subtitle"
+msgstr ""
+
+#: elementor/elements/listings.php:148
+msgid "Property Featured"
+msgstr ""
+
+#: elementor/elements/listings.php:160
+msgid "Text Default Color"
+msgstr ""
+
+#: elementor/elements/listings.php:161
+msgid "Text White Color"
+msgstr ""
+
+#: elementor/elements/listings.php:175
+msgid "Item Style I"
+msgstr ""
+
+#: elementor/elements/listings.php:176
+msgid "Item Style II"
+msgstr ""
+
+#: elementor/elements/listings.php:227
+msgid "You need select \"Listing Type\""
+msgstr ""
+
+#: elementor/elements/logo.php:46
+msgid "GVA Logo"
+msgstr ""
+
+#: elementor/elements/logo.php:98
+msgid "Home"
+msgstr ""
+
+#: elementor/elements/logo.php:105
+msgid "Choose Logo Image"
+msgstr ""
+
+#: elementor/elements/logo.php:150
+msgid "Max Width"
+msgstr ""
+
+#: elementor/elements/map.php:47
+msgid "GVA Map"
+msgstr ""
+
+#: elementor/elements/map.php:118
+msgid "Map Type"
+msgstr ""
+
+#: elementor/elements/map.php:121
+msgid "ROADMAP"
+msgstr ""
+
+#: elementor/elements/map.php:122
+msgid "HYBRID"
+msgstr ""
+
+#: elementor/elements/map.php:123
+msgid "SATELLITE"
+msgstr ""
+
+#: elementor/elements/map.php:124
+msgid "TERRAIN"
+msgstr ""
+
+#: elementor/elements/map.php:133
+msgid "Latitude, Longitude for map"
+msgstr ""
+
+#: elementor/elements/map.php:135
+msgid "Latitude, Longitude"
+msgstr ""
+
+#: elementor/elements/map.php:136
+msgid "eg: 21.0173222,105.78405279999993"
+msgstr ""
+
+#: elementor/elements/map.php:144
+msgid "Map height"
+msgstr ""
+
+#: elementor/elements/map.php:146
+msgid "500px"
+msgstr ""
+
+#: elementor/elements/map.php:148
+msgid ""
+"Enter map height (in pixels or leave empty for responsive map), eg: 400px"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:47
+msgid "GVA Navigation Menu"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:106
+msgid "Menu"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:140
+msgid "Submenu Min Width (px)"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:163
+msgid "Main Menu"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:175
+#: elementor/elements/navigation-menu.php:286
+msgid "Normal"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:203
+#: elementor/elements/navigation-menu.php:314
+#: redux/redux-framework/inc/fields/link_color/class-redux-link-color.php:90
+msgid "Hover"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:241
+msgid "Top Line Color"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:260
+#: elementor/elements/navigation-menu.php:362 elementor/elements/user.php:315
+msgid "Menu Item Padding"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:275
+msgid "Sub Menu"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:321
+msgid "Link Color"
+msgstr ""
+
+#: elementor/elements/portfolio.php:20
+msgid "GVA Portfolio"
+msgstr ""
+
+#: elementor/elements/portfolio.php:186
+msgid "Item Portfolio Style I"
+msgstr ""
+
+#: elementor/elements/portfolio.php:187
+msgid "Item Portfolio Style II"
+msgstr ""
+
+#: elementor/elements/portfolio.php:206
+msgid "Isotope Filter"
+msgstr ""
+
+#: elementor/elements/posts.php:20
+msgid "GVA Posts"
+msgstr ""
+
+#: elementor/elements/posts.php:115
+msgid "Small List"
+msgstr ""
+
+#: elementor/elements/posts.php:126
+msgid "Item Post Style I"
+msgstr ""
+
+#: elementor/elements/posts.php:127
+msgid "Item Post Style II"
+msgstr ""
+
+#: elementor/elements/posts.php:128
+msgid "Item Post Style III"
+msgstr ""
+
+#: elementor/elements/posts.php:138
+msgid "Image Style"
+msgstr ""
+
+#: elementor/elements/posts.php:149
+msgid "Query"
+msgstr ""
+
+#: elementor/elements/posts.php:236
+msgid "Right List Posts Style"
+msgstr ""
+
+#: elementor/elements/posts.php:247
+msgid "Padding List Posts"
+msgstr ""
+
+#: elementor/elements/posts.php:259
+msgid "Background List Posts"
+msgstr ""
+
+#: elementor/elements/posts.php:271
+msgid "List Posts Title Color"
+msgstr ""
+
+#: elementor/elements/posts.php:291 elementor/elements/posts.php:387
+#: elementor/elements/services.php:305
+msgid "List Posts Meta Color"
+msgstr ""
+
+#: elementor/elements/posts.php:306 elementor/elements/services.php:224
+msgid "Post Content"
+msgstr ""
+
+#: elementor/elements/posts.php:317 elementor/elements/services.php:235
+msgid "Padding Post Content"
+msgstr ""
+
+#: elementor/elements/posts.php:329 elementor/elements/services.php:247
+msgid "Background Post Content"
+msgstr ""
+
+#: elementor/elements/posts.php:344 elementor/elements/services.php:262
+msgid "Post Title"
+msgstr ""
+
+#: elementor/elements/posts.php:355 elementor/elements/services.php:273
+msgid "Color Title"
+msgstr ""
+
+#: elementor/elements/posts.php:367 elementor/elements/services.php:285
+msgid "Color Title Hover"
+msgstr ""
+
+#: elementor/elements/posts.php:402 elementor/elements/services.php:320
+msgid "Post Description"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:48
+msgid "GVA Pricing Block"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:115
+msgid "Standard"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:124
+#: elementor/elements/pricing-block.php:125
+msgid "Private amenities"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:137
+msgid "Your Description"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:138
+msgid "There are many new variatns of pasages of available text."
+msgstr ""
+
+#: elementor/elements/pricing-block.php:161
+msgid "Price"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:163
+#: elementor/elements/pricing-block.php:164
+msgid "60.00"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:171
+#: elementor/elements/pricing-block.php:173
+msgid "Currency"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:174
+msgid "$"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:181
+msgid "Period"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:183
+#: elementor/elements/pricing-block.php:184
+msgid "Monthly"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:192
+#: elementor/elements/pricing-block.php:214
+msgid "Pricing Features"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:220
+msgid "High speed internet"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:224
+#: elementor/elements/pricing-block.php:228
+msgid "Free parking space"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:232
+msgid "Full access"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:302
+msgid "Price Text"
+msgstr ""
+
+#: elementor/elements/rev-slider.php:37
+msgid "GVA Revolution Slider"
+msgstr ""
+
+#: elementor/elements/rev-slider.php:77
+msgid "No sliders found"
+msgstr ""
+
+#: elementor/elements/rev-slider.php:89
+msgid "Choose Slider:"
+msgstr ""
+
+#: elementor/elements/search-box.php:46
+msgid "GVA Search Box"
+msgstr ""
+
+#: elementor/elements/search-box.php:204
+#: elementor/elements/user-wishlist.php:203 elementor/elements/user.php:223
+#: elementor/elements/user.php:296
+msgid "Color Hover"
+msgstr ""
+
+#: elementor/elements/search-box.php:216
+msgid "Background"
+msgstr ""
+
+#: elementor/elements/search-box.php:227
+msgid "Background Hover"
+msgstr ""
+
+#: elementor/elements/search-box.php:292
+msgid "Content Width"
+msgstr ""
+
+#: elementor/elements/services.php:20
+msgid "GVA Services"
+msgstr ""
+
+#: elementor/elements/services.php:185
+msgid "Item Service Style I"
+msgstr ""
+
+#: elementor/elements/socials.php:43
+msgid "GVA Socials"
+msgstr ""
+
+#: elementor/elements/socials.php:77 posttypes/team.php:71
+msgid "Socials"
+msgstr ""
+
+#: elementor/elements/socials.php:101
+msgid "Social Link"
+msgstr ""
+
+#: elementor/elements/socials.php:109 elementor/elements/teams.php:302
+msgid "Social Color"
+msgstr ""
+
+#: elementor/elements/socials.php:122
+msgid "Social Icon Item"
+msgstr ""
+
+#: elementor/elements/socials.php:128
+msgid "Facebook"
+msgstr ""
+
+#: elementor/elements/socials.php:129
+msgid "fa fa-facebook"
+msgstr ""
+
+#: elementor/elements/socials.php:133
+msgid "Twitter"
+msgstr ""
+
+#: elementor/elements/socials.php:134
+msgid "fa fa-twitter"
+msgstr ""
+
+#: elementor/elements/socials.php:138
+msgid "Instagram"
+msgstr ""
+
+#: elementor/elements/socials.php:139
+msgid "fa fa-instagram"
+msgstr ""
+
+#: elementor/elements/socials.php:143
+msgid "pinterest"
+msgstr ""
+
+#: elementor/elements/socials.php:144
+msgid "fa fa-pinterest"
+msgstr ""
+
+#: elementor/elements/socials.php:158
+msgid "Style I "
+msgstr ""
+
+#: elementor/elements/socials.php:307 elementor/elements/teams.php:245
+#: elementor/elements/testimonial.php:142
+#: elementor/elements/testimonial.php:348
+msgid "Job"
+msgstr ""
+
+#: elementor/elements/tabs-content.php:47
+#: elementor/elements/tabs-content.php:90
+msgid "GVA Tabs Content"
+msgstr ""
+
+#: elementor/elements/tabs-content.php:101
+#: elementor/elements/tabs-content.php:102
+msgid "Tab Title"
+msgstr ""
+
+#: elementor/elements/tabs-content.php:123
+#: elementor/elements/tabs-content.php:124
+msgid "Tab Content"
+msgstr ""
+
+#: elementor/elements/tabs-content.php:132
+msgid "Tabs Items"
+msgstr ""
+
+#: elementor/elements/tabs-content.php:137
+msgid "Our Mission"
+msgstr ""
+
+#: elementor/elements/tabs-content.php:138
+msgid ""
+"A fully-furnished and equipped workspace, simply turn up, plug in and get "
+"straight down to business."
+msgstr ""
+
+#: elementor/elements/tabs-content.php:141
+msgid "Our Vision"
+msgstr ""
+
+#: elementor/elements/tabs-content.php:142
+#: elementor/elements/tabs-content.php:146
+msgid ""
+"A fully-furnished and equipped workspace, simply turn up, plug in and get "
+"straight down to business.."
+msgstr ""
+
+#: elementor/elements/tabs-content.php:145
+msgid "Our History"
+msgstr ""
+
+#: elementor/elements/tabs-content.php:156
+msgid "Tab Item Width"
+msgstr ""
+
+#: elementor/elements/tabs-content.php:186
+msgid "Tabs"
+msgstr ""
+
+#: elementor/elements/tabs-content.php:204
+msgid "Active Background Color"
+msgstr ""
+
+#: elementor/elements/tabs-content.php:216
+msgid "Active Color"
+msgstr ""
+
+#: elementor/elements/teams.php:21
+msgid "GVA Teams"
+msgstr ""
+
+#: elementor/elements/teams.php:72
+msgid "Teams Query"
+msgstr ""
+
+#: elementor/elements/teams.php:152
+msgid "Team Style I"
+msgstr ""
+
+#: elementor/elements/teams.php:169
+msgid "Excerpt Words"
+msgstr ""
+
+#: elementor/elements/teams.php:181
+msgid "Show Skills"
+msgstr ""
+
+#: elementor/elements/teams.php:274
+msgid "Social"
+msgstr ""
+
+#: elementor/elements/teams.php:282
+msgid "Social Size"
+msgstr ""
+
+#: elementor/elements/teams.php:318
+msgid "Social Hover Color"
+msgstr ""
+
+#: elementor/elements/testimonial.php:43
+msgid "GVA Testimonials"
+msgstr ""
+
+#: elementor/elements/testimonial.php:89
+msgid "Testimonials"
+msgstr ""
+
+#: elementor/elements/testimonial.php:99
+msgid "Carousel I"
+msgstr ""
+
+#: elementor/elements/testimonial.php:100
+msgid "Carousel II"
+msgstr ""
+
+#: elementor/elements/testimonial.php:101
+msgid "Carousel III"
+msgstr ""
+
+#: elementor/elements/testimonial.php:151
+msgid "Testimonials Content Item"
+msgstr ""
+
+#: elementor/elements/testimonial.php:157
+#: elementor/elements/testimonial.php:165
+#: elementor/elements/testimonial.php:173
+#: elementor/elements/testimonial.php:181
+#: elementor/elements/testimonial.php:189
+msgid ""
+"I was impresed by the moling services, not lorem ipsum is simply free text "
+"of used by refreshing. Neque porro este qui dolorem ipsum quia."
+msgstr ""
+
+#: elementor/elements/testimonial.php:158
+msgid "Christine Eve"
+msgstr ""
+
+#: elementor/elements/testimonial.php:159
+#: elementor/elements/testimonial.php:175
+#: elementor/elements/testimonial.php:191
+msgid "Founder & CEO"
+msgstr ""
+
+#: elementor/elements/testimonial.php:166
+msgid "Kevin Smith"
+msgstr ""
+
+#: elementor/elements/testimonial.php:167
+#: elementor/elements/testimonial.php:183
+msgid "Customer"
+msgstr ""
+
+#: elementor/elements/testimonial.php:174
+msgid "Jessica Brown"
+msgstr ""
+
+#: elementor/elements/testimonial.php:182
+msgid "David Anderson"
+msgstr ""
+
+#: elementor/elements/testimonial.php:190
+msgid "Susan Neill"
+msgstr ""
+
+#: elementor/elements/user-wishlist.php:47
+msgid "GVA User Wishlist"
+msgstr ""
+
+#: elementor/elements/user-wishlist.php:120
+msgid "Wishlist Text"
+msgstr ""
+
+#: elementor/elements/user-wishlist.php:130
+msgid "Wishlist Link"
+msgstr ""
+
+#: elementor/elements/user-wishlist.php:154 elementor/elements/user.php:174
+msgid "Text & Icon"
+msgstr ""
+
+#: elementor/elements/user-wishlist.php:162 elementor/elements/user.php:182
+msgid "Icon Style"
+msgstr ""
+
+#: elementor/elements/user-wishlist.php:215 elementor/elements/user.php:235
+msgid "Text Style"
+msgstr ""
+
+#: elementor/elements/user-wishlist.php:234 elementor/elements/user.php:255
+msgid "Text Color Hover"
+msgstr ""
+
+#: elementor/elements/user.php:47
+msgid "GVA User"
+msgstr ""
+
+#: elementor/elements/user.php:129
+msgid "Sign in text"
+msgstr ""
+
+#: elementor/elements/user.php:152
+msgid "Menu Width (px)"
+msgstr ""
+
+#: elementor/elements/user.php:279
+msgid "Account Menu"
+msgstr ""
+
+#: elementor/elements/users.php:47
+msgid "GVA Users/Agents"
+msgstr ""
+
+#: elementor/elements/users.php:109
+msgid "Filter by role"
+msgstr ""
+
+#: elementor/elements/users.php:112 elementor/templates/portfolio/grid.php:31
+#: redux/redux-framework/inc/fields/border/class-redux-border.php:106
+#: redux/redux-framework/inc/fields/spacing/class-redux-spacing.php:165
+msgid "All"
+msgstr ""
+
+#: elementor/elements/users.php:113
+msgid "Agency"
+msgstr ""
+
+#: elementor/elements/users.php:114
+msgid "Agent"
+msgstr ""
+
+#: elementor/elements/users.php:115
+#: redux/redux-framework/inc/welcome/views/support.php:75
+msgid "User"
+msgstr ""
+
+#: elementor/elements/users.php:124
+msgid "Per page"
+msgstr ""
+
+#: elementor/elements/users.php:137
+msgid "Registered date"
+msgstr ""
+
+#: elementor/elements/users.php:138
+msgid "Nickname"
+msgstr ""
+
+#: elementor/elements/users.php:139
+msgid "ID"
+msgstr ""
+
+#: elementor/elements/users.php:140
+msgid "Display name"
+msgstr ""
+
+#: elementor/elements/users.php:141
+msgid "Post count"
+msgstr ""
+
+#: elementor/elements/users.php:162
+msgid "Show Paginate"
+msgstr ""
+
+#: elementor/elements/video-box.php:46
+msgid "GVA Video Box"
+msgstr ""
+
+#: elementor/elements/video-box.php:96
+msgid "Title Left"
+msgstr ""
+
+#: elementor/elements/video-box.php:101 elementor/elements/video-box.php:113
+msgid "Enter Your Title"
+msgstr ""
+
+#: elementor/elements/video-box.php:108
+msgid "Title Right"
+msgstr ""
+
+#: elementor/elements/video-box.php:121
+msgid "style"
+msgstr ""
+
+#: elementor/elements/video-carousel.php:42
+msgid "GVA Video Carousel"
+msgstr ""
+
+#: elementor/elements/video-carousel.php:86
+msgid "Videos"
+msgstr ""
+
+#: elementor/elements/video-carousel.php:113
+msgid "Video Link"
+msgstr ""
+
+#: elementor/elements/video-carousel.php:116
+msgid "You can add youtube/vimeo video link"
+msgstr ""
+
+#: elementor/elements/video-carousel.php:123
+msgid "Video Content"
+msgstr ""
+
+#: elementor/elements/work-process.php:47
+#: elementor/elements/work-process.php:91
+msgid "GVA Work Process"
+msgstr ""
+
+#: elementor/elements/work-process.php:139
+msgid "Box Size"
+msgstr ""
+
+#: elementor/elements/work-process.php:178
+msgid "Box Padding"
+msgstr ""
+
+#: elementor/elements/work-process.php:224
+msgid "Enter your number"
+msgstr ""
+
+#: elementor/elements/work-process.php:253
+msgid "Line"
+msgstr ""
+
+#: elementor/elements/work-process.php:259
+msgid "Display Line Left"
+msgstr ""
+
+#: elementor/elements/work-process.php:267
+msgid "Display Line Right"
+msgstr ""
+
+#: elementor/elements/work-process.php:275
+msgid "Line Background"
+msgstr ""
+
+#: elementor/elements/work-process.php:408
+msgid "Icon Box Width"
+msgstr ""
+
+#: elementor/includes/icons.php:2036
+msgid "Line Awesome"
+msgstr ""
+
+#: elementor/includes/overrides.php:42 elementor/includes/overrides.php:195
+msgid "Gavias Style Settings"
+msgstr ""
+
+#: elementor/includes/overrides.php:50 elementor/includes/overrides.php:202
+msgid "Style Available"
+msgstr ""
+
+#: elementor/includes/overrides.php:53 elementor/includes/overrides.php:125
+#: elementor/includes/overrides.php:205 posttypes/megamenu.php:70
+msgid "-- None --"
+msgstr ""
+
+#: elementor/includes/overrides.php:54
+msgid "Background Overflow Left"
+msgstr ""
+
+#: elementor/includes/overrides.php:55
+msgid "Background Overflow Right"
+msgstr ""
+
+#: elementor/includes/overrides.php:105
+msgid "Gavias Extra Settings Row for Header Builder"
+msgstr ""
+
+#: elementor/includes/overrides.php:114
+msgid "Sticky Row Settings (Use only for row in header)"
+msgstr ""
+
+#: elementor/includes/overrides.php:122
+msgid "Sticky Menu Row"
+msgstr ""
+
+#: elementor/includes/overrides.php:126
+msgid "Sticky Menu"
+msgstr ""
+
+#: elementor/includes/overrides.php:130
+msgid ""
+"You can only enable sticky menu for one row, please make sure display all "
+"sticky menu for other rows"
+msgstr ""
+
+#: elementor/includes/overrides.php:137
+msgid "Sticky Background Color"
+msgstr ""
+
+#: elementor/includes/overrides.php:150
+msgid "Sticky Text Color"
+msgstr ""
+
+#: elementor/includes/overrides.php:163
+msgid "Sticky Link Menu Color"
+msgstr ""
+
+#: elementor/includes/overrides.php:176
+msgid "Sticky Link Menu Hover Color"
+msgstr ""
+
+#: elementor/includes/overrides.php:206
+msgid "Background White Full To Left and Border Theme"
+msgstr ""
+
+#: elementor/includes/overrides.php:207
+msgid "Background Theme Full To Right"
+msgstr ""
+
+#: elementor/includes/overrides.php:221 elementor/includes/overrides.php:236
+msgid "-- Default --"
+msgstr ""
+
+#: elementor/includes/overrides.php:222
+msgid "Background Color Theme"
+msgstr ""
+
+#: elementor/includes/overrides.php:223
+msgid "Background Color Theme Second"
+msgstr ""
+
+#: elementor/includes/overrides.php:232
+msgid "Background Effect"
+msgstr ""
+
+#: elementor/includes/overrides.php:237
+msgid "Particles"
+msgstr ""
+
+#: elementor/init.php:80
+msgid "Gavias Elements"
+msgstr ""
+
+#: elementor/templates/listings-banner-group/item-style-1.php:39
+#: elementor/templates/listings-banner-group/item-style-2.php:41
+msgid "%d Property"
+msgid_plural "%d Properties"
+msgstr[0] ""
+msgstr[1] ""
+
+#: elementor/templates/listings-banner.php:37
+msgid "%d Listing"
+msgid_plural "%d Listings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: elementor/templates/rev-slider.php:5
+msgid "No slides found, please choose slider"
+msgstr ""
+
+#: elementor/templates/user.php:31
+msgid "Add Listing"
+msgstr ""
+
+#: elementor/templates/user.php:44
+msgid "My Favorites"
+msgstr ""
+
+#: listings/comment/backend.php:15
+msgid "Review"
+msgstr ""
+
+#: listings/comment/backend.php:60
+msgid "Category review was deleted"
+msgstr ""
+
+#: listings/comment/backend.php:74
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:217
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:353
+msgid "Delete"
+msgstr ""
+
+#: listings/comment/frontend.php:66
+msgid "Average Ratting"
+msgstr ""
+
+#: listings/comment/frontend.php:123
+msgid "You can't add a star rating to your own product."
+msgstr ""
+
+#: listings/user/metabox.php:26
+msgid "User Information"
+msgstr ""
+
+#: plugin-update/Puc/v4p9/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: plugin-update/Puc/v4p9/Plugin/Ui.php:77
+msgid "More information about %s"
+msgstr ""
+
+#: plugin-update/Puc/v4p9/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: plugin-update/Puc/v4p9/Plugin/Ui.php:213
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: plugin-update/Puc/v4p9/Plugin/Ui.php:215
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: plugin-update/Puc/v4p9/Plugin/Ui.php:217
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: plugin-update/Puc/v4p9/Plugin/Ui.php:223
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: plugin-update/Puc/v4p9/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: posttypes/brand.php:6
+msgid "Brand Logos"
+msgstr ""
+
+#: posttypes/brand.php:7
+msgid "Brand"
+msgstr ""
+
+#: posttypes/brand.php:8 posttypes/brand.php:9
+msgid "Add New Brand"
+msgstr ""
+
+#: posttypes/brand.php:10
+msgid "Edit Brand"
+msgstr ""
+
+#: posttypes/brand.php:11
+msgid "New Brand"
+msgstr ""
+
+#: posttypes/brand.php:12
+msgid "View Brand"
+msgstr ""
+
+#: posttypes/brand.php:13
+msgid "Search Brands"
+msgstr ""
+
+#: posttypes/brand.php:14
+msgid "No Brands found"
+msgstr ""
+
+#: posttypes/brand.php:15
+msgid "No Brands found in Trash"
+msgstr ""
+
+#: posttypes/brand.php:16
+msgid "Parent Brand:"
+msgstr ""
+
+#: posttypes/brand.php:17
+msgid "Brands"
+msgstr ""
+
+#: posttypes/footer.php:24 posttypes/footer.php:25 posttypes/footer.php:35
+msgid "Footer Builder"
+msgstr ""
+
+#: posttypes/footer.php:26 posttypes/footer.php:27
+msgid "Add Footer Builder"
+msgstr ""
+
+#: posttypes/footer.php:28
+msgid "Edit Footer"
+msgstr ""
+
+#: posttypes/footer.php:29
+msgid "New Footer Builder"
+msgstr ""
+
+#: posttypes/footer.php:30
+msgid "View Footer Builder"
+msgstr ""
+
+#: posttypes/footer.php:31
+msgid "Search Footer Profiles"
+msgstr ""
+
+#: posttypes/footer.php:32
+msgid "No Footer Profiles found"
+msgstr ""
+
+#: posttypes/footer.php:33
+msgid "No Footer Profiles found in Trash"
+msgstr ""
+
+#: posttypes/footer.php:34
+msgid "Parent Footer:"
+msgstr ""
+
+#: posttypes/footer.php:41
+msgid "List Footer"
+msgstr ""
+
+#: posttypes/footer.php:75 posttypes/header.php:71
+msgid "Default Option Theme"
+msgstr ""
+
+#: posttypes/footer.php:76
+msgid "Disable Footer"
+msgstr ""
+
+#: posttypes/footer.php:77
+msgid "Default Widget Footer"
+msgstr ""
+
+#: posttypes/gallery.php:6 posttypes/gallery.php:7 posttypes/gallery.php:17
+msgid "Gallery"
+msgstr ""
+
+#: posttypes/gallery.php:8 posttypes/gallery.php:9
+msgid "Add New Gallery"
+msgstr ""
+
+#: posttypes/gallery.php:10
+msgid "Edit Gallery"
+msgstr ""
+
+#: posttypes/gallery.php:11
+msgid "New Gallery"
+msgstr ""
+
+#: posttypes/gallery.php:12
+msgid "View Gallery"
+msgstr ""
+
+#: posttypes/gallery.php:13
+msgid "Search Gallery"
+msgstr ""
+
+#: posttypes/gallery.php:14
+msgid "No Gallery found"
+msgstr ""
+
+#: posttypes/gallery.php:15
+msgid "No Gallery found in Trash"
+msgstr ""
+
+#: posttypes/gallery.php:16
+msgid "Parent Gallery:"
+msgstr ""
+
+#: posttypes/gallery.php:51
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: posttypes/gallery.php:52
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: posttypes/gallery.php:53
+msgid "Search Categories"
+msgstr ""
+
+#: posttypes/gallery.php:54 posttypes/portfolio.php:51
+msgid "All Categories"
+msgstr ""
+
+#: posttypes/gallery.php:55 posttypes/portfolio.php:52
+msgid "Parent Category"
+msgstr ""
+
+#: posttypes/gallery.php:56 posttypes/portfolio.php:53
+msgid "Parent Category:"
+msgstr ""
+
+#: posttypes/gallery.php:57 posttypes/portfolio.php:54
+msgid "Edit Category"
+msgstr ""
+
+#: posttypes/gallery.php:58 posttypes/portfolio.php:55
+msgid "Update Category"
+msgstr ""
+
+#: posttypes/gallery.php:59 posttypes/portfolio.php:56
+msgid "Add New Category"
+msgstr ""
+
+#: posttypes/gallery.php:60 posttypes/portfolio.php:57
+msgid "New Category Name"
+msgstr ""
+
+#: posttypes/gallery.php:61 posttypes/portfolio.php:48
+#: posttypes/portfolio.php:58
+msgid "Categories"
+msgstr ""
+
+#: posttypes/header.php:24 posttypes/header.php:25 posttypes/header.php:35
+msgid "Header Builder"
+msgstr ""
+
+#: posttypes/header.php:26 posttypes/header.php:27
+msgid "Add Header Builder"
+msgstr ""
+
+#: posttypes/header.php:28
+msgid "Edit Header"
+msgstr ""
+
+#: posttypes/header.php:29
+msgid "New Header Builder"
+msgstr ""
+
+#: posttypes/header.php:30
+msgid "View Header Builder"
+msgstr ""
+
+#: posttypes/header.php:31
+msgid "Search Header Profiles"
+msgstr ""
+
+#: posttypes/header.php:32
+msgid "No Header Profiles found"
+msgstr ""
+
+#: posttypes/header.php:33
+msgid "No Header Profiles found in Trash"
+msgstr ""
+
+#: posttypes/header.php:34
+msgid "Parent Header:"
+msgstr ""
+
+#: posttypes/header.php:41
+msgid "List Header"
+msgstr ""
+
+#: posttypes/megamenu.php:5 posttypes/megamenu.php:16
+msgid "Mega Menus"
+msgstr ""
+
+#: posttypes/megamenu.php:6
+msgid "Mega Menu"
+msgstr ""
+
+#: posttypes/megamenu.php:7 posttypes/megamenu.php:8
+msgid "Add Profile Mega Menu"
+msgstr ""
+
+#: posttypes/megamenu.php:9
+msgid "Edit Mega Menu"
+msgstr ""
+
+#: posttypes/megamenu.php:10
+msgid "New Profile"
+msgstr ""
+
+#: posttypes/megamenu.php:11
+msgid "View Mega Menu Profile"
+msgstr ""
+
+#: posttypes/megamenu.php:12
+msgid "Search Mega Menu Profiles"
+msgstr ""
+
+#: posttypes/megamenu.php:13
+msgid "No Mega Menu Profiles found"
+msgstr ""
+
+#: posttypes/megamenu.php:14
+msgid "No Mega Menu Profiles found in Trash"
+msgstr ""
+
+#: posttypes/megamenu.php:15
+msgid "Parent Mega Menu:"
+msgstr ""
+
+#: posttypes/portfolio.php:5 posttypes/portfolio.php:16
+msgid "Portfolios"
+msgstr ""
+
+#: posttypes/portfolio.php:6
+msgid "Portfolio"
+msgstr ""
+
+#: posttypes/portfolio.php:7 posttypes/portfolio.php:8
+msgid "Add New Portfolio"
+msgstr ""
+
+#: posttypes/portfolio.php:9
+msgid "Edit Portfolio"
+msgstr ""
+
+#: posttypes/portfolio.php:10
+msgid "New Portfolio"
+msgstr ""
+
+#: posttypes/portfolio.php:11
+msgid "View Portfolio"
+msgstr ""
+
+#: posttypes/portfolio.php:12
+msgid "Search Portfolios"
+msgstr ""
+
+#: posttypes/portfolio.php:13
+msgid "No Portfolios found"
+msgstr ""
+
+#: posttypes/portfolio.php:14
+msgid "No Portfolios found in Trash"
+msgstr ""
+
+#: posttypes/portfolio.php:15
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: posttypes/portfolio.php:50
+msgid "Search Category"
+msgstr ""
+
+#: posttypes/portfolio.php:155 posttypes/portfolio.php:173
+msgid "Id"
+msgstr ""
+
+#: posttypes/portfolio.php:155
+msgid " - Title"
+msgstr ""
+
+#: posttypes/portfolio.php:190
+msgid "Information"
+msgstr ""
+
+#: posttypes/portfolio.php:207 posttypes/team.php:88 posttypes/team.php:149
+#: posttypes/team.php:210
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:342
+#: redux/redux-framework/inc/fields/media/class-redux-media.php:207
+#: redux/redux-framework/inc/fields/multi_text/class-redux-multi-text.php:51
+#: redux/redux-framework/inc/fields/multi_text/class-redux-multi-text.php:68
+#: redux/redux-framework/inc/fields/multi_text/class-redux-multi-text.php:90
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:118
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:253
+msgid "Remove"
+msgstr ""
+
+#: posttypes/portfolio.php:215
+msgid "Add Information"
+msgstr ""
+
+#: posttypes/team.php:5 posttypes/team.php:6
+msgid "Team"
+msgstr ""
+
+#: posttypes/team.php:7 posttypes/team.php:8
+msgid "Add New Team"
+msgstr ""
+
+#: posttypes/team.php:9
+msgid "Edit Team"
+msgstr ""
+
+#: posttypes/team.php:10
+msgid "New Team"
+msgstr ""
+
+#: posttypes/team.php:11
+msgid "View Team"
+msgstr ""
+
+#: posttypes/team.php:12
+msgid "Search Teams"
+msgstr ""
+
+#: posttypes/team.php:13
+msgid "No Teams found"
+msgstr ""
+
+#: posttypes/team.php:14
+msgid "No Teams found in Trash"
+msgstr ""
+
+#: posttypes/team.php:15
+msgid "Parent Team:"
+msgstr ""
+
+#: posttypes/team.php:16
+msgid "Teams"
+msgstr ""
+
+#: posttypes/team.php:96
+msgid "Add Social"
+msgstr ""
+
+#: posttypes/team.php:131
+msgid "Education"
+msgstr ""
+
+#: posttypes/team.php:157
+msgid "Add Education"
+msgstr ""
+
+#: posttypes/team.php:192
+msgid "Skills"
+msgstr ""
+
+#: posttypes/team.php:218
+msgid "Add Skills"
+msgstr ""
+
+#: redux/redux-framework/framework.php:390
+#: redux/redux-framework/framework.php:399
+msgid "Cheatin&#8217; eh?"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-admin-notices.php:135
+msgid "Dismiss"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-ajax-save.php:40
+#: redux/redux-framework/inc/classes/class-redux-ajax-select2.php:38
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-ajax-save.php:50
+#: redux/redux-framework/inc/classes/class-redux-ajax-select2.php:42
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-ajax-save.php:112
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#. translators: This is only shown to developers, should not impact users.
+#: redux/redux-framework/inc/classes/class-redux-api.php:143
+msgid "Warning, Premature Initialization"
+msgstr ""
+
+#. translators: This is only shown to developers, should not impact users.
+#: redux/redux-framework/inc/classes/class-redux-api.php:146
+msgid "was run before the %s hook and was delayed to avoid errors."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-api.php:357
+msgid "Redux Framework is not installed. Please install it."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-api.php:722
+msgid "Unable to create a section due to missing id and title."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-api.php:740
+msgid ""
+"Unable to create a section due an empty section array or the section "
+"variable passed was not an array."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-args.php:134
+msgid "Regular 400"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-args.php:138
+msgid "Regular 400 Italic"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-args.php:142
+msgid "Bold 700"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-args.php:146
+msgid "Bold 700 Italic"
+msgstr ""
+
+#. translators: 1: Redux, 2: Link to plugin review
+#: redux/redux-framework/inc/classes/class-redux-args.php:269
+msgid ""
+"Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your "
+"support!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-args.php:270
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:510
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:316
+msgid "Redux"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-args.php:277
+#: redux/redux-framework/inc/classes/class-redux-args.php:281
+msgid "Options"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-args.php:343
+msgid "Redux Framework Notice"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-args.php:346
+msgid ""
+"There are references to the Redux Framework support site in your config's "
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-args.php:349
+#: redux/redux-framework/inc/classes/class-redux-args.php:373
+msgid ""
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-args.php:367
+msgid "Redux Framework Notice:"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-args.php:370
+msgid ""
+"There are references to the Redux Framework support site in your config's"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-cdn.php:127
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#. translators: %s: URL.
+#: redux/redux-framework/inc/classes/class-redux-cdn.php:130
+msgid ""
+"If you are developing offline, please download and install the %s plugin/"
+"extension to bypass our CDN and avoid this warning"
+msgstr ""
+
+#. translators: %s: CDN handle.
+#: redux/redux-framework/inc/classes/class-redux-cdn.php:134
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-cdn.php:134
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#. translators: %s: Vendor support URL. %s: Admin pluygins page.
+#: redux/redux-framework/inc/classes/class-redux-cdn.php:182
+msgid ""
+"The %1$s (or extension) is either not installed or not activated and thus, "
+"some controls may not render properly.  Please ensure that it is installed "
+"and %2$s"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-cdn.php:182
+msgid "activated."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:136
+msgid "Security check failed."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:250
+msgid "Loading..."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:279
+msgid ""
+"Register <strong>%1$s</strong> to enable automatic Google Font updates "
+"service. Plus unlock all free block templates in the Redux template library."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:284
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:707
+msgid "learn more"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:292
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:404
+msgid "No thanks"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:336
+msgid ""
+"You’re almost done. Register for our service to unlock even more tools to "
+"help you build better sites faster in WordPress."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:342
+msgid "Dismiss this notice"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:356
+msgid "Visit our website to learn more!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:368
+msgid ""
+"Redux helps you to take your site to the next level with tools that greatly "
+"enhance your WordPress experience."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:379
+msgid "Build better sites faster with Redux"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:382
+msgid ""
+"The Redux block library service allows you to build any site you want in "
+"minutes with a click of a button. With over 1,000+ templates, Redux helps "
+"you build sites fast!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:391
+msgid ""
+"No registration is required to use Redux as you always have. By registering "
+"for our service you gain access to Google Font updates as well as access to "
+"all free templates in our block template library."
+msgstr ""
+
+#. translators: 1. Name
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:404
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:349
+msgid "No Thanks"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:442
+msgid "Redux Logo"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:447
+msgid ""
+"Activate essential WordPress security and performance tools by setting up "
+"Redux"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:464
+msgid "Security & Backups"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:484
+msgid "Built-in Performance"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:506
+msgctxt "a link that closes the modal window that offers to connect Redux"
+msgid "Not now, thank you."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:531
+msgid ""
+"<strong>Redux is activated!</strong> Each site on your network must be "
+"connected individually by an admin on that site."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:554
+msgid ""
+"By clicking the <strong>Register</strong> button, you agree to our <a href="
+"\"%1$s\" target=\"_blank\">terms of service</a>, to create an account, and "
+"to share details of your usage metrics with Redux.io."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:175
+msgid "Gutenberg is currently disabled!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:183
+msgid "Hmm, it seems something else is disabling Gutenberg..."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:186
+msgid "Your theme author has disabled Gutenberg!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:189
+msgid "Looks like something has disabled Gutenberg?"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:194
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:200
+msgid "Enable Gutenberg"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:198
+msgid "Your theme"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:218
+msgid "Disable Plugin"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:221
+msgid "Disable Plugins"
+msgstr ""
+
+#. translators: 1. Name
+#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:340
+msgid "Redux WordPress Plugin"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enqueue.php:616
+#: redux/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:695
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enqueue.php:632
+#: redux/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:696
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enqueue.php:648
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enqueue.php:664
+#: redux/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:697
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enqueue.php:680
+msgid ""
+"Your current options will be replaced with the values of this import. Would "
+"you like to proceed?"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enqueue.php:695
+msgid "Please Wait"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enqueue.php:707
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-enqueue.php:711
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#. translators: %1$s Extension friendly name. %2$s: minimum Redux version.
+#: redux/redux-framework/inc/classes/class-redux-extension-abstract.php:227
+msgid "The %1$s extension requires Redux Framework version %2$s or higher."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-extension-abstract.php:227
+msgid "You are currently running Redux Framework version "
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-extension-abstract.php:227
+msgid ""
+"This field will not render in your option panel, and featuress of this "
+"extension will not be available until the latest version of Redux Framework "
+"has been installed."
+msgstr ""
+
+#. translators: %s is the name of an extension
+#: redux/redux-framework/inc/classes/class-redux-extensions.php:90
+msgid "The `%s` extension was not located properly"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-field.php:37
+msgid "Field ID"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-field.php:39
+msgid "Subtitle"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-field.php:41
+msgid "Class"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-field.php:42
+msgid "Compiler"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-field.php:44
+msgid "Disabled"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-field.php:45
+msgid "Hint"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-field.php:46
+msgid "Permissions"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-field.php:47
+msgid "Required"
+msgstr ""
+
+#. translators: %1$s: Upload URL.  %2$s: Codex URL.
+#: redux/redux-framework/inc/classes/class-redux-filesystem.php:149
+#: redux/redux-framework/inc/classes/class-redux-filesystem.php:443
+msgid "File Permission Issues"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-filesystem.php:149
+#: redux/redux-framework/inc/classes/class-redux-filesystem.php:443
+msgid ""
+"We were unable to modify required files. Please ensure that %1$s has the "
+"proper read-write permissions, or modify your wp-config.php file to contain "
+"your FTP login credentials as %2$s."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-filesystem.php:149
+#: redux/redux-framework/inc/classes/class-redux-filesystem.php:443
+msgid "outlined here"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-functions.php:506
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-helpers.php:1269
+msgid "version"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-helpers.php:1269
+msgid "is out of date. The core version is"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-page-render.php:185
+msgid "moving the mouse over"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-page-render.php:187
+msgid "clicking"
+msgstr ""
+
+#. translators: %1$s: Mousr action.  %2$s: Hint status.
+#: redux/redux-framework/inc/classes/class-redux-page-render.php:192
+msgid ""
+"Hints are tooltips that popup when %1$s the hint icon, offering addition "
+"information about the field in which they appear.  They can be %2$s by using "
+"the link below."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-page-render.php:197
+msgid "Hints"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-page-render.php:213
+msgid "Hint Tooltip Preferences"
+msgstr ""
+
+#. translators: %1$s is the field ID, %2$s is the field type.
+#: redux/redux-framework/inc/classes/class-redux-page-render.php:513
+msgid "Field %1$s could not be displayed. Field type %2$s was not found."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-panel.php:86
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-panel.php:155
+msgid "Settings Imported!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-panel.php:176
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-panel.php:197
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-panel.php:218
+msgid "Settings Saved!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-panel.php:245
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-panel.php:259
+msgid "error(s) were found!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-panel.php:274
+msgid "warning(s) were found!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-panel.php:394
+msgid ""
+"Your panel has bundled copies of Redux Framework template files that are "
+"outdated!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-panel.php:394
+msgid "Please update them now as functionality issues could arise."
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-rest-api-builder.php:68
+#: redux/redux-framework/inc/classes/class-redux-rest-api-builder.php:83
+msgid "The field type"
+msgstr ""
+
+#. translators: Number of years
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:98
+msgid "%s years"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:100
+msgid "a year"
+msgstr ""
+
+#. translators: Number of weeks
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:107
+msgid "%s weeks"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:109
+msgid "a week"
+msgstr ""
+
+#. translators: Number of days
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:116
+msgid "%s days"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:118
+msgid "a day"
+msgstr ""
+
+#. translators: Number of hours
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:125
+msgid "%s hours"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:127
+msgid "an hour"
+msgstr ""
+
+#. translators: Number of minutes
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:134
+msgid "%s minutes"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:136
+msgid "a minute"
+msgstr ""
+
+#. translators: Number of seconds
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:143
+msgid "%s seconds"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:145
+msgid "a second"
+msgstr ""
+
+#. translators: 1. Name
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:275
+msgid "%s WordPress Plugin"
+msgstr ""
+
+#. translators: 1. Name
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:279
+msgid "Are you enjoying %s?"
+msgstr ""
+
+#. translators: 1. Name, 2. Time
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:282
+msgid ""
+"You have been using %1$s for %2$s now. Would you mind leaving a review to "
+"let us know know what you think? We'd really appreciate it!"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:286
+msgid "Leave a Review"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:287
+msgid "No thanks / I already have"
+msgstr ""
+
+#: redux/redux-framework/inc/classes/class-redux-wordpress-data.php:363
+msgid "[unassigned]"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:721
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:722
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:723
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-panel.php:97
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#. translators: %s is the site/panel title in the Customizer
+#: redux/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-panel.php:126
+#: redux/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-panel.php:167
+msgid "You are customizing"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-panel.php:163
+#: redux/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-section.php:147
+msgid "Back"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-panel.php:174
+msgid "Help"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-section.php:91
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-section.php:140
+msgid "Press return or enter to open"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/class-redux-extension-import-export.php:114
+msgid "Import / Export"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:77
+msgid "Import Options"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:83
+msgid "Import from Clipboard"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:90
+msgid "Import from URL"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:97
+msgid "Upload file"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:104
+msgid "Paste your clipboard data here."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:114
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:128
+msgid "Import"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:131
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:139
+msgid "Export Options"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:143
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:150
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:152
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:151
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:159
+#: redux/redux-framework/inc/welcome/views/health-report.php:77
+msgid "Copied!"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:155
+msgid "Export File"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:158
+#: redux/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:161
+msgid "Copy Export URL"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/options_object/class-redux-extension-options-object.php:72
+#: redux/redux-framework/inc/extensions/options_object/options_object/class-redux-options-object.php:98
+msgid "Options Object"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/options_object/options_object/class-redux-options-object.php:104
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/extension_wbc_importer.php:236
+msgid "Demo Already Imported"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/extension_wbc_importer.php:262
+#: redux/redux-framework/inc/extensions/wbc_importer/extension_wbc_importer.php:264
+msgid "Demo Importer"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/extension_wbc_importer.php:269
+msgid "Works best to import on a new install of WordPress"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:42
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:72
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:84
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:89
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:279
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:257
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:332
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:406
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:428
+msgid "Site does not support widget"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:451
+msgid "Widget already exists"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:500
+#: redux/redux-framework/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:116
+msgid "Imported"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:503
+msgid "Imported to Inactive"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:510
+msgid "No Title"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:134
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:143
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:194
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:198
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:199
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:215
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:240
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:267
+msgid ""
+"To make it simpler for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site, such as your primary administrator account."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:269
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:311
+msgid "or create new user with login name:"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:314
+msgid "as a new user:"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:324
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:326
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:334
+msgid "- Select -"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:388
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:440
+msgid "Failed to import category %s"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:485
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:540
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:766
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:633
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:670
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:732
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:906
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:913
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:976
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:989
+msgid "Invalid file type"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1028
+msgid "Could not create temporary file."
+msgstr ""
+
+#. translators: 1: The WordPress error message. 2: The WordPress error code.
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1047
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr ""
+
+#. translators: 1: The HTTP error message. 2: The HTTP error code.
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1063
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1075
+msgid "Remote server did not respond"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1082
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1087
+msgid "Downloaded file has incorrect size"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1093
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1125
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1140
+msgid "The uploaded file could not be moved"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1252
+msgid "Import WordPress"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1259
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1274
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1275
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:93
+#: redux/redux-framework/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+msgid "Import Demo"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:97
+msgid "Demo Imported"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+#: redux/redux-framework/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:117
+msgid "Please Wait..."
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:118
+msgid "Re-Import"
+msgstr ""
+
+#: redux/redux-framework/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:127
+msgid "No Demo Data Provided"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:124
+#: redux/redux-framework/inc/fields/color/class-redux-color.php:63
+#: redux/redux-framework/inc/fields/color_gradient/class-redux-color-gradient.php:116
+msgid "Transparent"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:135
+msgid "No Repeat"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:136
+msgid "Repeat All"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:137
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:138
+msgid "Repeat Vertically"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:139
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:154
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:172
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:190
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:209
+msgid "Inherit"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:142
+msgid "Background Repeat"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:155
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:173
+msgid "Border Box"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:156
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:174
+msgid "Content Box"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:157
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:175
+msgid "Padding Box"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:160
+msgid "Background Clip"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:178
+msgid "Background Origin"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:191
+msgid "Cover"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:192
+msgid "Contain"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:195
+msgid "Background Size"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:207
+msgid "Fixed"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:208
+msgid "Scroll"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:212
+msgid "Background Attachment"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:224
+msgid "Left Top"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:225
+msgid "Left center"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:226
+msgid "Left Bottom"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:227
+msgid "Center Top"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:228
+msgid "Center Center"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:229
+msgid "Center Bottom"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:230
+msgid "Right Top"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:231
+msgid "Right center"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:232
+msgid "Right Bottom"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:235
+msgid "Background Position"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:290
+#: redux/redux-framework/inc/fields/media/class-redux-media.php:51
+msgid "No media selected"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/background/class-redux-background.php:335
+#: redux/redux-framework/inc/fields/media/class-redux-media.php:200
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:107
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:251
+msgid "Upload"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/border/class-redux-border.php:169
+msgid "Solid"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/border/class-redux-border.php:170
+msgid "Dashed"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/border/class-redux-border.php:171
+msgid "Dotted"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/border/class-redux-border.php:172
+msgid "Double"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/border/class-redux-border.php:176
+msgid "Border style"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/color_rgba/class-redux-color-rgba.php:42
+msgid "Choose"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/color_rgba/class-redux-color-rgba.php:43
+msgid "Cancel"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/color_rgba/class-redux-color-rgba.php:45
+msgid "Select Color"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/dimensions/class-redux-dimensions.php:144
+msgid "Width"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/dimensions/class-redux-dimensions.php:194
+#: redux/redux-framework/inc/fields/dimensions/class-redux-dimensions.php:198
+#: redux/redux-framework/inc/fields/dimensions/class-redux-dimensions.php:200
+#: redux/redux-framework/inc/fields/spacing/class-redux-spacing.php:282
+#: redux/redux-framework/inc/fields/spacing/class-redux-spacing.php:283
+msgid "Units"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/gallery/class-redux-gallery.php:48
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/gallery/class-redux-gallery.php:49
+msgid "Clear Gallery"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/link_color/class-redux-link-color.php:65
+msgid "Regular"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/link_color/class-redux-link-color.php:115
+msgid "Visited"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/link_color/class-redux-link-color.php:165
+msgid "Focus"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/multi_text/class-redux-multi-text.php:31
+msgid "Add More"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/select/class-redux-select.php:89
+#: redux/redux-framework/inc/fields/select_image/class-redux-select-image.php:42
+msgid "Select an item"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/select/class-redux-select.php:166
+#: redux/redux-framework/inc/fields/select_image/class-redux-select-image.php:133
+msgid "No items of this type were found."
+msgstr ""
+
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:32
+msgid "Slide"
+msgstr ""
+
+#. translators: New accordion title.
+#. translators:  Content title for new accordion.
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:48
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:235
+msgid "New %s"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:154
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:290
+msgid "URL"
+msgstr ""
+
+#. translators:  Content title for accordion.
+#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:365
+msgid "Add %s"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/switch/class-redux-switch.php:37
+msgid "On"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/switch/class-redux-switch.php:40
+msgid "Off"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/text/class-redux-text.php:27
+msgid ""
+"The Text field accepts any form of text and optionally validates the text "
+"before saving the value."
+msgstr ""
+
+#: redux/redux-framework/inc/fields/text/class-redux-text.php:29
+msgid "Display a qTip div when active on the text field."
+msgstr ""
+
+#: redux/redux-framework/inc/fields/text/class-redux-text.php:30
+msgid "Placeholder text."
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:291
+msgid "Font Family"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:293
+msgid "Font family"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:333
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:335
+msgid "Backup Font Family"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:354
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:374
+msgid "Font style"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:355
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:387
+msgid "Font subsets"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:395
+msgid "Font Subsets"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:398
+msgid "Subsets"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:400
+msgid "Font script"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:414
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:415
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:417
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:419
+msgid "Text Align"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:428
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:464
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:490
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:519
+msgid "inherit"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:429
+msgid "left"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:430
+msgid "right"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:431
+msgid "center"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:432
+msgid "justify"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:433
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:463
+msgid "initial"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:445
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:446
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:448
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:450
+msgid "Text Transform"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:459
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:518
+msgid "none"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:460
+msgid "capitalize"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:461
+msgid "uppercase"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:462
+msgid "lowercase"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:476
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:477
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:479
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:481
+msgid "Font Variant"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:491
+msgid "normal"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:492
+msgid "small-caps"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:504
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:505
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:507
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:509
+msgid "Text Decoration"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:520
+msgid "underline"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:521
+msgid "overline"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:522
+msgid "line-through"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:523
+msgid "blink"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:536
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:541
+msgid "Font Size"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:555
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:560
+msgid "Line Height"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:575
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:580
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:581
+msgid "Word Spacing"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:595
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:600
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:601
+msgid "Letter Spacing"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:636
+msgid "Font Color"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:643
+msgid "Font color"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:704
+msgid ""
+"Your Google Fonts are out of date. In order to update them you must register "
+"for Redux to enable updates."
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:706
+msgid "to enable font updates"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:712
+msgid "Run a"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:712
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:714
+msgid "one-time update"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:714
+msgid "Automated updates"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:762
+msgid "Downloading Google Fonts..."
+msgstr ""
+
+#. translators: Aria title, link title.
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:764
+msgid "Update Failed|msg. %1$s"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:764
+msgid "Retry?"
+msgstr ""
+
+#. translators: Javascript reload command, link title.
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:766
+msgid "Updated! %1$s to start using your updated fonts."
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:766
+msgid "Reload the page"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:1206
+msgid "Standard Fonts"
+msgstr ""
+
+#: redux/redux-framework/inc/fields/typography/class-redux-typography.php:1289
+msgid "Google Webfonts"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+#: redux/redux-framework/inc/themecheck/checks/class-redux-embedded.php:64
+msgid "RECOMMENDED"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+msgid "If you are submitting to WordPress.org Theme Repository, it is"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+msgid "strongly"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+msgid "suggested that you read"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+msgid "this document"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+msgid "or your theme will be rejected because of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "REQUIRED"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "You MUST delete"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-embedded.php:50
+msgid ""
+"or your theme will be rejected by WP.org theme submission because of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-embedded.php:64
+msgid ""
+"The following arguments MUST be used for WP.org submissions, or you will be "
+"rejected because of your Redux configuration."
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-full-package.php:42
+msgid "Redux localization utilities"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-full-package.php:43
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-full-package.php:44
+msgid "Redux Code Styles"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-full-package.php:45
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-full-package.php:46
+msgid "Redux Plugin File"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-full-package.php:47
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-full-package.php:48
+msgid "CI Testing FIle"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-full-package.php:49
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-full-package.php:62
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the"
+msgstr ""
+
+#: redux/redux-framework/inc/themecheck/checks/class-redux-full-package.php:62
+msgid ""
+"folder. Embedding anything else will get your rejected from theme "
+"submission. Suspected Redux package file(s):"
+msgstr ""
+
+#. translators: %1$s: santizied value.  %2$s: Old value.
+#: redux/redux-framework/inc/validation/color/class-redux-validation-color.php:34
+msgid ""
+"Invalid HTML color code %1$s. Please enter a valid code. No value was saved."
+msgstr ""
+
+#. translators: %1$s: santizied value.  %2$s: Old value.
+#: redux/redux-framework/inc/validation/color/class-redux-validation-color.php:46
+msgid "Sanitized value and saved as %1$s instead of %2$s."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/comma_numeric/class-redux-validation-comma-numeric.php:34
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/css/class-redux-validation-css.php:27
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/date/class-redux-validation-date.php:27
+msgid "This field must be a valid date."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/email/class-redux-validation-email.php:27
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/html_custom/class-redux-validation-html-custom.php:27
+msgid "Unallowed HTML was found in this field and has been removed."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/js/class-redux-validation-js.php:27
+msgid "Javascript has been successfully escaped."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/no_html/class-redux-validation-no-html.php:27
+msgid "You must not enter any HTML in this field.  All HTML has been removed."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/no_special_chars/class-redux-validation-no-special-chars.php:27
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/not_empty/class-redux-validation-not-empty.php:27
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/numeric/class-redux-validation-numeric.php:27
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/unique_slug/class-redux-validation-unique-slug.php:29
+msgid "That URL slug is in use, please choose another."
+msgstr ""
+
+#: redux/redux-framework/inc/validation/url/class-redux-validation-url.php:27
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:87
+msgid "If you like"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:87
+msgid "please leave us a"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:87
+msgid "rating. A huge thank you in advance!"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:104
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:104
+msgid "Redux Framework"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:107
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:216
+#: redux/redux-framework/inc/welcome/views/support.php:12
+msgid "Get Support"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:110
+msgid "Redux Health Check"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:206
+msgid "What is Redux?"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:211
+msgid "Health Check"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:302
+msgid "Disable Panel Demo"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/class-redux-welcome.php:308
+msgid "Enable Panel Demo"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:17
+msgid "Welcome to"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:21
+msgid ""
+"Redux is the world's most powerful and widely used WordPress interface "
+"builder. We are trusted by millions of developers and end users world-wide."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:25
+#: redux/redux-framework/inc/welcome/views/about.php:149
+#: redux/redux-framework/inc/welcome/views/health-report.php:47
+#: redux/redux-framework/inc/welcome/views/health-report.php:875
+#: redux/redux-framework/inc/welcome/views/support.php:18
+msgid "Version"
+msgstr ""
+
+#. translators: %s: HTML.
+#: redux/redux-framework/inc/welcome/views/about.php:34
+msgid "Redux is Where the End User %s Interacts with WordPress"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:35
+msgid ""
+"Redux is a foundation on which to build any interface in WordPress. It's "
+"time saved, frustrations reduced, and a unified experience."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:38
+msgid "Metaboxes"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:39
+msgid "Taxonomies"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:40
+msgid "User Meta"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:41
+msgid "Options Panel"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:42
+msgid "Customizer"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:43
+msgid "Gutenberg"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:57
+msgid "Did I install this?"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:61
+msgid ""
+"Maybe not! These items are using Redux. If you want to keep using them, "
+"Redux will need to remain installed and activated."
+msgstr ""
+
+#. translators: %1$s: URL, %2$s: close tag.
+#: redux/redux-framework/inc/welcome/views/about.php:72
+msgid ""
+"Maybe not! If you want to see what Redux is all about, click here to "
+"%1$sActivate Demo Mode%2$s."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:99
+msgid "Version:"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:104
+#: redux/redux-framework/inc/welcome/views/about.php:157
+msgid "By"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:111
+#: redux/redux-framework/inc/welcome/views/health-report.php:863
+msgid "Theme"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/about.php:163
+msgid "Plugin"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:39
+msgid "Redux - Health Report"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:43
+msgid ""
+"Our core mantra at Redux is backward compatibility. With millions instances "
+"worldwide, all we care about is keeping can be assured that we will take "
+"care of you."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:56
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:61
+msgid "Get System Report"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:67
+msgid "Understanding the Status Report"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:78
+msgid "Copy for Support"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:88
+msgid "WordPress Environment"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:95
+msgid "Home URL"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:98
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:104
+msgid "Site URL"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:107
+msgid "The root URL of your site."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:115
+msgid "Redux Version"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:118
+msgid "The version of Redux Framework installed on your site."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:126
+msgid "Redux Data Directory Writable"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:129
+#: redux/redux-framework/inc/welcome/views/health-report.php:152
+msgid ""
+"Redux and its extensions write data to the <code>uploads</code> directory. "
+"This directory must be writable."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:141
+msgid "To allow data saving, make"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:141
+msgid "writable."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:149
+msgid "WP Content URL"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:160
+msgid "WP Version"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:163
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:171
+msgid "WP Multisite"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:174
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:188
+msgid "Permalink Structure"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:191
+msgid ""
+"The current permalink structure as defined in WordPress Settings->Permalinks."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:200
+msgid "Front Page Display"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:203
+msgid "The current Reading mode of WordPress."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:212
+msgid "Front Page"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:215
+msgid "The currently selected page which acts as the site's Front Page."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:223
+msgid "Posts Page"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:226
+msgid "The currently selected page in where blog posts are displayed."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:237
+msgid "WP Memory Limit"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:240
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:247
+msgid "We recommend setting memory to at least 40MB. See:"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:247
+msgid "Increasing memory allocated to PHP"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:256
+msgid "Database Table Prefix"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:259
+msgid "The prefix structure of the current WordPress database."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:267
+msgid "WP Debug Mode"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:270
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:284
+msgid "Language"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:287
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:299
+msgid "Browser"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:306
+msgid "Browser Info"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:309
+msgid "Information about the current web browser."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:326
+msgid "Server Environment"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:333
+msgid "Server Info"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:336
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:344
+msgid "Localhost Environment"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:347
+msgid "Is the server running in a localhost environment."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:363
+msgid "PHP Version"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:366
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:374
+msgid "ABSPATH"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:377
+msgid "The ABSPATH variable on the server."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:386
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:390
+#: redux/redux-framework/inc/welcome/views/health-report.php:399
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:395
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:404
+msgid "PHP Time Limit"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:406
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:411
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:415
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:420
+msgid "PHP Display Errors"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:424
+msgid "Determines if PHP will display errors within the browser."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:440
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:443
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.  "
+"If enabled on your server, Suhosin may need to be configured to increase its "
+"data submission limits."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:461
+msgid "MySQL Version"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:463
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:468
+msgid "Max Upload Size"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:470
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:476
+msgid "Default Timezone is UTC"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:479
+msgid "The default timezone for your server."
+msgstr ""
+
+#. translators: %s default time zone.
+#: redux/redux-framework/inc/welcome/views/health-report.php:487
+msgid "Default timezone is"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:487
+msgid "it should be UTC"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:502
+msgid "Used when communicating with remote services with PHP."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:508
+msgid ""
+"Your server does not have fsockopen or cURL enabled - cURL is used to "
+"communicate with other servers. Please contact your hosting provider."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:512
+msgid "Remote Post"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:513
+msgid "Used to send data to remote servers."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:518
+msgid ""
+"wp_remote_post() failed. Many advanced features may not function. Contact "
+"your hosting provider."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:521
+#: redux/redux-framework/inc/welcome/views/health-report.php:536
+msgid "Error:"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:528
+msgid "Remote Get"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:529
+msgid "Used to grab information from remote servers for updates updates."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:534
+msgid ""
+"wp_remote_get() failed. This is needed to get information from remote "
+"servers. Contact your hosting provider."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:572
+msgid "Active Plugins"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:585
+msgid "Visit plugin homepage"
+msgstr ""
+
+#. translators: %s Author name and URL.
+#: redux/redux-framework/inc/welcome/views/health-report.php:593
+msgctxt "by author"
+msgid "by %s"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:613
+msgid "Redux Instance: "
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:623
+msgid "The opt_name argument for this instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:633
+msgid "The global_variable argument for this instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:643
+msgid "Indicates if developer mode is enabled for this instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:662
+msgid "Indicates if ajax based saving is enabled for this instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:681
+msgid ""
+"The page slug denotes the string used for the options panel page for this "
+"instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:688
+msgid ""
+"The page permissions variable sets the permission level required to access "
+"the options panel for this instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:695
+msgid ""
+"This variable set whether or not the menu is displayed as an admin menu item "
+"for this instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:702
+msgid ""
+"The page parent variable sets where the options menu will be placed on the "
+"WordPress admin sidebar for this instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:710
+msgid "Indicates if the compiler flag is enabled for this instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:729
+msgid ""
+"Indicates if output flag for globally shutting off all CSS output is enabled "
+"for this instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:748
+msgid ""
+"The output_tag variable sets whether or not dynamic CSS will be generated "
+"for the customizer and Google fonts for this instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:768
+msgid ""
+"These files are calling this opt_name. If you want to alter the config of "
+"this opt_name, modify these files."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:800
+msgid ""
+"The specified template path containing custom template files for this "
+"instance of Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:807
+msgid "List of template files overriding the default Redux template files."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:835
+msgid "Indicates the installed Redux extensions and their version numbers."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:870
+msgid "The name of the current active theme."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:877
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:885
+msgid "is available"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:891
+msgid "Author URL"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:893
+msgid "The theme developers URL."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:898
+msgid "Child Theme"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:900
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#. Translators: %s docs link.
+#: redux/redux-framework/inc/welcome/views/health-report.php:908
+msgid ""
+"If you are modifying Redux Framework on a parent theme that you did not "
+"build personally we recommend using a child theme. See: <a href=\"%s\" "
+"target=\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:917
+msgid "Parent Theme Name"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:921
+msgid "The name of the parent theme."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:927
+msgid "Parent Theme Version"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:930
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:936
+msgid "Parent Theme Author URL"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/health-report.php:939
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:14
+msgid ""
+"Sometimes you just need some help. Use this form to submit a support URL and "
+"then provide that link to the product developer or our staff."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:29
+#: redux/redux-framework/inc/welcome/views/support.php:51
+msgid "Generate a Support URL"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:30
+msgid "Select Support Type"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:31
+#: redux/redux-framework/inc/welcome/views/support.php:100
+msgid "How to Get Support"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:37
+msgid "Submit a Support Request"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:41
+msgid "To get started, we will need to generate a support hash."
+msgstr ""
+
+#. translators: %s: Redux Health page.
+#: redux/redux-framework/inc/welcome/views/support.php:46
+msgid ""
+"This will provide to your developer all the information they may need to "
+"remedy your issue. This action WILL send information securely to a remote "
+"server. To see the type of information sent, please look at the  <a href=\"%s"
+"\">Health Check</a> tab."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:64
+msgid "Select Your Support Type"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:68
+msgid "What type of user are you?"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:77
+msgid "I am a user, using a pre-built product."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:82
+msgid "Developer"
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:84
+msgid "I am a developer, building a product using Redux."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:105
+msgid ""
+"Please proceed to the Redux Framework issue tracker and supply us with your "
+"support URL below. Please also provide any information that will help us to "
+"reproduce your issue."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:114
+msgid ""
+"Listed below are the WordPress plugins and/or theme installed on your site "
+"that utilize Redux Framework. We do not directly support products created "
+"with our framework.  It is the responsibility of the plugin or theme "
+"developer to support their work. You will need to contact the author(s) of "
+"the products listed below with your support questions."
+msgstr ""
+
+#: redux/redux-framework/inc/welcome/views/support.php:118
+msgid ""
+"Please be sure to include for your developer - via cut and paste - the "
+"Support URL in the box below."
+msgstr ""
+
+#. translators: %s: Support Defined URL.
+#: redux/redux-framework/inc/welcome/views/support.php:134
+msgid ""
+"Should the developer not be responsive, read the <a href=\"%s\" target="
+"\"_blank\">following article</a> before asking for support from us directly."
+msgstr ""
+
+#: redux/redux-framework/templates/panel/footer.tpl.php:58
+#: redux/redux-framework/templates/panel/header-stickybar.tpl.php:22
+msgid "Save Changes"
+msgstr ""
+
+#: redux/redux-framework/templates/panel/footer.tpl.php:62
+#: redux/redux-framework/templates/panel/header-stickybar.tpl.php:26
+msgid "Reset Section"
+msgstr ""
+
+#: redux/redux-framework/templates/panel/footer.tpl.php:63
+#: redux/redux-framework/templates/panel/header-stickybar.tpl.php:27
+msgid "Reset All"
+msgstr ""
+
+#: redux/redux-framework/templates/panel/footer.tpl.php:67
+#: redux/redux-framework/templates/panel/header-stickybar.tpl.php:31
+msgid "Working..."
+msgstr ""
+
+#: redux/redux-framework/templates/panel/header-stickybar.tpl.php:16
+msgid "Expand"
+msgstr ""
+
+#: redux/redux-framework/templates/panel/header.tpl.php:11
+#: redux/redux-framework/templates/panel/header.tpl.php:48
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: redux/redux-framework/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: redux/redux-framework/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: redux/redux-framework/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: redux/redux-framework/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: redux/redux-framework/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: templates/sharebox-post.php:13
+msgid "Share This Post: "
+msgstr ""
+
+#: widgets/recent_posts.php:23
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: widgets/recent_posts.php:26
+msgid "GVA Recent Posts"
+msgstr ""
+
+#: widgets/recent_posts.php:44
+msgid "Recent Posts"
+msgstr ""
+
+#: widgets/recent_posts.php:109
+msgid "(no title)"
+msgstr ""
+
+#: widgets/recent_posts.php:127
+msgid "0 Comments"
+msgstr ""
+
+#: widgets/recent_posts.php:127
+msgid "1 Comment"
+msgstr ""
+
+#: widgets/recent_posts.php:127
+msgid "% Comments"
+msgstr ""
+
+#: widgets/recent_posts.php:172
+msgid "Title:"
+msgstr ""
+
+#: widgets/recent_posts.php:177
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/recent_posts.php:183
+msgid "Display post date?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Tolips Themer"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Open Setting, Post Type, Shortcode ... for theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Gaviasthemes Team"
+msgstr ""

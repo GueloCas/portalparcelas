@@ -1,0 +1,97 @@
+.gallery-post{
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  .grid__deco{
+    position: absolute;
+  }
+  .background-overlay{
+    position: absolute;
+    @include size(100%, 100%);
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background: $black;
+    @include transition(all 0.35s);
+    opacity: 0;
+    @include scale(0.6);
+  }
+  .images{
+    overflow: hidden;
+    position: relative;
+    img{
+      @include transition(all 5s); 
+    }
+  }
+  a.zoomGallery{ 
+    position: absolute;
+    @include size(60px, 60px);
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+    z-index: 99;
+    color: $white;
+    font-size: 30px;
+    line-height: 1;
+    @include opacity(0);
+    @include transition(all 0.35s);
+    background: $theme-color;
+    &:after{
+      content: '';
+      @include size(2px, 100%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      transition: all 0.35s;
+      background: $theme-color;
+    }
+    .icon-expand{
+      @include size(60px, 60px);
+      display: inline-block;
+      position: relative;
+      z-index: 9;
+      text-align: center;
+      padding-top: 14px;
+      .icon{
+        font-size: 22px;
+        color: $white;
+      }
+    }
+    &:hover{
+      &:after{
+        width: 100%;
+      }
+      .icon-expand{
+        .icon{
+          color: $black;
+        }
+      }
+    }
+  }
+  &:hover{
+    .background-overlay{
+      width: 100%;
+      opacity: 0.36;
+      @include scale(1);
+    }
+    .zoomGallery{
+      opacity: 1;
+    }
+  }
+}
+.gva-gallery-carousel{
+  .owl-carousel{
+    margin: 0 -3px;
+    .owl-item{
+      padding: 0 3px;
+    }
+  }
+}
+.gva-gallery-grid{
+   .gallery-post{
+      margin-bottom: 30px;
+   }
+}

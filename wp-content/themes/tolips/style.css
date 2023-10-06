@@ -1,0 +1,28 @@
+/*
+Theme Name: Tolips
+Theme URI: https://gaviaspreview.com/wp/tolips/
+Author URI: http://gaviasthemes.com/
+Author: Gaviasthemes Team
+Description: Tolips is Real Estate WordPress Theme holding a high standard of quality. The template is designed for selling or renting real estate agents, agency residential & commercial developers, vacation rentals, flat, brokerages, apartment managers, house, apartment, villa and  more.
+Version: 1.2.0
+Tested up to: 5.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, sticky-post, theme-options, translation-ready
+Text Domain: tolips
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.wp-caption-text{
+   font-weight: 400;
+   font-size: 14px;
+   font-style: italic;
+   color: #3f3836;
+}
+.gallery-caption{
+   font-weight: 500;
+}
+.bypostauthor{
+   text-align: left;
+}

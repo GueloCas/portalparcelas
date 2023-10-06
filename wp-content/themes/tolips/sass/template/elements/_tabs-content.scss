@@ -1,0 +1,96 @@
+.fade{
+   &.active{
+      opacity: 1;
+   }
+}
+.gsc-tabs-content{
+   text-align: center;
+   .nav_tabs{
+      padding: 0;
+      list-style: none;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      > li{
+         float: left;
+         margin-right: 10px;
+         @include media-breakpoint-down(sm){
+            width: 100%;
+         }
+         a{
+            font-size: 16px;
+            text-transform: none;
+            letter-spacing: 0;
+            padding: 20px 15px;
+            width: 100%;
+            display: inline-block;
+            &.active{
+               background: $theme-color;
+               color: $white;
+               &:after{
+                  background: $theme-color;
+               }
+               &:hover{
+                  color: $black;
+               }
+            }
+         }
+      }
+   }
+   .tab-content{
+      text-align: left;
+      position: relative;
+      z-index: 9;
+      padding-top: 15px;
+      .tab-pane{
+         .tab-image{
+            width: 46%;
+            float: left;
+            padding-right: 30px;
+            @include media-breakpoint-down(md){
+               padding-right: 0;
+               width: 100%;
+               text-align: center;
+            }
+         }
+         .tab-content-item{
+            width: 54%;
+            float: left;
+            padding-left: 30px;
+            @include media-breakpoint-down(md){
+               padding-left: 0;
+               width: 100%;
+            }
+            .tab-item-title{
+               font-size: 20px;
+               font-weight: 700;
+               color: $black;
+               margin-bottom: 15px;
+            }
+            ul{
+               padding: 0;
+               margin: 0;
+               list-style-type: none;
+               > li{
+                  padding-left: 30px;
+                  position: relative;
+                  &:after{
+                     content: '\f058';
+                     font-family: 'FontAwesome';
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     z-index: 1;
+                     color: $theme-color;
+                  }
+               }
+            }
+            &.no_image{
+               width: 100%;
+               padding-left: 0;
+            }
+         }
+      }
+   }
+}

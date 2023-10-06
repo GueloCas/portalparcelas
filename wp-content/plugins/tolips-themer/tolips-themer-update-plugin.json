@@ -1,0 +1,19 @@
+{
+    "name": "Tolips Themer",
+    "slug": "tolips-themer",
+    "homepage": "http://gaviasthemes.com/",
+    "version": "1.1.5",
+    "requires": "5.8",
+    "author": "Gaviasthemes",
+    "author_homepage": "http://gaviasthemes.com/",
+    "download_url": "http://gaviasthemes.com/plugins/tolips-themer.zip",
+    "sections": {
+        "description": "Implement rich functions for themes base on Gaviasthemes. Wordpress framework and load widgets for theme used, this is required.",
+        "installation": "Upload or install by notice required plugin to your site, Activate it.",
+        "changelog": ""
+    },
+    "banners": {
+        "low": "http://gaviasthemes.com/tf/gavias_banner.png",
+        "high": "http://gaviasthemes.com/tf/gavias_banner.png"
+    }
+}

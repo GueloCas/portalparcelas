@@ -1,0 +1,13 @@
+{
+    "/assets/js/admin/dist/app.js": "/assets/js/admin/dist/app.js",
+    "/assets/css/admin/global.css": "/assets/css/admin/global.css",
+    "/assets/css/admin/listing-type.css": "/assets/css/admin/listing-type.css",
+    "/assets/css/admin/user-plan.css": "/assets/css/admin/user-plan.css",
+    "/assets/css/admin/pricing-plan.css": "/assets/css/admin/pricing-plan.css",
+    "/assets/css/admin/settings.css": "/assets/css/admin/settings.css",
+    "/assets/css/admin/custom-posts.css": "/assets/css/admin/custom-posts.css",
+    "/assets/css/admin/feedback.css": "/assets/css/admin/feedback.css",
+    "/assets/css/admin/gopro.css": "/assets/css/admin/gopro.css",
+    "/assets/js/frontend/dist/ulisting-main.js": "/assets/js/frontend/dist/ulisting-main.js",
+    "/assets/js/frontend/dist/ulisting-main-field.js": "/assets/js/frontend/dist/ulisting-main-field.js"
+}
