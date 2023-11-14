@@ -11125,11 +11125,13 @@ ul.gva-user-menu li a {
 .post .entry-meta {
   position: relative;
   margin-top: 10px;
+  /* display: none; */
 }
 
 .post .entry-meta .meta-inline {
   font-size: 14px;
   text-align: left;
+  display: none;
 }
 
 .post .entry-meta .meta-inline > span {
@@ -11691,6 +11693,7 @@ div[class*="col-md-6"] .post-thumbnail iframe, div[class*="col-md-4"] .post-thum
   margin: 45px 0 0;
   border-top: 1px solid #E9E9EE;
   border-bottom: 1px solid #E9E9EE;
+  display: none;
 }
 
 .social-networks-post > li {

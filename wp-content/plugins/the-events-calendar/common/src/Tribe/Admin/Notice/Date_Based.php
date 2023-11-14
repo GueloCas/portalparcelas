@@ -324,6 +324,8 @@ abstract class Date_Based {
 		return $date;
 	}
 
+
+
 	/**
 	 * Unix time for notice extension end.
 	 *

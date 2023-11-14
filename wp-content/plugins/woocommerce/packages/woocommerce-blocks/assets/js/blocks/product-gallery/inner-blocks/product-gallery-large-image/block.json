@@ -7,10 +7,7 @@
     "description": "Display the Large Image of a product.",
     "category": "woocommerce",
     "keywords": [ "WooCommerce" ],
-	"usesContext": [ "postId", "hoverZoom" ],
-	"supports": {
-		"interactivity": true
-	},
+	"usesContext": [ "postId" ],
     "textdomain": "woocommerce",
 	"ancestor": [ "woocommerce/product-gallery" ]
 }

@@ -14,12 +14,7 @@ import { usePrevious } from '../use-previous';
 describe( 'usePrevious', () => {
 	const TestComponent = ( { testValue, validation } ) => {
 		const previousValue = usePrevious( testValue, validation );
-		return (
-			<div
-				data-testValue={ testValue }
-				data-previousValue={ previousValue }
-			/>
-		);
+		return <div testValue={ testValue } previousValue={ previousValue } />;
 	};
 
 	let renderer;
@@ -29,10 +24,9 @@ describe( 'usePrevious', () => {
 		act( () => {
 			renderer = TestRenderer.create( <TestComponent testValue={ 1 } /> );
 		} );
-		const testValue =
-			renderer.root.findByType( 'div' ).props[ 'data-testValue' ];
+		const testValue = renderer.root.findByType( 'div' ).props.testValue;
 		const testPreviousValue =
-			renderer.root.findByType( 'div' ).props[ 'data-previousValue' ];
+			renderer.root.findByType( 'div' ).props.previousValue;
 
 		expect( testValue ).toBe( 1 );
 		expect( testPreviousValue ).toBe( undefined );
@@ -48,18 +42,18 @@ describe( 'usePrevious', () => {
 		act( () => {
 			renderer.update( <TestComponent testValue={ 2 } /> );
 		} );
-		testValue = renderer.root.findByType( 'div' ).props[ 'data-testValue' ];
+		testValue = renderer.root.findByType( 'div' ).props.testValue;
 		testPreviousValue =
-			renderer.root.findByType( 'div' ).props[ 'data-previousValue' ];
+			renderer.root.findByType( 'div' ).props.previousValue;
 		expect( testValue ).toBe( 2 );
 		expect( testPreviousValue ).toBe( 1 );
 
 		act( () => {
 			renderer.update( <TestComponent testValue={ 3 } /> );
 		} );
-		testValue = renderer.root.findByType( 'div' ).props[ 'data-testValue' ];
+		testValue = renderer.root.findByType( 'div' ).props.testValue;
 		testPreviousValue =
-			renderer.root.findByType( 'div' ).props[ 'data-previousValue' ];
+			renderer.root.findByType( 'div' ).props.previousValue;
 		expect( testValue ).toBe( 3 );
 		expect( testPreviousValue ).toBe( 2 );
 	} );
@@ -78,9 +72,9 @@ describe( 'usePrevious', () => {
 				<TestComponent testValue="abc" validation={ Number.isFinite } />
 			);
 		} );
-		testValue = renderer.root.findByType( 'div' ).props[ 'data-testValue' ];
+		testValue = renderer.root.findByType( 'div' ).props.testValue;
 		testPreviousValue =
-			renderer.root.findByType( 'div' ).props[ 'data-previousValue' ];
+			renderer.root.findByType( 'div' ).props.previousValue;
 		expect( testValue ).toBe( 'abc' );
 		expect( testPreviousValue ).toBe( 1 );
 
@@ -89,9 +83,9 @@ describe( 'usePrevious', () => {
 				<TestComponent testValue={ 3 } validation={ Number.isFinite } />
 			);
 		} );
-		testValue = renderer.root.findByType( 'div' ).props[ 'data-testValue' ];
+		testValue = renderer.root.findByType( 'div' ).props.testValue;
 		testPreviousValue =
-			renderer.root.findByType( 'div' ).props[ 'data-previousValue' ];
+			renderer.root.findByType( 'div' ).props.previousValue;
 		expect( testValue ).toBe( 3 );
 		expect( testPreviousValue ).toBe( 1 );
 	} );

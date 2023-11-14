@@ -26,10 +26,7 @@ export const Block = ( props: Props ): JSX.Element | null => {
 	const { parentClassName } = useInnerBlockLayoutContext();
 	const { product } = useProductDataContext();
 
-	if (
-		( ! product.id || ! product.on_sale ) &&
-		! props.isDescendentOfSingleProductTemplate
-	) {
+	if ( ! product.id || ! product.on_sale ) {
 		return null;
 	}
 

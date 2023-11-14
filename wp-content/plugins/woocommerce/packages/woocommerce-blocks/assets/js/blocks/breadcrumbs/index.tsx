@@ -3,14 +3,13 @@
  */
 import { registerBlockType } from '@wordpress/blocks';
 import { isFeaturePluginBuild } from '@woocommerce/block-settings';
-import { Icon } from '@wordpress/icons';
+import { Icon, queryPagination } from '@wordpress/icons';
 
 /**
  * Internal dependencies
  */
 import metadata from './block.json';
 import edit from './edit';
-import { queryPaginationIcon } from './icon';
 import './style.scss';
 
 const featurePluginSupport = {
@@ -33,7 +32,7 @@ registerBlockType( metadata, {
 	icon: {
 		src: (
 			<Icon
-				icon={ queryPaginationIcon }
+				icon={ queryPagination }
 				className="wc-block-editor-components-block-icon"
 			/>
 		),

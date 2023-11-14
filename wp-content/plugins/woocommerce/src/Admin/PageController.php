@@ -450,10 +450,6 @@ class PageController {
 			$options['path'] = self::PAGE_ROOT . '&path=' . $options['path'];
 		}
 
-		if ( null !== $options['position'] ) {
-			$options['position'] = intval( round( $options['position'] ) );
-		}
-
 		if ( is_null( $options['parent'] ) ) {
 			add_menu_page(
 				$options['title'],
@@ -462,7 +458,7 @@ class PageController {
 				$options['path'],
 				array( __CLASS__, 'page_wrapper' ),
 				$options['icon'],
-				$options['position']
+				intval( round( $options['position'] ) )
 			);
 		} else {
 			$parent_path = $this->get_path_from_id( $options['parent'] );

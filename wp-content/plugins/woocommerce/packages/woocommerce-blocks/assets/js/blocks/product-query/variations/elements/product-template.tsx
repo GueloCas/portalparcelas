@@ -21,5 +21,4 @@ registerElementVariation( CORE_NAME, {
 	blockIcon: <Icon icon={ layout } />,
 	blockTitle: __( 'Product template', 'woo-gutenberg-products-block' ),
 	variationName: VARIATION_NAME,
-	scope: [ 'block', 'inserter' ],
 } );

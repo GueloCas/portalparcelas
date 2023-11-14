@@ -13,7 +13,7 @@
 
                 <div class="listing-posted-date meta-item">
                     <i class="icon las la-clock"></i>
-                    <span><?php echo human_time_diff( $date, current_time( 'U' ) ) . esc_html__(' ago', 'tolips');  ?> </span>
+                    <span><?php echo human_time_diff( $date, current_time( 'U' ) ) . esc_html__(' atras', 'tolips');  ?> </span>
                 </div>
                    
                 <div class="listing-info-item listing-views meta-item">
@@ -32,14 +32,14 @@
 
             <div class="listing-meta-right">
                 <div class="listing-share">
-                    <a href="#" class="btn-white-icon btn-control-share"><i class="fas fa-share"></i><?php echo esc_html__('Share', 'tolips') ?></a>
+                    <a href="#" class="btn-white-icon btn-control-share"><i class="fas fa-share"></i><?php echo esc_html__('Compartir', 'tolips') ?></a>
                     <div class="lt-share-content">
                         <?php do_action( 'tolips_share' ); ?>
                     </div>
                 </div>
                 <?php 
                     if(class_exists('Tolips_Addons_Wishlist_Ajax')){
-                        Tolips_Addons_Wishlist_Ajax::instance()->html_icon(get_the_ID(), esc_html__( 'Wishlist', 'tolips'));
+                        Tolips_Addons_Wishlist_Ajax::instance()->html_icon(get_the_ID(), esc_html__( 'Lista de deseos', 'tolips'));
                     }
                 ?>
             </div>    

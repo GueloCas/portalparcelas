@@ -1,7 +1,8 @@
 /**
  * External dependencies
  */
-import { registerBlockType } from '@wordpress/blocks';
+import { BlockConfiguration } from '@wordpress/blocks';
+import { registerExperimentalBlockType } from '@woocommerce/block-settings';
 
 /**
  * Internal dependencies
@@ -12,8 +13,11 @@ import save from './save';
 import icon from './icon';
 import './style.scss';
 
-registerBlockType( metadata, {
+const blockConfig: BlockConfiguration = {
+	...metadata,
 	icon,
 	edit,
 	save,
-} );
+};
+
+registerExperimentalBlockType( metadata.name, blockConfig );

@@ -126,7 +126,6 @@ options.vnode = ( vnode ) => {
 	if ( vnode.props.__directives ) {
 		const props = vnode.props;
 		const directives = props.__directives;
-		if ( directives.key ) vnode.props.key = directives.key.default;
 		delete props.__directives;
 		vnode.props = {
 			type: vnode.type,

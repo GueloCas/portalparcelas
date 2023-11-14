@@ -2,6 +2,7 @@
 
 namespace Automattic\WooCommerce\Internal\Admin\BlockTemplates;
 
+use Automattic\WooCommerce\Admin\BlockTemplates\ContainerInterface;
 use Automattic\WooCommerce\Admin\BlockTemplates\BlockInterface;
 use Automattic\WooCommerce\Admin\BlockTemplates\BlockTemplateInterface;
 
@@ -14,7 +15,7 @@ abstract class AbstractBlockTemplate implements BlockTemplateInterface {
 	/**
 	 * Get the template ID.
 	 */
-	abstract public function get_id(): string;
+	public abstract function get_id(): string;
 
 	/**
 	 * Get the template title.
@@ -55,7 +56,7 @@ abstract class AbstractBlockTemplate implements BlockTemplateInterface {
 
 	/**
 	 * Caches a block in the template. This is an internal method and should not be called directly
-	 * except for from the BlockContainerTrait's add_inner_block() method.
+	 * except for classes that implement BlockContainerInterface, in their add_block() method.
 	 *
 	 * @param BlockInterface $block The block to cache.
 	 *
@@ -76,20 +77,6 @@ abstract class AbstractBlockTemplate implements BlockTemplateInterface {
 		}
 
 		$this->block_cache[ $id ] = $block;
-	}
-
-	/**
-	 * Uncaches a block in the template. This is an internal method and should not be called directly
-	 * except for from the BlockContainerTrait's remove_block() method.
-	 *
-	 * @param string $block_id The block ID.
-	 *
-	 * @ignore
-	 */
-	public function uncache_block( string $block_id ) {
-		if ( isset( $this->block_cache[ $block_id ] ) ) {
-			unset( $this->block_cache[ $block_id ] );
-		}
 	}
 
 	/**
@@ -123,7 +110,7 @@ abstract class AbstractBlockTemplate implements BlockTemplateInterface {
 		$inner_blocks = $this->get_inner_blocks_sorted_by_order();
 
 		$inner_blocks_formatted_template = array_map(
-			function( BlockInterface $block ) {
+			function( Block $block ) {
 				return $block->get_formatted_template();
 			},
 			$inner_blocks

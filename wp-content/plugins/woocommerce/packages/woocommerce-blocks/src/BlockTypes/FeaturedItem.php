@@ -152,7 +152,7 @@ abstract class FeaturedItem extends AbstractDynamicBlock {
 			$classes[] = ' has-parallax';
 		}
 
-		return sprintf( '<div class="%1$s" style="%2$s" /></div>', esc_attr( implode( ' ', $classes ) ), esc_attr( $styles ) );
+		return sprintf( '<div class="%1$s" style="%2$s" /></div>', implode( ' ', $classes ), $styles );
 	}
 
 	/**
@@ -201,8 +201,7 @@ abstract class FeaturedItem extends AbstractDynamicBlock {
 	 * @return string
 	 */
 	private function render_image( $attributes, $item, string $image_url ) {
-		$style   = sprintf( 'object-fit: %s;', esc_attr( $attributes['imageFit'] ) );
-		$img_alt = $attributes['alt'] ?: $this->get_item_title( $item );
+		$style = sprintf( 'object-fit: %s;', $attributes['imageFit'] );
 
 		if ( $this->hasFocalPoint( $attributes ) ) {
 			$style .= sprintf(
@@ -215,10 +214,10 @@ abstract class FeaturedItem extends AbstractDynamicBlock {
 		if ( ! empty( $image_url ) ) {
 			return sprintf(
 				'<img alt="%1$s" class="wc-block-%2$s__background-image" src="%3$s" style="%4$s" />',
-				esc_attr( $img_alt ),
+				wp_kses_post( $attributes['alt'] ?: $this->get_item_title( $item ) ),
 				$this->block_name,
-				esc_url( $image_url ),
-				esc_attr( $style )
+				$image_url,
+				$style
 			);
 		}
 

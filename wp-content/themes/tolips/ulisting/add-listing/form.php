@@ -52,7 +52,7 @@ if ( isset( $attributeIds['category'] ) ) {
 	}
 
 	$data['attributes']['category'] = array(
-		'title'   => esc_html__( 'Categoría', 'tolips' ),
+		'title'   => esc_html__( 'Category', 'tolips' ),
 		'name'    => 'category',
 		'type'    => 'category',
 		'options' => $options,
@@ -63,7 +63,7 @@ if ( isset( $attributeIds['category'] ) ) {
 // Init region
 if ( isset( $attributeIds['region'] ) ) {
 	$data['attributes']['region'] = array(
-		'title'   => esc_html__( 'Región', 'tolips' ),
+		'title'   => esc_html__( 'Region', 'tolips' ),
 		'name'    => 'region',
 		'type'    => 'region',
 		'options' => \uListing\Classes\StmListingRegion::getListDataArray(),
@@ -110,7 +110,7 @@ $data['is_admin'] = current_user_can( 'administrator' );
 $data['user_plans'][] = array(
 	'id'                => 'free',
 	'status'            => 'active',
-	'name'              => esc_html__( 'Gratis' ),
+	'name'              => esc_html__( 'Free' ),
 	'static_count'      => ( isset( $user_role['capabilities']['listing_limit'] ) ) ? $user_role['capabilities']['listing_limit'] : 0,
 	'listing_limit'     => ( isset( $user_role['capabilities']['listing_limit'] ) ) ? $user_role['capabilities']['listing_limit'] : 0,
 	'user_image_limit'  => $listing_image_limit,
@@ -135,12 +135,12 @@ wp_add_inline_script( 'stm-form-listing', "var stm_listing_form_listing = json_p
     <div class="step" v-if="step == 'form'">
 
         <div class="form-listing-item listing-form-select-plan">
-            <h3 class="form-title"><?php esc_html_e('Selecciona un Plan para Agregar', "tolips")?></h3>
+            <h3 class="form-title"><?php esc_html_e('Select Plan for Listing', "tolips")?></h3>
             <div class="stm-row">
                 <div v-for="plan in user_plans" class="stm-col-xl-3 stm-col-lg-4 stm-col-md-3 stm-col-6">
                     <div class="card card-plan" v-if="plan.type != 'feature' && (plan.listing_limit || plan.listing_limit == 0) || (listing_plan_select == 'none') && (plan.id == 'free' || plan.id == listing_plan_select) && plan.status === 'active'">
                         <div class="card-body">
-                            <span v-if="plan.id == listing_plan_select" class="badge">Seleccionado</span>
+                            <span v-if="plan.id == listing_plan_select" class="badge">Selected</span>
                             <h5 class="card-title">{{plan.name}}</h5>
                              <p v-if="plan.payment_type == 'subscription' || plan.id == 'free'" class="card-text">{{ plan.listing_limit - plan.use_listing_limit > 0 ? plan.listing_limit - plan.use_listing_limit : 0 }} / {{ plan.static_count }}</p>
                             <p v-if="plan.payment_type == 'one_time'" class="card-text"> {{ plan.listing_limit - plan.use_listing_limit > 0 ? plan.listing_limit - plan.use_listing_limit : 0 }} / {{ plan.static_count }}</p>
@@ -198,22 +198,22 @@ wp_add_inline_script( 'stm-form-listing', "var stm_listing_form_listing = json_p
             <div class="stm-row">
                 <template v-if="!isAdmin">
                     <div class="col text-left margin-top-30">
-                        <a class="btn-theme btn-medium" style="display: none;" href="<?php echo ulisting_get_page_link( 'pricing_plan' )?>"><?php echo esc_html__('Agregar Nuevo Plan', "tolips")?> </a>
+                        <a class="btn-theme btn-medium" href="<?php echo ulisting_get_page_link( 'pricing_plan' )?>"><?php echo esc_html__('Add a plan', "tolips")?> </a>
                     </div>
                 </template>
                 <template v-else>
-                    <p class="col text-center" style="padding: 5px 0"><?php echo __('El Administrador no necesita seleccinar un plan', 'tolips')?></p>
+                    <p class="col text-center" style="padding: 5px 0"><?php echo __('Admin does not need to select a plan', 'tolips')?></p>
                 </template>
             </div>
 
             <span v-if="errors['user_plan']" style="color: red">{{errors['user_plan']}}</span>
         </div>
           <div class="form-listing-item listing-form-select-information">
-            <h3 class="form-title"><?php esc_html_e('Información de Propiedad', "tolips")?></h3>
+            <h3 class="form-title"><?php esc_html_e('Listing Information', "tolips")?></h3>
             <div class="stm-row">
                 <div class="stm-col stm-col-12">
                     <div class="ulisting-form-gruop">
-                        <label><?php esc_html_e('Título', "tolips")?></label>
+                        <label><?php esc_html_e('Title', "tolips")?></label>
                         <input class="form-control" type="text" v-model="title" class="form-control">
                         <span v-if="errors['title']" style="color: red">{{errors['title']}}</span>
                     </div>
@@ -241,7 +241,7 @@ wp_add_inline_script( 'stm-form-listing', "var stm_listing_form_listing = json_p
             <div>
                 <p v-if="status == 'error'" v-for=" (val, key) in errors" class="text-danger">{{val}}</p>
                 <p v-if="message && !loading">{{message}}</p>
-                <p v-if="loading">Cargando...</p>
+                <p v-if="loading">Loading...</p>
                 <button class="btn-theme btn-medium" v-if="!loading" @click="send"> <?php echo esc_html($action)?> </button>
             </div>
         </div>    
@@ -249,22 +249,22 @@ wp_add_inline_script( 'stm-form-listing', "var stm_listing_form_listing = json_p
 
 
     <div class="step" v-if="step == 'last'">
-        <div class="form-listing-item" style="display: none">
-            <label v-if="!isAdmin"><?php esc_html_e('Cambiar de Plan para Propiedades Destacadas', "tolips")?></label>
+        <div class="form-listing-item">
+            <label v-if="!isAdmin"><?php esc_html_e('Plan for Featured Listings', "tolips")?></label>
             <div class="stm-row">
                 <div v-for="plan in user_plans" class="stm-col-3" v-if="plan.feature_limit">
                     <div class="card">
                         <div class="card-body">
-                            <span v-if="plan.id == feature_plan_select" class="badge badge-success">Seleccionado</span>
+                            <span v-if="plan.id == feature_plan_select" class="badge badge-success">Selected</span>
                             <h5 class="card-title">{{plan.name}}</h5>
                             <p class="card-text"> {{ plan.feature_limit - plan.use_feature_limit > 0 ? plan.feature_limit - plan.use_feature_limit : 0 }} / {{ plan.feature_count }} </p>
-                            <button @click="select_feature_plan(plan)" class="btn btn-primary">seleccionar</button>
+                            <button @click="select_feature_plan(plan)" class="btn btn-primary">select</button>
                         </div>
                     </div>
                 </div>
                 <template v-if="!isAdmin">
                     <div class="col text-center" v-if="!planAccess">
-                        <a href="<?php echo esc_url(ulisting_get_page_link( 'pricing_plan' )); ?>"><?php _e('Añadir Plan', 'tolips')?> </a>
+                        <a href="<?php echo esc_url(ulisting_get_page_link( 'pricing_plan' )); ?>"><?php _e('Buy plan', 'tolips')?> </a>
                     </div>
                 </template>
                 <template v-else>
@@ -278,13 +278,13 @@ wp_add_inline_script( 'stm-form-listing', "var stm_listing_form_listing = json_p
             <hr>
             <p v-if="status == 'error'" v-for=" (val, key) in errors" class="text-danger">{{val}}</p>
             <p v-if="message">{{message}}</p>
-            <span v-if="loading">Cargando...</span>
-            <button class="btn btn-theme" v-if="!loading" @click="set_feature" style="display: none">
-				<?php _e( 'Hacer Destacado', 'tolips' ) ?>
+            <span v-if="loading">Loading...</span>
+            <button class="btn btn-theme" v-if="!loading" @click="set_feature">
+				<?php _e( 'Make Featured', 'tolips' ) ?>
             </button>
             <a href="<?php echo esc_url( \uListing\Classes\StmUser::getUrl( 'my-listing' ) ); ?>"
                class="btn btn-theme">
-				<?php _e( 'Mis Propiedades', 'tolips') ?>
+				<?php _e( 'My listing', 'tolips') ?>
             </a>
         </div>
     </div>

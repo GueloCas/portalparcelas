@@ -1,0 +1,12 @@
+2023-10-19T16:07:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\GoogleAnalytics.php en la línea 23
+
+2023-10-19T16:07:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Shipping\ShippingController.php en la línea 43
+
+2023-10-19T16:07:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Templates\ArchiveProductTemplatesCompatibility.php en la línea 11
+
+2023-10-19T16:07:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\the-events-calendar\common\src\Tribe\Support\Obfuscator.php en la línea 16
+
+2023-10-19T16:08:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\functions.php en la línea 4570
+
+2023-10-19T16:08:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-admin\includes\deprecated.php en la línea 332
+

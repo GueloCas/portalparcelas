@@ -59,12 +59,7 @@ class Utils {
 	}
 
 	public static function get_elementor_post_types() {
-		$elementor_post_types = get_post_types_by_support( 'elementor' );
-
-		return array_filter( $elementor_post_types, function ( $value ) {
-			// Templates are handled in a separate process.
-			return 'elementor_library' !== $value;
-		} );
+		return [ 'post', 'page', 'e-landing-page' ];
 	}
 
 	public static function get_builtin_wp_post_types() {

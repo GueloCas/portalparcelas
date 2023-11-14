@@ -248,10 +248,10 @@ $style = isset($params['style']) ? $params['style'] : 'style-1';
                                             </div>
                                         </div>
                                         <div class="stm-col col-button-search action-advanced-search">
-                                            <a class="btn-advanced-search"><i class="icon las la-sliders-h"></i><?php echo esc_html__("Advanced", "tolips") ?></a>
+                                            <a class="btn-advanced-search"><i class="icon las la-sliders-h"></i><?php echo esc_html__("Avanzado", "tolips") ?></a>
                                         </div>
                                         <div class="stm-col col-basic-search listing-search-action">
-                                            <a href="#" data-v-bind_href="category_selected.url" class="btn btn-primary w-full"><?php echo esc_html__("Search", "tolips") ?></a>
+                                            <a href="#" data-v-bind_href="category_selected.url" class="btn btn-primary w-full"><?php echo esc_html__("Buscar", "tolips") ?></a>
                                         </div>
                                     </div>
                                 </div>        

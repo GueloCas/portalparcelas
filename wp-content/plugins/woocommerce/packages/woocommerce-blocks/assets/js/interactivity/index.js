@@ -12,4 +12,6 @@ document.addEventListener( 'DOMContentLoaded', async () => {
 	registerDirectives();
 	await init();
 	afterLoads.forEach( ( afterLoad ) => afterLoad( rawStore ) );
+	// eslint-disable-next-line no-console
+	console.log( 'Interactivity API started' );
 } );

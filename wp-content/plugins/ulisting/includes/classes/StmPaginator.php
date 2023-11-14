@@ -26,8 +26,8 @@ class StmPaginator {
 		$this->itemsPerPage          = $itemsPerPage;
 		$this->currentPage           = $currentPage;
 		$this->urlPattern            = $urlPattern;
-		$this->previousText          = (isset($options['previousText'])) ? $options['previousText'] : esc_html__('Anterior ',"ulisting");
-		$this->nextText              = (isset($options['nextText'])) ? $options['nextText'] :  esc_html__(' Siguente',"ulisting");
+		$this->previousText          = (isset($options['previousText'])) ? $options['previousText'] : esc_html__('Previous',"ulisting");
+		$this->nextText              = (isset($options['nextText'])) ? $options['nextText'] :  esc_html__('Next',"ulisting");
 		$this->options['class']      = (isset($options['class'])) ? $options['class'] : null;
 		$this->options['item_class'] = (isset($options['item_class'])) ? $options['item_class'] : null;
 		$this->options['link_class'] = (isset($options['link_class'])) ? $options['link_class'] : null;

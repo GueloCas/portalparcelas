@@ -69,11 +69,11 @@ if (isset($_GET['order_by']))
         <?php foreach ($listing_types as $type_index => $listing_type):?>
             <div class="ulisting-my-listing-sidebar" v-if="listing_type == <?php echo esc_attr($type_index);?>">
                 <ul class="my-listing-sidebar-wrap">
-                    <li @click="change('all')" :class="{'is-active': isActive === 'all'}" class="my-listing-sidebar-item"><span><?php echo esc_html__('Todos', 'tolips');?></span><span> (<?php echo esc_html($user->getListings(true, ['listing_type_id' => $type_index], ''))?>)</span></li>
-                    <li @click="change('publish')" :class="{'is-active': isActive === 'publish'}" class="my-listing-sidebar-item"><span><?php echo esc_html__('Publicados', 'tolips');?></span> (<?php echo esc_html($user->getListings(true, ['listing_type_id' => $type_index], 'publish'))?>)</li>
-                    <li @click="change('pending')" :class="{'is-active': isActive === 'pending'}" class="my-listing-sidebar-item"><span><?php echo esc_html__('Pendientes', 'tolips');?></span> (<?php echo esc_html($user->getListings(true, ['listing_type_id' => $type_index], 'pending'))?>)</li>
-                    <li @click="change('draft')" :class="{'is-active': isActive === 'draft'}" class="my-listing-sidebar-item"><span><?php echo esc_html__('Borrador', 'tolips');?></span> (<?php echo esc_html($user->getListings(true, ['listing_type_id' => $type_index], 'draft'))?>)</li>
-                    <li @click="change('trash')" :class="{'is-active': isActive === 'trash'}" class="my-listing-sidebar-item"><span><?php echo esc_html__('Eliminados', 'tolips');?></span> (<?php echo esc_html($user->getListings(true, ['listing_type_id' => $type_index], 'trash'))?>)</li>
+                    <li @click="change('all')" :class="{'is-active': isActive === 'all'}" class="my-listing-sidebar-item"><span><?php echo esc_html__('All', 'tolips');?></span><span> (<?php echo esc_html($user->getListings(true, ['listing_type_id' => $type_index], ''))?>)</span></li>
+                    <li @click="change('publish')" :class="{'is-active': isActive === 'publish'}" class="my-listing-sidebar-item"><span><?php echo esc_html__('Publish', 'tolips');?></span> (<?php echo esc_html($user->getListings(true, ['listing_type_id' => $type_index], 'publish'))?>)</li>
+                    <li @click="change('pending')" :class="{'is-active': isActive === 'pending'}" class="my-listing-sidebar-item"><span><?php echo esc_html__('Pending', 'tolips');?></span> (<?php echo esc_html($user->getListings(true, ['listing_type_id' => $type_index], 'pending'))?>)</li>
+                    <li @click="change('draft')" :class="{'is-active': isActive === 'draft'}" class="my-listing-sidebar-item"><span><?php echo esc_html__('Draft', 'tolips');?></span> (<?php echo esc_html($user->getListings(true, ['listing_type_id' => $type_index], 'draft'))?>)</li>
+                    <li @click="change('trash')" :class="{'is-active': isActive === 'trash'}" class="my-listing-sidebar-item"><span><?php echo esc_html__('Trash', 'tolips');?></span> (<?php echo esc_html($user->getListings(true, ['listing_type_id' => $type_index], 'trash'))?>)</li>
                 </ul>
             </div>
         <?php endforeach;?>
@@ -100,15 +100,15 @@ if (isset($_GET['order_by']))
             <div class="table-responsive">
                 <table class="ulisting-table table-my-listing" v-if="listing_type == <?php echo esc_attr($id) ?> && hasAccess">
                     <tr>
-                        <th><?php echo esc_html__('Propiedad', 'tolips') ?></th>
-                        <th><?php echo esc_html__('Acción', 'tolips') ?></th> 
+                        <th><?php echo esc_html__('Property', 'tolips') ?></th>
+                        <th><?php echo esc_html__('Action', 'tolips') ?></th>
                     </tr>
                     <template v-for="(listing, index) in listings[listing_type]">
                         <tr class="" v-if="isActive === 'all' || isActive === listing.status">
                             <td class="">
                                 <div v-html="listing.html"></div>
                                 <div class="ulisting-account-my-listing-feature-plan" v-if="feature_panel == listing.id">
-                                    <p v-if="loading"><?php echo esc_html__('Cargando', 'tolips');?></p>
+                                    <p v-if="loading"><?php echo esc_html__('Loading', 'tolips');?></p>
                                     <div v-if="!loading">
                                         <div class="stm-row">
                                             <div v-for="plan in feature_plans" class="stm-col-6">
@@ -120,11 +120,11 @@ if (isset($_GET['order_by']))
                                                     <p v-if="plan.payment_type == 'subscription'" class="card-text">
                                                         {{plan.feature_limit}} / {{plan.use_feature_limit}}</p>
                                                     <p v-if="plan.payment_type == 'one_time'" class="card-text"> 
-                                                        <?php echo esc_html__('Límite', 'tolips') ?> : {{plan.feature_limit}}
+                                                        <?php echo esc_html__('Limit', 'tolips') ?> : {{plan.feature_limit}}
                                                     </p>
                                                     <button v-if="!feature_plan_select_is_one_tome"
                                                             @click="select_feature_plan(plan)" class="btn btn-primary">
-                                                        <?php echo esc_html__('Seleccionar', 'tolips'); ?>
+                                                        <?php echo esc_html__('Select', 'tolips'); ?>
                                                     </button>
                                                 </div>
                                             </div>
@@ -133,9 +133,9 @@ if (isset($_GET['order_by']))
                                             <li v-for=" (val, key) in errors">{{val}}</li>
                                         </ul>
                                         <p v-if="message">{{message}}</p>
-                                        <span v-if="loading_save"><?php echo esc_html__('Cargando...', 'tolips')?></span>
+                                        <span v-if="loading_save"><?php echo esc_html__('Loading...', 'tolips')?></span>
                                         <button v-if="!loading_save" @click="save(listing.id, listing.status)" class="btn-theme btn-medium">
-                                            <?php echo esc_html__("Guardar", "tolips") ?>
+                                            <?php echo esc_html__("Save", "tolips") ?>
                                         </button>
                                     </div>  
                                 </div> 
@@ -145,22 +145,22 @@ if (isset($_GET['order_by']))
                                  <div class="listing-status-box">
                                     <div v-if="listing.status === 'publish'" class="listing-status-name published"
                                          v-bind:class="{'current': listing.active}">
-                                        <div class="status-active" @click.prevent="listing.active = !listing.active"><?php echo esc_html__( 'Publicado', 'tolips' ); ?><i class="icon las la-angle-down"></i></div>
+                                        <div class="status-active" @click.prevent="listing.active = !listing.active"><?php echo esc_html__( 'Published', 'tolips' ); ?><i class="icon las la-angle-down"></i></div>
                                         <ul>
                                             <li>
                                                 <div class="status-actions" @click.prevent="changeStatus(listing.id, 'draft')">
-                                                    <span><?php echo esc_html__( 'Borrar', 'tolips' ); ?></span>
+                                                    <span><?php echo esc_html__( 'Unpublish', 'tolips' ); ?></span>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="edit-listing" @click.prevent="editListing('<?php echo ulisting_get_page_link('add_listing') . "?edit="?>' + listing.id)">
-                                                    <span><?php echo esc_html__( 'Editar', 'tolips' ); ?></span>
+                                                    <span><?php echo esc_html__( 'Edit', 'tolips' ); ?></span>
                                                 </div>
                                             </li>
                                             <?php if ( $deleteListings ): ?>
                                                 <li>
                                                     <div class="delete-actions" @click.prevent="deleteListing(listing.id)">
-                                                        <span><?php echo esc_html__( 'Eliminar', 'tolips' ); ?></span>
+                                                        <span><?php echo esc_html__( 'Delete', 'tolips' ); ?></span>
                                                     </div>
                                                 </li>
                                             <?php endif; ?>
@@ -170,22 +170,22 @@ if (isset($_GET['order_by']))
                                     <div v-else-if="listing.status === 'draft'" class="listing-status-name drafted"
                                          v-bind:class="{'current': listing.active}">
                                         <div class="status-active"
-                                             @click.prevent="listing.active = !listing.active"><?php echo esc_html__( 'Borrador', 'tolips' ); ?><i class="icon las la-angle-down"></i></div>
+                                             @click.prevent="listing.active = !listing.active"><?php echo esc_html__( 'Drafted', 'tolips' ); ?><i class="icon las la-angle-down"></i></div>
                                         <ul>
                                             <li>
                                                 <div class="status-actions" @click.prevent="changeStatus(listing.id, 'pending')">
-                                                    <span><?php echo esc_html__( 'Publicar', 'tolips' ); ?></span>
+                                                    <span><?php echo esc_html__( 'Publish', 'tolips' ); ?></span>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="edit-listing" @click.prevent="editListing('<?php echo ulisting_get_page_link('add_listing') . "?edit="?>' + listing.id)">
-                                                    <span><?php echo esc_html__( 'Editar', 'tolips' ); ?></span>
+                                                    <span><?php echo esc_html__( 'Edit', 'tolips' ); ?></span>
                                                 </div>
                                             </li>
                                             <?php if ( $deleteListings ): ?>
                                                 <li>
                                                     <div class="delete-actions" @click.prevent="deleteListing(listing.id)">
-                                                        <span><?php echo esc_html__( 'Borrar', 'tolips' ); ?></span>
+                                                        <span><?php echo esc_html__( 'Delete', 'tolips' ); ?></span>
                                                     </div>
                                                 </li>
                                             <?php endif; ?>
@@ -194,22 +194,22 @@ if (isset($_GET['order_by']))
                                     <div v-else-if="listing.status === 'pending'" class="listing-status-name pending"
                                          v-bind:class="{'current': listing.active}">
                                         <div class="status-active"
-                                             @click.prevent="listing.active = !listing.active"><?php echo esc_html__( 'Pendiente', 'tolips' ); ?> <i class="icon las la-angle-down"></i></div>
+                                             @click.prevent="listing.active = !listing.active"><?php echo esc_html__( 'Pending', 'tolips' ); ?> <i class="icon las la-angle-down"></i></div>
                                         <ul>
                                             <li>
                                                 <div class="status-actions" @click.prevent="changeStatus(listing.id, 'draft')">
-                                                    <span><?php echo esc_html__( 'Cancelar', 'tolips' ); ?></span>
+                                                    <span><?php echo esc_html__( 'Cancel', 'tolips' ); ?></span>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="edit-listing" @click.prevent="editListing('<?php echo ulisting_get_page_link('add_listing') . "?edit="?>' + listing.id)">
-                                                    <span><?php echo esc_html__( 'Editar', 'tolips' ); ?></span>
+                                                    <span><?php echo esc_html__( 'Edit', 'tolips' ); ?></span>
                                                 </div>
                                             </li>
                                             <?php if ( $deleteListings ): ?>
                                             <li>
                                                 <div class="delete-actions" @click.prevent="deleteListing(listing.id)">
-                                                    <span><?php echo esc_html__( 'Borrar', 'tolips' ); ?></span>
+                                                    <span><?php echo esc_html__( 'Delete', 'tolips' ); ?></span>
                                                 </div>
                                             </li>
                                             <?php endif; ?>
@@ -217,8 +217,8 @@ if (isset($_GET['order_by']))
                                     </div>
                                 </div>
 
-                                <button class="btn-theme btn-medium w-full m-t-15" v-if="!listing.listing_info" style="display: none"
-                                        @click="panel_feature_switch(listing.id)"><?php echo esc_html__('Promocionar', "tolips") ?>
+                                <button class="btn-theme btn-medium w-full m-t-15" v-if="!listing.listing_info"
+                                        @click="panel_feature_switch(listing.id)"><?php echo esc_html__('Promote', "tolips") ?>
                                 </button>
 
                                 <v-timer
@@ -260,7 +260,7 @@ if (isset($_GET['order_by']))
 
         <div class="stm-row stm-justify-content-center">
             <div class="stm-col-4" v-if="hasFail">
-               <p class="m-t-5"><?php echo esc_html__("No se encontraron propiedades", "tolips")?></p>
+               <p class="m-t-5"><?php echo esc_html__("No listings found", "tolips")?></p>
             </div>
         </div>
 

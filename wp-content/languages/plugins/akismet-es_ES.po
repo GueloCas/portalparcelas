@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
 
@@ -165,7 +165,7 @@ msgstr "Akismet no ha podido volver a comprobar tus comentarios para encontrar s
 
 #: class.akismet-admin.php:450
 msgid "You don&#8217;t have permission to do that."
-msgstr "No tienes permisos para hacer eso."
+msgstr "No tienes permiso para hacer eso."
 
 #: class.akismet-cli.php:165
 msgid "Stats response could not be decoded."

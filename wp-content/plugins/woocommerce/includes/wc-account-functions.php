@@ -309,9 +309,11 @@ function wc_get_account_orders_actions( $order ) {
  * Get account formatted address.
  *
  * @since  3.2.0
- * @param  string $address_type Type of address; 'billing' or 'shipping'.
+ * @param  string $address_type Address type.
+ *                              Accepts: 'billing' or 'shipping'.
+ *                              Default to 'billing'.
  * @param  int    $customer_id  Customer ID.
- *                              Defaults to 0.
+ *                              Default to 0.
  * @return string
  */
 function wc_get_account_formatted_address( $address_type = 'billing', $customer_id = 0 ) {

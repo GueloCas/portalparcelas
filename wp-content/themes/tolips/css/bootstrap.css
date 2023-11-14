@@ -3846,7 +3846,6 @@ tbody.collapse.show {
   border-radius: 0 5px 5px 0;
 }
 
-/*aquí box de acceder/registro*/
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3856,13 +3855,6 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-}
-
-.nav-box-shadow {
-  box-shadow: 
-    0 -10px 30px rgba(0, 0, 0, 0.05), 
-    -10px 0 30px rgba(0, 0, 0, 0.05), 
-    10px 0 30px rgba(0, 0, 0, 0.05);  
 }
 
 .nav-link {

@@ -675,10 +675,6 @@
 				// Order screen.
 				this.$lock_dialog = $( '.woocommerce_page_wc-orders #post-lock-dialog.order-lock-dialog' );
 				if ( 0 !== this.$lock_dialog.length && 'undefined' !== typeof woocommerce_admin_meta_boxes ) {
-					// We do not want WP's lock to interfere.
-					$( document ).off( 'heartbeat-send.refresh-lock' );
-					$( document ).off( 'heartbeat-tick.refresh-lock' );
-
 					$( document ).on( 'heartbeat-send', this.refresh_order_lock );
 					$( document ).on( 'heartbeat-tick', this.check_order_lock );
 				}
@@ -692,7 +688,6 @@
 			},
 
 			refresh_order_lock: function( e, data ) {
-				delete data['wp-refresh-post-lock'];
 				data['wc-refresh-order-lock'] = woocommerce_admin_meta_boxes.post_id;
 			},
 
@@ -730,7 +725,7 @@
 			},
 
 			send_orders_in_list: function( e, data ) {
-				data['wc-check-locked-orders'] = wc_order_lock.$list_table.find( 'tr input[name="id[]"]' ).map(
+				data['wc-check-locked-orders'] = wc_order_lock.$list_table.find( 'tr input[name="order"]' ).map(
 					function() { return this.value; }
 				).get();
 			},
@@ -740,7 +735,7 @@
 
 				wc_order_lock.$list_table.find( 'tr' ).each( function( i, tr ) {
 					var $tr      = $( tr );
-					var order_id = $tr.find( 'input[name="id[]"]' ).val();
+					var order_id = $tr.find( 'input[name="order"]' ).val();
 
 					if ( locked_orders[ order_id ] ) {
 						if ( ! $tr.hasClass( 'wp-locked' ) ) {

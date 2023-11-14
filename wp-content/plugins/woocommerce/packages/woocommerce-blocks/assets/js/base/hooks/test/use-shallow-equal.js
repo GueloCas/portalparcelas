@@ -14,7 +14,7 @@ import { useShallowEqual } from '../use-shallow-equal';
 describe( 'useShallowEqual', () => {
 	const TestComponent = ( { testValue } ) => {
 		const newValue = useShallowEqual( testValue );
-		return <div data-newValue={ newValue } />;
+		return <div newValue={ newValue } />;
 	};
 	let renderer;
 	beforeEach( () => ( renderer = null ) );
@@ -34,15 +34,13 @@ describe( 'useShallowEqual', () => {
 					<TestComponent testValue={ testValueA } />
 				);
 			} );
-			testPropValue =
-				renderer.root.findByType( 'div' ).props[ 'data-newValue' ];
+			testPropValue = renderer.root.findByType( 'div' ).props.newValue;
 			expect( testPropValue ).toBe( testValueA );
 			// do update
 			act( () => {
 				renderer.update( <TestComponent testValue={ testValueB } /> );
 			} );
-			testPropValue =
-				renderer.root.findByType( 'div' ).props[ 'data-newValue' ];
+			testPropValue = renderer.root.findByType( 'div' ).props.newValue;
 			expect( testPropValue ).toBe( testValueA );
 		}
 	);
@@ -64,15 +62,13 @@ describe( 'useShallowEqual', () => {
 					<TestComponent testValue={ testValueA } />
 				);
 			} );
-			testPropValue =
-				renderer.root.findByType( 'div' ).props[ 'data-newValue' ];
+			testPropValue = renderer.root.findByType( 'div' ).props.newValue;
 			expect( testPropValue ).toBe( testValueA );
 			// do update
 			act( () => {
 				renderer.update( <TestComponent testValue={ testValueB } /> );
 			} );
-			testPropValue =
-				renderer.root.findByType( 'div' ).props[ 'data-newValue' ];
+			testPropValue = renderer.root.findByType( 'div' ).props.newValue;
 			expect( testPropValue ).toBe( testValueB );
 		}
 	);

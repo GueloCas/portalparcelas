@@ -21,5 +21,4 @@ registerElementVariation( CORE_NAME, {
 	blockIcon: <Icon icon={ page } />,
 	blockTitle: BLOCK_TITLE,
 	variationName: VARIATION_NAME,
-	scope: [ 'block' ],
 } );

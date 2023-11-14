@@ -7,31 +7,7 @@ import { render, queryByText } from '@testing-library/react';
  * Internal dependencies
  */
 import { Edit } from '../edit';
-
-jest.mock( '@wordpress/data', () => ( {
-	...jest.requireActual( '@wordpress/data' ),
-	useSelect: jest.fn().mockImplementation( ( fn ) => {
-		const select = () => {
-			return {
-				getSelectionStart: () => ( {
-					clientId: null,
-				} ),
-				getSelectionEnd: () => ( {
-					clientId: null,
-				} ),
-				getFormatTypes: () => [],
-			};
-		};
-
-		if ( typeof fn === 'function' ) {
-			return fn( select );
-		}
-
-		return {
-			isCaretWithinFormattedText: () => false,
-		};
-	} ),
-} ) );
+const blockSettingsMock = jest.requireMock( '@woocommerce/block-settings' );
 
 jest.mock( '@wordpress/block-editor', () => ( {
 	...jest.requireActual( '@wordpress/block-editor' ),
@@ -44,8 +20,6 @@ jest.mock( '@woocommerce/block-settings', () => ( {
 	PRIVACY_URL: '/privacy-policy',
 	TERMS_URL: '/terms-and-conditions',
 } ) );
-
-const blockSettingsMock = jest.requireMock( '@woocommerce/block-settings' );
 
 describe( 'Edit', () => {
 	it( 'Renders a checkbox if the checkbox attribute is true', async () => {

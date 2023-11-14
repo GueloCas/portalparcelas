@@ -170,14 +170,13 @@ class User {
 	 * Retrieve the list of notices for the current user.
 	 *
 	 * @since 2.0.0
-	 * @access public
+	 * @access private
 	 * @static
 	 *
 	 * @return array A list of user notices.
 	 */
-	public static function get_user_notices() {
-		$notices = get_user_meta( get_current_user_id(), self::ADMIN_NOTICES_KEY, true );
-		return is_array( $notices ) ? $notices : [];
+	private static function get_user_notices() {
+		return get_user_meta( get_current_user_id(), self::ADMIN_NOTICES_KEY, true );
 	}
 
 	/**
@@ -196,16 +195,11 @@ class User {
 	public static function is_user_notice_viewed( $notice_id ) {
 		$notices = self::get_user_notices();
 
-		if ( empty( $notices[ $notice_id ] ) ) {
+		if ( empty( $notices ) || empty( $notices[ $notice_id ] ) ) {
 			return false;
 		}
 
-		// BC: Handles old structure ( `[ 'notice_id' => 'true' ]` ).
-		if ( 'true' === $notices[ $notice_id ] ) {
-			return true;
-		}
-
-		return $notices[ $notice_id ]['is_viewed'] ?? false;
+		return true;
 	}
 
 	/**
@@ -227,7 +221,13 @@ class User {
 			wp_die();
 		}
 
-		self::set_user_notice( $notice_id );
+		$notices = self::get_user_notices();
+		if ( empty( $notices ) ) {
+			$notices = [];
+		}
+
+		$notices[ $notice_id ] = 'true';
+		update_user_meta( get_current_user_id(), self::ADMIN_NOTICES_KEY, $notices );
 
 		if ( ! wp_doing_ajax() ) {
 			wp_safe_redirect( admin_url() );
@@ -235,28 +235,6 @@ class User {
 		}
 
 		wp_die();
-	}
-
-	/**
-	 * @param $notice_id
-	 * @param $is_viewed
-	 * @param $meta
-	 *
-	 * @return void
-	 */
-	public static function set_user_notice( $notice_id, $is_viewed = true, $meta = null ) {
-		$notices = self::get_user_notices();
-
-		if ( ! is_array( $meta ) ) {
-			$meta = $notices[ $notice_id ]['meta'] ?? [];
-		}
-
-		$notices[ $notice_id ] = [
-			'is_viewed' => $is_viewed,
-			'meta' => $meta,
-		];
-
-		update_user_meta( get_current_user_id(), self::ADMIN_NOTICES_KEY, $notices );
 	}
 
 	/**

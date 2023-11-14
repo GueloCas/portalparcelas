@@ -37,7 +37,7 @@ Vue.component('custominput', {
            return formatAsCurrency(this.value, 0)
          }
          else if (this.type === 'years') {
-           return Number(this.value+"".replace(/[^0-9\.]+/g,"")) + ' Years'
+           return Number(this.value+"".replace(/[^0-9\.]+/g,"")) + ' Años'
          }
          else if (this.type === 'percent') {
            return (this.value*100).toFixed(this.decimals) + '%'
@@ -90,12 +90,12 @@ new Vue({
       interestRate: 0.025,
       amortization: 15,
       paymentPeriod: {
-         'Monthly': { npy: 12},
-         'Semi-Monthly': { npy: 12 * 2},
-         'Bi-Weekly': { npy: 365.25 / 7 / 2},
-         'Weekly': { npy: 365.25 / 7 }
+         'Mensual': { npy: 12},
+         'Semi-Mensual': { npy: 12 * 2},
+         'Quincena': { npy: 365.25 / 7 / 2},
+         'Semanalmente': { npy: 365.25 / 7 }
       },
-      paymentSelection: 'Monthly',
+      paymentSelection: 'Mensual',
       graphSelection: null
    },
    created: function(){

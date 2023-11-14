@@ -13,7 +13,7 @@ use uListing\Lib\PricingPlan\Classes\StmPricingPlans;
 
 ?>
 <?php if ( $plans ): ?>
-    <h2 class="pricing-plan-title"><?php echo esc_html__('Planes', 'tolips')?></h2>
+    <h2 class="pricing-plan-title"><?php echo esc_html__('Pricing Plan', 'tolips')?></h2>
     <div class="stm-row">
 		<?php foreach ( $plans as $plan ): ?>
 			<?php $meta = $plan->getData();
@@ -38,8 +38,8 @@ use uListing\Lib\PricingPlan\Classes\StmPricingPlans;
     						<div class="plan-content">
                                 <?php echo html_entity_decode($plan->post_content)?>
                             </div>
-                            <a class="btn btn-default btn-pricing" style="display: none;"
-                               href="<?php echo StmPricingPlans::get_page_url() ?>?buy=<?php echo esc_attr( $plan->ID ) ?>"><?php esc_html_e( 'Comprar Plan', 'tolips' ); ?></a>
+                            <a class="btn btn-default btn-pricing"
+                               href="<?php echo StmPricingPlans::get_page_url() ?>?buy=<?php echo esc_attr( $plan->ID ) ?>"><?php esc_html_e( 'Buy Package', 'tolips' ); ?></a>
                         </div>
                     </div>
                 </div>    

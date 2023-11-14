@@ -42,6 +42,6 @@ $searches = \uListing\Classes\UlistingSearch::get_user_searches(get_current_user
 
 
 <?php else : ?>
-	<div class="margin-top-30 alert alert-info"><?php echo esc_html__("Sin resultados", "tolips")?></div>
+	<div class="margin-top-30 alert alert-info"><?php echo esc_html__("No result", "tolips")?></div>
 <?php endif; ?>
 

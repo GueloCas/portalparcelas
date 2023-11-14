@@ -20,19 +20,19 @@ if( !($payments = StmPayment::getPayments($limit, ($page > 1) ? (($page - 1) * $
 	$payments = array();
 ?>
 
-<h1 class="page-title"><?php echo esc_html__('Pagos Realizados', 'tolips') ?></h1>
+<h1 class="page-title"><?php echo esc_html__('Payment History', 'tolips') ?></h1>
 <div class="dashboard-content-inner">
 	<?php if(!empty($payments)):?>
 		<table class="table ulisting-table no-margin">
 			<thead>
 			<tr>
 				<th>#</th>
-				<th><?php esc_html_e("Método de Pago", "tolips")?></th>
-				<th><?php esc_html_e("Estado", "tolips")?></th>
-				<th><?php esc_html_e("Transacción", "tolips")?></th>
-				<th><?php esc_html_e("Monto", "tolips")?></th>
-				<th><?php esc_html_e("Creado", "tolips")?></th>
-				<th><?php esc_html_e("Actulizado", "tolips")?></th>
+				<th><?php esc_html_e("Payment method", "tolips")?></th>
+				<th><?php esc_html_e("Status", "tolips")?></th>
+				<th><?php esc_html_e("Transaction", "tolips")?></th>
+				<th><?php esc_html_e("Amount", "tolips")?></th>
+				<th><?php esc_html_e("Created", "tolips")?></th>
+				<th><?php esc_html_e("Updated", "tolips")?></th>
 			</tr>
 			</thead>
 
@@ -68,7 +68,7 @@ if( !($payments = StmPayment::getPayments($limit, ($page > 1) ? (($page - 1) * $
 	<?php else:?>
 		<div class="stm-row stm-justify-content-center p-t-30">
 			<div class="stm-col-12">
-				<div class="alert alert-info"><?php echo esc_html__('Sin resultados, Aún no tienes historial de pagos!', "tolips")?></div>
+				<div class="alert alert-info"><?php echo esc_html__('No result, You have no payment history yet !', "tolips")?></div>
 			</div>
 		</div>
 	<?php endif;?>

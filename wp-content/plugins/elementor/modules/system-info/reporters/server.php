@@ -124,13 +124,12 @@ class Server extends Base {
 		$result = [
 			'value' => PHP_VERSION,
 		];
-		$recommended_php_version = '7.4';
 
-		if ( version_compare( $result['value'], $recommended_php_version, '<' ) ) {
+		if ( version_compare( $result['value'], '7.4', '<' ) ) {
 			$result['recommendation'] = sprintf(
 				/* translators: %s: Recommended PHP version. */
-				esc_html__( 'We recommend using PHP version %s or higher.', 'elementor' ),
-				$recommended_php_version
+				esc_html_x( 'We recommend using PHP version %s or higher.', 'System Info', 'elementor' ),
+				'7.4'
 			);
 
 			$result['warning'] = true;
@@ -155,7 +154,7 @@ class Server extends Base {
 	 */
 	public function get_php_memory_limit() {
 		$result = [
-			'value' => (string) ini_get( 'memory_limit' ),
+			'value' => (string) get_cfg_var( 'memory_limit' ),
 		];
 
 		$min_recommended_memory = '128M';
@@ -168,7 +167,7 @@ class Server extends Base {
 		if ( $memory_limit_bytes < $min_recommended_bytes ) {
 			$result['recommendation'] = sprintf(
 				/* translators: 1: Minimum recommended_memory, 2: Preferred memory, 3: WordPress wp-config memory documentation. */
-				__( 'We recommend setting memory to at least %1$s. (%2$s or higher is preferred) For more information, read about <a href="%3$s">how to increase memory allocated to PHP</a>.', 'elementor' ),
+				_x( 'We recommend setting memory to at least %1$s. (%2$s or higher is preferred) For more information, read about <a href="%3$s">how to increase memory allocated to PHP</a>.', 'System Info', 'elementor' ),
 				$min_recommended_memory,
 				$preferred_memory,
 				'https://go.elementor.com/wordpress-wp-config-memory/'

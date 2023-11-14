@@ -25,29 +25,29 @@ if( isset($background_media_id['id']) && $background_media_id['id'] ){
 		<div class="col-12 col-md-4 login-content-left">
 		  <span class="bg-login" style="background-image: url('<?php echo esc_url($background_image) ?>')" /></span>
 		  <div class="content-inner">
-			 <h3 class="title"><?php echo tolips_get_option('lt_login_title', esc_html__('Bienvenido!', 'tolips') ) ?></h3>
-			 <div class="desc"><?php echo tolips_get_option('lt_login_desc', esc_html__('Inicia sesión para continuar', 'tolips') ) ?></div>
+			 <h3 class="title"><?php echo tolips_get_option('lt_login_title', esc_html__('Welcome Back', 'tolips') ) ?></h3>
+			 <div class="desc"><?php echo tolips_get_option('lt_login_desc', esc_html__('Sign in to continue access', 'tolips') ) ?></div>
 		  </div>  
 		</div>  
 
 		<div class="login-form-content col-12 col-md-8">
 		  <div class="ulisting-form-gruop" :class="{error: errors['login']}">
-				<label> <?php echo esc_html__('Nombre de usuario', "tolips"); ?></label>
+				<label> <?php echo esc_html__('Login', "tolips"); ?></label>
 				<input type="text"
 						 @keyup.enter="logIn"
 						 v-model="login"
 						 class="form-control"
-						 placeholder="<?php echo esc_attr__('Ingrese nombre de usuario', "tolips"); ?>"/>
+						 placeholder="<?php echo esc_attr__('Enter login', "tolips"); ?>"/>
 				<span  v-if="errors['login']" style="color: red">{{errors['login']}}</span>
 		  </div>
 
 		  <div class="ulisting-form-gruop" :class="{error: errors['password']}">
-				<label> <?php echo esc_html__('Contraseña', "tolips"); ?></label>
+				<label> <?php echo esc_html__('Password', "tolips"); ?></label>
 				<input type="password"
 						 @keyup.enter="logIn"
 						 v-model="password"
 						 class="form-control"
-						 placeholder="<?php echo esc_attr__('Ingrese contraseña', "tolips"); ?>"/>
+						 placeholder="<?php echo esc_attr__('Enter password', "tolips"); ?>"/>
 				<span  v-if="errors['password']" style="color: red">{{errors['password']}}</span>
 		  </div>
 
@@ -56,19 +56,19 @@ if( isset($background_media_id['id']) && $background_media_id['id'] ){
 					 <div class="stm-col">
 						  <label>
 								<input type="checkbox" value="1" :true-value="1" :false-value="0"
-										 v-model="remember"> <?php esc_html_e('Recuerdame', "tolips") ?>
+										 v-model="remember"> <?php esc_html_e('Remember me', "tolips") ?>
 						  </label>
 					 </div>
 					 <div class="stm-col forgot-password">
-					 	<a class="lost-popup" data-toggle="modal" data-target="#form-ajax-lost-password-popup"><?php esc_html_e('¿Olvidaste la contraseña?', 'tolips') ?></a>
+					 	<a class="lost-popup" data-toggle="modal" data-target="#form-ajax-lost-password-popup"><?php esc_html_e('Forgot Password?', 'tolips') ?></a>
 					 </div>
 				</div>
 		  </div>
 		  <div class="ulisting-form-gruop">
 				<button @click="logIn" type="button"
-						  class="btn btn-primary w-full"><?php echo esc_html__('Acceder', "tolips"); ?></button>
+						  class="btn btn-primary w-full"><?php echo esc_html__('Login', "tolips"); ?></button>
 		  </div>
-		  <div v-if="loading">Cargando...</div>
+		  <div v-if="loading">Loading...</div>
 		  <div v-if="message" :class="status">{{message}}</div>
 		</div> 
 	 </div> 

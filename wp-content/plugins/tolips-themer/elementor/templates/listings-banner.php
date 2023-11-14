@@ -48,7 +48,7 @@
 			
 				if( $settings['listing_type'] == '00select' ){
 					if(!empty($settings['term_slug'])){
-						echo '<span class="number-listings">' . sprintf(_n('%d Property', '%d Properties', $term->count, 'tolips-themer'), $term->count) . '</span>';
+						echo '<span class="number-listings">' . sprintf(_n('%d Propiedad', '%d Propiedades', $term->count, 'tolips-themer'), $term->count) . '</span>';
 					}
 				}else{
 					$type = get_post($settings['listing_type']);
@@ -70,7 +70,7 @@
 							'stm_listing_query' => $clauses,
 					  ));
 					  $listing_count = $query->found_posts;
-					  echo '<span class="number-listings">' . sprintf(_n('%d Property', '%d Properties', $listing_count, 'tolips-themer'), $listing_count) . '</span>';
+					  echo '<span class="number-listings">' . sprintf(_n('%d Propiedad', '%d Propiedades', $listing_count, 'tolips-themer'), $listing_count) . '</span>';
 					  wp_reset_postdata();
 					}
 				}

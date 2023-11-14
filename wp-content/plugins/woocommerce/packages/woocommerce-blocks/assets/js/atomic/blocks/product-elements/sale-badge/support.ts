@@ -7,7 +7,6 @@ import { __experimentalGetSpacingClassesAndStyles } from '@wordpress/block-edito
 
 export const supports = {
 	html: false,
-	align: true,
 	...( isFeaturePluginBuild() && {
 		color: {
 			gradients: true,
@@ -32,7 +31,6 @@ export const supports = {
 			width: true,
 			__experimentalSkipSerialization: true,
 		},
-		// @todo: Improve styles support when WordPress 6.4 is released. https://make.wordpress.org/core/2023/07/17/introducing-the-block-selectors-api/
 		...( typeof __experimentalGetSpacingClassesAndStyles === 'function' && {
 			spacing: {
 				margin: true,

@@ -30,9 +30,9 @@ $tab = empty($tab) ? 'login' : $tab;
 	<div class="form-login-register">
 		<div class="stm-row">
 			<div class="stm-col-12 stm-col-md-12">
-				<ul class="nav nav-tabs nav-box-shadow">
-					 	<li><a class="<?php echo esc_attr( $tab == 'login' ? 'active' : '' ) ?>" data-toggle="tab" href="#account-login-form"><?php echo esc_html__('Acceder', 'tolips') ?></a></li>
-	  					<li><a class="<?php echo esc_attr( $tab == 'register'  ? 'active' : '') ?>" data-toggle="tab" href="#account-register-form"><?php echo esc_html__('Registro', 'tolips') ?></a></li>
+				<ul class="nav nav-tabs">
+					 	<li><a class="<?php echo esc_attr( $tab == 'login' ? 'active' : '' ) ?>" data-toggle="tab" href="#account-login-form"><?php echo esc_html__('Login', 'tolips') ?></a></li>
+	  					<li><a class="<?php echo esc_attr( $tab == 'register'  ? 'active' : '') ?>" data-toggle="tab" href="#account-register-form"><?php echo esc_html__('Register', 'tolips') ?></a></li>
 	  			</ul>	
 	  			<div class="tab-content">
 	  				<div id="account-login-form" class="tab-pane fade <?php echo esc_attr($tab == 'login' ? 'in active' : '') ?>">
@@ -58,7 +58,7 @@ $tab = empty($tab) ? 'login' : $tab;
 				     <?php } ?> 
    				</div>
    				<div class="content-right text-right">
-   					<a href="<?php echo get_home_url(); ?>" class="btn-inline"><?php echo esc_html__( 'Volver al Inicio', 'tolips') ?></a>
+   					<a href="<?php echo get_home_url(); ?>" class="btn-inline"><?php echo esc_html__( 'Back to Homepage', 'tolips') ?></a>
    				</div>
    			</div>
    		</div>

@@ -1,0 +1,8 @@
+2023-11-08T16:10:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\role-manager\role-manager.php en la línea 9
+
+2023-11-08T16:11:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\src\Transport\Curl.php en la línea 510
+
+2023-11-08T16:11:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\src\Transport\Curl.php en la línea 510
+
+2023-11-08T16:11:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\src\Transport\Curl.php en la línea 510
+

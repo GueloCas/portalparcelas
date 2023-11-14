@@ -178,15 +178,6 @@ abstract class Task {
 	}
 
 	/**
-	 * Badge.
-	 *
-	 * @return string
-	 */
-	public function get_badge() {
-		return '';
-	}
-
-	/**
 	 * Level.
 	 *
 	 * @deprecated 7.2.0
@@ -495,7 +486,6 @@ abstract class Task {
 			'id'              => $this->get_id(),
 			'parentId'        => $this->get_parent_id(),
 			'title'           => $this->get_title(),
-			'badge'           => $this->get_badge(),
 			'canView'         => $this->can_view(),
 			'content'         => $this->get_content(),
 			'additionalInfo'  => $this->get_additional_info(),

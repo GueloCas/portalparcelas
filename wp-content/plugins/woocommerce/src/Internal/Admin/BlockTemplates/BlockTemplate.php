@@ -18,7 +18,7 @@ class BlockTemplate extends AbstractBlockTemplate {
 	}
 
 	/**
-	 * Add an inner block to this template.
+	 * Generate a block ID based on a base.
 	 *
 	 * @param array $block_config The block data.
 	 */

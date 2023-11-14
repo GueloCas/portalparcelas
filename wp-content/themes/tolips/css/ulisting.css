@@ -165,7 +165,7 @@ template {
 }
 
 .stm-listing-pagination .pagination li.active a {
-  color: #000;  
+  color: #000;
 }
 
 .stm-listing-pagination .pagination li.disabled a {
@@ -1003,11 +1003,6 @@ input.datepicker-input.with-reset-button {
   border: 0;
   padding: 7px;
   border-top: 1px solid #dee2e6;
-}
-
-.ulisting-table .pagination li {
-  margin: 50px;
-  padding: 5px;
 }
 
 @-webkit-keyframes placeHolderShimmer {
@@ -3568,6 +3563,7 @@ div.ulisting-angrytext {
   left: 20px;
   z-index: 11;
   line-height: 1;
+  display: none;
 }
 
 .listing-block .listing-thumbnail .wishlist-icon-content a {
@@ -5257,7 +5253,7 @@ body.ulisting-inventory-page .container-layout-content {
 #ulisting-inventory-list .listing-sort .icon {
   font-size: 22px;
   position: absolute;
-  top: 5px;
+  top: 10px;
   left: 0;
 }
 
@@ -5268,7 +5264,7 @@ body.ulisting-inventory-page .container-layout-content {
 }
 
 #ulisting-inventory-list .listing-sort .select2-container .select2-selection .select2-selection__rendered {
-  line-height: 25px !important;
+  line-height: 2.65rem !important;
   color: #717580 !important;
 }
 
@@ -6453,7 +6449,7 @@ body.ulisting-inventory-page .container-layout-content {
   width: 280px;
   z-index: 12;
   height: 100%;
-  background: #004F00;
+  background: #2C364C;
   padding: 60px 0 30px;
   overflow-y: auto;
   overflow-x: hidden;
@@ -6523,7 +6519,7 @@ body.ulisting-inventory-page .container-layout-content {
   padding: 10px 20px;
   margin: 5px 0;
   opacity: 1;
-  background: #004F00;
+  background: #252E40;
 }
 
 .ulisting-dashboard-page .ulising-dashboard-main .ulising-dashboard-content .dashboard-topbar {
@@ -6553,11 +6549,6 @@ body.ulisting-inventory-page .container-layout-content {
 .ulisting-dashboard-page .ulising-dashboard-main .ulising-dashboard-content .ulising-dashboard-content-wrapper .dashboard-content-inner {
   background: #fff;
   padding: 30px;
-}
-
-/*aquí número de página*/
-.ulisting-dashboard-page .ulising-dashboard-main .ulising-dashboard-content .ulising-dashboard-content-wrapper .dashboard-content-inner .pagination li{
-  padding: 10px;
 }
 
 .ulisting-dashboard-page .ulising-dashboard-main .ulising-dashboard-content .ulising-dashboard-content-wrapper .dashboard-content-inner .ulisting-table {

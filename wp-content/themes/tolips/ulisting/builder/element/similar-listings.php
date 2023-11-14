@@ -29,7 +29,7 @@ $models = \uListing\Classes\StmListingType::get_similar_listings(
 ?>
 
 <div class="ulisting-similar-listings  <?php echo esc_attr(\uListing\Classes\Builder\UListingBuilder::generation_html_attribute($element));?>">
-	<h3 class="ulisting-el-heading"><?php echo esc_html__('Similar Listings','tolips'); ?></h3>
+	<h3 class="ulisting-el-heading"><?php echo esc_html__('Similares','tolips'); ?></h3>
 		<?php if( count($models) > 0 ): ?>
 			<?php  
 				foreach ( $models as $_model ) { 

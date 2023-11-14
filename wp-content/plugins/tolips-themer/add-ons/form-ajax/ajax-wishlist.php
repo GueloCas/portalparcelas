@@ -79,14 +79,14 @@ class Tolips_Addons_Wishlist_Ajax{
 			}
 		}
 	?>
-		<div class="wishlist-icon-content" style="display: none">
+		<div class="wishlist-icon-content">
 			<a href="#" data-post_id="<?php echo esc_attr($post_id) ?>" class="ajax-wishlist-link <?php echo (!$check_wishlist ? 'wishlist-add' : 'wishlist-remove wishlist-added') ?>" title="<?php echo esc_attr__('Wishlist', 'tolips-themer') ?>">
 				<i class="icon far fa-heart"></i>
 				<?php if($text){ 
 					echo '<span>' . $text . '</span>';
 				} ?>
 			</a>
-	 	</div> 
+	 </div> 
 	<?php
 	}
 

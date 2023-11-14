@@ -67,7 +67,7 @@ if ($query AND $query->have_posts()) {
 
 ?>
 <div <?php echo \uListing\Classes\Builder\UListingBuilder::generation_html_attribute($element)?>>
-    <h3 class="ulisting-el-heading"><?php echo esc_html__('Featured properties','tolips'); ?></h3>
+    <h3 class="ulisting-el-heading"><?php echo esc_html__('Propiedades destacadas','tolips'); ?></h3>
     <?php if(count($feature_models))?>
 
     <div class="init-carousel-owl-theme owl-carousel" <?php echo trim($data_carousel) ?>>

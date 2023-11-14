@@ -12,7 +12,7 @@
 			"type": "string",
 			"__experimentalRole": "content"
 		},
-		"visibility": {
+		"visibilty": {
 			"type": "string",
 			"enum": [ "visible", "catalog", "search", "hidden" ],
 			"default": "visible"

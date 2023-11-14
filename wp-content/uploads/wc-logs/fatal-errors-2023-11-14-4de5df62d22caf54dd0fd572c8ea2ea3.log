@@ -1,0 +1,4 @@
+2023-11-14T14:47:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\upgrade\task.php en la línea 8
+
+2023-11-14T14:47:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\functions.php en la línea 4593
+

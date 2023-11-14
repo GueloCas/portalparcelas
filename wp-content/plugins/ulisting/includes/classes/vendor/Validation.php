@@ -2138,10 +2138,10 @@ class Validation
 
 	public function get_message_array() {
 		return array(
-			'validate_required'                 => esc_html__('Este campo es requerido', "ulisting"),
-			'validate_valid_email'              => esc_html__('Email ingresado es inválido', "ulisting"),
-			'validate_max_len'                  => esc_html__('La contraseña debe contener máximo {param} caracteres', "ulisting"),
-			'validate_min_len'                  => esc_html__('La contraseña debe contener al menos {param} caracteres', "ulisting"),
+			'validate_required'                 => esc_html__('The {field} field is required', "ulisting"),
+			'validate_valid_email'              => esc_html__('The {field} field must be a valid email address', "ulisting"),
+			'validate_max_len'                  => esc_html__('The {field} field needs to be {param} characters or less', "ulisting"),
+			'validate_min_len'                  => esc_html__('The {field} field needs to be at least {param} characters', "ulisting"),
 			'validate_exact_len'                => esc_html__('The {field} field needs to be exactly {param} characters', "ulisting"),
 			'validate_alpha'                    => esc_html__('The {field} field may only contain letters', "ulisting"),
 			'validate_alpha_numeric'            => esc_html__('The {field} field may only contain letters and numbers', "ulisting"),
@@ -2172,7 +2172,7 @@ class Validation
 			'validate_starts'                   => esc_html__('The {field} field needs to start with {param}', "ulisting"),
 			'validate_extension'                => esc_html__('The {field} field can only have one of the following extensions: {param}', "ulisting"),
 			'validate_required_file'            => esc_html__('The {field} field is required', "ulisting"),
-			'validate_equalsfield'              => esc_html__('Las contraseñas no coinciden', "ulisting"),
+			'validate_equalsfield'              => esc_html__('The {field} field does not equal {param} field', "ulisting"),
 			'validate_iban'                     => esc_html__('The {field} field needs to contain a valid IBAN', "ulisting"),
 			'validate_phone_number'             => esc_html__('The {field} field needs to be a valid Phone Number', "ulisting"),
 			'validate_regex'                    => esc_html__('The {field} field needs to contain a value with valid format', "ulisting"),

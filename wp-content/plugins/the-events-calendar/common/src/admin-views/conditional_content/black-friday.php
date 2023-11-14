@@ -1,6 +1,6 @@
 <?php
 /**
- * Old Template for Black Friday Promo.
+ * Template for Black Friday Promo.
  *
  * @since 4.14.7
  * @var string $background_image - the url of the background image to use

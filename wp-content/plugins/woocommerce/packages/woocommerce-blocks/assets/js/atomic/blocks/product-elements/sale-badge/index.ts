@@ -32,7 +32,6 @@ const blockConfig: BlockConfiguration = {
 		'woocommerce/single-product',
 		'core/post-template',
 		'woocommerce/product-template',
-		'woocommerce/product-gallery',
 	],
 };
 

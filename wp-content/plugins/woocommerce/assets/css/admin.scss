@@ -876,8 +876,7 @@
 		margin-right: 20px;
 	}
 
-	// NOTE: .woocommerce-page is removed within admin.
-	&.woocommerce-page, &.woocommerce-admin-page {
+	&.woocommerce-page {
 		.wrap {
 			margin-top: 32px;
 		}
@@ -948,13 +947,8 @@
 #inventory_product_data .notice,
 #variable_product_options .notice {
 	display: flex;
+	margin: 10px;
 	background-color: #ffffff;
-	border-color: #eee;
-	border-width: 1px 0px 0px 0px;
-	border-style: solid;
-	align-items: center;
-	box-shadow: 0 0 0;
-	margin: 5px 0 0;
 	> p {
 		a {
 			text-decoration: none;
@@ -963,10 +957,6 @@
 	}
 	> p:not(:last-child) {
 		width: 85%;
-	}
-	> img.info-icon {
-		width: 1em;
-		filter: brightness(50%);
 	}
 	.woocommerce-add-variation-price-container {
 		width: 15%;
@@ -4948,11 +4938,6 @@ img.help_tip {
 		float: left;
 		width: 80%;
 
-		._backorders_field .wc-radios li {
-			display: block;
-			padding: 0 0 2px;
-		}
-
 		.wc-radios {
 			display: block;
 			float: left;
@@ -5080,19 +5065,6 @@ img.help_tip {
 				background-color: #eee;
 			}
 		}
-	}
-}
-
-/**
- * Settings / Advanced / Features
- */
-.woocommerce_page_wc-settings {
-	.wc-settings-row-woocommerce_custom_orders_table_enabled td.forminp {
-		padding-bottom: 0;
-	}
-
-	.wc-settings-row-woocommerce_custom_orders_table_data_sync_enabled td.forminp {
-		padding-top: 0;
 	}
 }
 
@@ -5318,14 +5290,6 @@ img.help_tip {
 			visibility: visible;
 		}
 	}
-
-	&.wc-metabox {
-		&.postbox {
-			border-top: 0px;
-			border-left: 0px;
-			border-right: 0px;
-		}
-	}
 }
 
 .woocommerce_options_panel {
@@ -5540,8 +5504,7 @@ img.help_tip {
   * WooCommerce meta boxes
   */
 .wc-metaboxes-wrapper {
-	:not(#variable_product_options_inner),
-	&#product_attributes {
+	:not(#variable_product_options_inner) {
 		.toolbar:not(.expand-close-hidden) {
 		  border-bottom: 1px solid #eee;
 		}

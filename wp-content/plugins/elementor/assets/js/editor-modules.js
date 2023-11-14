@@ -1,4 +1,4 @@
-/*! elementor - v3.17.0 - 25-10-2023 */
+/*! elementor - v3.16.0 - 20-09-2023 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -1682,8 +1682,8 @@ ControlsStack = Marionette.CompositeView.extend({
 }, {
   handlePopovers: function handlePopovers(view) {
     var popover;
-    this.removePopovers(view);
     view.popovers = [];
+    this.removePopovers(view);
     view.children.each(function (control) {
       if (popover) {
         popover.addChild(control);
@@ -1702,8 +1702,7 @@ ControlsStack = Marionette.CompositeView.extend({
     });
   },
   removePopovers: function removePopovers(view) {
-    var _view$popovers;
-    (_view$popovers = view.popovers) === null || _view$popovers === void 0 ? void 0 : _view$popovers.forEach(function (popover) {
+    view.popovers.forEach(function (popover) {
       return popover.destroy();
     });
   }

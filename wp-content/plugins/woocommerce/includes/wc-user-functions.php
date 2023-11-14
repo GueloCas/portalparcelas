@@ -362,10 +362,6 @@ function wc_customer_bought_product( $customer_email, $user_id, $product_id ) {
 				$statuses
 			);
 			$order_table = OrdersTableDataStore::get_orders_table_name();
-			$user_id_clause = '';
-			if ( $user_id ) {
-				$user_id_clause = 'OR o.customer_id = ' . absint( $user_id );
-			}
 			$sql = "
 SELECT im.meta_value FROM $order_table AS o
 INNER JOIN {$wpdb->prefix}woocommerce_order_items AS i ON o.id = i.order_id
@@ -373,7 +369,8 @@ INNER JOIN {$wpdb->prefix}woocommerce_order_itemmeta AS im ON i.order_item_id = 
 WHERE o.status IN ('" . implode( "','", $statuses ) . "')
 AND im.meta_key IN ('_product_id', '_variation_id' )
 AND im.meta_value != 0
-AND ( o.billing_email IN ('" . implode( "','", $customer_data ) . "') $user_id_clause )
+AND ( o.customer_id IN ('" . implode( "','", $customer_data ) . "') OR o.billing_email IN ('" . implode( "','", $customer_data ) . "') )
+
 ";
 			$result = $wpdb->get_col( $sql );
 		} else {

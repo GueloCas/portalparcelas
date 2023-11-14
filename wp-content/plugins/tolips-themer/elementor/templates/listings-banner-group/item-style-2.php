@@ -50,7 +50,7 @@
 						
 						if( $banner['listing_type'] == '00select' ){
 							if(!empty($banner['term_slug'])){
-								echo '<div class="number-listings">' . sprintf(_n('%d Property', '%d Properties', $term->count, 'tolips-themer'), $term->count) . '</div>';
+								echo '<div class="number-listings">' . sprintf(_n('%d Propiedad', '%d Propiedades', $term->count, 'tolips-themer'), $term->count) . '</div>';
 							}
 						}else{
 							$type = get_post($banner['listing_type']);
@@ -72,7 +72,7 @@
 									'stm_listing_query' => $clauses,
 							  ));
 							  $listing_count = $query->found_posts;
-							  echo '<div class="number-listings">' . sprintf(_n('%d Property', '%d Properties', $listing_count, 'tolips-themer'), $listing_count) . '</div>';
+							  echo '<div class="number-listings">' . sprintf(_n('%d Propiedad', '%d Propiedades', $listing_count, 'tolips-themer'), $listing_count) . '</div>';
 							  wp_reset_postdata();
 							}
 						}

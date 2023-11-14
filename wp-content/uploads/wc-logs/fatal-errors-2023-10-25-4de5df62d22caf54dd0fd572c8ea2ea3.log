@@ -1,0 +1,4 @@
+2023-10-25T13:26:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\themes\tolips\includes\comment.php en la línea 2
+
+2023-10-25T13:26:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\meta-box\vendor\composer\ClassLoader.php en la línea 429
+

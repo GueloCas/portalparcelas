@@ -631,8 +631,8 @@ function get_woocommerce_currencies() {
 					'USD' => __( 'United States (US) dollar', 'woocommerce' ),
 					'UYU' => __( 'Uruguayan peso', 'woocommerce' ),
 					'UZS' => __( 'Uzbekistani som', 'woocommerce' ),
-					'VEF' => __( 'Venezuelan bol&iacute;var (2008–2018)', 'woocommerce' ),
-					'VES' => __( 'Venezuelan bol&iacute;var', 'woocommerce' ),
+					'VEF' => __( 'Venezuelan bol&iacute;var', 'woocommerce' ),
+					'VES' => __( 'Bol&iacute;var soberano', 'woocommerce' ),
 					'VND' => __( 'Vietnamese &#x111;&#x1ed3;ng', 'woocommerce' ),
 					'VUV' => __( 'Vanuatu vatu', 'woocommerce' ),
 					'WST' => __( 'Samoan t&#x101;l&#x101;', 'woocommerce' ),
@@ -817,7 +817,7 @@ function get_woocommerce_currency_symbols() {
 			'UYU' => '&#36;',
 			'UZS' => 'UZS',
 			'VEF' => 'Bs F',
-			'VES' => 'Bs.',
+			'VES' => 'Bs.S',
 			'VND' => '&#8363;',
 			'VUV' => 'Vt',
 			'WST' => 'T',
@@ -1094,7 +1094,11 @@ function wc_setcookie( $name, $value, $expire = 0, $secure = false, $httponly = 
 			$value
 		);
 
-		setcookie( $name, $value, $options );
+		if ( version_compare( PHP_VERSION, '7.3.0', '>=' ) ) {
+			setcookie( $name, $value, $options );
+		} else {
+			setcookie( $name, $value, $options['expires'], $options['path'], $options['domain'], $options['secure'], $options['httponly'] );
+		}
 	} elseif ( Constants::is_true( 'WP_DEBUG' ) ) {
 		headers_sent( $file, $line );
 		trigger_error( "{$name} cookie cannot be set - headers already sent by {$file} on line {$line}", E_USER_NOTICE ); // @codingStandardsIgnoreLine
@@ -2503,7 +2507,15 @@ function wc_decimal_to_fraction( $decimal ) {
  * @return float
  */
 function wc_round_discount( $value, $precision ) {
-	return NumberUtil::round( $value, $precision, WC_DISCOUNT_ROUNDING_MODE ); // phpcs:ignore PHPCompatibility.FunctionUse.NewFunctionParameters.round_modeFound
+	if ( version_compare( PHP_VERSION, '5.3.0', '>=' ) ) {
+		return NumberUtil::round( $value, $precision, WC_DISCOUNT_ROUNDING_MODE ); // phpcs:ignore PHPCompatibility.FunctionUse.NewFunctionParameters.round_modeFound
+	}
+
+	if ( PHP_ROUND_HALF_DOWN === WC_DISCOUNT_ROUNDING_MODE ) {
+		return wc_legacy_round_half_down( $value, $precision );
+	}
+
+	return NumberUtil::round( $value, $precision );
 }
 
 /**

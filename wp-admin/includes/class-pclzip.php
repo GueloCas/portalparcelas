@@ -3269,7 +3269,7 @@
   // Description :
   //   Extract a file or directory depending of rules (by index, by name, ...)
   // Parameters :
-  //   $p_file_list : An array where will be placed the properties of each
+  //   $p_file_list : An array where will be placed the s of each
   //                  extracted file
   //   $p_path : Path to add while writing the extracted files
   //   $p_remove_path : Path to remove (from the file memorized path) while writing the
@@ -4351,7 +4351,7 @@
       $p_header['extra'] = '';
     }
 
-    // ----- Extract properties
+    // ----- Extract s
     $p_header['version_extracted'] = $v_data['version'];
     $p_header['compression'] = $v_data['compression'];
     $p_header['size'] = $v_data['size'];

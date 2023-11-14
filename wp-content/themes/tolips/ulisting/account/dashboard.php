@@ -44,7 +44,7 @@ if($var == 'my-favorite'){
             <div class="dashboard-card all-listings">
                <div class="content-inner">
                   <div class="value"><?php echo esc_html($listing_count['all']) ?></div>
-                  <div class="label"><?php echo esc_html__('Propiedades', 'tolips') ?></div>
+                  <div class="label"><?php echo esc_html__('All Properties', 'tolips') ?></div>
                </div>   
                <div class="icon"><i class="fas fa-map-marked-alt"></i></div>
             </div>
@@ -54,28 +54,27 @@ if($var == 'my-favorite'){
             <div class="dashboard-card published">
                <div class="content-inner">
                   <div class="value"><?php echo esc_html($listing_count['publish']) ?></div>
-                  <div class="label"><?php echo esc_html__('Propiedades Publicadas', 'tolips') ?></div>
+                  <div class="label"><?php echo esc_html__('Publish Properties', 'tolips') ?></div>
                </div>   
                <div class="icon"><i class="far fa-calendar-check"></i></div>
             </div>
          </div> 
-         <!--
+         
          <div class="item-columns">
             <div class="dashboard-card bookmarks">
                <div class="content-inner">
                   <div class="value"><?php echo esc_html($listing_count['publish']) ?></div>
-                  <div class="label"><?php echo esc_html__('Propiedades Favoritas', 'tolips') ?></div>
+                  <div class="label"><?php echo esc_html__('Bookmarks Properties', 'tolips') ?></div>
                </div>   
                <div class="icon"><i class="far fa-heart"></i></div>
             </div>
-         </div>
-         --> 
+         </div> 
 
          <div class="item-columns">
             <div class="dashboard-card pending">
                <div class="content-inner">
                   <div class="value"><?php echo esc_html($listing_count['pending']) ?></div>
-                  <div class="label"><?php echo esc_html__('Propiedades Pendientes', 'tolips') ?></div>
+                  <div class="label"><?php echo esc_html__('Pending Properties', 'tolips') ?></div>
                </div>   
                <div class="icon"><i class="fas fa-sync"></i></div>
             </div>
@@ -85,7 +84,7 @@ if($var == 'my-favorite'){
             <div class="dashboard-card draft">
                <div class="content-inner">
                   <div class="value"><?php echo esc_html($listing_count['draft']) ?></div>
-                  <div class="label"><?php echo esc_html__('Propiedades en Borrador', 'tolips') ?></div>
+                  <div class="label"><?php echo esc_html__('Draft Properties', 'tolips') ?></div>
                </div>   
                <div class="icon"><i class="fas fa-pencil-ruler"></i></div>
             </div>
@@ -95,7 +94,7 @@ if($var == 'my-favorite'){
             <div class="dashboard-card trash">
                <div class="content-inner">
                   <div class="value"><?php echo esc_html($listing_count['trash']) ?></div>
-                  <div class="label"><?php echo esc_html__('Propiedades Eliminadas', 'tolips') ?></div>
+                  <div class="label"><?php echo esc_html__('Trash Properties', 'tolips') ?></div>
                </div>   
                <div class="icon"><i class="far fa-calendar-times"></i></div>
             </div>

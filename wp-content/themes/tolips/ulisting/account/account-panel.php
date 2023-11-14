@@ -26,7 +26,7 @@ if(is_user_logged_in()):?>
 				</li>
 			<?php endforeach;?>
 			<li>
-				<a class="nav-link" href="<?php  echo wp_logout_url(home_url())?>"><?php esc_html_e('Cerrar sesión', "tolips")?></a>
+				<a class="nav-link" href="<?php  echo wp_logout_url(home_url())?>"><?php esc_html_e('Logout', "tolips")?></a>
 			</li>
 		</ul>
 	</div>
@@ -36,7 +36,7 @@ if(is_user_logged_in()):?>
 			<i class="fa fa-user"></i>
 		</div>
 		<div class="ulisting-account-panel-main">
-			<a href="<?php echo StmUser::getProfileUrl();?>"><?php echo esc_html__("Iniciar sesión ", "tolips")?></a> / <a href="<?php echo StmUser::getProfileUrl();?>"><?php echo esc_html__("Registrarse", "tolips")?></a>
+			<a href="<?php echo StmUser::getProfileUrl();?>"><?php echo esc_html__("Log In ", "tolips")?></a> / <a href="<?php echo StmUser::getProfileUrl();?>"><?php echo esc_html__("Sign Up", "tolips")?></a>
 		</div>
 	</div>
 <?php endif;?>

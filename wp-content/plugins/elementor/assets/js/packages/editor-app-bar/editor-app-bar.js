@@ -186,37 +186,7 @@ function useMenuContext() {
 
 
 function ToolbarMenuItem({ title, ...props }) {
-  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(Tooltip, { title }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Box, { component: "span", "aria-label": void 0 }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(
-    _elementor_ui__WEBPACK_IMPORTED_MODULE_2__.IconButton,
-    {
-      ...props,
-      "aria-label": title,
-      size: "medium",
-      sx: {
-        "& .MuiSvgIcon-root": {
-          fontSize: "1.25rem"
-        },
-        "&:hover": {
-          color: "text.primary"
-        }
-      }
-    }
-  )));
-}
-function Tooltip(props) {
-  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(
-    _elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Tooltip,
-    {
-      PopperProps: {
-        sx: {
-          "&.MuiTooltip-popper .MuiTooltip-tooltip.MuiTooltip-tooltipPlacementBottom": {
-            mt: 2
-          }
-        }
-      },
-      ...props
-    }
-  );
+  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Tooltip, { title }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Box, { component: "span", "aria-label": void 0 }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.IconButton, { ...props, "aria-label": title, size: "small" })));
 }
 
 // src/components/ui/popover-menu-item.tsx
@@ -234,13 +204,7 @@ function PopoverMenuItem({ text, icon, onClick, href, target, disabled, ...props
       onClick,
       component: href ? "a" : "div",
       href,
-      target,
-      sx: {
-        "&:hover": {
-          color: "text.primary"
-          // Overriding global CSS from the editor.
-        }
-      }
+      target
     },
     /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.ListItemIcon, null, icon),
     /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.ListItemText, { primary: text }),
@@ -271,26 +235,7 @@ function Action({ icon: Icon, title, visible = true, ...props }) {
 
 
 function ToolbarMenuToggleItem({ title, onClick, ...props }) {
-  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Tooltip, { title }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Box, { component: "span", "aria-label": void 0 }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(
-    _elementor_ui__WEBPACK_IMPORTED_MODULE_2__.ToggleButton,
-    {
-      ...props,
-      onChange: onClick,
-      "aria-label": title,
-      size: "small",
-      sx: {
-        border: 0,
-        // Temp fix until the style of the ToggleButton component will be decided.
-        "&.Mui-disabled": {
-          border: 0
-          // Temp fix until the style of the ToggleButton component will be decided.
-        },
-        "& .MuiSvgIcon-root": {
-          fontSize: "1.25rem"
-        }
-      }
-    }
-  )));
+  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Tooltip, { title }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Box, { component: "span", "aria-label": void 0 }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.ToggleButton, { ...props, onChange: onClick, "aria-label": title, size: "small" })));
 }
 
 // src/components/actions/toggle-action.tsx
@@ -435,12 +380,11 @@ function PopoverMenu({ children, ...props }) {
     _elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Menu,
     {
       PaperProps: {
-        sx: { mt: 1.5 }
+        sx: { mt: 4 }
       },
       ...props,
       MenuListProps: {
-        component: "div",
-        dense: true
+        component: "div"
       }
     },
     children
@@ -456,9 +400,7 @@ var ElementorLogo = (props) => {
   return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.SvgIcon, { viewBox: "0 0 32 32", ...props }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", null, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", { cx: "16", cy: "16", r: "16" }), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", { d: "M11.7 9H9V22.3H11.7V9Z" }), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", { d: "M22.4 9H9V11.7H22.4V9Z" }), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", { d: "M22.4 14.4004H9V17.1004H22.4V14.4004Z" }), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", { d: "M22.4 19.6992H9V22.3992H22.4V19.6992Z" })));
 };
 var StyledToggleButton = (0,_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.styled)(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.ToggleButton)(({ theme }) => ({
-  padding: 0,
-  border: 0,
-  color: theme.palette.text.primary,
+  paddingInline: theme.spacing(1),
   "&.MuiToggleButton-root:hover": {
     backgroundColor: "initial"
   },
@@ -469,8 +411,10 @@ var StyledToggleButton = (0,_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.styled)(_
 var StyledElementorLogo = (0,_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.styled)(ElementorLogo, {
   shouldForwardProp: (prop) => prop !== "showMenuIcon"
 })(({ theme, showMenuIcon }) => ({
+  width: "auto",
+  height: "100%",
   "& path": {
-    fill: theme.palette.background.default,
+    fill: "initial",
     transition: "all 0.2s linear",
     transformOrigin: "bottom left",
     "&:first-of-type": {
@@ -500,18 +444,11 @@ function ToolbarLogo(props) {
     {
       ...props,
       value: "selected",
-      size: "large",
+      size: "small",
       onMouseEnter: () => setIsHoverState(true),
       onMouseLeave: () => setIsHoverState(false)
     },
-    /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(
-      StyledElementorLogo,
-      {
-        fontSize: "large",
-        showMenuIcon,
-        titleAccess: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Elementor Logo", "elementor")
-      }
-    )
+    /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(StyledElementorLogo, { titleAccess: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Elementor Logo", "elementor"), showMenuIcon })
   );
 }
 
@@ -609,7 +546,7 @@ function MainMenuLocation() {
 
 
 function ToolbarMenu({ children, ...props }) {
-  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(MenuContextProvider, { type: "toolbar" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Stack, { sx: { px: 1.5 }, spacing: 1.5, direction: "row", alignItems: "center", ...props }, children));
+  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(MenuContextProvider, { type: "toolbar" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Stack, { sx: { px: 4 }, spacing: 4, direction: "row", alignItems: "center", ...props }, children));
 }
 
 // src/components/ui/toolbar-menu-more.tsx
@@ -670,7 +607,7 @@ function ResponsiveLocation() {
 
 // src/components/app-bar.tsx
 function AppBar() {
-  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.ThemeProvider, { colorScheme: "dark" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.AppBar, { position: "sticky" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Box, { display: "grid", gridTemplateColumns: "repeat(3, 1fr)" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Grid, { container: true }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(MainMenuLocation, null), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(ToolsMenuLocation, null)), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Grid, { container: true, justifyContent: "center" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(ToolbarMenu, { spacing: 1.5 }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Divider, { orientation: "vertical" }), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(PageIndicationLocation, null), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Divider, { orientation: "vertical" }), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(ResponsiveLocation, null), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Divider, { orientation: "vertical" }))), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Grid, { container: true, justifyContent: "flex-end" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(UtilitiesMenuLocation, null), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(PrimaryActionLocation, null)))));
+  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.ThemeProvider, { colorScheme: "dark" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.AppBar, { position: "sticky" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Box, { display: "grid", gridTemplateColumns: "repeat(3, 1fr)" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Grid, { container: true }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(MainMenuLocation, null), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(ToolsMenuLocation, null)), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Grid, { container: true, justifyContent: "center" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(ToolbarMenu, { spacing: 3 }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Divider, { orientation: "vertical" }), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(PageIndicationLocation, null), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Divider, { orientation: "vertical" }), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(ResponsiveLocation, null), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Divider, { orientation: "vertical" }))), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Grid, { container: true, justifyContent: "flex-end" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(UtilitiesMenuLocation, null), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(PrimaryActionLocation, null)))));
 }
 
 // src/init.ts
@@ -679,8 +616,8 @@ function AppBar() {
 // src/sync/redirect-old-menus.ts
 
 function redirectOldMenus() {
-  (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateListenTo)((0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.routeOpenEvent)("panel/menu"), () => {
-    (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateOpenRoute)("panel/elements/categories");
+  (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.listenTo)((0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.routeOpenEvent)("panel/menu"), () => {
+    (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.openRoute)("panel/elements/categories");
   });
 }
 
@@ -692,49 +629,26 @@ function redirectOldMenus() {
 
 
 function SettingsButton() {
-  const activeDocument = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.__useActiveDocument)();
-  const hostDocument = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.__useHostDocument)();
+  const activeDocument = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.useActiveDocument)();
+  const hostDocument = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.useHostDocument)();
   const document2 = activeDocument && activeDocument.type.value !== "kit" ? activeDocument : hostDocument;
-  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateUseRouteStatus)("panel/page-settings");
+  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.useRouteStatus)("panel/page-settings");
   if (!document2) {
     return null;
   }
   const title = (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("%s Settings", "elementor").replace("%s", document2.type.label);
-  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(Tooltip3, { title }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Box, { component: "span", "aria-label": void 0 }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(
+  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Tooltip, { title }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Box, { component: "span", "aria-label": void 0 }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(
     _elementor_ui__WEBPACK_IMPORTED_MODULE_2__.ToggleButton,
     {
       value: "document-settings",
       selected: isActive,
       disabled: isBlocked,
-      onChange: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateOpenRoute)("panel/page-settings/settings"),
+      onChange: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.openRoute)("panel/page-settings/settings"),
       "aria-label": title,
-      size: "small",
-      sx: {
-        border: 0,
-        // Temp fix until the style of the ToggleButton component will be decided.
-        "&.Mui-disabled": {
-          border: 0
-          // Temp fix until the style of the ToggleButton component will be decided.
-        }
-      }
+      size: "small"
     },
-    /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_icons__WEBPACK_IMPORTED_MODULE_3__.SettingsIcon, { fontSize: "small" })
+    /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_icons__WEBPACK_IMPORTED_MODULE_3__.SettingsIcon, null)
   )));
-}
-function Tooltip3(props) {
-  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(
-    _elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Tooltip,
-    {
-      PopperProps: {
-        sx: {
-          "&.MuiTooltip-popper .MuiTooltip-tooltip.MuiTooltip-tooltipPlacementBottom": {
-            mt: 1.7
-          }
-        }
-      },
-      ...props
-    }
-  );
 }
 
 // src/extensions/documents-indicator/index.ts
@@ -755,11 +669,11 @@ function init() {
 
 
 function useActionProps() {
-  const document2 = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.__useActiveDocument)();
+  const document2 = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.useActiveDocument)();
   return {
     icon: _elementor_icons__WEBPACK_IMPORTED_MODULE_3__.EyeIcon,
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Preview Changes", "elementor"),
-    onClick: () => document2 && (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateRunCommand)("editor/documents/preview", {
+    onClick: () => document2 && (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.runCommand)("editor/documents/preview", {
       id: document2.id,
       force: true
     })
@@ -781,8 +695,8 @@ function init2() {
 
 
 function useDocumentSaveDraftProps() {
-  const document2 = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.__useActiveDocument)();
-  const { saveDraft } = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.__useActiveDocumentActions)();
+  const document2 = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.useActiveDocument)();
+  const { saveDraft } = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.useActiveDocumentActions)();
   return {
     icon: _elementor_icons__WEBPACK_IMPORTED_MODULE_3__.FileReportIcon,
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Save Draft", "elementor"),
@@ -796,7 +710,7 @@ function useDocumentSaveDraftProps() {
 
 
 function useDocumentSaveTemplateProps() {
-  const { saveTemplate } = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.__useActiveDocumentActions)();
+  const { saveTemplate } = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.useActiveDocumentActions)();
   return {
     icon: _elementor_icons__WEBPACK_IMPORTED_MODULE_3__.FolderIcon,
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Save as Template", "elementor"),
@@ -835,9 +749,9 @@ function PrimaryActionMenu(props) {
         vertical: "top",
         horizontal: "right"
       },
-      marginThreshold: 4,
+      marginThreshold: 8,
       PaperProps: {
-        sx: { mt: 0.5 }
+        sx: { mt: 2 }
       }
     },
     saveActions.map(({ MenuItem: MenuItem3, id }, index) => [
@@ -853,11 +767,9 @@ function PrimaryActionMenu(props) {
 
 
 
-
 function PrimaryAction() {
-  const document2 = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.__useActiveDocument)();
-  const { save } = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.__useActiveDocumentActions)();
-  const isPreviewMode = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateUseIsPreviewMode)();
+  const document2 = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.useActiveDocument)();
+  const { save } = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.useActiveDocumentActions)();
   const popupState = (0,_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.usePopupState)({
     variant: "popover",
     popupId: "document-save-options"
@@ -865,24 +777,23 @@ function PrimaryAction() {
   if (!document2) {
     return null;
   }
-  const isPublishDisabled = isPreviewMode || !isPublishEnabled(document2);
-  const isSaveOptionsDisabled = isPreviewMode || document2.type.value === "kit";
-  const shouldShowSpinner = document2.isSaving && !isPublishDisabled;
-  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.ButtonGroup, { size: "large", variant: "contained" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(
+  const isDisabled = !isEnabled(document2);
+  const shouldShowSpinner = document2.isSaving && !isDisabled;
+  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.ButtonGroup, { size: "medium", variant: "contained" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(
     _elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Button,
     {
       onClick: () => !document2.isSaving && save(),
       sx: {
+        px: 7,
         height: "100%",
-        borderRadius: 0,
         maxWidth: "158px",
         "&.MuiButtonBase-root.MuiButtonGroup-grouped": {
           minWidth: "110px"
         }
       },
-      disabled: isPublishDisabled
+      disabled: isDisabled
     },
-    shouldShowSpinner ? /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.CircularProgress, { color: "inherit", size: "1.5em" }) : getLabel(document2)
+    shouldShowSpinner ? /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.CircularProgress, null) : getLabel(document2)
   ), /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(
     _elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Tooltip,
     {
@@ -890,8 +801,8 @@ function PrimaryAction() {
       PopperProps: {
         sx: {
           "&.MuiTooltip-popper .MuiTooltip-tooltip.MuiTooltip-tooltipPlacementBottom": {
-            mt: 1,
-            mr: 0.25
+            mt: 3,
+            mr: 1
           }
         }
       }
@@ -899,10 +810,9 @@ function PrimaryAction() {
     /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Box, { component: "span", "aria-label": void 0 }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(
       _elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Button,
       {
-        size: "small",
         ...(0,_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.bindTrigger)(popupState),
-        sx: { px: 0, height: "100%", borderRadius: 0 },
-        disabled: isSaveOptionsDisabled,
+        sx: { px: 0, height: "100%" },
+        disabled: document2.type.value === "kit",
         "aria-label": (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Save Options", "elementor")
       },
       /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_icons__WEBPACK_IMPORTED_MODULE_3__.ChevronDownIcon, null)
@@ -912,7 +822,7 @@ function PrimaryAction() {
 function getLabel(document2) {
   return document2.userCan.publish ? (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Publish", "elementor") : (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Submit", "elementor");
 }
-function isPublishEnabled(document2) {
+function isEnabled(document2) {
   if (document2.type.value === "kit") {
     return false;
   }
@@ -947,17 +857,17 @@ function init3() {
 function syncPanelTitle() {
   const panelTitle = (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Elements", "elementor");
   const tabTitle = (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Widgets", "elementor");
-  (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateListenTo)(
+  (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.listenTo)(
     (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.routeOpenEvent)("panel/elements"),
     () => {
       setPanelTitle(panelTitle);
       setTabTitle(tabTitle);
     }
   );
-  (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateListenTo)(
+  (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.listenTo)(
     (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.v1ReadyEvent)(),
     () => {
-      if ((0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateIsRouteActive)("panel/elements")) {
+      if ((0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.isRouteActive)("panel/elements")) {
         setPanelTitle(panelTitle);
         setTabTitle(tabTitle);
       }
@@ -979,11 +889,11 @@ function setTabTitle(title) {
 
 
 function useActionProps2() {
-  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateUseRouteStatus)("panel/elements");
+  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.useRouteStatus)("panel/elements");
   return {
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Add Element", "elementor"),
     icon: _elementor_icons__WEBPACK_IMPORTED_MODULE_3__.PlusIcon,
-    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateOpenRoute)("panel/elements/categories"),
+    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.openRoute)("panel/elements/categories"),
     selected: isActive,
     disabled: isBlocked
   };
@@ -1004,21 +914,22 @@ function init4() {
 
 
 function useActionProps3() {
-  const { isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateUseRouteStatus)("finder", {
+  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.useRouteStatus)("finder", {
     blockOnKitRoutes: false,
     blockOnPreviewMode: false
   });
   return {
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Finder", "elementor"),
     icon: _elementor_icons__WEBPACK_IMPORTED_MODULE_3__.SearchIcon,
-    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateRunCommand)("finder/toggle"),
+    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.runCommand)("finder/toggle"),
+    selected: isActive,
     disabled: isBlocked
   };
 }
 
 // src/extensions/finder/index.ts
 function init5() {
-  utilitiesMenu.registerAction({
+  utilitiesMenu.registerToggleAction({
     id: "toggle-finder",
     priority: 10,
     // Before help.
@@ -1050,11 +961,11 @@ function init6() {
 
 
 function useActionProps4() {
-  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateUseRouteStatus)("panel/history");
+  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.useRouteStatus)("panel/history");
   return {
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("History", "elementor"),
     icon: _elementor_icons__WEBPACK_IMPORTED_MODULE_3__.HistoryIcon,
-    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateOpenRoute)("panel/history/actions"),
+    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.openRoute)("panel/history/actions"),
     selected: isActive,
     disabled: isBlocked
   };
@@ -1077,7 +988,7 @@ function useActionProps5() {
   return {
     icon: _elementor_icons__WEBPACK_IMPORTED_MODULE_3__.KeyboardIcon,
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Keyboard Shortcuts", "elementor"),
-    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateRunCommand)("shortcuts/open")
+    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.runCommand)("shortcuts/open")
   };
 }
 
@@ -1103,7 +1014,7 @@ function init8() {
 
 
 function Portal(props) {
-  const containerRef = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateUseListenTo)(
+  const containerRef = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.useListenTo)(
     [
       (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.routeOpenEvent)("panel/global"),
       (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.routeCloseEvent)("panel/global")
@@ -1116,7 +1027,7 @@ function Portal(props) {
   return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Portal, { container: containerRef.current, ...props });
 }
 function getContainerRef() {
-  return (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateIsRouteActive)("panel/global") ? { current: document.querySelector("#elementor-panel-inner") } : { current: null };
+  return (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.isRouteActive)("panel/global") ? { current: document.querySelector("#elementor-panel-inner") } : { current: null };
 }
 
 // src/extensions/site-settings/components/primary-action.tsx
@@ -1125,8 +1036,8 @@ function getContainerRef() {
 
 
 function PrimaryAction2() {
-  const document2 = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.__useActiveDocument)();
-  const { save } = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.__useActiveDocumentActions)();
+  const document2 = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.useActiveDocument)();
+  const { save } = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.useActiveDocumentActions)();
   return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_elementor_ui__WEBPACK_IMPORTED_MODULE_2__.Paper, { sx: {
     px: 5,
     py: 4,
@@ -1155,13 +1066,13 @@ function PortalledPrimaryAction() {
 
 
 function useActionProps6() {
-  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateUseRouteStatus)("panel/global", {
+  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.useRouteStatus)("panel/global", {
     blockOnKitRoutes: false
   });
   return {
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Site Settings", "elementor"),
     icon: _elementor_icons__WEBPACK_IMPORTED_MODULE_3__.AdjustmentsHorizontalIcon,
-    onClick: () => isActive ? (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateRunCommand)("panel/global/close") : (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateRunCommand)("panel/global/open"),
+    onClick: () => isActive ? (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.runCommand)("panel/global/close") : (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.runCommand)("panel/global/open"),
     selected: isActive,
     disabled: isBlocked
   };
@@ -1185,11 +1096,11 @@ function init9() {
 
 
 function useActionProps7() {
-  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateUseRouteStatus)("navigator");
+  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.useRouteStatus)("navigator");
   return {
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Structure", "elementor"),
     icon: _elementor_icons__WEBPACK_IMPORTED_MODULE_3__.StructureIcon,
-    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateRunCommand)("navigator/toggle"),
+    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.runCommand)("navigator/toggle"),
     selected: isActive,
     disabled: isBlocked
   };
@@ -1212,7 +1123,7 @@ function useActionProps8() {
   return {
     icon: _elementor_icons__WEBPACK_IMPORTED_MODULE_3__.ThemeBuilderIcon,
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Theme Builder", "elementor"),
-    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateRunCommand)("app/open")
+    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.runCommand)("app/open")
   };
 }
 
@@ -1229,11 +1140,11 @@ function init11() {
 
 
 function useActionProps9() {
-  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateUseRouteStatus)("panel/editor-preferences");
+  const { isActive, isBlocked } = (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.useRouteStatus)("panel/editor-preferences");
   return {
     icon: _elementor_icons__WEBPACK_IMPORTED_MODULE_3__.ToggleRightIcon,
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("User Preferences", "elementor"),
-    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.__privateOpenRoute)("panel/editor-preferences"),
+    onClick: () => (0,_elementor_editor_v1_adapters__WEBPACK_IMPORTED_MODULE_6__.openRoute)("panel/editor-preferences"),
     selected: isActive,
     disabled: isBlocked
   };
@@ -1258,7 +1169,7 @@ function init13() {
     id: "exit-to-wordpress",
     group: "exits",
     useProps: () => {
-      const document2 = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.__useActiveDocument)();
+      const document2 = (0,_elementor_editor_documents__WEBPACK_IMPORTED_MODULE_7__.useActiveDocument)();
       return {
         title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Exit to WordPress", "elementor"),
         href: document2?.links?.platformEdit,

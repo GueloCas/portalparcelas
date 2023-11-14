@@ -204,7 +204,7 @@ class Theme extends Base {
 		if ( ! $is_child_theme ) {
 			$result['recommendation'] = sprintf(
 				/* translators: %s: WordPress child themes documentation. */
-				__( 'If you want to modify the source code of your theme, we recommend using a <a href="%s">child theme</a>.', 'elementor' ),
+				_x( 'If you want to modify the source code of your theme, we recommend using a <a href="%s">child theme</a>.', 'System Info', 'elementor' ),
 				'https://go.elementor.com/wordpress-child-themes/'
 			);
 		}

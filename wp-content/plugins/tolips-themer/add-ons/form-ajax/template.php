@@ -8,7 +8,7 @@
             </div>
          <div class="modal-body">
             <div class="ajax-user-form">
-               <h2 class="title"><?php echo esc_html__('Iniciar Sesión', 'tolips-themer'); ?></h2>
+               <h2 class="title"><?php echo esc_html__('Signin', 'tolips-themer'); ?></h2>
                <div class="form-ajax-login-popup-content">
                   <?php 
                      if(class_exists('Tolips_Addons_Login_Ajax')){
@@ -17,14 +17,14 @@
                   ?>
                </div>
                <div class="user-registration">
-                  <?php echo esc_html__("¿No tienes una cuenta?", "tolips-themer"); ?>
+                  <?php echo esc_html__("Don't have an account", "tolips-themer"); ?>
                   <?php if(class_exists('uListing\Classes\StmUser')){ ?>
                      <a class="registration-popup" href="<?php echo uListing\Classes\StmUser::getProfileUrl() ?>?tab=register">
-                        <?php echo esc_html__('Registrate', 'tolips-themer') ?>
+                        <?php echo esc_html__('Register', 'tolips-themer') ?>
                      </a>
                   <?php }else{ ?>
                      <a class="registration-popup" data-toggle="modal" data-target="#form-ajax-registration-popup">
-                        <?php echo esc_html__('Registrate', 'tolips-themer') ?>
+                        <?php echo esc_html__('Register', 'tolips-themer') ?>
                      </a>
                   <?php } ?>   
                </div>   
@@ -44,7 +44,7 @@
          </div>
          <div class="modal-body">
             <div class="ajax-user-form">
-               <h2 class="title"><?php echo esc_html__('Restablecer Contraseña', 'tolips-themer'); ?></h2>
+               <h2 class="title"><?php echo esc_html__('Reset Password', 'tolips-themer'); ?></h2>
                <div class="form-ajax-login-popup-content">
                   <?php
                      if(class_exists('Tolips_Addons_Forget_Pwd_Ajax')){
@@ -54,14 +54,14 @@
                </div>
              
                <div class="user-registration">
-                  <?php echo esc_html__("¿No tienes una cuenta?", "tolips-themer"); ?>
+                  <?php echo esc_html__("Don't have an account", "tolips-themer"); ?>
                   <?php if(class_exists('uListing\Classes\StmUser')){ ?>
                      <a class="registration-popup" href="<?php echo uListing\Classes\StmUser::getProfileUrl() ?>?tab=register">
-                        <?php echo esc_html__('Registrate', 'tolips-themer') ?>
+                        <?php echo esc_html__('Register', 'tolips-themer') ?>
                      </a>
                   <?php }else{ ?>
                      <a class="registration-popup" data-toggle="modal" data-target="#form-ajax-registration-popup">
-                        <?php echo esc_html__('Registrate', 'tolips-themer') ?>
+                        <?php echo esc_html__('Register', 'tolips-themer') ?>
                      </a>
                   <?php } ?>   
                </div>   

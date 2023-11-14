@@ -38,12 +38,12 @@ $check_limit = $user->checkLimitForAddListing();
 				<div class="topbar-content">
 					<div class="content-left">
 						<?php if(isset($user_meta['data']['nickname']['value'])){  ?>
-							<span><?php echo esc_html__( 'Bienvenido', 'tolips') ?></span>
+							<span><?php echo esc_html__( 'Welcome', 'tolips') ?></span>
 							<span class="nickname"><?php echo esc_html($user_meta['data']['nickname']['value']) ?></span>
 					  <?php } ?> 
 					</div>
 					<div class="content-right text-right">
-						<a href="<?php echo get_home_url(); ?>" class="btn-inline"><?php echo esc_html__( 'Volver al Inicio', 'tolips') ?></a>
+						<a href="<?php echo get_home_url(); ?>" class="btn-inline"><?php echo esc_html__( 'Back to Homepage', 'tolips') ?></a>
 					</div>
 				</div>
 			</div>

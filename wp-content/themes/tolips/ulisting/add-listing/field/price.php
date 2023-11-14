@@ -20,7 +20,7 @@
    </div>   
    <div class="stm-col-xl-6 stm-col-lg-6 stm-col-12">
       <div class="ulisting-form-gruop">
-      	<label><?php echo 'Oferta '.$attribute->title?></label>
+      	<label><?php echo 'Sale '.$attribute->title?></label>
       	<input class="form-control" type="number" v-model="attributes.<?php echo esc_attr($attribute->name)?>.value.sale">
       </div>
    </div>

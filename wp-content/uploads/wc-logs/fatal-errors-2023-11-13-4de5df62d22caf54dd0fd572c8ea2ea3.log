@@ -1,0 +1,56 @@
+2023-11-13T11:48:41+00:00 CRITICAL Uncaught Error: Call to a member function delete() on bool in C:\xampp\htdocs\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingAttributeOption.php:153
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): uListing\Classes\StmListingAttributeOption::listing_attribute_options_delete(71, '71')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\taxonomy.php(2190): do_action('delete_listing-...', 71, '71', Object(WP_Term), Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\includes\ajax-actions.php(804): wp_delete_term(71, 'listing-attribu...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): wp_ajax_delete_tag('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#9 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingAttributeOption.php en la línea 153
+
+2023-11-13T12:09:02+00:00 CRITICAL Uncaught Error: Call to a member function delete() on bool in C:\xampp\htdocs\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingAttributeOption.php:153
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): uListing\Classes\StmListingAttributeOption::listing_attribute_options_delete(78, '78')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\taxonomy.php(2190): do_action('delete_listing-...', 78, '78', Object(WP_Term), Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\includes\ajax-actions.php(804): wp_delete_term(78, 'listing-attribu...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): wp_ajax_delete_tag('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#9 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingAttributeOption.php en la línea 153
+
+2023-11-13T12:09:04+00:00 CRITICAL Uncaught Error: Call to a member function delete() on bool in C:\xampp\htdocs\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingAttributeOption.php:153
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): uListing\Classes\StmListingAttributeOption::listing_attribute_options_delete(77, '77')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\taxonomy.php(2190): do_action('delete_listing-...', 77, '77', Object(WP_Term), Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\includes\ajax-actions.php(804): wp_delete_term(77, 'listing-attribu...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): wp_ajax_delete_tag('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#9 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingAttributeOption.php en la línea 153
+
+2023-11-13T12:09:06+00:00 CRITICAL Uncaught Error: Call to a member function delete() on bool in C:\xampp\htdocs\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingAttributeOption.php:153
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): uListing\Classes\StmListingAttributeOption::listing_attribute_options_delete(76, '76')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\taxonomy.php(2190): do_action('delete_listing-...', 76, '76', Object(WP_Term), Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\includes\ajax-actions.php(804): wp_delete_term(76, 'listing-attribu...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): wp_ajax_delete_tag('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#9 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingAttributeOption.php en la línea 153
+

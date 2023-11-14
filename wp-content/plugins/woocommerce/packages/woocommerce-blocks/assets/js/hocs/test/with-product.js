@@ -26,10 +26,10 @@ const attributes = { productId: 1 };
 const TestComponent = withProduct( ( props ) => {
 	return (
 		<div
-			data-error={ props.error }
-			data-getProduct={ props.getProduct }
-			data-isLoading={ props.isLoading }
-			data-product={ props.product }
+			error={ props.error }
+			getProduct={ props.getProduct }
+			isLoading={ props.isLoading }
+			product={ props.product }
 		/>
 	);
 } );
@@ -72,7 +72,7 @@ describe( 'withProduct Component', () => {
 			const { getProduct } = mockUtils;
 			const props = renderer.root.findByType( 'div' ).props;
 
-			props[ 'data-getProduct' ]();
+			props.getProduct();
 
 			expect( getProduct ).toHaveBeenCalledTimes( 2 );
 		} );
@@ -89,10 +89,10 @@ describe( 'withProduct Component', () => {
 		it( 'sets the product props', () => {
 			const props = renderer.root.findByType( 'div' ).props;
 
-			expect( props[ 'data-error' ] ).toBeNull();
-			expect( typeof props[ 'data-getProduct' ] ).toBe( 'function' );
-			expect( props[ 'data-isLoading' ] ).toBe( false );
-			expect( props[ 'data-product' ] ).toEqual( {
+			expect( props.error ).toBeNull();
+			expect( typeof props.getProduct ).toBe( 'function' );
+			expect( props.isLoading ).toBe( false );
+			expect( props.product ).toEqual( {
 				...mockProduct,
 				id: attributes.productId,
 			} );
@@ -120,10 +120,10 @@ describe( 'withProduct Component', () => {
 
 			expect( formatError ).toHaveBeenCalledWith( error );
 			expect( formatError ).toHaveBeenCalledTimes( 1 );
-			expect( props[ 'data-error' ] ).toEqual( formattedError );
-			expect( typeof props[ 'data-getProduct' ] ).toBe( 'function' );
-			expect( props[ 'data-isLoading' ] ).toBe( false );
-			expect( props[ 'data-product' ] ).toBeNull();
+			expect( props.error ).toEqual( formattedError );
+			expect( typeof props.getProduct ).toBe( 'function' );
+			expect( props.isLoading ).toBe( false );
+			expect( props.product ).toBeNull();
 		} );
 	} );
 } );

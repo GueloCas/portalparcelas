@@ -30,13 +30,13 @@ class Tolips_Addons_Forget_Pwd_Ajax{
 		$user_login = $_POST['user_login'];
 	 
 		if ( empty($user_login) ) {
-		  	$mess = esc_html__('Error: Nombre de usuario o E-mail incorrectos', 'tolips-themer');
+		  	$mess = esc_html__('Error: Enter a username or e-mail address.', 'tolips-themer');
 			echo json_encode(array('loggedin' => false, 'message'=>'<div class="alert alert-warning">' . $mess . '</div>'));
 		  	die();
 		} else if ( strpos( $user_login, '@' ) ) {
 			$user = get_user_by( 'email', trim( $user_login ) );
 			if ( empty( $user ) ){
-				$mess = esc_html__('Error: Usuario no encontrado con E-mail ingresado', 'tolips-themer');
+				$mess = esc_html__('Error: There is no user registered with that email address.', 'tolips-themer');
 				echo json_encode(array('loggedin' => false, 'message'=>'<div class="alert alert-warning">' . $mess . '</div>'));
 				die();
 			}
@@ -45,7 +45,7 @@ class Tolips_Addons_Forget_Pwd_Ajax{
 			$user = get_user_by('login', $login);
 		}
 		if ( !$user ) {
-			$mess = esc_html__('Error: Nombre de usuario o E-mail inválidos', 'tolips-themer');
+			$mess = esc_html__('Error: Invalid username or email.', 'tolips-themer');
 			echo json_encode(array('loggedin' => false, 'message'=>'<div class="alert alert-warning">' . $mess . '</div>'));
 			die();
 		}
@@ -102,11 +102,11 @@ class Tolips_Addons_Forget_Pwd_Ajax{
 				}
 			?>
 			<div class="form-group">
-				<label for="forget_pwd_user_login"><?php echo esc_html__('Nombre de Usuario o E-mail:', 'tolips-themer') ?></label>
-				<input type="text" name="user_login" class="control-form input-fw" id="forget_pwd_user_login" placeholder="<?php echo esc_html__('Ingrese su nombre de usuario o email', 'tolips-themer') ?>" value="" size="20" />
+				<label for="forget_pwd_user_login"><?php echo esc_html__('Username or E-mail:', 'tolips-themer') ?></label>
+				<input type="text" name="user_login" class="control-form input-fw" id="forget_pwd_user_login" placeholder="<?php echo esc_html__('Username', 'tolips-themer') ?>" value="" size="20" />
 			</div>
 			<div class="form-group form-action">
-				<input type="submit" name="wp-submit" class="btn-theme btn-fw" value="<?php echo esc_attr__('Obtener Nueva Contraseña', 'tolips-themer'); ?>" />
+				<input type="submit" name="wp-submit" class="btn-theme btn-fw" value="<?php echo esc_attr__('Get New Password', 'tolips-themer'); ?>" />
 			</div>
 		</form>
 	<?php   

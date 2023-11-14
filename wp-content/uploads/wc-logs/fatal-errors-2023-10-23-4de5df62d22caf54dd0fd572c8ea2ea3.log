@@ -1,0 +1,4 @@
+2023-10-23T10:52:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\elements.php en la línea 7
+
+2023-10-23T10:52:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\modules\favorites\module.php en la línea 4
+

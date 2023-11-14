@@ -1,11 +1,8 @@
 /**
- * Internal dependencies
- */
-import { trimHtml } from './trim-html';
-
-/**
  * External dependencies
  */
+import trimHtml from 'trim-html';
+
 type Markers = {
 	end: number;
 	middle: number;

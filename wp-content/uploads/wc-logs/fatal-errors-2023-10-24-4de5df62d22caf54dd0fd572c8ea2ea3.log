@@ -1,0 +1,8 @@
+2023-10-24T12:12:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\functions.php en la línea 4570
+
+2023-10-24T12:12:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\pomo\streams.php en la línea 169
+
+2023-10-24T14:23:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-wp\includes\functions.php en la línea 21
+
+2023-10-24T14:23:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\contact-form-7\modules\akismet\akismet.php en la línea 8
+
