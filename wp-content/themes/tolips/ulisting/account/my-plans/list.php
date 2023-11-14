@@ -21,7 +21,7 @@ if( !($models = StmUserPlan::getList($limit, ($page > 1) ? (($page - 1) * $limit
 	$models = array();
 ?>
 
-<h1 class="page-title">My Plans</h1>
+<h1 class="page-title">Mis Planes</h1>
 <div class="dashboard-content-inner">
 	<?php if(!empty($models)):?>
 		<table class="table ulisting-table">
@@ -29,11 +29,13 @@ if( !($models = StmUserPlan::getList($limit, ($page > 1) ? (($page - 1) * $limit
 			<tr>
 				<th>#</th>
 				<th><?php esc_html_e("Plan", "tolips")?></th>
-				<th><?php esc_html_e("Status", "tolips")?></th>
-				<th><?php esc_html_e("Type", "tolips")?></th>
-				<th><?php esc_html_e("Payment Type", "tolips")?></th>
-				<th><?php esc_html_e("Expired", "tolips")?></th>
-				<th><?php esc_html_e("Created", "tolips")?></th>
+				<th><?php esc_html_e("Estado", "tolips")?></th>
+				<!--
+				<th><?php esc_html_e("Tipo", "tolips")?></th>
+				<th><?php esc_html_e("Tipo de pago", "tolips")?></th>
+				-->
+				<th><?php esc_html_e("Fecha expiración", "tolips")?></th>
+				<th><?php esc_html_e("Fecha creación", "tolips")?></th>
 				<th></th>
 			</tr>
 			</thead>
@@ -44,30 +46,34 @@ if( !($models = StmUserPlan::getList($limit, ($page > 1) ? (($page - 1) * $limit
 			?>
 				<tr>
 					<th scope="row"><?php echo esc_html($model->id)?></th>
-					<td><?php echo (isset($PricingPlan->post_title)) ? esc_attr($PricingPlan->post_title) : esc_html__("Pricing Plan not found ","tolips") ?></td>
+					<td><?php echo (isset($PricingPlan->post_title)) ? esc_attr($PricingPlan->post_title) : esc_html__("Planes no encontrados ","tolips") ?></td>
 					<td class="<?php echo esc_attr($model->status) ?>"><?php echo StmUserPlan::getStatus($model->status)?></td>
-	                <?php if($model->payment_type !== \uListing\Lib\PricingPlan\Classes\StmPricingPlans::PRICING_PLANS_PAYMENT_TYPE_SUBSCRIPTION): ?>
+	                <!--
+					<?php if($model->payment_type !== \uListing\Lib\PricingPlan\Classes\StmPricingPlans::PRICING_PLANS_PAYMENT_TYPE_SUBSCRIPTION): ?>
 					    <td><?php echo StmPricingPlans::pricingPlansTypeListData($model->type) ?></td>
 	                <?php else:;?>
 	                    <td>--/--/----</td>
 	                <?php endif;?>
 					<td><?php echo StmPricingPlans::pricingPaymentTypeListData($model->payment_type)?></td>
-					<td>
+					-->
+					<td><?php echo ulisting_convert_date_format($model->expired_date) ?>
+						<!--
 						<?php if($model->payment_type == \uListing\Lib\PricingPlan\Classes\StmPricingPlans::PRICING_PLANS_PAYMENT_TYPE_SUBSCRIPTION): ?>
 							<?php echo ulisting_convert_date_format($model->expired_date) ?>
 						<?php else:?>
 							--/--/----
 						<?php endif;?>
+						-->
 					</td>
 					<td><?php echo ulisting_convert_date_format($model->updated_date) . ' ' . ulisting_convert_time_format($model->updated_date)?></td>
 					<td>
-						<a href="<?php echo StmUser::getUrl('my-plans').'?id='.$model->id?>">Detail</a>
+						<a href="<?php echo StmUser::getUrl('my-plans').'?id='.$model->id?>">Detalles</a>
 					</td>
 				</tr>
 			<?php endforeach;?>
 			</tbody>
 		</table>
-		<a class="btn-theme btn-medium" href="<?php echo ulisting_get_page_link('pricing_plan')?>"><?php echo esc_html__('Buy plan', "tolips")?> </a>
+		<a class="btn-theme btn-medium" style="display: none;" href="<?php echo ulisting_get_page_link('pricing_plan')?>"><?php echo esc_html__('Comprar plan', "tolips")?> </a>
 		<?php
 		$paginator = new StmPaginator(
 			StmUserPlan::getList($limit, ($page > 1) ? (($page - 1) * $limit ) : 0, array('user_id' => get_current_user_id()), true),
@@ -86,8 +92,8 @@ if( !($models = StmUserPlan::getList($limit, ($page > 1) ? (($page - 1) * $limit
 	<?php else:?>
 		<div class="stm-row stm-justify-content-center p-t-30">
 			<div class="stm-col-12">
-				<div class="alert alert-info"><?php echo esc_html__('No result, You have no plans yet !', "tolips")?></div>
-				<a class="btn-theme btn-medium" href="<?php echo ulisting_get_page_link('pricing_plan')?>"><?php echo esc_html__('Buy plan', "tolips")?> </a>
+				<div class="alert alert-info"><?php echo esc_html__('Sin resultados, no tienes planes aún!', "tolips")?></div>
+				<a class="btn-theme btn-medium" style="display: none;" href="<?php echo ulisting_get_page_link('pricing_plan')?>"><?php echo esc_html__('Comprar plan', "tolips")?> </a>
 			</div>
 		</div>
 	<?php endif;?>

@@ -31,7 +31,7 @@ $active = isset( $_GET['var'] ) && $_GET['var'] ? $_GET['var'] : $active;
          <div class="user-name"><?php echo esc_html($user_meta['data']['nickname']['value']) ?></div>
          <div class="user-login"><?php echo esc_html($user->user_login) ?></div>
       <?php } ?>
-      <a class="btn-theme btn-small margin-top-10" href="<?php echo esc_url(uListing\Classes\StmUser::getUrl("edit-profile")); ?>"><?php echo esc_html__( 'Edit Profile', 'tolips' ) ?></a>   
+      <a class="btn-theme btn-small margin-top-10" href="<?php echo esc_url(uListing\Classes\StmUser::getUrl("edit-profile")); ?>"><?php echo esc_html__( 'Editar Perfil', 'tolips' ) ?></a>   
 
    </div>
    <ul class="nav nav-tabs listing-account-nav">
@@ -39,7 +39,7 @@ $active = isset( $_GET['var'] ) && $_GET['var'] ? $_GET['var'] : $active;
    		<a class="nav-link <?php echo esc_attr($active == 'dashboard' ? 'active': '') ?>" href="<?php echo StmUser::getProfileUrl()?>"><?php esc_html_e('Dashboard', "tolips")?></a>
    	</li>
       <li class="nav-item">
-         <a  class="nav-link add-listing <?php echo esc_attr($active == 'add-listing' ? 'active' :'') ?>" href="<?php echo ulisting_get_page_link('add_listing') ?>"><?php echo esc_html__('Add Listing', 'tolips') ?></a>
+         <a  class="nav-link add-listing <?php echo esc_attr($active == 'add-listing' ? 'active' :'') ?>" href="<?php echo ulisting_get_page_link('add_listing') ?>"><?php echo esc_html__('Añadir Propiedad', 'tolips') ?></a>
       </li>   
    	<?php foreach (StmUser::get_account_link('account-navigation') as $item):?>
          <?php if($item['var'] != 'saved-searches'){ ?>
@@ -48,13 +48,19 @@ $active = isset( $_GET['var'] ) && $_GET['var'] ? $_GET['var'] : $active;
       		</li>
          <?php } ?>   
    	<?php endforeach;?>
-      <li class="nav-item">
+
+      
+      <li class="nav-item" style="display: none;">
          <a class="nav-link my-favorite <?php echo esc_attr( $active == 'my-favorite' ? 'active' : '') ?>" href="<?php echo StmUser::getProfileUrl() ?>?var=my-favorite"><?php esc_html_e('My Favorites', "tolips")?></a>
       </li>
+      
+
       <li class="nav-item">
-         <a  class="nav-link logout" href="<?php echo  wp_logout_url(home_url()) ?>"><?php echo esc_html__('Logout', 'tolips') ?></a>
+         <a  class="nav-link logout" href="<?php echo  wp_logout_url(home_url()) ?>"><?php echo esc_html__('Cerrar Sesión', 'tolips') ?></a>
       </li> 
 
    </ul>
 </div>
 <div class="dashboard-nav-control"><a class="dashboard-nav-control-link" href="#"><i class="icon las la-bars"></i></a></div>
+
+   

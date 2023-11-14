@@ -28,7 +28,7 @@
                   'var'    => ''
                ),
                'add_listing' => array(
-                  'name'   => esc_html__('Add Listing', 'tolips-themer'),
+                  'name'   => esc_html__('Añadir Propiedad', 'tolips-themer'),
                   'link'   => ulisting_get_page_link('add_listing'),
                   'var'    => 'add-listing'
                ),
@@ -40,14 +40,15 @@
                   'var'    => $item['var']
                );
             }
+            /*
             $menus['my-favorite'] = array(
                'name'   => esc_html__('My Favorites', 'tolips-themer'),
                'link'   => StmUser::getProfileUrl() . '?var=my-favorite',
                'var'    => 'my-favorite'
-            );
+            );*/
          }
          $menus['logout'] = array(
-            'name'   => 'Logout',
+            'name'   => 'Cerrar Sesión',
             'link'   => wp_logout_url(home_url()),
             'var'    => 'logout'
          );

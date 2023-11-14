@@ -20,7 +20,7 @@ Redux::setSection( $opt_name, array(
 		  	'id'        => 'lt_login_title',
 		  	'type'      => 'text',
 		  	'title'     => esc_html__( 'Login Title', 'tolips' ),
-		  	'default'   => esc_html__('Welcome Back', 'tolips')
+		  	'default'   => esc_html__('Bienvenido', 'tolips')
 		),
 		array(
 		  	'id'        => 'lt_login_desc',
@@ -46,13 +46,13 @@ Redux::setSection( $opt_name, array(
 		  	'id'        => 'lt_register_title',
 		  	'type'      => 'text',
 		  	'title'     => esc_html__( 'Register Title', 'tolips' ),
-		  	'default'   => esc_html__('Welcome Back', 'tolips')
+		  	'default'   => esc_html__('Bienvenido', 'tolips')
 		),
 		array(
 		  	'id'        => 'lt_register_desc',
 		  	'type'      => 'text',
-		  	'title'     => esc_html__( 'Register Description', 'tolips' ),
-		  	'default'   => esc_html__('Register to continue access.', 'tolips')
+		  	'title'     => esc_html__( 'Descripción Registro', 'tolips' ),
+		  	'default'   => esc_html__('Regístrate para continuar con el acceso.', 'tolips')
 		),
 	)
 ));

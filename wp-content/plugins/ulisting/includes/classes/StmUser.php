@@ -89,43 +89,7 @@ class StmUser extends StmBaseModelUser {
         $stripe = new Stripe();
 		$endpoints = [
 			[
-				"title"    => __( 'Edit profile', "ulisting"),
-				"var"      => "edit-profile",
-				"value"    => (isset($account_endpoint_val["edit-profile"])) ? $account_endpoint_val["edit-profile"] : "edit-profile",
-				"template" => "account/edit-profile",
-				"menu" => [
-					"account-panel",
-				]
-			],
-			[
-				"title" => __( 'My plans', "ulisting"),
-				"var"   => "my-plans",
-				"value" => (isset($account_endpoint_val["my-plans"])) ? $account_endpoint_val["my-plans"] : "my-plans",
-				"template" => "account/my-plans",
-				"menu" => [
-					"account-navigation",
-				]
-			],
-			[
-				"title" => __( 'My Agents', "ulisting"),
-				"var"   => "my-agents",
-				"value" => (isset($account_endpoint_val["my-agents"])) ? $account_endpoint_val["my-agents"] : "my-agents",
-				"template" => "account/my-agents",
-				"menu" => [
-					"account-navigation",
-				]
-			],
-			[
-				"title" => __( 'Payment history', "ulisting"),
-				"var"   => "payment-history",
-				"value" => (isset($account_endpoint_val["payment-history"])) ? $account_endpoint_val["payment-history"] : "payment-history",
-				"template" => "account/payment-history",
-				"menu" => [
-					"account-navigation",
-				]
-			],
-			[
-				"title" => __( 'My listing', "ulisting"),
+				"title" => __( 'Mis Propiedades', "ulisting"),
 				"var"   => "my-listing",
 				"value" => (isset($account_endpoint_val["my-listing"])) ? $account_endpoint_val["my-listing"] : "my-listing",
 				"template" => "account/my-listing",
@@ -134,7 +98,45 @@ class StmUser extends StmBaseModelUser {
 				]
 			],
 			[
-				"title" => __( 'Saved searches', "ulisting"),
+				"title"    => __( 'Editar Perfil', "ulisting"),
+				"var"      => "edit-profile",
+				"value"    => (isset($account_endpoint_val["edit-profile"])) ? $account_endpoint_val["edit-profile"] : "edit-profile",
+				"template" => "account/edit-profile",
+				"menu" => [
+					"account-panel",
+				]
+			],
+			[
+				"title" => __( 'Mis Agentes', "ulisting"),
+				"var"   => "my-agents",
+				"value" => (isset($account_endpoint_val["my-agents"])) ? $account_endpoint_val["my-agents"] : "my-agents",
+				"template" => "account/my-agents",
+				"menu" => [
+					"account-navigation",
+				]
+			],
+			[
+				"title" => __( 'Mis Planes', "ulisting"),
+				"var"   => "my-plans",
+				"value" => (isset($account_endpoint_val["my-plans"])) ? $account_endpoint_val["my-plans"] : "my-plans",
+				"template" => "account/my-plans",
+				"menu" => [
+					"account-navigation",
+				]
+			],
+			/*
+			[
+				"title" => __( 'Historia de Pagos', "ulisting"),
+				"var"   => "payment-history",
+				"value" => (isset($account_endpoint_val["payment-history"])) ? $account_endpoint_val["payment-history"] : "payment-history",
+				"template" => "account/payment-history",
+				"menu" => [
+					"account-navigation",
+				]
+			],
+			*/
+			[
+				"title" => __( 'Búsquedas Guardadas', "ulisting"),
 				"var"   => "saved-searches",
 				"value" => (isset($account_endpoint_val["saved-searches"])) ? $account_endpoint_val["saved-searches"] : "saved-searches",
 				"template" => "account/saved-searches",
@@ -853,24 +855,24 @@ class StmUser extends StmBaseModelUser {
 		}
 
 		if( $validated_data['new_password'] != $validated_data['new_password_confirmation'] ) {
-			$result['errors']['new_password_confirmation'] =  __("The New Password Confirmation field does not equal New password field", "ulisting");
+			$result['errors']['new_password_confirmation'] =  __("Las contraseñas no coinciden", "ulisting");
 			return $result;
 		}
 
 		$user = new StmUser($validated_data['user_id']);
 		if( !$user->ID ){
-			$result['message'] = __("User not found :(", "ulisting");
+			$result['message'] = __("Usuario no encontrado", "ulisting");
 			return $result;
 		}
 
 		if( !($check_old_password = wp_check_password( $validated_data['old_password'], $user->user_pass, $user->ID )) ){
-			$result['message'] = __("Old password incorrect", "ulisting");
+			$result['message'] = __("Contraseña antigua incorrecta", "ulisting");
 			return $result;
 		}
 
 		wp_set_password($validated_data['new_password'], $user->ID);
 		$result['status'] = "success";
-		$result['message'] = __("Password has been changed successfully ", "ulisting");;
+		$result['message'] = __("Contraseña actualizada correctamente ", "ulisting");;
 
 		return $result;
 	}

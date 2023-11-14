@@ -22,20 +22,20 @@ if(isset($_GET['listingType']) AND $listingType = StmListingType::find_one($_GET
 
 ?>
 
-<h2><?php esc_html_e('Add listing', "tolips")?></h2>
+<h2><?php esc_html_e('Añadir Propiedad', "tolips")?></h2>
 
 <div class="listing-steps-form">
     <a class="step-item <?php echo esc_attr($step==1||$step==2?'active':'') ?>" href="<?php echo esc_url(ulisting_get_page_link('add_listing')); ?>">
         <span class="number">1.</span>
-        <span class="title"><?php esc_html_e('Listing Type', 'tolips'); ?></span>
+        <span class="title"><?php esc_html_e('Parcela', 'tolips'); ?></span>
     </a>
     <span class="step-item <?php echo esc_attr($step==2?'active':'') ?>">
         <span class="number">2.</span>
-        <span class="title"><?php esc_html_e('Create Listing', 'tolips') ?></span>
+        <span class="title"><?php esc_html_e('Nueva Propiedad', 'tolips') ?></span>
     </span>
     <span class="step-item">
         <span class="number">3.</span>
-        <span class="title"><?php esc_html_e('Done', 'tolips') ?></span>
+        <span class="title"><?php esc_html_e('Propiedad Agregada', 'tolips') ?></span>
     </span>
 </div>
 
@@ -45,7 +45,7 @@ if(isset($_GET['listingType']) AND $listingType = StmListingType::find_one($_GET
 	'user_plans'  => $user_plans,
 	'listingType' => $listingType,
 	'return_url'  =>  get_page_link( StmListingSettings::getPages(StmListingSettings::PAGE_ACCOUNT_PAGE) ),
-	'action'      => esc_html__('Create', "tolips"),
+	'action'      => esc_html__('Añadir', "tolips"),
 ), true );?>
 
 

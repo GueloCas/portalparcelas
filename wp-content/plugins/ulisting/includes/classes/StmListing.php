@@ -1094,7 +1094,7 @@ class StmListing extends StmBaseModel
 
                 $result['status']   = 'success';
                 $result['success']  = true;
-                $result['message']  = __('Listing saved successfully', 'ulisting');
+                $result['message']  = __('Listado Agregado Correctamente', 'ulisting');
             }
         }
 
@@ -1318,7 +1318,7 @@ class StmListing extends StmBaseModel
             $set_feature = $listing->setFeature($request_data['plan_id']);
             if ($set_feature['type'] == "add" OR $set_feature['type'] == "remove") {
                 $result['success'] = true;
-                $result['message'] = __('Listing saved as Featured', 'ulisting');
+                $result['message'] = __('Propiedad Agregada a Destacados', 'ulisting');
             }
         } else {
             StmListingAttributeRelationships::create([
@@ -1328,7 +1328,7 @@ class StmListing extends StmBaseModel
                 'sort'          => 1
             ])->save();
             $result['success'] = true;
-            $result['message'] = __('Listing saved as Featured', 'ulisting');
+            $result['message'] = __('Propiedad Agregada a Destacados', 'ulisting');
         }
 
         return $result;
@@ -1482,7 +1482,7 @@ class StmListing extends StmBaseModel
         if (isset($data['user_plan'])){
             $user_plan = $data['user_plan'];
             if ((!$user_plan || $user_plan === "none") && empty($data['is_admin'])){
-                $result['errors'] = ['user_plan' => __('You run out of listings limit.', 'ulisting')];
+                $result['errors'] = ['user_plan' => __('Selecciona el Plan para Añadir', 'ulisting')];
                 wp_send_json($result);
             }
         }
@@ -1643,7 +1643,7 @@ class StmListing extends StmBaseModel
         $result['status'] = 'success';
         $result['listing_url'] = get_permalink($listing->ID);
         $result['listing_id'] = $listing->ID;
-        $result['message'] = esc_html__('Listing save completed successfully.', "ulisting");
+        $result['message'] = esc_html__('Propiedad Agregada Correctamente.', "ulisting");
         wp_send_json($result);
         die;
     }

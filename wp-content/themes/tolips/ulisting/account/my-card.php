@@ -30,7 +30,7 @@ wp_add_inline_script('stripe-my-card', "var stripe_my_card_data = json_parse('".
 
 <?php if ($stripe_data['enabled'] === 'no') :?>
     <div class="account-payment_history_empty">
-        <h3><?php esc_html_e("You don't have any Payment methods.", "tolips")?></h3>
+        <h3><?php esc_html_e("No tienes ningún método de pago.", "tolips")?></h3>
     </div>
 <?php else: ?>
 <div id="stripe-my-card">

@@ -41,8 +41,8 @@ if( isset($background_media_id['id']) && $background_media_id['id'] ){
 		<div class="col-12 col-md-4 register-content-left">
 		  	<span class="bg-register" style="background-image: url('<?php echo esc_url($background_image) ?>')" /></span>
 		  	<div class="content-inner">
-		  		<h3 class="title"><?php echo tolips_get_option('lt_register_title', esc_html__('Welcome Back', 'tolips') ) ?></h3>
-			 	<div class="desc"><?php echo tolips_get_option('lt_register_desc', esc_html__('Register to continue access.', 'tolips') ) ?></div>
+		  		<h3 class="title"><?php echo tolips_get_option('lt_register_title', esc_html__('Bienvenido', 'tolips') ) ?></h3>
+			 	<div class="desc"><?php echo tolips_get_option('lt_register_desc', esc_html__('Regístrate para continuar con el acceso.', 'tolips') ) ?></div>
 		  	</div>  
 		</div>  
 
@@ -51,11 +51,11 @@ if( isset($background_media_id['id']) && $background_media_id['id'] ){
 			<div class="row">
 				<div class="col-12 col-md-12">
 					<div class="ulisting-form-gruop">
-						<label> <?php echo  esc_html__('Login', "tolips"); ?></label>
+						<label> <?php echo  esc_html__('Nombre de usuario', "tolips"); ?></label>
 						<input type="text"
 							data-v-model="login"
 							class="form-control"
-							placeholder="<?php echo esc_attr__('Enter login', "tolips"); ?>"/>
+							placeholder="<?php echo esc_attr__('Ingrese nombre de usuario', "tolips"); ?>"/>
 						<span data-v-if="errors['login']" style="color: red">{{errors['login']}}</span>
 					</div>
 				</div>
@@ -64,21 +64,21 @@ if( isset($background_media_id['id']) && $background_media_id['id'] ){
 			<div class="row">
 				<div class="col-12 col-md-6">
 					<div class="ulisting-form-gruop">
-						<label> <?php echo esc_html__('First name', "tolips"); ?></label>
+						<label> <?php echo esc_html__('Nombre', "tolips"); ?></label>
 						<input type="text"
 							data-v-model="first_name"
 							class="form-control"
-							placeholder="<?php echo esc_attr__('Enter first name', "tolips"); ?>"/>
+							placeholder="<?php echo esc_attr__('Ingrese su nombre', "tolips"); ?>"/>
 						<span data-v-if="errors['first_name']" style="color: red">{{errors['first_name']}}</span>
 					</div>
 				</div>	
 				<div class="col-12 col-md-6">
 					<div class="ulisting-form-gruop">
-						<label> <?php echo  esc_html__('Last name', "tolips"); ?></label>
+						<label> <?php echo  esc_html__('Apellido', "tolips"); ?></label>
 						<input type="text"
 							data-v-model="last_name"
 							class="form-control"
-							placeholder="<?php echo esc_attr__('Enter last name', "tolips"); ?>"/>
+							placeholder="<?php echo esc_attr__('Ingrese su apellido', "tolips"); ?>"/>
 						<span data-v-if="errors['last_name']" style="color: red">{{errors['last_name']}}</span>
 					</div>
 				</div>
@@ -91,13 +91,13 @@ if( isset($background_media_id['id']) && $background_media_id['id'] ){
 						<input type="email"
 							data-v-model="email"
 							class="form-control"
-							placeholder="<?php echo esc_attr__('Enter email', "tolips"); ?>"/>
+							placeholder="<?php echo esc_attr__('Ingrese su email', "tolips"); ?>"/>
 						    <span data-v-if="errors['email']" style="color: red">{{errors['email']}}</span>
 					</div>
 				</div>	
 				<div class="col-12 col-md-6">
 					<div class="ulisting-form-gruop">
-						<label> <?php echo  esc_html__('Role', "tolips"); ?></label>
+						<label> <?php echo  esc_html__('Tipo de usuario', "tolips"); ?></label>
 						<ulisting-select2 :options='user_role_list' data-v-model='role'></ulisting-select2>
 						<span data-v-if="errors['role']" style="color: red">{{errors['role']}}</span>
 					</div>
@@ -107,31 +107,31 @@ if( isset($background_media_id['id']) && $background_media_id['id'] ){
 			<div class="row">
 				<div class="col-12 col-md-6">
 					<div class="ulisting-form-gruop">
-						<label> <?php echo  esc_html__('Password', "tolips"); ?></label>
+						<label> <?php echo  esc_html__('Contraseña', "tolips"); ?></label>
 						<input type="password"
 							data-v-model="password"
 							class="form-control"
-							placeholder="<?php echo esc_attr__('Enter password', "tolips"); ?>"/>
+							placeholder="<?php echo esc_attr__('Ingrese su contraseña', "tolips"); ?>"/>
 							<span data-v-if="errors['password']" style="color: red">{{errors['password']}}</span>
 					</div>
 				</div>	
 				<div class="col-12 col-md-6">
 					<div class="ulisting-form-gruop">
-						<label> <?php echo  esc_html__('Password repeat', "tolips"); ?></label>
+						<label> <?php echo  esc_html__('Confirmar contraseña', "tolips"); ?></label>
 						<input type="password"
 							data-v-model="password_repeat"
 							class="form-control"
-							placeholder="<?php echo esc_attr__('Enter password repeat', "tolips"); ?>"/>
+							placeholder="<?php echo esc_attr__('Confirme su contraseña', "tolips"); ?>"/>
 							<span data-v-if="errors['password_repeat']" style="color: red">{{errors['password_repeat']}}</span>
 					</div>
 				</div>
 			</div>		
 
 			<div class="ulisting-form-gruop">
-				<button data-v-on_click="register" type="button" class="btn btn-theme"><?php echo esc_html__('Register', "tolips"); ?></button>
+				<button data-v-on_click="register" type="button" class="btn btn-theme"><?php echo esc_html__('Registrarse', "tolips"); ?></button>
 			</div>
 
-			<div data-v-if="loading"><?php echo esc_html__('Loading...', "tolips"); ?></div>
+			<div data-v-if="loading"><?php echo esc_html__('Cargando...', "tolips"); ?></div>
 
 			<div data-v-if="message"  data-v-bind_class="status" >{{message}}</div>
 		</div>

@@ -176,10 +176,10 @@ class StmUserPlan extends StmBaseModel {
 	 */
 	public static function getStatus($status = null) {
 		$statuses = array (
-			self::STATUS_PENDING  => esc_html__('Pending', "ulisting"),
-			self::STATUS_ACTIVE   => esc_html__('Active', "ulisting"),
-			self::STATUS_INACTIVE => esc_html__('Inactive', "ulisting"),
-			self::STATUS_CANCELED => esc_html__('Canceled', "ulisting")
+			self::STATUS_PENDING  => esc_html__('Pendiente', "ulisting"),
+			self::STATUS_ACTIVE   => esc_html__('Activo', "ulisting"),
+			self::STATUS_INACTIVE => esc_html__('Inactivo', "ulisting"),
+			self::STATUS_CANCELED => esc_html__('Cancelado', "ulisting")
 		);
 		return ($status) ? $statuses[$status] : $statuses;
 	}

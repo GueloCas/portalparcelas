@@ -43,7 +43,7 @@ class Tolips_Addons_Login_Ajax{
 		  	
 		  	wp_set_current_user($user_signon->ID);
 		  	wp_set_auth_cookie($user_signon->ID);
-			$message = esc_html__('Login successful, redirecting...', 'tolips-themer');
+			$message = esc_html__('Inicio de sesión correcto, ingresando...', 'tolips-themer');
 		  	echo json_encode(array('logged_in' => true, 'message' => '<div class="alert alert-success">' . $message . '</div>'));
 		  	die();
 
@@ -77,18 +77,18 @@ class Tolips_Addons_Login_Ajax{
 		<form id="ajax-login-form" method="post" class="ajax-form-content">
 		   <div class="form-status"></div>
 		   <div class="form-group">
-			   <label for="username"><?php echo esc_html__('Username', 'tolips-themer') ?></label>
-			   <input id="username" type="text" placeholder="<?php echo esc_html__('Username', 'tolips-themer') ?>" name="username" autocomplete='off' class="form-control">
+			   <label for="username"><?php echo esc_html__('Nombre de Usuario', 'tolips-themer') ?></label>
+			   <input id="username" type="text" placeholder="<?php echo esc_html__('Nombre de usuario', 'tolips-themer') ?>" name="username" autocomplete='off' class="form-control">
 			</div>
 		   <div class="form-group">
-			   <label for="password"><?php echo esc_html__('Password', 'tolips-themer') ?></label>
+			   <label for="password"><?php echo esc_html__('Contraseña', 'tolips-themer') ?></label>
 			   <input id="password" type="password" placeholder="******" name="password" autocomplete='off' class="form-control">
 			</div>   
 		   <div class="form-group form-action">
-			   <input class="btn-theme btn-fw" type="submit" value="<?php echo esc_html__('Login', 'tolips-themer') ?>" name="submit">
+			   <input class="btn-theme btn-fw" type="submit" value="<?php echo esc_html__('Iniciar Sesión', 'tolips-themer') ?>" name="submit">
 			</div>   
 			<div class="lost-password">
-		   	<a class="lost-popup" data-toggle="modal" data-target="#form-ajax-lost-password-popup"><?php esc_html_e('Lost your password?', 'tolips-themer') ?></a>
+		   	<a class="lost-popup" data-toggle="modal" data-target="#form-ajax-lost-password-popup"><?php esc_html_e('¿No recuerdas tu contraseña?', 'tolips-themer') ?></a>
 		   </div>
 		</form>
 	<?php

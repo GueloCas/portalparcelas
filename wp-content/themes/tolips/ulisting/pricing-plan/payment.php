@@ -29,7 +29,7 @@ $payment_data = apply_filters('ulisting_pricing_plan_payment_method_data', $paym
 ?>
 <div class="stm-row ulisting-payment-box">
     <div class="stm-col-5 plan-information">
-        <h3 class="payment-title"><?php esc_html_e('Your plan', 'tolips'); ?></h3>
+        <h3 class="payment-title"><?php esc_html_e('Plan a comprar', 'tolips'); ?></h3>
         <?php 
             $meta = $pricing_plan->getData();
             if( !isset($meta['price']) || empty($meta['price']) ){
@@ -57,16 +57,16 @@ $payment_data = apply_filters('ulisting_pricing_plan_payment_method_data', $paym
     </div>
 
     <div class="stm-col-7 payment-information">
-        <h3 class="payment-title"><?php esc_html_e('Payment Method', 'tolips'); ?></h3>
-        <p><?php esc_html_e('All transactions are secure and encrypted.', 'tolips'); ?></p>
+        <h3 class="payment-title"><?php esc_html_e('Método de Pago', 'tolips'); ?></h3>
+        <p><?php esc_html_e('Todas las transacciones son seguras y encriptadas.', 'tolips'); ?></p>
         <div class="stm-row payment-inputs">
             <div class="stm-col-sm-6 stm-col-12">
-                <label for="name"><?php echo esc_html__('Name', 'tolips') ?></label>
-                <input type="text" id="name" :class="{'error': !validate_name}" placeholder="<?php echo esc_attr__('Your Name', 'tolips') ?>" v-model.trim="name">
+                <label for="name"><?php echo esc_html__('Nombre', 'tolips') ?></label>
+                <input type="text" id="name" :class="{'error': !validate_name}" placeholder="<?php echo esc_attr__('Tu Nombre', 'tolips') ?>" v-model.trim="name">
             </div>
             <div class="stm-col-sm-6 stm-col-12">
                 <label for="email"><?php echo esc_html__('Email', 'tolips') ?></label>
-                <input type="email" id="email" :class="{'error': !validate_email}" placeholder="<?php echo esc_attr__('Your Email', 'tolips') ?>" v-model.trim="email">
+                <input type="email" id="email" :class="{'error': !validate_email}" placeholder="<?php echo esc_attr__('Tu E-mail', 'tolips') ?>" v-model.trim="email">
             </div>
         </div>    
 
@@ -137,7 +137,7 @@ $payment_data = apply_filters('ulisting_pricing_plan_payment_method_data', $paym
 
         <div v-if="!payment_loading" class="text-center">
             <template v-if="<?php echo esc_attr($price) ?> != 0">
-                <button class="btn-theme btn-medium" @click="buy" :disabled="!(validate_name && validate_email)"><?php esc_html_e("Buy Plan", "tolips") ?></button>
+                <button class="btn-theme btn-medium" style="display: none;" @click="buy" :disabled="!(validate_name && validate_email)"><?php esc_html_e("Comprar Plan", "tolips") ?></button>
             </template>
             <template v-else>
                 <button class="btn-theme btn-medium" @click="sendRequest"><?php esc_html_e("Place Order", "tolips") ?></button>

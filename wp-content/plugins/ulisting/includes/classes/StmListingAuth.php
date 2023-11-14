@@ -37,7 +37,7 @@ class StmListingAuth {
 		if ( ! $currentUser ) {
 			wp_send_json( [
 				'status'  => 'error',
-				'message' => esc_html__( 'Wrong Username or Password', "ulisting" )
+				'message' => esc_html__( 'Usuario o Contraseña Incorrecto', "ulisting" )
 			] );
 		}
 		$user = self::checkVerifiedUser( $data );
@@ -56,9 +56,9 @@ class StmListingAuth {
 		);
 
 		if ( is_wp_error( $user ) ) {
-			$result['message'] = esc_html__( 'Wrong Username or Password', "ulisting" );
+			$result['message'] = esc_html__( 'Usuario o Contraseña Incorrecto', "ulisting" );
 		} else {
-			$result['message'] = esc_html__( 'Successfully logged in. Redirecting...', "ulisting" );
+			$result['message'] = esc_html__( 'Inicio correcto. Redireccionanado', "ulisting" );
 			$result['status']  = 'success';
 		}
 		wp_send_json( $result );
@@ -234,7 +234,7 @@ class StmListingAuth {
 			do_action( "ulisting_profile_edit", [ 'user' => $user, 'data' => $validated_data ] );
 
 			$result['status']  = 'success';
-			$result['message'] = esc_html__( 'Profile update completed successfully.', "ulisting" );
+			$result['message'] = esc_html__( 'Perfil actualizado correctamente.', "ulisting" );
 
 			if ( isset( $_FILES['avatar'] ) ) {
 				$avatar = $user->updateAvatar( $_FILES['avatar'] );
