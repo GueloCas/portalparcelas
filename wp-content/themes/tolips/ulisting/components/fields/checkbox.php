@@ -65,7 +65,7 @@ if($model):
 			<span data-v-if="value.length" class="result-item" data-v-for='item_value in value'><span data-v-for='item_list in list' data-v-if="item_list.value == item_value">{{item_list.name}}</span></span>
 			<span data-v-if="!value.length">
 				<?php 
-					echo esc_html__( "Select ", "tolips");  
+					echo esc_html__( "Seleccionar ", "tolips");  
 					if( !empty($title) ){
 						esc_html($title);
 					}else{

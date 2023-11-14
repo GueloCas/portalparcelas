@@ -27,7 +27,9 @@ $data = tolips_user_data($user);
 			<div class="user-information clearfix">
 				<?php if( !empty($data['nickname']) ) { ?>
 					<h4 class="user-name">
-						<a href="<?php echo esc_url(get_author_posts_url($user->ID)); ?>"><?php echo esc_html($data['nickname']); ?></a>
+						<!--<a href="<?php echo esc_url(get_author_posts_url($user->ID)); ?>"><?php echo esc_html($data['nickname']); ?></a>-->
+						<a href="javascript:;"><?php echo esc_html($data['nickname']); ?></a>
+
 					</h4>
 				<?php } ?>
 
@@ -69,11 +71,11 @@ $data = tolips_user_data($user);
 				?>
 				<?php if($lt_email){ ?>
 					<div class="contact-form">
-						<a class="lt-contact-fom-btn" href="#form-listing-contact-popup"><?php echo esc_html__('Contact Agent', 'tolips') ?></a>
+						<a class="lt-contact-fom-btn" href="#form-listing-contact-popup"><?php echo esc_html__('Contacto del agente', 'tolips') ?></a>
 
 						<div class="modal-ajax-user-form mfp-hide" id="form-listing-contact-popup" tabindex="-1" role="dialog">
 			            <div class="contact-form-popup-content">
-			            	<h3 class="title"><?php echo esc_html__('Contact Agent', 'tolips') ?></h3>
+			            	<h3 class="title"><?php echo esc_html__('Contacto del agente', 'tolips') ?></h3>
 			               <?php 
 			               	$form_id = tolips_get_option('contact_form_agent', '295');
 			               	echo do_shortcode( '[contact-form-7 id="' . esc_attr($form_id) . '" author_email="' . esc_attr($lt_email) . '"]' ); 

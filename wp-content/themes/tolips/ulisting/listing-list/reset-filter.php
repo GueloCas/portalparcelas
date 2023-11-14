@@ -14,7 +14,7 @@ $reset_url = $args['listingType']->getPageUrl();
 if(isset($_GET['layout']))
 	$reset_url .= "?layout=".$_GET['layout'];
 
-$reset_filter = '<i class="las la-sync"></i>' . esc_html__('Reset filter', 'tolips');
+$reset_filter = '<i class="las la-sync"></i>' . esc_html__('Resetear filtro', 'tolips');
 $reset_filter_panel = '<a  href="'.$reset_url.'"  '.\uListing\Classes\Builder\UListingBuilder::generation_html_attribute($element).' > [reset_filter_panel_inner] </a>';
 if(isset($element['params']['template']))
    echo '<div class="listing-reset-filter">';
