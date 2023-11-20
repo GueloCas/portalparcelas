@@ -1,0 +1,20 @@
+2023-11-20T17:27:41+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 115343392 bytes) en C:\wamp64\www\wordpress\wp-content\plugins\ulisting\includes\classes\StmVerifyNonce.php en la línea 22
+
+2023-11-20T18:13:21+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + string in C:\wamp64\www\wordpress\wp-content\themes\tolips\ulisting\account\navigation.php:31
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingTemplate.php(51): include()
+#1 C:\wamp64\www\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingTemplate.php(33): uListing\Classes\StmListingTemplate::load('account/navigat...', Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\tolips\ulisting\account\account.php(50): uListing\Classes\StmListingTemplate::load_template('account/navigat...', Array, true)
+#3 C:\wamp64\www\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingTemplate.php(51): include('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\wordpress\wp-content\plugins\ulisting\includes\classes\StmListingTemplate.php(32): uListing\Classes\StmListingTemplate::load('account/account', Array)
+#5 C:\wamp64\www\wordpress\wp-content\plugins\ulisting\includes\classes\StmUser.php(207): uListing\Classes\StmListingTemplate::load_template('account/account')
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): uListing\Classes\StmUser::account_page('')
+#7 C:\wamp64\www\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#8 C:\wamp64\www\wordpress\wp-includes\post-template.php(256): apply_filters('the_content', '')
+#9 C:\wamp64\www\wordpress\wp-content\themes\tolips\ulisting\account-page.php(23): the_content()
+#10 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#11 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#12 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#13 {main}
+  thrown en C:\wamp64\www\wordpress\wp-content\themes\tolips\ulisting\account\navigation.php en la línea 31
+

@@ -27,9 +27,9 @@ $active = isset( $_GET['var'] ) && $_GET['var'] ? $_GET['var'] : $active;
 <div class="dashboard-nav">
    <div class="user-info">
       <img class="stm-listing-profile-avatar" src="<?php echo esc_url($user_data['avatar_image']); ?>" alt="<?php echo esc_attr($user_meta['data']['nickname']['value']); ?>"/>
-      <?php if(isset($user_meta['data']['nickname']['value'])){  ?>
-         <div class="user-name"><?php echo esc_html($user_meta['data']['nickname']['value']) ?></div>
-         <div class="user-login"><?php echo esc_html($user->user_login) ?></div>
+      <?php if(isset($user->first_name)){  ?>
+         <div class="user-name"><?php echo esc_html($user->first_name . ' ' . $user->last_name); ?></div>
+         <div class="user-login"><?php echo esc_html($user->nickname) ?></div>
       <?php } ?>
       <a class="btn-theme btn-small margin-top-10" href="<?php echo esc_url(uListing\Classes\StmUser::getUrl("edit-profile")); ?>"><?php echo esc_html__( 'Editar Perfil', 'tolips' ) ?></a>   
 

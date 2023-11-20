@@ -2469,7 +2469,7 @@ class StmListing extends StmBaseModel
                 return "";
             $price = ['price' => $value_items[0]->value];
             $price_meta = $value_items[0]->get_meta();
-            $price['suffix'] = (isset($price_meta['suffix'])) ? $price_meta['suffix'] : "";
+            /*$price['suffix'] = (isset($price_meta['suffix'])) ? $price_meta['suffix'] : "";*/
             $price['old_price'] = "";
             if ($price_meta['genuine'] != $price['price'])
                 $price['old_price'] = $price_meta['genuine'];

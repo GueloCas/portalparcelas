@@ -42,12 +42,11 @@ $style_template = isset($element['params']['style_template']) ? $element['params
          }
       ?>
 	</div>
-
 	<div class="listing-content">
 		<div class="content-inner">
 			<h3 class="listing-title">
 				<a href="<?php echo get_permalink($model) ?>">
-					<?php echo esc_html($model->post_title); ?>
+					<?php echo esc_html($model->post_title);?>
 				</a>
 			</h3>
 			<?php
@@ -70,9 +69,9 @@ $style_template = isset($element['params']['style_template']) ? $element['params
 				$element_attribute['type']                     = "attribute";
 				$element_attribute['params']['style_template'] = "ulisting_style_1";
 
-				tolips_listing_get_attribute($element_attribute, $model, 'bedrooms');
-				tolips_listing_get_attribute($element_attribute, $model, 'bathrooms');
-				tolips_listing_get_attribute($element_attribute, $model, 'area');
+				tolips_listing_get_attribute($element_attribute, $model, 'dormitorios');
+				tolips_listing_get_attribute($element_attribute, $model, 'banios');
+				/**tolips_listing_get_attribute($element_attribute, $model, 'area'); */
 			?>
 		  </div>    
 	</div>    

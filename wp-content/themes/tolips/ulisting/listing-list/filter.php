@@ -65,7 +65,7 @@ if($data['content']){
 		if( $i == 2 ){
 			$data['content'][$i] = $data['content'][$i] . 
 				'<div class="advanced-search-wrapper ulisting-form-gruop">
-					<div class="action-advanced-search"><a href="#" class="btn-advanced-search"><i class="icon las la-sliders-h"></i>Advanced</a></div>
+					<div class="action-advanced-search"><a href="#" class="btn-advanced-search"><i class="icon las la-sliders-h"></i>Avanzado</a></div>
 						<div class="advanced-search-content">
 							<div class="advanced-search-fields-content">';
 		}

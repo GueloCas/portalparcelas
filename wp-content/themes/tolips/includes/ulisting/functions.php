@@ -46,7 +46,7 @@ function tolips_listing_get_price($element, $model){
    $element['params']['attribute_type'] = "price";
    $element['params']['style_template'] = "ulisting_style_1";
    $model->title = esc_html__('Price', 'tolips');
-   $value        = $model->getAttributeValue('price');
+   $value        = $model->getAttributeValue('precio');
    if( isset($value) && !empty($value) ){
        echo uListing\Classes\StmListingAttribute::render_price($model, $element, $value);
    }
